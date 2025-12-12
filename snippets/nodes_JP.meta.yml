@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: JP VLESS-98 | free-nodes
+  network: tcp
+  port: 38487
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: 138.2.50.155
+  servername: icloud.cdn-apple.com
+  tls: false
+  type: vless
+  uuid: bc9a8522-d884-41cd-de9c-9a29812b55ef

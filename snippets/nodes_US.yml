@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- name: 未知 TROJAN-2055 | free-nodes
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+  port: 2890
+  server: 160.16.214.6
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: US TROJAN-1679 | free-nodes
+  password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D
+  port: 443
+  server: kuame.missionsec.us
+  sni: kuame.missionsec.us
+  type: trojan
