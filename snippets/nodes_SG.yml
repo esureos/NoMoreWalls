@@ -1,8 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 新加坡-003 | RIPAOJIEDIAN
+  name: 【机场推荐：https://a0a.xyz/】_22
   password: q92MrrP9oJ3lMEzbQFpyuU
   port: 21166
   server: 209.74.81.149
+  tfo: false
   type: ss
   udp: true

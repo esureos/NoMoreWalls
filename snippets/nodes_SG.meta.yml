@@ -19,10 +19,11 @@ proxies:
   udp: true
   uuid: 438f5bb2-5d94-4868-85c8-e9c417df7eaa
 - cipher: chacha20-ietf-poly1305
-  name: 新加坡-003 | RIPAOJIEDIAN
+  name: 【机场推荐：https://a0a.xyz/】_22
   password: q92MrrP9oJ3lMEzbQFpyuU
   port: 21166
   server: 209.74.81.149
+  tfo: false
   type: ss
   udp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327

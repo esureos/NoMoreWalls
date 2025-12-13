@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: HK_102
+  name: 'HK_102 #1'
   network: ws
   port: 80
   server: 486a4149-t0bog0-t14dgl-duku.hk3.p5pv.com
@@ -20,14 +20,14 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国_1
+  name: '🇰🇷_KR_韩国_1 #1'
   password: qwerREWQ@@
   port: 4652
   server: p141.panda001.net
   type: ss
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_168
+  name: '🇭🇰 HK_168 #1'
   network: ws
   port: 80
   server: 2e617951-sv2sg0-taj9mo-1tco3.hk3.p5pv.com
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: HK_134
+  name: 'HK_134 #1'
   network: ws
   port: 80
   server: 418446e2-sv2sg0-t2nkut-jx5r.hk3.p5pv.com
@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK²_28|2.9MB/s|0%|NF|X
+  name: '🇭🇰HK²_28|2.9MB/s|0%|NF|X #1'
   network: ws
   port: 80
   server: eb328762-t6ngg0-t85e8f-141tv.hk3.p5pv.com
@@ -66,7 +66,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_177
+  name: '🇭🇰 HK_177 #1'
   network: ws
   port: 80
   server: fdda39f3-sv4n40-tasors-1tdqt.hk3.p5pv.com
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_102
+  name: '🇭🇰 HK_102 #1'
   network: ws
   port: 80
   server: 5f0f42e9-sv4n40-t7udc0-1pqhp.hk3.p5pv.com
@@ -92,7 +92,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_173
+  name: '🇭🇰 HK_173 #1'
   network: ws
   port: 80
   server: cf9c1166-sv2sg0-tcp4th-1c4g6.hk3.p5pv.com
@@ -105,7 +105,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: HK_135
+  name: 'HK_135 #1'
   network: ws
   port: 80
   server: 04165a49-sv2sg0-t5cryd-4w8.hk3.p5pv.com
@@ -118,7 +118,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK-1.36.223.11-4974
+  name: '🇭🇰 HK-1.36.223.11-4974 #1'
   network: ws
   port: 80
   server: 80f0806d-szg740-t41p4y-1hpo0.hk3.p5pv.com
@@ -131,7 +131,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_172
+  name: '🇭🇰 HK_172 #1'
   network: ws
   port: 80
   server: 04e4679b-sv2sg0-swfla6-1rdqg.hk3.p5pv.com
@@ -158,7 +158,7 @@ proxies:
   up: 11 Mbps
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_187
+  name: '🇭🇰 HK_187 #1'
   network: ws
   port: 80
   server: 266007c7-sv4n40-syu0n5-1hd7v.hk3.p5pv.com
@@ -171,7 +171,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: HK_139
+  name: 'HK_139 #1'
   network: ws
   port: 80
   server: 0f64e685-sv0xs0-svwnuh-1t4wg.hk3.p5pv.com
@@ -184,7 +184,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_100
+  name: '🇭🇰 HK_100 #1'
   network: ws
   port: 80
   server: da79f07b-sv0xs0-t7hu58-1q1la.hk3.p5pv.com
@@ -197,7 +197,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: _15
+  name: '_15 #1'
   network: ws
   port: 80
   server: 5b2c09e0-suvds0-t2oosc-xm0q.hk3.p5pv.com
@@ -210,7 +210,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_77
+  name: '🇭🇰 HK_77 #1'
   network: ws
   port: 80
   server: 3a0b963a-t02f40-tiuovf-v3c2.hk3.p5pv.com
@@ -223,7 +223,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK²_55|1.5MB/s|YT|NF|X
+  name: '🇭🇰HK²_55|1.5MB/s|YT|NF|X #1'
   network: ws
   port: 80
   server: 73256a3a-t53wg0-teivih-1rz31.hk3.p5pv.com
@@ -236,7 +236,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_116
+  name: '🇭🇰 HK_116 #1'
   network: ws
   port: 80
   server: 3f54bee7-sv4n40-tbpu76-1thmd.hk3.p5pv.com
@@ -249,7 +249,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK-1.36.223.11-5391
+  name: '🇭🇰 HK-1.36.223.11-5391 #1'
   network: ws
   port: 80
   server: 5e4f31de-sv0xs0-sv0wpw-17xo8.hk3.p5pv.com
@@ -262,7 +262,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_160
+  name: '🇭🇰 HK_160 #1'
   network: ws
   port: 80
   server: 272ffc58-sv2sg0-t4v3jz-1k8ga.hk3.p5pv.com
@@ -275,7 +275,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_124
+  name: '🇭🇰 HK_124 #1'
   network: ws
   port: 80
   server: a0ae8f27-sv4n40-sw5wi7-ufc0.hk3.p5pv.com
@@ -288,7 +288,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_171
+  name: '🇭🇰 HK_171 #1'
   network: ws
   port: 80
   server: 6bbeaaf6-sv4n40-t8tsp0-1szmi.hk3.p5pv.com
@@ -301,7 +301,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰HK²_24|1.8MB/s|2%|YT|X
+  name: '🇭🇰HK²_24|1.8MB/s|2%|YT|X #1'
   network: ws
   port: 80
   server: 6bbacbda-t1ekg0-t2uo6p-yjq0.hk3.p5pv.com
@@ -314,7 +314,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_103
+  name: '🇭🇰 HK_103 #1'
   network: ws
   port: 80
   server: 2bc8c2b4-sv0xs0-tcr97d-2b2n.hk3.p5pv.com
@@ -327,7 +327,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_104
+  name: '🇭🇰 HK_104 #1'
   network: ws
   port: 80
   server: 10cd2f16-sv2sg0-t7hu58-1q1la.hk3.p5pv.com
@@ -340,7 +340,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_179
+  name: '🇭🇰 HK_179 #1'
   network: ws
   port: 80
   server: 1dd7778a-sv4n40-szxh9w-46gc.hk3.p5pv.com
@@ -353,7 +353,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_64
+  name: '🇭🇰 HK_64 #1'
   network: ws
   port: 80
   server: 4cdbea97-t53wg0-to8xn3-l4nv.hk3.p5pv.com
@@ -366,7 +366,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 HK_66
+  name: '🇭🇰 HK_66 #1'
   network: ws
   port: 80
   server: dfed4efb-t4n8g0-t636g9-luwe.hk3.p5pv.com
@@ -517,10 +517,11 @@ proxies:
       Host: spdf.qzz.io
     path: Telegram🇨🇳@WangCai2/?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 英国-001 |2.0MB/s
+  name: 【机场推荐：https://a0a.xyz/】_4
   password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
   port: 443
   server: 45.14.245.2
+  tfo: false
   type: ss
   udp: true
 - alterId: 0
@@ -1163,10 +1164,11 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 新加坡-003 | RIPAOJIEDIAN
+  name: 【机场推荐：https://a0a.xyz/】_22
   password: q92MrrP9oJ3lMEzbQFpyuU
   port: 21166
   server: 209.74.81.149
+  tfo: false
   type: ss
   udp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
@@ -2195,13 +2197,14 @@ proxies:
   server: 193.42.125.156
   skip-cert-verify: true
   type: socks5
-- name: 香港-024 |24.67Mb
+- name: 【机场推荐：https://a0a.xyz/】_20
   network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
   port: 443
   server: 58.152.110.82
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tfo: false
   tls: true
   type: trojan
   udp: true
@@ -2232,3 +2235,138 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 节点日期：12-10
+  port: 30830
+  server: v30.hdacd.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  name: 【机场推荐：https://a0a.xyz/】_3
+  password: 0690659746980c46
+  port: 10081
+  server: 167.17.179.197
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 【机场推荐：https://a0a.xyz/】_5
+  port: 30812
+  server: v12.hdacd.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-128-gcm
+  name: 【机场推荐：https://a0a.xyz/】_6
+  password: XMj65epCcyjN6DSqz0W0VLlZWaW+XLQdMftFQIXff6s=
+  port: 55588
+  server: zyipv6.pai50288.uk
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 【机场推荐：https://a0a.xyz/】_7
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 【机场推荐：https://a0a.xyz/】_8
+  password: '907560230'
+  port: 17844
+  server: clr.ducks.tel
+  tfo: false
+  type: ss
+- name: 【机场推荐：https://a0a.xyz/】_11
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: jp3.t.sgateway.link
+  skip-cert-verify: false
+  sni: pod-jp-z1.psusercontent.com
+  tfo: false
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 【机场推荐：https://a0a.xyz/】_12
+  password: '907560230'
+  port: 17846
+  server: clr.ducks.tel
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 【机场推荐：https://a0a.xyz/】_13
+  network: ws
+  port: 41313
+  server: 14.17.71.237
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59
+  ws-opts:
+    headers:
+      Host: img14.360buyimg.com
+    path: /obj
+- alterId: 0
+  cipher: auto
+  name: 【机场推荐：https://a0a.xyz/】_14
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 【机场推荐：https://a0a.xyz/】_17
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: hk3.t.sgateway.link
+  skip-cert-verify: false
+  sni: pod-hk-z1.psusercontent.com
+  tfo: false
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 【机场推荐：https://a0a.xyz/】_19
+  password: '907560230'
+  port: 17847
+  server: clr.ducks.tel
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 【机场推荐：https://a0a.xyz/】_21
+  port: 29431
+  server: 185.221.23.251
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 8b78363e-3c3a-44ab-f0d8-f13d950c8572
+- alterId: 0
+  cipher: auto
+  name: 【机场推荐：https://a0a.xyz/】_23
+  network: ws
+  port: 80
+  server: 104.21.38.90
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2d068083-2cb0-4ae3-a44a-6fc82f3039cc
+  ws-opts:
+    headers:
+      Host: dddcccdvfg.222856.xyz
+    path: /87Ex2JiYYWr7FRa06b88JSo
+- cipher: chacha20-ietf-poly1305
+  name: 【机场推荐：https://a0a.xyz/】_24
+  password: YHtXD4pojvormVWRiHgIfv
+  port: 25232
+  server: 83.217.9.17
+  tfo: false
+  type: ss
