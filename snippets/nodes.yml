@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'HK_102 #1'
+  name: HK_102
   network: ws
   port: 80
   server: 486a4149-t0bog0-t14dgl-duku.hk3.p5pv.com
@@ -13,20 +13,21 @@ proxies:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - cipher: aes-256-cfb
-  name: '🇰🇷_KR_韩国 #1'
+  name: 韩国-007 | RIPAOJIEDIAN
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: '🇰🇷_KR_韩国_1 #1'
+  name: 🇰🇷_KR_韩国_1
   password: qwerREWQ@@
   port: 4652
   server: p141.panda001.net
   type: ss
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_168 #1'
+  name: 🇭🇰 HK_168
   network: ws
   port: 80
   server: 2e617951-sv2sg0-taj9mo-1tco3.hk3.p5pv.com
@@ -39,7 +40,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 'HK_134 #1'
+  name: HK_134
   network: ws
   port: 80
   server: 418446e2-sv2sg0-t2nkut-jx5r.hk3.p5pv.com
@@ -52,7 +53,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰HK²_28|2.9MB/s|0%|NF|X #1'
+  name: 🇭🇰HK²_28|2.9MB/s|0%|NF|X
   network: ws
   port: 80
   server: eb328762-t6ngg0-t85e8f-141tv.hk3.p5pv.com
@@ -65,7 +66,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_177 #1'
+  name: 🇭🇰 HK_177
   network: ws
   port: 80
   server: fdda39f3-sv4n40-tasors-1tdqt.hk3.p5pv.com
@@ -78,7 +79,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_102 #1'
+  name: 🇭🇰 HK_102
   network: ws
   port: 80
   server: 5f0f42e9-sv4n40-t7udc0-1pqhp.hk3.p5pv.com
@@ -91,7 +92,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_173 #1'
+  name: 🇭🇰 HK_173
   network: ws
   port: 80
   server: cf9c1166-sv2sg0-tcp4th-1c4g6.hk3.p5pv.com
@@ -104,7 +105,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 'HK_135 #1'
+  name: HK_135
   network: ws
   port: 80
   server: 04165a49-sv2sg0-t5cryd-4w8.hk3.p5pv.com
@@ -117,7 +118,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK-1.36.223.11-4974 #1'
+  name: 🇭🇰 HK-1.36.223.11-4974
   network: ws
   port: 80
   server: 80f0806d-szg740-t41p4y-1hpo0.hk3.p5pv.com
@@ -130,7 +131,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_172 #1'
+  name: 🇭🇰 HK_172
   network: ws
   port: 80
   server: 04e4679b-sv2sg0-swfla6-1rdqg.hk3.p5pv.com
@@ -143,7 +144,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_187 #1'
+  name: 🇭🇰 HK_187
   network: ws
   port: 80
   server: 266007c7-sv4n40-syu0n5-1hd7v.hk3.p5pv.com
@@ -156,7 +157,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 'HK_139 #1'
+  name: HK_139
   network: ws
   port: 80
   server: 0f64e685-sv0xs0-svwnuh-1t4wg.hk3.p5pv.com
@@ -169,7 +170,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_100 #1'
+  name: 🇭🇰 HK_100
   network: ws
   port: 80
   server: da79f07b-sv0xs0-t7hu58-1q1la.hk3.p5pv.com
@@ -182,7 +183,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '_15 #1'
+  name: _15
   network: ws
   port: 80
   server: 5b2c09e0-suvds0-t2oosc-xm0q.hk3.p5pv.com
@@ -195,7 +196,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_77 #1'
+  name: 🇭🇰 HK_77
   network: ws
   port: 80
   server: 3a0b963a-t02f40-tiuovf-v3c2.hk3.p5pv.com
@@ -208,7 +209,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰HK²_55|1.5MB/s|YT|NF|X #1'
+  name: 🇭🇰HK²_55|1.5MB/s|YT|NF|X
   network: ws
   port: 80
   server: 73256a3a-t53wg0-teivih-1rz31.hk3.p5pv.com
@@ -221,7 +222,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_116 #1'
+  name: 🇭🇰 HK_116
   network: ws
   port: 80
   server: 3f54bee7-sv4n40-tbpu76-1thmd.hk3.p5pv.com
@@ -234,7 +235,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK-1.36.223.11-5391 #1'
+  name: 🇭🇰 HK-1.36.223.11-5391
   network: ws
   port: 80
   server: 5e4f31de-sv0xs0-sv0wpw-17xo8.hk3.p5pv.com
@@ -247,7 +248,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_160 #1'
+  name: 🇭🇰 HK_160
   network: ws
   port: 80
   server: 272ffc58-sv2sg0-t4v3jz-1k8ga.hk3.p5pv.com
@@ -260,7 +261,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_124 #1'
+  name: 🇭🇰 HK_124
   network: ws
   port: 80
   server: a0ae8f27-sv4n40-sw5wi7-ufc0.hk3.p5pv.com
@@ -273,7 +274,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_171 #1'
+  name: 🇭🇰 HK_171
   network: ws
   port: 80
   server: 6bbeaaf6-sv4n40-t8tsp0-1szmi.hk3.p5pv.com
@@ -286,7 +287,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰HK²_24|1.8MB/s|2%|YT|X #1'
+  name: 🇭🇰HK²_24|1.8MB/s|2%|YT|X
   network: ws
   port: 80
   server: 6bbacbda-t1ekg0-t2uo6p-yjq0.hk3.p5pv.com
@@ -299,7 +300,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_103 #1'
+  name: 🇭🇰 HK_103
   network: ws
   port: 80
   server: 2bc8c2b4-sv0xs0-tcr97d-2b2n.hk3.p5pv.com
@@ -312,7 +313,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_104 #1'
+  name: 🇭🇰 HK_104
   network: ws
   port: 80
   server: 10cd2f16-sv2sg0-t7hu58-1q1la.hk3.p5pv.com
@@ -325,7 +326,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_179 #1'
+  name: 🇭🇰 HK_179
   network: ws
   port: 80
   server: 1dd7778a-sv4n40-szxh9w-46gc.hk3.p5pv.com
@@ -338,7 +339,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_64 #1'
+  name: 🇭🇰 HK_64
   network: ws
   port: 80
   server: 4cdbea97-t53wg0-to8xn3-l4nv.hk3.p5pv.com
@@ -351,7 +352,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_66 #1'
+  name: 🇭🇰 HK_66
   network: ws
   port: 80
   server: dfed4efb-t4n8g0-t636g9-luwe.hk3.p5pv.com
@@ -362,3823 +363,661 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: 未知 TROJAN-1464 | free-nodes
+- alterId: 0
+  name: 香港-001 |17.6MB/s|2%|YT-CN|NF|D...
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: 58.152.18.95
+  tfo: false
+  tls: true
+  type: trojan
+  udp: true
+- name: 香港-002 | RIPAOJIEDIAN
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.78.209.224
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 未知 TROJAN-204 | free-nodes
+  udp: true
+- name: 香港-003 |2.1MB/s
+  network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.53.174
-  skip-cert-verify: false
-  sni: t.me%252Fripaojiedian
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tfo: false
+  tls: true
   type: trojan
-- name: 未知 TROJAN-1611 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 443
-  server: 58.152.110.82
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-2017 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 507
-  server: 160.16.233.76
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-2051 | free-nodes
-  password: 92690597d6298061459918a371e8d77d
-  port: 443
-  server: 47.242.225.242
-  sni: hezijiasuqi.com
-  type: trojan
-- name: 未知 TROJAN-1717 | free-nodes
+  udp: true
+- name: 香港-004 |0.5MB/s|2%|YT-CN|NF|D+...
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.25.242
-  sni: t.me%25252Fripaojiedian
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  tfo: false
+  tls: true
   type: trojan
-- name: 未知 TROJAN-2055 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 2890
-  server: 160.16.214.6
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  udp: true
+- name: 香港-005 |19.2MB/s|2%|YT|NF|D+|X...
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.174
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
   type: trojan
-- name: 未知 TROJAN-1981 | free-nodes
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 英国-001 |2.0MB/s
+  password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
+  port: 443
+  server: 45.14.245.2
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 德国-001 | 7.96Mb
   network: tcp
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 3145
-  server: 160.16.153.13
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  port: 180
+  server: 82.198.246.97
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 俄罗斯联邦-001 |3.1MB/s
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 5.182.84.22
+  skip-cert-verify: true
+  sni: epge.muarua.filegear-sg.me
   type: trojan
-- name: HK TROJAN-137 | free-nodes
+  udp: true
+  ws-opts:
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 香港-006 |5.4MB/s|2%|YT-CN|NF|D+...
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.30.120
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 未知 TROJAN-140 | free-nodes
-  password: 5d07a7bd-3696-4bc2-ab37-e7082c86f5cb
-  port: 443
-  server: download2hkt.windowsupdate.lol
-  type: trojan
-- name: 未知 TROJAN-310 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 18432
-  server: hn.xiaohouzi.club
-  sni: hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1363 | free-nodes
-  password: 0cc6b4268dea0ba8
-  port: 3389
-  server: 211.72.35.155
-  type: trojan
-- name: 未知 TROJAN-143 | free-nodes
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  port: 443
-  server: 138.2.113.84
-  type: trojan
-- name: 未知 TROJAN-1706 | free-nodes
-  password: xxoo
-  port: 443
-  server: 146.19.230.241
-  sni: loader.tapsell.ir
-  type: trojan
-- name: 未知 TROJAN-145 | free-nodes
-  password: FodSUXysuS
-  port: 23274
-  server: 180.131.145.161
-  type: trojan
-- name: 未知 TROJAN-2005 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 5041
-  server: 160.16.116.227
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1913 | free-nodes
-  password: mainssh-ddoejfv14
-  port: 443
-  server: 108.61.170.104
-  sni: frtgrpc.mainssh.xyz
-  type: trojan
-- name: 未知 TROJAN-148 | free-nodes
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  port: 17104
-  server: hnm.xiaohouzi.club
-  sni: canada02.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1805 | free-nodes
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
-  port: 443
-  server: jp01.trojanyyds.xyz
-  type: trojan
-- name: 未知 TROJAN-879 | free-nodes
-  password: jKRJgS7uvI
-  port: 31853
-  server: 155.248.193.254
-  type: trojan
-- name: 未知 TROJAN-1189 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 18463
-  server: hn.xiaohouzi.club
-  sni: $$hn.xiaohouzi.club
-  type: trojan
-- grpc-opts:
-    grpc-service-name: trojangrpc
-  name: 未知 TROJAN-152 | free-nodes
-  network: grpc
-  password: mainssh-ddoejfv14
-  port: 443
-  server: 108.61.170.104
-  sni: frtgrpc.mainssh.xyz
-  type: trojan
-- name: 未知 TROJAN-1668 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.kharkov.ua
-  type: trojan
-- name: 未知 TROJAN-2026 | free-nodes
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.187.138
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-2001 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 3145
-  server: 13.231.220.185
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-156 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10825
-  server: 183.236.51.8
-  type: trojan
-- name: 未知 TROJAN-1743 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.48.105.114
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1694 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10826
-  server: 183.236.51.4
-  type: trojan
-- name: 未知 TROJAN-1969 | free-nodes
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.153.199.156
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1808 | free-nodes
-  password: b26e31e5-eac1-45b0-9069-83830bd69521
-  port: 443
-  server: 20.187.85.198
-  sni: hkt.iamnotagoodman.com
-  type: trojan
-- name: 未知 TROJAN-163 | free-nodes
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  sni: hsdgbuys.pages.dev
-  type: trojan
-- name: 未知 TROJAN-1873 | free-nodes
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: 443
-  server: 168.138.44.176
-  type: trojan
-- name: 未知 TROJAN-1784 | free-nodes
-  password: 0b65bb06-6b28-487a-8e3c-820dda51e977
-  port: 443
-  server: 104.21.12.87
-  sni: series-v1.samanehha.co
-  type: trojan
-- name: 未知 TROJAN-1721 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.145.14.67
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1489 | free-nodes
-  password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e
-  port: 443
-  server: ca.stablize.top
-  type: trojan
-- name: 未知 TROJAN-1618 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 160.16.236.32
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1885 | free-nodes
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  port: 443
-  server: kaizen-us-6.mielink-dns2.com
-  sni: paydiu.com
-  type: trojan
-- name: 未知 TROJAN-1346 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10823
-  server: 183.236.51.8
-  type: trojan
-- name: 未知 TROJAN-1929 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.237.50.200
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-2050 | free-nodes
-  password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
-  port: 443
-  server: 219.76.13.180
-  sni: httah.freetrade.link
-  type: trojan
-- name: 未知 TROJAN-1386 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1924
-  server: 36.156.102.88
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1992 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4317
-  server: 160.16.117.182
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1379 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 65012
-  server: jp02a.roc-taiwan.net.ua
-  type: trojan
-- name: 未知 TROJAN-1265 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.49.224.224
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1875 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 65017
-  server: jp07a.roc-taiwan.org.ua
-  type: trojan
-- name: 未知 TROJAN-1453 | free-nodes
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  port: 443
-  server: 129.146.255.158
-  type: trojan
-- name: 未知 TROJAN-2037 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.57.238.174
-  type: trojan
-- name: 未知 TROJAN-1549 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 16011
-  server: sub.xiaohouzi.club
-  sni: $$azhk095.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1780 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1331
-  server: 160.16.124.55
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1772 | free-nodes
-  password: ca2345ba-46e7-3991-b1b7-45d18954caf1
-  port: 20712
-  server: 20.24.192.3
-  sni: ssl.ssl12.xyz
-  type: trojan
-- name: 未知 TROJAN-1978 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 48461
-  server: hn.xiaohouzi.club
-  sni: $$$$hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1750 | free-nodes
-  password: 7ac49a893e0bd10c
-  port: 3389
-  server: 60.249.3.226
-  type: trojan
-- name: 未知 TROJAN-1318 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3160
-  server: 160.16.231.103
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-838 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.123.128.240
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-976 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 20015
-  server: iplc.xiaohouzi.club
-  sni: $$$supaz05.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1931 | free-nodes
-  password: Hu4CFM0wJ3
-  port: 57063
-  server: 38.150.13.140
-  sni: 38.150.13.140
-  type: trojan
-- name: 未知 TROJAN-192 | free-nodes
-  password: ffec9f6ea19e1dd1
-  port: 3389
-  server: 5.44.249.43
-  type: trojan
-- name: 未知 TROJAN-193 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 6752
-  server: 160.16.124.55
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-2030 | free-nodes
-  password: d86c421f-dbfe-4507-a864-f8f9e29d80e4
-  port: 443
-  server: de-full.privateip.net
-  type: trojan
-- name: 未知 TROJAN-1950 | free-nodes
-  password: ae7cc604-d970-4200-9a9b-eb45087b4fc1
-  port: 28443
-  server: 43.198.12.229
-  sni: mzy.hruqoaw.cn
-  type: trojan
-- name: 未知 TROJAN-938 | free-nodes
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.237.153.133
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1347 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 44.201.217.130
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1932 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 16.171.58.121
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1709 | free-nodes
-  password: BxceQaOe
-  port: 4569
-  server: 13.231.220.185
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1804 | free-nodes
-  password: BxceQaOe
-  port: 4492
-  server: 52.195.216.100
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tfo: false
+  tls: true
   type: trojan
-- name: 未知 TROJAN-1506 | free-nodes
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-001 |699KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.51
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-002 |1.5MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.152
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-003 |1.5MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.129
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-004 |2.1MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.205
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-005 |2.4MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.249
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-006 |1.1MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.146
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-007 |1.5MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.215
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-008 |649KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.236
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-009 |1.3MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.237
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-010 |1.3MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.150
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-011 |1.4MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.50
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-012 |2.0MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.84
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-013 |548KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.17
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-014 |1.6MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.38
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-015 |2.4MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.44
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-016 |1.7MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.83
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-017 |1.0MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.19
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-018 |896KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.63
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-019 |1.2MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.12
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-020 |1.1MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.108
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-021 |2.9MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.8
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-022 |2.0MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.111
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-023 |961KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.59
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-024 |2.3MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-025 |1.8MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.63
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-026 |2.3MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.32
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-027 |2.9MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.240
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-028 |1.6MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-029 |1.5MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.4
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-030 |1.3MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.9
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-031 |1.4MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.40
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-032 |2.1MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.23
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-033 |2.0MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.58
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-034 |1.8MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.149
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡-003 | RIPAOJIEDIAN
+  password: q92MrrP9oJ3lMEzbQFpyuU
+  port: 21166
+  server: 209.74.81.149
+  type: ss
+  udp: true
+- name: 澳大利亚-001
   network: ws
-  password: vip
+  password: trojan
   port: 443
-  server: www.gov.ua
-  sni: heihu880.pages.dev
+  server: 103.73.65.187
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
   type: trojan
   ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 未知 TROJAN-1878 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4397
-  server: 160.16.117.182
-  sni: www.nintendogames.net
+- name: 美国-010
+  network: ws
+  password: trojan
+  port: 80
+  server: 172.233.195.154
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
   type: trojan
-- name: 未知 TROJAN-1972 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1085
-  server: 153.121.39.240
-  sni: www.nintendogames.net
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 摩尔多瓦-002 |810KB/s
+  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  port: 443
+  server: 213.159.67.124
+  type: ss
+  udp: true
+- name: 英国-002
+  network: ws
+  password: trojan
+  port: 8443
+  server: 138.68.182.97
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
   type: trojan
-- name: 未知 TROJAN-1384 | free-nodes
-  password: QkxJPTkWg3
-  port: 60006
-  server: lqoo.xyz
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 摩尔多瓦-003
+  network: ws
+  password: trojan
+  port: 81
+  server: 94.131.119.136
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
   type: trojan
-- name: 未知 TROJAN-1352 | free-nodes
-  password: shenmegui
-  port: 8461
-  server: 185.49.33.47
-  sni: $jp.swiftfalcon.app
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 德国-010
+  network: ws
+  password: trojan
+  port: 20003
+  server: 194.24.161.146
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
   type: trojan
-- name: 未知 TROJAN-754 | free-nodes
-  password: 73658d71-be45-4495-bc3e-e69d36ce73b5
-  port: 50014
-  server: 103.234.53.23
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 香港-014 |0.9MB/s|2%|YT|NF|X|Kee...
+  network: ws
+  port: 443
+  server: 219.76.13.166
+  servername: aa.nbee.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
+  ws-opts:
+    headers:
+      HOST: aa.nbee.pp.ua
+    path: /qq
+- name: 芬兰-001
+  network: ws
+  password: trojan
+  port: 6444
+  server: 46.62.144.110
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
   type: trojan
-- name: 未知 TROJAN-2034 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.37.103.10
-  sni: trojan.burgerip.co.uk
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 香港-015 | 5.48Mb
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tfo: false
+  tls: true
   type: trojan
-- name: 未知 TROJAN-1910 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4729
-  server: 160.16.130.66
-  sni: www.nintendogames.net
+  udp: true
+- name: 德国-011
+  network: ws
+  password: trojan
+  port: 8080
+  server: 185.110.189.174
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
   type: trojan
-- name: 未知 TROJAN-1731 | free-nodes
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 芬兰-002
+  network: ws
+  password: trojan
+  port: 87
+  server: 65.109.196.103
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 俄罗斯联邦-006 |2.4MB/s|GPT⁺|TK|X|K...
   password: af4b064a9c39472fb34ad8b113acdc6b
   port: 443
   server: 46.29.161.237
   skip-cert-verify: true
   sni: 46.29.161.237
+  tls: true
   type: trojan
-- name: 未知 TROJAN-1508 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 16012
-  server: hn.xiaohouzi.club
-  sni: supsig.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1435 | free-nodes
-  password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
-  port: 44301
-  server: 173.82.240.199
-  sni: lav002.jd0001.top
-  type: trojan
-- name: 未知 TROJAN-217 | free-nodes
-  password: iwangjie
-  port: 2053
-  server: 135.125.232.253
-  sni: nodes.830901.xyz
-  type: trojan
-- name: 未知 TROJAN-1446 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.123.22.69
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-218 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 5041
-  server: 160.16.138.24
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-580 | free-nodes
-  password: d1478689-439c-4590-b7ce-36e786a02dc3
-  port: 443
-  server: 107.181.161.163
-  sni: 107.181.161.163
-  type: trojan
-- name: 未知 TROJAN-1754 | free-nodes
-  password: d4e41ff772c7fd45
-  port: 3389
-  server: 45.11.104.94
-  sni: sbank.ir
-  type: trojan
-- name: 未知 TROJAN-221 | free-nodes
-  password: 40c89b10235c40321e7a3cef82b53a03
-  port: 22
-  server: trs16.bolab.net
-  type: trojan
-- name: 未知 TROJAN-1975 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.192.74.10
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1842 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.174
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1198 | free-nodes
+  udp: true
+- name: 芬兰-003
   network: ws
-  password: vip
-  port: 443
-  server: www.iplocation.net
-  sni: heihu880.pages.dev
+  password: trojan
+  port: 8080
+  server: 65.109.190.248
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
   type: trojan
   ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 未知 TROJAN-1836 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 160.16.106.144
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-1560 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 51058
-  server: gz01.xiaohouzi.club
-  sni: $$aru01.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1674 | free-nodes
-  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  port: 443
-  server: 60.72img.xyz
-  type: trojan
-- name: 未知 TROJAN-684 | free-nodes
-  password: 973ef350-f6a5-11ec-9274-1239d0255272
-  port: 443
-  server: trojan2.udpgw.com
-  type: trojan
-- name: 未知 TROJAN-1477 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 17112
-  server: hn.xiaohouzi.club
-  sni: $$supaz012.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-231 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.taipeicitygovernment.cn.ua
-  type: trojan
-- name: 未知 TROJAN-1460 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: 133.167.100.203
-  type: trojan
-- name: 未知 TROJAN-1938 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 17115
-  server: hn.xiaohouzi.club
-  sni: $$hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1930 | free-nodes
-  password: 8800c518-e68a-4441-a45c-cd67855784c8
-  port: 443
-  server: kr2.sanfen001.pics
-  sni: kr1.sanfen001.pics
-  type: trojan
-- name: 未知 TROJAN-363 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 48465
-  server: hn.xiaohouzi.club
-  sni: $$vuus05.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1356 | free-nodes
-  password: a0514d9b-d109-47fd-b173-1e7f83268f21
-  port: 443
-  server: 104.16.183.101
-  sni: tws23.kallepache.store
-  type: trojan
-- name: 未知 TROJAN-1469 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2283
-  server: 36.156.102.84
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-889 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.odesa.ua
-  type: trojan
-- name: 未知 TROJAN-2020 | free-nodes
-  password: 973ed2e0-c4d8-4737-a093-71629148086d
-  port: 443
-  server: 51.77.213.197
-  sni: frt2.sshocean.net
-  type: trojan
-- name: 未知 TROJAN-1863 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3296
-  server: 153.121.73.102
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1309 | free-nodes
-  password: BxceQaOe
-  port: 3579
-  server: 43.206.220.221
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1985 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10826
-  server: 183.236.51.5
-  type: trojan
-- name: 未知 TROJAN-1859 | free-nodes
-  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
-  port: 18818
-  server: ch12.yukiss.eu.org
-  type: trojan
-- name: 未知 TROJAN-472 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10821
-  server: 183.236.51.7
-  type: trojan
-- name: 未知 TROJAN-1814 | free-nodes
-  password: 892c4f6e-732b-4f71-ad04-6e77344f2d0e
-  port: 80
-  server: 135.148.148.4
-  sni: us3.trojanvh.xyz
-  type: trojan
-- name: 未知 TROJAN-1952 | free-nodes
-  password: e299faed-cb72-4c62-bb2e-f0a218aed72a
-  port: 443
-  server: hk-full.privateip.net
-  type: trojan
-- name: 未知 TROJAN-250 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: 160.16.145.107
-  type: trojan
-- name: 未知 TROJAN-252 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 1331
-  server: 153.121.73.102
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1935 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.taipeicitygovernment.kiev.ua
-  type: trojan
-- name: 未知 TROJAN-2023 | free-nodes
-  password: acfef609-b3c7-4e52-b292-8921d5fca90d
-  port: 443
-  server: ca-full.privateip.net
-  type: trojan
-- name: 未知 TROJAN-1567 | free-nodes
-  password: 57edfecf-5694-4a34-8072-54a4f0636a62
-  port: 40005
-  server: 146.56.179.67
-  type: trojan
-- name: 未知 TROJAN-1787 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1331
-  server: 160.16.231.103
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1644 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: 219.94.250.108
-  type: trojan
-- name: 未知 TROJAN-258 | free-nodes
-  password: BxceQaOe
-  port: 26876
-  server: 36.156.102.115
-  type: trojan
-- name: 未知 TROJAN-334 | free-nodes
-  network: ws
-  password: vpn
-  port: 2025
-  server: 109.120.132.80
-  sni: vkvd127.mycdn.me
-  type: trojan
-  ws-opts:
-    path: /
-- name: 未知 TROJAN-1961 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 153.121.41.97
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-1300 | free-nodes
-  password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
-  port: 443
-  server: hinet.mjt000.com
-  type: trojan
-- name: 未知 TROJAN-1963 | free-nodes
-  network: ws
-  password: O4K-nAbZC4qEnBA0a_9EWQ
-  port: 2083
-  server: 66.228.55.178
-  sni: gstatic.com
-  type: trojan
-- name: 未知 TROJAN-991 | free-nodes
-  network: ws
-  password: d0728e94-82c2-456b-b5d4-eeab540599df
-  port: 443
-  server: 172.67.192.215
-  sni: joss.krikkrik.xyz
-  type: trojan
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/AE5
-- name: 未知 TROJAN-1279 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 16.163.0.29
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1676 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10826
-  server: 183.236.51.7
-  type: trojan
-- name: 未知 TROJAN-890 | free-nodes
-  password: q9870219
-  port: 2035
-  server: 181.214.99.54
-  sni: ht.lljllj.buzz
-  type: trojan
-- name: 未知 TROJAN-1271 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.132.35.140
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1595 | free-nodes
-  password: 4863e1b2-ec2f-4c71-b862-ce533028e57e
-  port: 443
-  server: trus.moonfree.top
-  type: trojan
-- name: 未知 TROJAN-770 | free-nodes
-  password: BxceQaOe
-  port: 41017
-  server: 54.248.4.79
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1761 | free-nodes
-  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
-  port: 18818
-  server: london11.yukiss.eu.org
-  type: trojan
-- name: 未知 TROJAN-273 | free-nodes
-  password: vip
-  port: 443
-  server: www.gco.gov.qa
-  sni: heihu880.pages.dev
-  type: trojan
-- name: 未知 TROJAN-953 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 48464
-  server: hn.xiaohouzi.club
-  sni: $$vuus04.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1515 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1806
-  server: 36.156.102.88
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1964 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 1331
-  server: 160.16.223.205
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1853 | free-nodes
-  network: ws
-  password: auto
-  port: 443
-  server: 172.66.46.254
-  sni: dcf741e8.epeius-2gy.pages.dev
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
-- name: 未知 TROJAN-278 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10822
-  server: 183.236.51.7
-  type: trojan
-- name: 未知 TROJAN-1103 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10820
-  server: 183.236.51.6
-  type: trojan
-- name: 未知 TROJAN-280 | free-nodes
-  password: 8d16a256-42d7-4431-8039-da1eb06cafbc
-  port: 443
-  server: it-full.privateip.net
-  type: trojan
-- name: 未知 TROJAN-1658 | free-nodes
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.153
-  type: trojan
-- name: 未知 TROJAN-1788 | free-nodes
-  password: cfbabf31-2cf6-40ca-9688-abbb682370aa
-  port: 32002
-  server: cn.speedabc.xyz
-  sni: jp-bgp.speedaccelerate.com
-  type: trojan
-- name: 未知 TROJAN-2039 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 3093
-  server: 160.16.72.33
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1084 | free-nodes
-  password: xxoo
-  port: 443
-  server: 194.156.99.39
-  type: trojan
-- name: 未知 TROJAN-1543 | free-nodes
-  password: FLpONjB2Lb
-  port: 443
-  server: 139.162.45.139
-  type: trojan
-- name: 未知 TROJAN-1895 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 10102
-  server: 43.154.172.79
-  type: trojan
-- name: 未知 TROJAN-289 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4397
-  server: 36.150.215.203
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-765 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3043
-  server: 36.150.215.203
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-1748 | free-nodes
-  password: origin
-  port: 443
-  server: 51.77.71.134
-  type: trojan
-- name: 未知 TROJAN-1942 | free-nodes
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
-  port: 443
-  server: us01.trojanyyds.xyz
-  type: trojan
-- name: 未知 TROJAN-1201 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1511 | free-nodes
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  port: 443
-  server: 150.230.217.213
-  type: trojan
-- name: 未知 TROJAN-1953 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 2890
-  server: 160.16.116.227
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1877 | free-nodes
-  password: Hu4CFM0wJ3
-  port: 57063
-  server: 38.150.13.140
-  type: trojan
-- name: 未知 TROJAN-958 | free-nodes
-  password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
-  port: 3462
-  server: a03.taipeicitygovernment.cn.ua
-  type: trojan
-- name: 未知 TROJAN-298 | free-nodes
-  password: BaeSzHdfJIR13l67
-  port: 11930
-  server: 70.34.218.149
-  sni: softpillow.silentrocket.click
-  type: trojan
-- name: 未知 TROJAN-299 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.129.217.93
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1619 | free-nodes
-  password: BxceQaOe
-  port: 3579
-  server: 54.199.213.179
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1701 | free-nodes
-  password: cd27884b-c5af-34ec-b75f-8248077818fe
-  port: 8443
-  server: 144.24.76.54
-  sni: 2.hg.kr.cat77.cloud
-  type: trojan
-- name: 未知 TROJAN-306 | free-nodes
-  password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
-  port: 443
-  server: 141.94.76.177
-  type: trojan
-- name: 未知 TROJAN-1728 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3296
-  server: 160.16.130.66
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1419 | free-nodes
-  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
-  port: 18818
-  server: fra13.yukiss.eu.org
-  type: trojan
-- name: 未知 TROJAN-761 | free-nodes
-  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
-  port: 19248
-  server: 120.226.39.25
-  type: trojan
-- name: 未知 TROJAN-1443 | free-nodes
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  port: 18437
-  server: hn.xiaohouzi.club
-  sni: avas02.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1640 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.130.204.79
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-314 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10821
-  server: 183.236.51.8
-  type: trojan
-- name: 未知 TROJAN-1884 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 19359
-  server: hn.xiaohouzi.club
-  sni: $$$$$hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1472 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4451
-  server: 153.121.70.134
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1769 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1085
-  server: 36.156.102.88
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1401 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 34.253.231.7
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1998 | free-nodes
-  password: 4d048fc6-d944-41dd-b327-10856adcc82d
-  port: 443
-  server: zi.you.usdtvfk.top
-  sni: zi.you.usdtvfk.top
-  type: trojan
-- name: 未知 TROJAN-1451 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.taipeicitygovernment.net.ua
-  type: trojan
-- name: 未知 TROJAN-1697 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10824
-  server: 183.236.51.6
-  type: trojan
-- name: 未知 TROJAN-1683 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 2890
-  server: 202.181.103.235
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1926 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.taipeicitygovernment.biz.ua
-  type: trojan
-- name: 未知 TROJAN-907 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 5321
-  server: 153.121.56.122
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-1962 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.kherson.ua
-  type: trojan
-- name: 未知 TROJAN-330 | free-nodes
-  password: 40c89b10235c40321e7a3cef82b53a03
-  port: 22
-  server: trs12.bolab.net
-  type: trojan
-- name: 未知 TROJAN-331 | free-nodes
-  password: iyinglong
-  port: 443
-  server: 18.141.8.87
-  type: trojan
-- name: 未知 TROJAN-1749 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.40.3.71
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1971 | free-nodes
-  password: 555034c8-6420-45d0-893c-905c02342150
-  port: 80
-  server: 51.83.186.142
-  sni: pl1.trojanvh.xyz
-  type: trojan
-- name: 未知 TROJAN-335 | free-nodes
-  password: 21e10785-99c6-316e-a184-a03384ee06e5
-  port: 18733
-  server: hn.xiaohouzi.club
-  sni: $$ajpn03.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1452 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1177
-  server: 182.237.0.26
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-567 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1331
-  server: 160.16.138.24
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-911 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 48431
-  server: hn.xiaohouzi.club
-  sni: hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1990 | free-nodes
-  password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
-  port: 443
-  server: usla.mjt000.com
-  type: trojan
-- name: 未知 TROJAN-705 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 44.211.71.82
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1664 | free-nodes
-  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
-  port: 18818
-  server: mel12.yukiss.eu.org
-  type: trojan
-- name: 未知 TROJAN-343 | free-nodes
-  password: 182228812d1e0f23
-  port: 3389
-  server: 60.249.3.229
-  type: trojan
-- name: 未知 TROJAN-1369 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 316
-  server: 160.16.106.144
-  sni: www.baidu.com
-  type: trojan
-- grpc-opts:
-    grpc-service-name: trojangrpc
-  name: 未知 TROJAN-345 | free-nodes
-  network: grpc
-  password: mainssh-ddoejfv14
-  port: 443
-  server: 140.82.38.103
-  sni: frtgrpc.mainssh.xyz
-  type: trojan
-- name: 未知 TROJAN-1983 | free-nodes
-  password: TNDSJfNv
-  port: 4603
-  server: 36.151.195.48
-  type: trojan
-- name: 未知 TROJAN-347 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 47552
-  server: hnm.xiaohouzi.club
-  sni: hnm.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1232 | free-nodes
-  password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
-  port: 80
-  server: 15.235.197.4
-  sni: anetwork.ir
-  type: trojan
-- name: 未知 TROJAN-1666 | free-nodes
-  password: 90f45c05-917f-3b1b-a582-899cfe4cf7b3
-  port: 16327
-  server: auto.wgnmdgfw.com
-  sni: eplcgame.com
-  type: trojan
-- name: 未知 TROJAN-1650 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.47.206.247
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1954 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 507
-  server: 160.16.212.152
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-997 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 26295
-  server: 36.156.102.86
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-353 | free-nodes
-  password: 21e10785-99c6-316e-a184-a03384ee06e5
-  port: 27094
-  server: hnm.xiaohouzi.club
-  sni: siga01.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1845 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1801
-  server: 36.156.102.88
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-355 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 18.162.142.242
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1892 | free-nodes
-  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
-  port: 19215
-  server: 120.226.39.25
-  type: trojan
-- name: 未知 TROJAN-358 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 36305
-  server: hnm.xiaohouzi.club
-  sni: $$hnm.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1886 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 17103
-  server: hnm.xiaohouzi.club
-  sni: $$canada01.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-362 | free-nodes
-  password: f42e1a2e-e650-44f4-8d17-bcb68663da18
-  port: 443
-  server: 150.230.201.192
-  sni: www.seetheworldjp.ga
-  type: trojan
-- name: 未知 TROJAN-1424 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.237.12.5
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1785 | free-nodes
-  password: .+QAJot50sDi6mvb
-  port: 11790
-  server: 5.188.108.13
-  sni: runningshoes.purpletornado.click
-  type: trojan
-- name: 未知 TROJAN-1722 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 1331
-  server: 13.231.156.35
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-2002 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: false
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1782 | free-nodes
-  password: ZlYZ0KxC8uxngp736aR34y3TaFwFOC95DO2XR8yeeAD3cESNDSCBqAYIjpaSlz
-  port: 443
-  server: 219.76.13.175
-  sni: python.protocolbuffer.com
-  type: trojan
-- name: 未知 TROJAN-1409 | free-nodes
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  port: 443
-  server: 23.145.24.30
-  type: trojan
-- name: 未知 TROJAN-1796 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 14185
-  server: hn.xiaohouzi.club
-  sni: hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-2009 | free-nodes
-  password: lionssh_Ckkfjff
-  port: 2096
-  server: 159.203.35.137
-  sni: ca1.goserver.pw
-  type: trojan
-- name: 未知 TROJAN-1979 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 2890
-  server: 160.16.124.55
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1700 | free-nodes
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  port: 443
-  server: 168.138.43.89
-  type: trojan
-- name: 未知 TROJAN-1793 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10824
-  server: 183.236.51.4
-  type: trojan
-- name: 未知 TROJAN-386 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 2283
-  server: 160.16.138.24
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-2028 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 5041
-  server: 153.121.56.122
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-811 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 2200
-  server: 182.237.0.26
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-384 | free-nodes
-  password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e
-  port: 443
-  server: de.stablize.top
-  type: trojan
-- name: 未知 TROJAN-738 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 1806
-  server: 36.156.102.84
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1948 | free-nodes
-  password: origin
-  port: 443
-  server: 188.40.251.19
-  type: trojan
-- name: 未知 TROJAN-575 | free-nodes
-  password: ED177480-E516-11EA-8B44-BBC4E882BA0B
-  port: 20261
-  server: tw01.balala2016.xyz
-  type: trojan
-- name: 未知 TROJAN-1934 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3160
-  server: 160.16.124.55
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1670 | free-nodes
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  port: 443
-  server: kaizen-hk-8.mielink-dns2.com
-  sni: paydiu.com
-  type: trojan
-- name: 未知 TROJAN-1739 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.253.67.209
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1478 | free-nodes
-  password: 1d4ddd40-3134-11ee-8623-1239d0255272
-  port: 8443
-  server: 206.168.190.219
-  sni: ba24.ir
-  type: trojan
-- name: 未知 TROJAN-397 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.kiev.ua
-  type: trojan
-- name: 未知 TROJAN-1180 | free-nodes
-  password: 13eb9352-7d04-4523-af91-4d7e84066a95
-  port: 12208
-  server: oss-ydniddsasa-3.7.baidu.jjuu.shrestart.com
-  sni: m.ctrip.com
-  type: trojan
-- name: 未知 TROJAN-982 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.8.123.26
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1856 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 34.220.74.123
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-965 | free-nodes
-  password: 21e10785-99c6-316e-a184-a03384ee06e5
-  port: 18581
-  server: hn.xiaohouzi.club
-  sni: $$vutnkr01.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-450 | free-nodes
-  password: BxceQaOe
-  port: 2673
-  server: 43.198.206.171
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1887 | free-nodes
-  password: xSYy8KOpEyOjgaNFCeC3a72DS6wBAcz90pDZRRSXnxquIFZlT5433ClYD38aeA
-  port: 443
-  server: 45.64.22.55
-  sni: yokoha.freetrade.link
-  type: trojan
-- name: 未知 TROJAN-2054 | free-nodes
-  password: 6711c6cf-847a-4177-b059-55f519b09de4
-  port: 38000
-  server: 103.173.155.72
-  type: trojan
-- name: 未知 TROJAN-576 | free-nodes
-  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
-  port: 28443
-  server: 45.82.253.237
-  type: trojan
-- name: 未知 TROJAN-410 | free-nodes
-  password: 34c52684-3aee-456d-8e21-fe16d0277e5a
-  port: 2087
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: false
-  sni: 17654164559539.796813.xyz
-  type: trojan
-- name: 未知 TROJAN-677 | free-nodes
-  password: x3wOepOcT04FnR8YYF35pzSACDgRBa3CAe9qNalDCy6a2uE8Z7xlX3SSyZKDIj
-  port: 443
-  server: 154.17.24.29
-  type: trojan
-- name: 未知 TROJAN-1687 | free-nodes
-  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
-  port: 19233
-  server: 120.226.39.25
-  type: trojan
-- name: 未知 TROJAN-1553 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 18436
-  server: hn.xiaohouzi.club
-  sni: $$avas01.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-840 | free-nodes
-  password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
-  port: 443
-  server: 2.58.242.43
-  type: trojan
-- name: 未知 TROJAN-1025 | free-nodes
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  port: 443
-  server: 15.204.20.229
-  type: trojan
-- name: 未知 TROJAN-1692 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10825
-  server: 183.236.51.9
-  type: trojan
-- name: 未知 TROJAN-1999 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 34.219.52.119
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-624 | free-nodes
-  password: 7ac49a893e0bd10c
-  port: 3389
-  server: 60.249.3.227
-  type: trojan
-- name: 未知 TROJAN-1231 | free-nodes
-  password: BxceQaOe
-  port: 3579
-  server: 54.199.213.179
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1682 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 449
-  server: 160.16.236.32
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1871 | free-nodes
-  password: WpfQAbO2wg
-  port: 443
-  server: 45.9.10.103
-  type: trojan
-- name: 未知 TROJAN-1035 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10826
-  server: 183.236.51.9
-  type: trojan
-- name: 未知 TROJAN-1970 | free-nodes
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  port: 443
-  server: 20.163.90.12
-  sni: paydiu.com
-  type: trojan
-- name: 未知 TROJAN-1774 | free-nodes
-  network: ws
-  password: vip
-  port: 443
-  server: 104.18.42.163
-  sni: heihu880.pages.dev
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
-- name: 未知 TROJAN-1896 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 7177
-  server: 36.150.215.203
-  type: trojan
-- name: 未知 TROJAN-585 | free-nodes
-  password: 4f9ca636-5195-406a-b48c-0388689dd9a7
-  port: 443
-  server: 212.24.103.3
-  type: trojan
-- name: 未知 TROJAN-964 | free-nodes
-  password: psycho
-  port: 443
-  server: 104.21.80.1
-  sni: PSYchO.SueX12.Ir
-  type: trojan
-- name: 未知 TROJAN-1568 | free-nodes
-  password: c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f
-  port: 80
-  server: 15.204.210.176
-  type: trojan
-- name: 未知 TROJAN-1869 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 5041
-  server: 153.121.70.134
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-442 | free-nodes
-  password: bs6KJkPBW9MP74uHEa
-  port: 443
-  server: 45.80.190.64
-  type: trojan
-- name: 未知 TROJAN-1042 | free-nodes
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  port: 443
-  server: kaizen-tw-3.mielink-dns2.com
-  sni: paydiu.com
-  type: trojan
-- name: 未知 TROJAN-1702 | free-nodes
-  password: 21e10785-99c6-316e-a184-a03384ee06e5
-  port: 18634
-  server: hnm.xiaohouzi.club
-  sni: avas04.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-448 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 443
-  server: 203.198.122.217
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-593 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.196.127.24
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1857 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 316
-  server: 160.16.240.91
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-456 | free-nodes
-  password: be94cd60-8e91-4cd6-9c53-26ee1314edfd
-  port: 2053
-  server: 178.33.161.196
-  sni: joss.gpj1.web.id
-  type: trojan
-- name: 未知 TROJAN-600 | free-nodes
-  password: 8a03bc28-2a33-42c4-be59-30464dbb9954
-  port: 18818
-  server: syd14.yukiss.eu.org
-  type: trojan
-- name: 未知 TROJAN-461 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 1596
-  server: 160.16.150.76
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-462 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 65016
-  server: jp06a.roc-taiwan.org.ua
-  type: trojan
-- name: 未知 TROJAN-1171 | free-nodes
-  password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb
-  port: 36306
-  server: 43.206.67.76
-  sni: sunmoon02.abzoones.xyz
-  type: trojan
-- name: 未知 TROJAN-1716 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 2760
-  server: 202.181.103.246
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-2049 | free-nodes
-  password: xxoo
-  port: 443
-  server: 146.19.230.241
-  sni: bmi.ir
-  type: trojan
-- name: 未知 TROJAN-1429 | free-nodes
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  port: 443
-  server: 150.230.96.103
-  type: trojan
-- name: 未知 TROJAN-718 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 443
-  server: 68.183.231.236
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1241 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1802
-  server: 153.121.51.29
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1874 | free-nodes
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.156
-  type: trojan
-- name: 未知 TROJAN-1400 | free-nodes
+- name: 香港-017 |19.2MB/s|2%|YT-CN|NF|D...
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 112.118.116.66
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1993 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 3093
-  server: 160.16.130.66
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-476 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10823
-  server: 183.236.51.7
-  type: trojan
-- name: 未知 TROJAN-2010 | free-nodes
-  password: 255a0a50-3f10-11f0-b0d6-1239d0255272
-  port: 443
-  server: 51.38.65.155
-  type: trojan
-- name: 未知 TROJAN-1564 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 61005
-  server: hn.xiaohouzi.club
-  sni: $$aru05.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-482 | free-nodes
-  password: 5623be5f-c9da-4511-81a9-b4b39b16edae
-  port: 443
-  server: 103.173.255.21
-  sni: sbank.ir
-  type: trojan
-- name: 未知 TROJAN-1890 | free-nodes
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  port: 20011
-  server: iplc.xiaohouzi.club
-  sni: supaz012.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1580 | free-nodes
-  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
-  port: 443
-  server: 45.64.22.55
-  sni: reooec.freetrade.link
-  type: trojan
-- name: 未知 TROJAN-2025 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 2890
-  server: 160.16.196.59
-  sni: www.nintendogames.net
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 未知 TROJAN-1957 | free-nodes
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.237.153.133
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1406 | free-nodes
-  password: Cl150MQWlG
-  port: 443
-  server: 209.250.236.93
-  sni: irancell-ir-4.mmdruby13.store
-  type: trojan
-- name: 未知 TROJAN-1368 | free-nodes
-  password: 5623be5f-c9da-4511-81a9-b4b39b16edae
-  port: 443
-  server: 103.173.255.234
-  type: trojan
-- name: 未知 TROJAN-1382 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.48.45.205
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1248 | free-nodes
-  password: af4d2493-9156-4514-9f6b-ee5d1a1e4713
-  port: 443
-  server: download2hkt.windowsupdate.lol
-  type: trojan
-- name: 未知 TROJAN-495 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2467
-  server: 160.16.106.144
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-623 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1700
-  server: 160.16.87.174
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1086 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10822
-  server: 183.236.51.6
-  type: trojan
-- name: 未知 TROJAN-1976 | free-nodes
-  password: f42d1b0d-c398-43cb-be37-d739b1477a5d
-  port: 443
-  server: 107.189.3.96
-  sni: joss.gpj4.web.id
-  type: trojan
-- name: 未知 TROJAN-655 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.181.161.94
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1920 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2467
-  server: 153.121.41.97
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-1958 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 14705
-  server: gz01.xiaohouzi.club
-  sni: $$$$$$$vusig01.xiaohouzi.club
-  type: trojan
-- grpc-opts:
-    grpc-service-name: trgrpc
-  name: 未知 TROJAN-512 | free-nodes
-  network: grpc
-  password: 92902210-2eb5-11ee-b234-205c6d5f5d78
-  port: 2087
-  server: 95.179.255.171
-  sni: asia.oceis.net
-  type: trojan
-- name: 未知 TROJAN-1055 | free-nodes
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 62.210.254.72
-  type: trojan
-- name: 未知 TROJAN-1792 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 3272
-  server: 36.156.102.84
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-517 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.taipeicitygovernment.dp.ua
-  type: trojan
-- name: 未知 TROJAN-2000 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 34.210.47.105
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-694 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 4054
-  server: 160.16.223.205
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1866 | free-nodes
-  network: tcp
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  sni: diningtable.electricbanana.click
-  type: trojan
-- name: 未知 TROJAN-1562 | free-nodes
-  password: vvip-periantara
-  port: 443
-  server: 38.9.140.66
-  sni: id3tr.jagoan.vip
-  type: trojan
-- name: 未知 TROJAN-2007 | free-nodes
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: 443
-  server: 45.64.22.41
-  sni: jgw2.gaox.ml
-  type: trojan
-- name: 未知 TROJAN-1730 | free-nodes
-  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
-  port: 443
-  server: 103.195.236.24
-  type: trojan
-- name: 未知 TROJAN-1630 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 19362
-  server: hn.xiaohouzi.club
-  sni: aws-hk03.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1625 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 3093
-  server: 160.16.229.223
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1056 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 13328
-  server: uns.xiaohouzi.club
-  sni: siga01.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1986 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 449
-  server: 160.16.57.238
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-537 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.taipeicitygovernment.org.ua
-  type: trojan
-- name: 未知 TROJAN-1946 | free-nodes
-  password: xstack-1718-9761-freevpn
-  port: 1935
-  server: cdn-gr-3.goldaccess.xyz
-  type: trojan
-- name: 未知 TROJAN-1726 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 36.156.102.84
-  sni: fe2.update.microsoft.com
-  type: trojan
-- name: 未知 TROJAN-1844 | free-nodes
-  password: vip
-  port: 443
-  server: log.bpminecraft.com
-  sni: heihu880.pages.dev
-  type: trojan
-- name: 未知 TROJAN-1751 | free-nodes
-  password: b8808043-6566-4923-9195-e66bfb553d57
-  port: 443
-  server: 51.38.99.96
-  sni: ba24.ir
-  type: trojan
-- name: 未知 TROJAN-634 | free-nodes
-  password: iyinglong
-  port: 443
-  server: 18.140.67.76
-  type: trojan
-- name: 未知 TROJAN-1396 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 1331
-  server: 153.121.38.213
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1675 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2467
-  server: 160.16.132.158
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-551 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4234
-  server: 153.121.39.240
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1550 | free-nodes
-  password: mainssh-niwrhf87
-  port: 443
-  server: 95.179.246.122
-  sni: getgrpc.mainssh.xyz
-  type: trojan
-- name: 未知 TROJAN-1905 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.181.113.103
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-603 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10819
-  server: 183.236.51.2
-  type: trojan
-- name: 未知 TROJAN-2045 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 3169
-  server: 13.112.81.124
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-687 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.taipeicitygovernment.com.ua
-  type: trojan
-- name: 未知 TROJAN-565 | free-nodes
-  password: vip
-  port: 443
-  server: www.udemy.com
-  sni: heihu880.pages.dev
-  type: trojan
-- name: 未知 TROJAN-566 | free-nodes
-  password: 2cf6d686799e6fa95316394064f26c0a
-  port: 2760
-  server: 160.16.240.91
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-2052 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.16.231
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1669 | free-nodes
-  password: 44db2c35-9eef-4f62-b444-813871ff69d7
-  port: 49213
-  server: 120.232.81.194
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 未知 TROJAN-573 | free-nodes
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  port: 47555
-  server: hnm.xiaohouzi.club
-  sni: au02.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-672 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 202.181.103.246
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1826 | free-nodes
-  password: 28d98f761aca9d636f44db62544628eb
-  port: 443
-  server: 45.66.134.219
-  type: trojan
-- name: 未知 TROJAN-745 | free-nodes
-  password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e
-  port: 443
-  server: sg.stablize.top
-  type: trojan
-- name: 未知 TROJAN-583 | free-nodes
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 45.88.148.234
-  type: trojan
-- name: 未知 TROJAN-1776 | free-nodes
-  password: 21e10785-99c6-316e-a184-a03384ee06e5
-  port: 18831
-  server: hnm.xiaohouzi.club
-  sni: avas01.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1710 | free-nodes
-  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
-  port: 19232
-  server: 120.226.39.25
-  type: trojan
-- name: 未知 TROJAN-1919 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1572
-  server: 160.16.196.59
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-2031 | free-nodes
-  password: bs6KJkPBW9MP74uHEa
-  port: 443
-  server: 45.80.190.66
-  type: trojan
-- name: 未知 TROJAN-1326 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: 49.212.221.47
-  type: trojan
-- name: 未知 TROJAN-1531 | free-nodes
-  password: TNDSJfNv
-  port: 4787
-  server: 36.151.195.48
-  type: trojan
-- name: 未知 TROJAN-1606 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.239.128.106
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1827 | free-nodes
-  password: BxceQaOe
-  port: 2752
-  server: 16.163.138.120
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1336 | free-nodes
-  password: BxceQaOe
-  port: 4492
-  server: 52.195.216.100
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1847 | free-nodes
-  network: ws
-  password: f282b878-8711-45a1-8c69-5564172123c1
-  port: 443
-  server: 172.67.156.25
-  sni: aio.zipzap.biz.id
-  type: trojan
-  ws-opts:
-    path: /aioproxybot/129.150.49.58-18650
-- name: 未知 TROJAN-1610 | free-nodes
-  password: xxoo
-  port: 443
-  server: 138.124.183.226
-  type: trojan
-- name: 未知 TROJAN-602 | free-nodes
-  password: 2fec7227-9abe-46f2-af18-78302b836c45
-  port: 443
-  server: 104.21.30.167
-  sni: 3y.2032.pp.ua
-  type: trojan
-- name: 未知 TROJAN-604 | free-nodes
-  password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
-  port: 443
-  server: 103.168.56.77
-  type: trojan
-- name: 未知 TROJAN-1331 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 443
-  server: 58.152.53.214
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-1622 | free-nodes
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
-  port: 443
-  server: de01.trojanyyds.xyz
-  type: trojan
-- name: 未知 TROJAN-608 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: 153.121.74.146
-  type: trojan
-- name: 未知 TROJAN-1582 | free-nodes
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  port: 17109
-  server: hnm.xiaohouzi.club
-  sni: hkghc02.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1882 | free-nodes
-  password: eDHWaPzxcl
-  port: 25365
-  server: 145.223.70.115
-  type: trojan
-- name: 未知 TROJAN-1470 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 18435
-  server: hn.xiaohouzi.club
-  sni: hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1724 | free-nodes
-  password: d9576e81-fc34-46f2-b624-0c1e99cde4be
-  port: 443
-  server: jp-full.privateip.net
-  type: trojan
-- name: 未知 TROJAN-1016 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10823
-  server: 183.236.51.2
-  type: trojan
-- name: 未知 TROJAN-616 | free-nodes
-  password: a70b39d1-62ea-4d9e-b681-9c5408352234
-  port: 50418
-  server: 103.103.245.125
-  type: trojan
-- name: 未知 TROJAN-2042 | free-nodes
-  password: 44db2c35-9eef-4f62-b444-813871ff69d7
-  port: 49213
-  server: 120.232.81.194
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tls: true
   type: trojan
-- name: 未知 TROJAN-989 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 160.16.63.16
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1695 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10823
-  server: 183.236.51.5
-  type: trojan
-- name: 未知 TROJAN-627 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.44.38.121
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1960 | free-nodes
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
-  port: 443
-  server: in01.trojanyyds.xyz
-  type: trojan
-- name: 未知 TROJAN-629 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 48462
-  server: hn.xiaohouzi.club
-  sni: $$hn.xiaohouzi.club
-  type: trojan
-- name: US TROJAN-1679 | free-nodes
-  password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D
-  port: 443
-  server: kuame.missionsec.us
-  sni: kuame.missionsec.us
-  type: trojan
-- name: 未知 TROJAN-639 | free-nodes
-  password: 0f5e6d9a-49af-4bc0-b04b-503102382144
-  port: 443
-  server: 51.195.219.173
-  sni: ukt1.sshocean.net
-  type: trojan
-- name: 未知 TROJAN-1908 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 61003
-  server: hn.xiaohouzi.club
-  sni: $$hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-950 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3160
-  server: 36.156.102.84
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-2016 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 4054
-  server: 160.16.89.176
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1655 | free-nodes
-  password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
-  port: 44301
-  server: 138.2.45.89
-  sni: osav101.jd0001.top
-  type: trojan
-- name: 未知 TROJAN-1607 | free-nodes
-  password: BxceQaOe
-  port: 2673
-  server: 95.40.76.44
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1646 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.95
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 未知 TROJAN-652 | free-nodes
-  password: 34c52684-3aee-456d-8e21-fe16d0277e5a
-  port: 8443
-  server: bestcdn5.868863.xyz
-  skip-cert-verify: false
-  sni: 17654164554752.796812.xyz
-  type: trojan
-- name: 未知 TROJAN-1671 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 54.93.240.151
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-656 | free-nodes
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 168.138.189.17
-  type: trojan
-- name: 未知 TROJAN-1458 | free-nodes
-  password: 16bcc187-a1a0-4b8a-8b69-627f38b7cc0d
-  port: 80
-  server: 15.235.197.4
-  sni: getandroid.com,bsi.ir,telewebion.com
-  type: trojan
-- name: 未知 TROJAN-1573 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2283
-  server: 160.16.144.208
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-1459 | free-nodes
-  password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4
-  port: 28443
-  server: 103.173.155.72
-  type: trojan
-- name: SG TROJAN-662 | free-nodes
+  udp: true
+- name: 俄罗斯联邦-007
+  network: ws
   password: trojan
-  port: 8443
-  server: www.visa.com.sg
-  sni: pangpi.pages.dev
-  type: trojan
-- name: 未知 TROJAN-1287 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.184.9.101
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-671 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 17109
-  server: hnm.xiaohouzi.club
-  sni: $$$$$hnm.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1974 | free-nodes
-  password: 8800c518-e68a-4441-a45c-cd67855784c8
   port: 443
-  server: jp2.sanfen001.pics
-  sni: jp1.sanfen001.pics
-  type: trojan
-- name: 未知 TROJAN-2041 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 22000
-  server: 36.156.102.86
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1146 | free-nodes
-  password: c60fbf90-4b55-11ed-b935-225401db9d57
-  port: 443
-  server: 51.75.76.22
-  type: trojan
-- name: 未知 TROJAN-676 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10824
-  server: 183.236.51.9
-  type: trojan
-- name: 未知 TROJAN-678 | free-nodes
-  password: xxoo
-  port: 443
-  server: 138.124.183.222
-  sni: 138.124.183.222
-  type: trojan
-- name: 未知 TROJAN-1518 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 65014
-  server: jp04a.roc-taiwan.net.ua
-  type: trojan
-- name: 未知 TROJAN-1800 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.135.6.102
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-806 | free-nodes
-  password: idc117okt
-  port: 443
-  server: 103.176.78.153
-  type: trojan
-- name: 未知 TROJAN-1781 | free-nodes
-  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
-  port: 19239
-  server: 120.226.39.25
-  type: trojan
-- name: 未知 TROJAN-1928 | free-nodes
-  password: d150c8c3-a667-4d3e-843c-739f8558c7d2
-  port: 443
-  server: uk-full.privateip.net
-  type: trojan
-- name: 未知 TROJAN-1597 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 58.152.53.94
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-853 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 6752
-  server: 36.156.102.84
-  sni: fe2.update.microsoft.com
-  type: trojan
-- name: 未知 TROJAN-1358 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.21.104.170
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-701 | free-nodes
-  network: ws
-  password: vip
-  port: 2087
-  server: time.is
-  sni: heihu880.pages.dev
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
-- name: 未知 TROJAN-707 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 49361
-  server: hnm.xiaohouzi.club
-  sni: hnm.xiaohouzi.club
-  type: trojan
-- grpc-opts:
-    grpc-service-name: 6vuNVgOFnqUEvj0rcXIcStL
-  name: 未知 TROJAN-708 | free-nodes
-  network: grpc
-  password: 11ae0edd-2f63-4495-8683-037abbda9986
-  port: 443
-  server: 146.70.158.111
-  sni: amin.karkas1.ir
-  type: trojan
-- name: 未知 TROJAN-1897 | free-nodes
-  password: KLF0qOU0ZZGw5Tnu
-  port: 443
-  server: 47.52.101.237
-  sni: swift.protocolbuffer.com
-  type: trojan
-- name: 未知 TROJAN-713 | free-nodes
-  password: auto
-  port: 443
-  server: dcf741e8.epeius-2gy.pages.dev
-  sni: dcf741e8.epeius-2gy.pages.dev
-  type: trojan
-- name: 未知 TROJAN-715 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.249.15.72
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1457 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 443
-  server: 203.198.122.28
-  sni: fe2.update.microsoft.com
-  type: trojan
-- name: 未知 TROJAN-722 | free-nodes
-  password: 7ac49a893e0bd10c
-  port: 3389
-  server: 211.72.35.152
-  type: trojan
-- name: 未知 TROJAN-1852 | free-nodes
-  password: vip
-  port: 443
-  server: singapore.com
-  sni: heihu880.pages.dev
-  type: trojan
-- name: 未知 TROJAN-1741 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 49438
-  server: hn.xiaohouzi.club
-  sni: hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1174 | free-nodes
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: 443
-  server: cf.zhetengsha.eu.org
-  sni: _acme-challenge.2go.cloudns.be
-  type: trojan
-- name: 未知 TROJAN-789 | free-nodes
-  password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
-  port: 80
-  server: 51.91.11.29
-  sni: akharinkhabar.ir
-  type: trojan
-- name: 未知 TROJAN-1965 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 18.222.168.7
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1481 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1331
-  server: 160.16.116.227
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1806 | free-nodes
-  password: xxoo
-  port: 443
-  server: 3.34.6.217
-  type: trojan
-- name: 未知 TROJAN-1360 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 47555
-  server: hnm.xiaohouzi.club
-  sni: $$$au02.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1505 | free-nodes
-  password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
-  port: 80
-  server: 51.91.11.29
-  sni: fr1.trojanvh.xyz
-  type: trojan
-- name: 未知 TROJAN-1966 | free-nodes
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 89.163.220.99
-  type: trojan
-- name: 未知 TROJAN-1647 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 160.16.124.55
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-769 | free-nodes
-  password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
-  port: 443
-  server: 119.247.119.212
-  sni: sg-01.tiktokcdn.top
-  type: trojan
-- name: 未知 TROJAN-778 | free-nodes
-  password: 40c89b10235c40321e7a3cef82b53a03
-  port: 22
-  server: trs17.bolab.net
-  type: trojan
-- name: 未知 TROJAN-1798 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.ivano-frankivsk.ua
-  type: trojan
-- name: 未知 TROJAN-1759 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.252.69.131
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1333 | free-nodes
-  password: b09d2aaa443af97a
-  port: 3389
-  server: 211.72.35.152
-  type: trojan
-- name: 未知 TROJAN-1073 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 203.198.123.190
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1322 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 507
-  server: 153.121.44.99
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1628 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4451
-  server: 160.16.68.250
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1765 | free-nodes
-  password: wkmY1R4EcP
-  port: 443
-  server: 45.63.110.20
-  sni: z-v2-003281.kailib.com
-  type: trojan
-- name: 未知 TROJAN-788 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10819
-  server: 183.236.51.8
-  type: trojan
-- name: 未知 TROJAN-790 | free-nodes
-  password: 7a566d21dfcd0f12490275fd3dd3cfc4
-  port: 443
-  server: trs09.bolab.net
-  type: trojan
-- name: 未知 TROJAN-1819 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 447
-  server: 160.16.63.16
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1062 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 2283
-  server: 160.16.116.227
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-794 | free-nodes
-  password: 8b6daf15-8342-482d-b894-1239fd98ce7f
-  port: 443
-  server: 149.56.141.11
-  type: trojan
-- name: 未知 TROJAN-1786 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.22
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1949 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 35.182.28.167
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-808 | free-nodes
-  password: iyinglong
-  port: 443
-  server: 13.213.69.245
-  type: trojan
-- name: 未知 TROJAN-2014 | free-nodes
-  password: 2a9ba60d-10ce-4f79-97e7-817334456195
-  port: 54527
-  server: 3.85.62.200
-  sni: tr7.tgcunzhang.xyz
-  type: trojan
-- name: 未知 TROJAN-2035 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-820 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.158.77.144
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1178 | free-nodes
-  password: YwuvGJk36B
-  port: 2053
-  server: creativecommons.org
-  sni: kotlet.arshiacomplus.dpdns.org
-  type: trojan
-- name: 未知 TROJAN-1439 | free-nodes
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.154
-  type: trojan
-- name: 未知 TROJAN-823 | free-nodes
-  password: BxceQaOe
-  port: 2145
-  server: 54.95.4.90
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1431 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 2890
-  server: 160.16.131.243
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-2029 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 63.181.72.176
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-878 | free-nodes
-  password: 7ac49a893e0bd10c
-  port: 3389
-  server: 60.249.3.228
-  type: trojan
-- name: 未知 TROJAN-830 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10823
-  server: 183.236.51.3
-  type: trojan
-- name: 未知 TROJAN-832 | free-nodes
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  port: 443
-  server: 138.2.113.248
-  type: trojan
-- name: 未知 TROJAN-1858 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3160
-  server: 160.16.68.250
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-968 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1924
-  server: 160.16.72.33
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1523 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 20037
-  server: iplc.xiaohouzi.club
-  sni: $$$$iplc.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-908 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 507
-  server: 52.197.139.174
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1681 | free-nodes
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  port: 17116
-  server: hnm.xiaohouzi.club
-  sni: hnm.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1849 | free-nodes
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  port: 18440
-  server: hn.xiaohouzi.club
-  sni: avas05.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-915 | free-nodes
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  port: 443
-  server: 152.67.160.174
-  type: trojan
-- name: 未知 TROJAN-1623 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 316
-  server: 160.16.144.208
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-858 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10824
-  server: 183.236.51.2
-  type: trojan
-- name: 未知 TROJAN-859 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 160.16.236.32
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1608 | free-nodes
-  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
-  port: 28443
-  server: 45.88.148.237
-  sni: sbank.ir
-  type: trojan
-- name: 未知 TROJAN-863 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.chernigov.ua
-  type: trojan
-- name: 未知 TROJAN-865 | free-nodes
-  password: redfree8
-  port: 443
-  server: 104.17.148.22
-  sni: redfree8-p1.pooriashop.ir
-  type: trojan
-- name: 未知 TROJAN-2053 | free-nodes
-  password: 6c64e6f9-a76c-49eb-96d2-bf8b1afee4a3
-  port: 443
-  server: fr-full.privateip.net
-  type: trojan
-- name: 未知 TROJAN-1861 | free-nodes
-  password: 0b65bb06-6b28-487a-8e3c-820dda51e977
-  port: 443
-  server: series-v1.samanehha.co
-  sni: series-v1.samanehha.co
-  type: trojan
-- name: 未知 TROJAN-1818 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 48434
-  server: hn.xiaohouzi.club
-  sni: $ajpn04.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1868 | free-nodes
-  password: BxceQaOe
-  port: 2752
-  server: 16.163.138.120
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 未知 TROJAN-885 | free-nodes
-  password: xxoo
-  port: 443
-  server: 138.197.5.103
-  sni: telewebion.com
-  type: trojan
-- name: 未知 TROJAN-886 | free-nodes
-  password: 555034c8-6420-45d0-893c-905c02342150
-  port: 443
-  server: 51.83.186.142
-  sni: pl1.trojanvh.xyz
-  type: trojan
-- name: 未知 TROJAN-894 | free-nodes
-  password: BxceQaOe
-  port: 1866
-  server: 43.198.204.4
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1693 | free-nodes
-  password: 3febb05ea76a940f
-  port: 3389
-  server: 60.249.3.125
-  type: trojan
-- name: 未知 TROJAN-900 | free-nodes
-  password: vip
-  port: 443
-  server: fbi.gov
-  sni: heihu880.pages.dev
-  type: trojan
-- name: 未知 TROJAN-1563 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 443
-  server: 58.152.18.71
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1864 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3294
-  server: 153.121.73.102
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1708 | free-nodes
-  password: 27876_t7d7f4e3f
-  port: 443
-  server: 23.142.200.175
-  type: trojan
-- name: 未知 TROJAN-1224 | free-nodes
-  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
-  port: 19225
-  server: 120.226.39.25
-  type: trojan
-- name: 未知 TROJAN-2024 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 126.47.92.160
-  sni: fe2.update.microsoft.com
-  type: trojan
-- name: 未知 TROJAN-1345 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 35.156.35.238
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1351 | free-nodes
-  password: Gl123qwe
-  port: 23443
-  server: us.playstone.info
-  type: trojan
-- name: 未知 TROJAN-1901 | free-nodes
-  password: 13eb9352-7d04-4523-af91-4d7e84066a95
-  port: 12206
-  server: oss-ydniddsasa-3.7.baidu.jjuu.shrestart.com
-  sni: m.ctrip.com
-  type: trojan
-- name: 未知 TROJAN-943 | free-nodes
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  port: 443
-  server: 138.2.115.240
-  type: trojan
-- name: 未知 TROJAN-945 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1572
-  server: 36.156.102.84
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-946 | free-nodes
-  password: dreDeMpIQpnv
-  port: 2053
-  server: 104.21.44.185
-  sni: aryanews.onetwothree123.ir
-  type: trojan
-- name: 未知 TROJAN-1455 | free-nodes
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  port: 443
-  server: 144.24.72.126
-  type: trojan
-- name: 未知 TROJAN-1762 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 1331
-  server: 160.16.131.243
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-1909 | free-nodes
-  password: ee2bccd3-0f30-42d4-86d6-3d393ad230bd
-  port: 80
-  server: 135.148.148.4
-  sni: telewebion.com
-  type: trojan
-- name: 未知 TROJAN-1098 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10820
-  server: 183.236.51.9
-  type: trojan
-- name: 未知 TROJAN-961 | free-nodes
-  password: 34c52684-3aee-456d-8e21-fe16d0277e5a
-  port: 8443
-  server: bestcdn5.868863.xyz
-  skip-cert-verify: false
-  sni: 17654164552525.206355.xyz
-  type: trojan
-- name: 未知 TROJAN-1813 | free-nodes
-  password: BxceQaOe
-  port: 2673
-  server: 43.198.206.171
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1579 | free-nodes
-  password: 5623be5f-c9da-4511-81a9-b4b39b16edae
-  port: 443
-  server: 103.81.85.238
-  type: trojan
-- name: 未知 TROJAN-2018 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.44.190.237
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-972 | free-nodes
-  password: 4d111af8-5078-37e0-a583-34155f60b32c
-  port: 44302
-  server: 129.146.175.86
-  sni: phxv001.jd0001.top
-  type: trojan
-- name: 未知 TROJAN-975 | free-nodes
-  password: BxceQaOe
-  port: 4569
-  server: 54.95.80.83
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-2013 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 507
-  server: 13.231.220.185
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-988 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 160.16.81.84
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1744 | free-nodes
-  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
-  port: 443
-  server: 41.216.177.41
-  type: trojan
-- name: 未知 TROJAN-1643 | free-nodes
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.158
-  type: trojan
-- name: 未知 TROJAN-1995 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 443
-  server: 58.152.30.87
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-2021 | free-nodes
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
-  port: 443
-  server: uk01.trojanyyds.xyz
-  type: trojan
-- name: 未知 TROJAN-1071 | free-nodes
-  password: cd41b9d7-df15-46ad-a778-257b0851525a
-  port: 443
-  server: sg01.trojanyyds.xyz
-  type: trojan
-- name: 未知 TROJAN-1261 | free-nodes
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  port: 47454
-  server: hnn.xiaohouzi.club
-  sni: dosig.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1988 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 1331
-  server: 160.16.144.208
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-1433 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.taipeicitygovernment.chernovtsy.ua
-  type: trojan
-- name: 未知 TROJAN-1018 | free-nodes
-  password: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
-  port: 443
-  server: jp.mjt001.com
-  sni: jp.mjt001.com
-  type: trojan
-- name: 未知 TROJAN-1712 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 42541
-  server: hn.xiaohouzi.club
-  sni: hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1299 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.180.36.215
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1994 | free-nodes
-  password: BxceQaOe
-  port: 968
-  server: 13.231.156.35
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1680 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 19362
-  server: hnm.xiaohouzi.club
-  sni: $$$$$$$$aws-hk03.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1047 | free-nodes
-  password: BxceQaOe
-  port: 3579
-  server: 43.206.220.221
-  sni: t.me/ripaojiedian
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 未知 TROJAN-1048 | free-nodes
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.153.199.156
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1049 | free-nodes
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.45.12.251
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1801 | free-nodes
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: 443
-  server: saas.sin.fan
-  sni: _acme-challenge.2go.cloudns.be
-  type: trojan
-- name: 未知 TROJAN-1410 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.180.202.29
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1951 | free-nodes
-  password: 8d047125-8467-4724-bb62-ef64405dca78
-  port: 443
-  server: 91.192.102.92
-  sni: joss.gpj1.web.id
-  type: trojan
-- name: 未知 TROJAN-1838 | free-nodes
-  network: ws
-  password: vip
-  port: 443
-  server: fbi.gov
-  sni: heihu880.pages.dev
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
-- name: 未知 TROJAN-1061 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 2045
-  server: 160.16.130.66
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1967 | free-nodes
-  password: a3278882-3614-39cf-a3d6-faefa8c910ab
-  port: 17113
-  server: hnm.xiaohouzi.club
-  sni: $$hnm.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1513 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3296
-  server: 36.156.102.88
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1076 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 16015
-  server: hn.xiaohouzi.club
-  sni: hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1137 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 3145
-  server: 160.16.144.208
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1715 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4801
-  server: 36.150.215.203
-  sni: 36.156.102.116
-  type: trojan
-- name: 未知 TROJAN-1081 | free-nodes
-  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
-  port: 19201
-  server: 120.226.39.25
-  type: trojan
-- name: 未知 TROJAN-1093 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 17106
-  server: hnm.xiaohouzi.club
-  sni: hnm.xiaohouzi.club
-  type: trojan
-- grpc-opts:
-    grpc-service-name: trojangrpc
-  name: 未知 TROJAN-1815 | free-nodes
-  network: grpc
-  password: mainssh-ddoejfv14
-  port: 443
-  server: 95.179.254.136
-  sni: frtgrpc.mainssh.xyz
-  type: trojan
-- name: 未知 TROJAN-1106 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 1331
-  server: 160.16.242.183
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1121 | free-nodes
-  password: 34c52684-3aee-456d-8e21-fe16d0277e5a
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: false
-  sni: 17654164559897.796813.xyz
-  type: trojan
-- name: 未知 TROJAN-1126 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 65018
-  server: jp08a.roc-taiwan.org.ua
-  type: trojan
-- name: HK TROJAN-1850 | free-nodes
-  network: ws
-  password: vip
-  port: 8443
-  server: www.visa.com.hk
-  sni: heihu880.pages.dev
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
-- name: 未知 TROJAN-1703 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 409
-  server: 153.121.51.29
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1304 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.tokyometropolis.odessa.ua
-  type: trojan
-- name: 未知 TROJAN-1139 | free-nodes
-  password: vip
-  port: 443
-  server: whatismyipaddress.com
-  sni: heihu880.pages.dev
-  type: trojan
-- name: 未知 TROJAN-1412 | free-nodes
-  password: 21e10785-99c6-316e-a184-a03384ee06e5
-  port: 18835
-  server: hn.xiaohouzi.club
-  sni: $$feilvbin.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-2047 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10819
-  server: 183.236.51.7
-  type: trojan
-- name: 未知 TROJAN-2036 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 20091
-  server: gz01.xiaohouzi.club
-  sni: gz01.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1163 | free-nodes
-  password: 61605c66-6d41-4b9d-a496-b9898f3f95d0
-  port: 443
-  server: jp-h1.sshub.xyz
-  type: trojan
-- name: 未知 TROJAN-1904 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 18433
-  server: hn.xiaohouzi.club
-  sni: hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1169 | free-nodes
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 5321
-  server: 36.156.102.84
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1870 | free-nodes
-  password: vip
-  port: 443
-  server: www.udacity.com
-  sni: heihu880.pages.dev
-  type: trojan
-- name: 未知 TROJAN-1733 | free-nodes
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  port: 443
-  server: 103.135.103.229
-  type: trojan
-- name: 未知 TROJAN-1503 | free-nodes
-  network: ws
-  password: vip
-  port: 443
-  server: www.wto.org
-  sni: heihu880.pages.dev
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
-- name: 未知 TROJAN-1471 | free-nodes
-  password: BxceQaOe
-  port: 4012
-  server: 52.68.48.114
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1612 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 160.16.63.16
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1816 | free-nodes
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  port: 19366
-  server: hnm.xiaohouzi.club
-  sni: hkt-pqs01.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1833 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.127.91.148
-  sni: 3.127.91.148
-  type: trojan
-- name: 未知 TROJAN-1690 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 36304
-  server: szf02.xiaohouzi.club
-  sni: szf02.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1195 | free-nodes
-  password: ceaea123-1b4b-469b-8358-bcd5f5529305
-  port: 443
-  server: 104.208.100.101
-  sni: uk.liangyuandian.top
-  type: trojan
-- grpc-opts:
-    grpc-service-name: trojangrpc
-  name: 未知 TROJAN-1197 | free-nodes
-  network: grpc
-  password: mainssh-niwrhf87
-  port: 443
-  server: 140.82.32.17
-  sni: getgrpc.mainssh.xyz
-  type: trojan
-- name: 未知 TROJAN-2038 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 35.182.251.60
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1851 | free-nodes
-  password: 8001fbf7-4b59-4415-a4bd-8bfded02c9c6
-  port: 443
-  server: 69.28.82.253
-  sni: joss.gpj1.web.id
-  type: trojan
-- name: 未知 TROJAN-1211 | free-nodes
-  password: 67e200f1-4ff5-42ca-8425-3f16f7986c29
-  port: 443
-  server: 51.89.22.228
-  sni: t1.samsung.bforward2.uk
-  type: trojan
-- name: 未知 TROJAN-1381 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.taipeicitygovernment.co.ua
-  type: trojan
-- name: 未知 TROJAN-1736 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 3169
-  server: 153.121.65.107
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1391 | free-nodes
-  password: f6a0a650-306e-11ee-b692-1239d0255272
-  port: 443
-  server: 51.158.146.183
-  sni: Speedtest.net
-  type: trojan
-- name: 未知 TROJAN-2011 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1223 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3294
-  server: 160.16.72.33
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1225 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 3093
-  server: 52.193.180.87
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1228 | free-nodes
-  password: JeSDlzqBCKqUCmDskZDSIvgscdvOYWbd
-  port: 889
-  server: gkifo-8-tr-0.tw-tpe-hinet-0-0.o-two.xyz
-  sni: o-two.bond
-  type: trojan
-- name: 未知 TROJAN-1229 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10822
-  server: 183.236.51.9
-  type: trojan
-- name: 未知 TROJAN-1417 | free-nodes
-  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
-  port: 28443
-  server: 212.90.123.133
-  type: trojan
-- name: 未知 TROJAN-1260 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 1331
-  server: 153.121.51.29
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1244 | free-nodes
-  password: dTjHHw2kDE
-  port: 38505
-  server: 23.94.122.66
-  sni: telewebion.com
-  type: trojan
-- name: 未知 TROJAN-1955 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 58.152.25.205
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1939 | free-nodes
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  port: 443
-  server: kaizen-tw-1.mielink-dns2.com
-  sni: paydiu.com
-  type: trojan
-- name: 未知 TROJAN-1593 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 51052
-  server: hnm.xiaohouzi.club
-  sni: hnm.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1760 | free-nodes
-  password: 6c7d536e-1ecf-448d-83c1-3044dd89ceac
-  port: 443
-  server: 5.182.39.57
-  sni: joss.gpj4.web.id
-  type: trojan
-- name: 未知 TROJAN-1552 | free-nodes
-  password: 9e5d7ec6-d24d-41dc-848d-54a2e3429d2f
-  port: 15025
-  server: feisha-other.kunlun06dns.com
-  sni: openssl.nodesni.com
-  type: trojan
-- name: 未知 TROJAN-1273 | free-nodes
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.152
-  type: trojan
-- name: 未知 TROJAN-1274 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.48.202.26
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1281 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.45.12.251
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-2032 | free-nodes
-  password: BxceQaOe
-  port: 1866
-  server: 43.198.204.4
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1698 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.seoulcityhall.com.ua
-  type: trojan
-- name: 未知 TROJAN-1924 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 3145
-  server: 52.197.139.174
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-2004 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 2053
-  server: official.seoulcityhall.com.ua
-  type: trojan
-- name: 未知 TROJAN-1289 | free-nodes
-  password: 34c52684-3aee-456d-8e21-fe16d0277e5a
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: false
-  sni: 17654164553949.206355.xyz
-  type: trojan
-- name: 未知 TROJAN-1959 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10819
-  server: 183.236.51.9
-  type: trojan
-- name: 未知 TROJAN-1297 | free-nodes
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-  port: 443
-  server: kaizen-tw-4.mielink-dns2.com
-  sni: paydiu.com
-  type: trojan
-- name: 未知 TROJAN-1305 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.193.90.253
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1794 | free-nodes
-  password: 665c944d-047d-4659-80d5-3eaac70241a9
-  port: 443
-  server: 139.162.158.172
-  sni: de2-full.privateip.net
-  type: trojan
-- name: 未知 TROJAN-1313 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10820
-  server: 183.236.51.2
-  type: trojan
-- name: 未知 TROJAN-2048 | free-nodes
-  password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
-  port: 1145
-  server: 141.95.61.209
-  type: trojan
-- name: 未知 TROJAN-1547 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.39.112.204
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1997 | free-nodes
-  password: affae2e0-e84b-11ec-b09f-1239d0255272
-  port: 443
-  server: trojan1.udpgw.com
-  type: trojan
-- name: 未知 TROJAN-1411 | free-nodes
-  password: Sp3eDVp
-  port: 443
-  server: 51.77.71.131
-  type: trojan
-- name: 未知 TROJAN-1558 | free-nodes
-  network: ws
-  password: vip
-  port: 443
-  server: www.udemy.com
-  sni: heihu880.pages.dev
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
-- name: 未知 TROJAN-1604 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 12468
-  server: sh.xiaohouzi.club
-  sni: $$sh.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1603 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 443
-  server: 60.82.70.104
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1879 | free-nodes
-  password: 4d5cc30d-df0f-4d9a-ab3c-6a70ab0ce361
-  port: 443
-  server: tr-full.privateip.net
-  type: trojan
-- name: 未知 TROJAN-1350 | free-nodes
-  password: 182228812d1e0f23
-  port: 3389
-  server: 60.249.3.230
-  type: trojan
-- name: 未知 TROJAN-1355 | free-nodes
-  network: ws
-  password: vip
-  port: 443
-  server: 104.18.27.94
-  sni: heihu880.pages.dev
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
-- name: 未知 TROJAN-1672 | free-nodes
-  password: 3gLlCYBipVwr6Y5F
-  port: 443
-  server: 92.118.149.85
-  type: trojan
-- name: 未知 TROJAN-1365 | free-nodes
-  password: xxoo
-  port: 443
-  server: 138.124.183.216
-  type: trojan
-- name: 未知 TROJAN-1660 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 8443
-  server: official.taipeicitygovernment.if.ua
-  type: trojan
-- name: 未知 TROJAN-1389 | free-nodes
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 24673
-  server: 36.156.102.84
-  sni: fe2.update.microsoft.com
-  type: trojan
-- name: 未知 TROJAN-1403 | free-nodes
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  port: 443
-  server: 152.67.98.30
-  type: trojan
-- name: 未知 TROJAN-1596 | free-nodes
-  password: 253bc477d4e43c209f2d427272968280
-  port: 3271
-  server: 36.156.102.88
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1407 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10825
-  server: 183.236.51.4
-  type: trojan
-- name: 未知 TROJAN-1791 | free-nodes
-  password: BxceQaOe
-  port: 1821
-  server: 153.121.51.221
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1427 | free-nodes
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
+  server: 45.135.135.131
   skip-cert-verify: true
-  sni: '%F0%9F%94%92%20%5BBy%20EbraSha%5D'
+  sni: tianjiu.pages.dev
   type: trojan
-- name: 未知 TROJAN-1441 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 19365
-  server: hn.xiaohouzi.club
-  sni: $$supaz041.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1448 | free-nodes
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 俄罗斯联邦-012 |2.1MB/s
+  password: d3837224ed465f00
+  port: 57456
+  server: 45.139.26.173
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-035 |750KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.122
+  type: ss
+  udp: true
+- name: 美国-015 |6.1MB/s
+  network: ws
+  password: 7f1744fb-e014-43e9-ab39-1dca96f5e604
   port: 443
-  server: 146.56.189.146
+  server: 141.193.213.199
+  skip-cert-verify: false
+  sni: 1cyq93vs4amcu625.ukgogo202511.top
   type: trojan
-- name: 未知 TROJAN-1903 | free-nodes
-  password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-  port: 46014
-  server: hn.xiaohouzi.club
-  sni: hn.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1545 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10826
-  server: 183.236.51.2
-  type: trojan
-- name: 未知 TROJAN-1467 | free-nodes
-  password: 4d111af8-5078-37e0-a583-34155f60b32c
-  port: 44302
-  server: 152.70.143.228
-  type: trojan
-- name: 未知 TROJAN-1834 | free-nodes
-  password: 8800c518-e68a-4441-a45c-cd67855784c8
+  udp: true
+  ws-opts:
+    headers:
+      Host: 1cyq93vs4amcu625.ukgogo202511.top
+    path: /images
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯联邦-014 |630KB/s
+  password: AqZbt1QCs3ngEfXo1p7T-w
+  port: 1080
+  server: 81.200.158.206
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-036 |1.4MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.238
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-037 |1.4MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.239
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-038 |1.5MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.235
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-039 |1.3MB/s|GPT
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.224
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-040 |1.9MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.131
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-041 |579KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.196
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-042 |1.4MB/s|GPT
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.213
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-043 |1.4MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.153
+  type: ss
+  udp: true
+- name: 俄罗斯联邦-015 |3.8MB/s
+  password: Qzy7tgpRhu
   port: 443
-  server: hk2.sanfen001.pics
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
   type: trojan
-- name: 未知 TROJAN-1492 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 60047
-  server: hnm.xiaohouzi.club
-  sni: $$supaz05.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1941 | free-nodes
-  password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-044 |531KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.56
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-045 |2.4MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.119
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-046 |1.4MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.192
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-047 |0.7MB/s|GPT⁺|GM|YT|TK|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.54
+  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 德国-016 |1.9MB/s|GPT
+  network: http
+  port: 19751
+  server: 43.165.7.71
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6cfa6103-5d06-40cb-f452-b563db578288
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚-006 |2.5MB/s
+  password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
   port: 443
-  server: 159.65.147.91
-  type: trojan
-- name: 未知 TROJAN-1807 | free-nodes
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 210.0.158.220
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 未知 TROJAN-1889 | free-nodes
+  server: 95.111.222.113
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-048 |1.7MB/s|GPT⁺|GM|TK|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.75
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-049 |1.2MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.56
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-050 |1.9MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.31
+  type: ss
+- name: 香港-024 |24.67Mb
   network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.187.138
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1779 | free-nodes
   password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 1331
-  server: 153.121.67.215
+  port: 443
+  server: 58.152.110.82
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tls: true
   type: trojan
-- name: 未知 TROJAN-1915 | free-nodes
-  password: giosZwLNqAUWxczWJDYqXQDgNLMYwbKI
-  port: 889
-  server: ahgjs-4-tr-0.hkg-01.o-two.xyz
-  sni: o-two.bond
-  type: trojan
-- name: 未知 TROJAN-1527 | free-nodes
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 2760
-  server: 160.16.214.6
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1536 | free-nodes
-  password: 1b26d982-fd68-44f4-bf6d-22fe17a9249a
-  port: 20230
-  server: sg006.421421.xyz
-  sni: www.alibaba.com
-  type: trojan
-- name: 未知 TROJAN-2027 | free-nodes
-  password: 14bdba6dede262387ebdebaa706e1c90
-  port: 443
-  server: trs12.bolab.net
-  type: trojan
-- name: 未知 TROJAN-1546 | free-nodes
+  udp: true
+- name: 美国-018
+  network: ws
   password: trojan
-  port: 10002
-  server: 38.207.133.204
-  sni: qingming-b08.pages.dev
-  type: trojan
-- name: 未知 TROJAN-1881 | free-nodes
-  password: BxceQaOe
-  port: 4710
-  server: 43.198.206.171
+  port: 81
+  server: 82.117.252.189
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1557 | free-nodes
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  port: 18460
-  server: hn.xiaohouzi.club
-  sni: aru05.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1830 | free-nodes
-  password: mainssh-ddoejfv14
-  port: 443
-  server: 140.82.38.103
-  sni: frtgrpc.mainssh.xyz
-  type: trojan
-- name: 未知 TROJAN-1570 | free-nodes
-  password: BxceQaOe
-  port: 804
-  server: 3.112.225.115
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 未知 TROJAN-1577 | free-nodes
-  password: f8b7cd5e-60c4-4e95-9b7b-d561ef4eed8c
-  port: 443
-  server: 104.21.112.1
-  sni: yellow-cloud-d53f.vavovi6084.workers.dev
-  type: trojan
-- name: 未知 TROJAN-1578 | free-nodes
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  sni: shoppingmall.electricbanana.click
-  type: trojan
-- name: 未知 TROJAN-1586 | free-nodes
-  password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
-  port: 19240
-  server: 120.226.39.25
-  type: trojan
-- name: 未知 TROJAN-1594 | free-nodes
-  password: d4e41ff772c7fd45
-  port: 3389
-  server: 23.247.137.70
-  type: trojan
-- name: 未知 TROJAN-1602 | free-nodes
-  password: Sp3eDVp
-  port: 443
-  server: 185.212.200.75
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 未知 TROJAN-1713 | free-nodes
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.158.77.144
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1614 | free-nodes
-  network: ws
-  password: YwuvGJk36B
-  port: 2053
-  server: creativecommons.org
-  sni: kotlet.arshiacomplus.dpdns.org
+  sni: tianjiu.pages.dev
   type: trojan
   ws-opts:
-    path: /yamtekodasayahhh
-- name: 未知 TROJAN-1616 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.45.33.224
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- name: 未知 TROJAN-1691 | free-nodes
-  password: mainssh-ddoejfv14
-  port: 443
-  server: 95.179.254.136
-  sni: frtgrpc.mainssh.xyz
-  type: trojan
-- name: 未知 TROJAN-1621 | free-nodes
-  network: ws
-  password: 61374417-9218-4065-909b-ad1e3b50aa83
-  port: 443
-  server: 172.67.168.193
-  sni: gamang.gpj2.dpdns.org
-  type: trojan
-  ws-opts:
-    path: /Free-VPN-Geo-Project/80.66.85.115-2053
-- name: 未知 TROJAN-1956 | free-nodes
-  password: 39386ab3-db28-468f-b87b-471f4ab7ca1c
-  port: 443
-  server: 170.64.130.150
-  sni: $trxn.ballistics.top
-  type: trojan
-- name: 未知 TROJAN-1633 | free-nodes
-  password: b640d791-ff83-4300-b509-c2a02f97f167
-  port: 80
-  server: 51.38.71.175
-  sni: uk1.trojanvh.xyz
-  type: trojan
-- name: 未知 TROJAN-1862 | free-nodes
-  password: e35026da-e985-49ca-b43b-276062a535a6
-  port: 443
-  server: 104.21.79.246
-  sni: notdirect.howhealthyistoomajreally.homes
-  type: trojan
-- name: 未知 TROJAN-1639 | free-nodes
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  port: 65011
-  server: jp01a.roc-taiwan.net.ua
-  type: trojan
-- name: 未知 TROJAN-1641 | free-nodes
-  network: ws
-  password: f8b7cd5e-60c4-4e95-9b7b-d561ef4eed8c
-  port: 443
-  server: 104.21.112.1
-  sni: yellow-cloud-d53f.vavovi6084.workers.dev
-  type: trojan
-  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 未知 TROJAN-2040 | free-nodes
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  port: 443
-  server: 129.146.242.130
-  type: trojan
-- name: 未知 TROJAN-1746 | free-nodes
-  password: 0c6a3341e8d5ab17
-  port: 3389
-  server: 103.172.116.196
-  type: trojan
-- name: 未知 TROJAN-1652 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 20036
-  server: iplc.xiaohouzi.club
-  sni: $$nazhk03.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-2033 | free-nodes
-  password: e2afc128-ca51-39b6-897c-eb2649825df9
-  port: 25888
-  server: twb-zf.jiashumao.net
-  type: trojan
-- name: 未知 TROJAN-1667 | free-nodes
-  password: 7x42LetRa0
-  port: 1443
-  server: 106.180.225.69
-  type: trojan
-- grpc-opts:
-    grpc-service-name: trojangrpc
-  name: 未知 TROJAN-1720 | free-nodes
-  network: grpc
-  password: mainssh-niwrhf87
-  port: 443
-  server: 108.61.171.167
-  sni: getgrpc.mainssh.xyz
-  type: trojan
-- name: 未知 TROJAN-1735 | free-nodes
-  password: 34c52684-3aee-456d-8e21-fe16d0277e5a
-  port: 2096
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: false
-  sni: 17654164554016.796813.xyz
-  type: trojan
-- name: 未知 TROJAN-1945 | free-nodes
-  password: 08964210-e7b8-11ec-95aa-1239d0255272
-  port: 443
-  server: w12.udpgw.com
-  type: trojan
-- name: 未知 TROJAN-1753 | free-nodes
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: koma-yt.pages.dev
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-- name: 未知 TROJAN-1755 | free-nodes
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 1920
-  server: 36.156.102.84
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1764 | free-nodes
-  password: 34c52684-3aee-456d-8e21-fe16d0277e5a
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: false
-  sni: 17654164557421.206355.xyz
-  type: trojan
-- name: 未知 TROJAN-1770 | free-nodes
-  password: kSZddpnUKy
-  port: 41106
-  server: 150.136.57.125
-  type: trojan
-- name: 未知 TROJAN-1790 | free-nodes
-  network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: 2053
-  server: nop-55q.pages.dev
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
-  ws-opts:
-    path: /trGPZDfetEwuO25SAs?ed=2560
-- name: 未知 TROJAN-2015 | free-nodes
-  password: HdsUZmsHQW
-  port: 443
-  server: 148.113.141.99
-  type: trojan
-- name: 未知 TROJAN-2044 | free-nodes
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  port: 443
-  server: 138.2.45.243
-  type: trojan
-- name: 未知 TROJAN-2003 | free-nodes
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.49.46.49
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1823 | free-nodes
-  password: 34c52684-3aee-456d-8e21-fe16d0277e5a
-  port: 2096
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: false
-  sni: 17654164554158.796812.xyz
-  type: trojan
-- name: 未知 TROJAN-1828 | free-nodes
-  password: d150c8c3-a667-4d3e-843c-739f8558c7d2
-  port: 443
-  server: 198.244.190.189
-  type: trojan
-- name: 未知 TROJAN-1907 | free-nodes
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  port: 443
-  server: 129.146.135.157
-  type: trojan
-- name: 未知 TROJAN-1900 | free-nodes
-  password: telegram-id-directvpn
-  port: 22222
-  server: 35.91.162.93
-  sni: trj.rollingnext.co.uk
-  type: trojan
-- name: 未知 TROJAN-1867 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10823
-  server: 183.236.51.6
-  type: trojan
-- name: 未知 TROJAN-1880 | free-nodes
-  password: f282b878-8711-45a1-8c69-5564172123c1
-  port: 443
-  server: 172.67.181.173
-  sni: vpn.stupidworld.web.id
-  type: trojan
-- name: 未知 TROJAN-1888 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 443
-  server: 58.152.30.92
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1891 | free-nodes
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  port: 19354
-  server: hnm.xiaohouzi.club
-  sni: nazhk03.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-1977 | free-nodes
-  network: ws
-  password: vip
-  port: 443
-  server: www.ipget.net
-  sni: heihu880.pages.dev
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
-- name: 未知 TROJAN-1918 | free-nodes
-  password: KLF0qOU0ZZGw5Tnu
-  port: 443
-  server: 121.78.213.3
-  sni: swift.protocolbuffer.com
-  type: trojan
-- name: 未知 TROJAN-1933 | free-nodes
-  password: a13820c547fa34c5c45515c12f0cd576
-  port: 10051
-  server: zz6.91js.pw
-  type: trojan
-- name: 未知 TROJAN-1936 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 4054
-  server: 160.16.106.144
-  sni: www.nintendogames.net
-  type: trojan
-- name: 未知 TROJAN-1944 | free-nodes
-  network: ws
-  password: vip
-  port: 443
-  server: www.gco.gov.qa
-  sni: heihu880.pages.dev
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
-- name: 未知 TROJAN-1973 | free-nodes
-  password: e2afc128-ca51-39b6-897c-eb2649825df9
-  port: 40375
-  server: yn-zf.jiashumao.net
-  type: trojan
-- name: 未知 TROJAN-1980 | free-nodes
-  password: 7d223bae-e183-4bf6-89c3-e327b15df490
-  port: 10819
-  server: 183.236.51.3
-  type: trojan
-- name: 未知 TROJAN-1991 | free-nodes
-  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
-  port: 37548
-  server: gz01.xiaohouzi.club
-  sni: aru01.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-2006 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 20011
-  server: iplc.xiaohouzi.club
-  sni: iplc011.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-2008 | free-nodes
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  port: 28443
-  server: 45.82.253.234
-  type: trojan
-- name: 未知 TROJAN-2012 | free-nodes
-  password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-  port: 17108
-  server: hnm.xiaohouzi.club
-  sni: hnm.xiaohouzi.club
-  type: trojan
-- name: 未知 TROJAN-2022 | free-nodes
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 24673
-  server: 160.16.124.55
-  sni: www.baidu.com
-  type: trojan
-- name: 未知 TROJAN-2043 | free-nodes
-  password: c51d3975-a40c-4a5b-929b-c8595ed87850
-  port: 443
-  server: 15.168.28.231
-  sni: wel-usgt.optage.moe
-  type: trojan
-- name: 未知 TROJAN-2046 | free-nodes
-  password: 8aab51da-6b67-4bd2-b6e6-5ab3008cf53e
-  port: 443
-  server: jp.iamnotagoodman.com
-  type: trojan

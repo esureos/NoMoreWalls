@@ -1,14 +1,38 @@
 proxies:
-- name: 未知 TROJAN-2055 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 2890
-  server: 160.16.214.6
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+- name: 美国-010
+  network: ws
+  password: trojan
+  port: 80
+  server: 172.233.195.154
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
   type: trojan
-- name: US TROJAN-1679 | free-nodes
-  password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-015 |6.1MB/s
+  network: ws
+  password: 7f1744fb-e014-43e9-ab39-1dca96f5e604
   port: 443
-  server: kuame.missionsec.us
-  sni: kuame.missionsec.us
+  server: 141.193.213.199
+  skip-cert-verify: false
+  sni: 1cyq93vs4amcu625.ukgogo202511.top
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 1cyq93vs4amcu625.ukgogo202511.top
+    path: /images
+- name: 美国-018
+  network: ws
+  password: trojan
+  port: 81
+  server: 82.117.252.189
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560

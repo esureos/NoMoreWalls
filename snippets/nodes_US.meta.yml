@@ -1,105 +1,263 @@
 proxies:
-- name: All-@V2rayAlpha--46
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 美国-001 |3.7MB/s|GPT⁺|YT-CN|NF
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
+- encryption: none
+  name: 美国-002 |2.1MB/s
+  network: ws
+  port: 2096
+  server: 166.62.104.101
+  servername: spdf.qzz.io
+  tls: true
+  type: vless
+  uuid: 502524df-bb02-4a14-8362-d84caf2b0a76
+  ws-opts:
+    headers:
+      Host: spdf.qzz.io
+    path: Telegram🇨🇳@WangCai2/?ed=2560
+- encryption: none
+  name: 美国-003 |5.4MB/s
+  network: ws
+  port: 2096
+  server: 135.84.73.101
+  servername: spdf.qzz.io
+  tls: true
+  type: vless
+  uuid: 502524df-bb02-4a14-8362-d84caf2b0a76
+  ws-opts:
+    headers:
+      Host: spdf.qzz.io
+    path: Telegram🇨🇳@WangCai2/?ed=2560
+- encryption: none
+  name: 美国-004 |599KB/s
+  network: ws
+  port: 2096
+  server: 130.250.137.101
+  servername: spdf.qzz.io
+  tls: true
+  type: vless
+  uuid: 502524df-bb02-4a14-8362-d84caf2b0a76
+  ws-opts:
+    headers:
+      Host: spdf.qzz.io
+    path: Telegram🇨🇳@WangCai2/?ed=2560
+- name: 美国-005 |725KB/s
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  type: http
+  username: fQ67Dpe5dU
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    path:
+    - /
+  name: 美国-006 |3.1MB/s
+  network: tcp
+  port: 10001
+  reality-opts:
+    public-key: ip65cPljcoLAJwWfjL3SbikfdRHI2bhVpODh8mxbMmw
+    short-id: '!!str 1a24af87'
+  server: 172.233.171.226
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f1b978a-e1ea-4bcd-84fa-16d77cdc5b6a
+  xudp: true
+- client-fingerprint: chrome
+  mptcp: true
+  name: 美国-007
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 104.194.69.254
+  servername: sg.alice.cloudns.pro
   skip-cert-verify: false
-  sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-  tls: false
+  smux:
+    enabled: true
+    max-streams: 10
+    padding: true
+    protocol: h2mux
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  ws-opts:
+    headers:
+      Host: sg.alice.cloudns.pro
+    path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- client-fingerprint: chrome
+  mptcp: true
+  name: 美国-008
+  network: ws
+  packet-encoding: xudp
+  port: 57649
+  server: 38.150.2.108
+  servername: sg.alice.cloudns.pro
+  skip-cert-verify: false
+  smux:
+    enabled: true
+    max-streams: 10
+    padding: true
+    protocol: h2mux
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  ws-opts:
+    headers:
+      Host: sg.alice.cloudns.pro
+    path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- auth: 438f5bb2-5d94-4868-85c8-e9c417df7eaa
+  down: 300
+  name: 美国-009
+  password: 438f5bb2-5d94-4868-85c8-e9c417df7eaa
+  port: 29001
+  server: 74.48.64.203
+  skip-cert-verify: true
+  sni: cn.bing.com
   type: hysteria2
-- name: 'All--@IRAN_V2RAY1🇺🇸 #2'
-  password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+  udp: true
+  up: 300
+- name: 美国-010
+  network: ws
+  password: trojan
+  port: 80
+  server: 172.233.195.154
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 美国-011
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 52.14.83.3
+  skip-cert-verify: false
+  sni: hyfnus09.376897.xyz
+  type: hysteria2
+  udp: true
+- client-fingerprint: ios
+  name: 美国-012
+  network: ws
   port: 443
-  server: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
+  server: 69.84.182.18
+  servername: jpa1.xn--ghqu5fm27b67w.com
   skip-cert-verify: false
-  sni: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: 'All--@IRAN_V2RAY1🇺🇸 #3'
-  password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
-  port: 63979
-  server: 113.192.61.19
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cec99403-94cd-48c9-af6b-1ab100687e82
+  ws-opts:
+    headers:
+      host: jpa1.xn--ghqu5fm27b67w.com
+    path: /pq/jp1
+- client-fingerprint: chrome
+  name: 美国-013
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: pq-us6.globals-download.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cec99403-94cd-48c9-af6b-1ab100687e82
+  ws-opts:
+    headers:
+      host: pq-us6.globals-download.com
+    path: /pq/us6
+- auth: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
+  name: 美国-014 |964KB/s
+  password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
+  port: 47974
+  server: 75.127.13.83
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'All-@V2ray_Alpha--7 #1'
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 443
-  server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  skip-cert-verify: false
-  sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: 'All--@IRAN_V2RAY1🇺🇸 #5'
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 1743
-  server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-  skip-cert-verify: false
-  sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: US VLESS-25 | free-nodes
+  udp: true
+- name: 美国-015 |6.1MB/s
   network: ws
+  password: 7f1744fb-e014-43e9-ab39-1dca96f5e604
   port: 443
-  server: delilah.ns.cloudflare.com
-  servername: 639009907244596240.tucson-amsiz.info
-  tls: true
-  type: vless
-  uuid: 863ef1d6-1b13-4cb3-9052-6137fadfe1c5
+  server: 141.193.213.199
+  skip-cert-verify: false
+  sni: 1cyq93vs4amcu625.ukgogo202511.top
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: 639009907244596240.tucson-amsiz.info
-    path: '%2Fxlqwgows'
+      Host: 1cyq93vs4amcu625.ukgogo202511.top
+    path: /images
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US VLESS-26 | free-nodes
-  network: tcp
-  port: 4443
-  reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: '!!str aa7e96542880027a'
-  server: 5.180.24.11
-  servername: github.com
-  tls: false
-  type: vless
-  uuid: 281d153a-2fae-4725-84ed-602fb3627ca6
-- client-fingerprint: chrome
-  name: US VLESS-113 | free-nodes
+  encryption: none
+  name: 美国-016
   network: ws
-  port: 8443
-  server: 104.21.3.219
-  servername: ovhwuxian.pai50288.uk
+  port: 443
+  server: 69.84.182.13
+  servername: fr-1-fr-1.aiopen.sbs
   tls: true
   type: vless
-  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  udp: true
+  uuid: 1347acec-0c12-46c0-9436-19603093d9ab
   ws-opts:
     headers:
-      Host: ovhwuxian.pai50288.uk
-    path: '%2F57ba2ab1'
-- name: 未知 TROJAN-2055 | free-nodes
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 2890
-  server: 160.16.214.6
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US VLESS-133 | free-nodes
+      Host: fr-1-fr-1.aiopen.sbs
+    path: /kbjc/fr1
+  xudp: true
+- http-opts:
+    path:
+    - /
+  name: 德国-014 |6.6MB/s|9%|GPT⁺|YT-US|...
   network: tcp
-  port: 8443
-  reality-opts:
-    public-key: NR1UvDvyRqeRmYG1MRf-Ie78a97cmYvI_MAVpmzsexk
-    short-id: '!!str 1c588428648ffc71'
-  server: 216.106.176.106
-  servername: www.microsoft.com
-  tls: false
+  port: 10100
+  server: 168.119.104.156
   type: vless
-  uuid: f7af49ea-f51f-4c71-9e12-0c2f3085f3b8
-- name: US TROJAN-1679 | free-nodes
-  password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D
-  port: 443
-  server: kuame.missionsec.us
-  sni: kuame.missionsec.us
+  udp: true
+  uuid: 0c6fc388-2d1b-450b-a232-9df7dd56cd6b
+  xudp: true
+- auth: 7f1744fb-e014-43e9-ab39-1dca96f5e604
+  name: 美国-017 |5.4MB/s|GPT⁺|NF|GM
+  password: 7f1744fb-e014-43e9-ab39-1dca96f5e604
+  port: 52728
+  server: 172.96.161.74
+  skip-cert-verify: true
+  sni: apps.apple.com
+  type: hysteria2
+  udp: true
+- name: 美国-018
+  network: ws
+  password: trojan
+  port: 81
+  server: 82.117.252.189
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
   type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560

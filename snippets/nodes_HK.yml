@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 'HK_102 #1'
+  name: HK_102
   network: ws
   port: 80
   server: 486a4149-t0bog0-t14dgl-duku.hk3.p5pv.com
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_168 #1'
+  name: 🇭🇰 HK_168
   network: ws
   port: 80
   server: 2e617951-sv2sg0-taj9mo-1tco3.hk3.p5pv.com
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 'HK_134 #1'
+  name: HK_134
   network: ws
   port: 80
   server: 418446e2-sv2sg0-t2nkut-jx5r.hk3.p5pv.com
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰HK²_28|2.9MB/s|0%|NF|X #1'
+  name: 🇭🇰HK²_28|2.9MB/s|0%|NF|X
   network: ws
   port: 80
   server: eb328762-t6ngg0-t85e8f-141tv.hk3.p5pv.com
@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_177 #1'
+  name: 🇭🇰 HK_177
   network: ws
   port: 80
   server: fdda39f3-sv4n40-tasors-1tdqt.hk3.p5pv.com
@@ -66,7 +66,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_102 #1'
+  name: 🇭🇰 HK_102
   network: ws
   port: 80
   server: 5f0f42e9-sv4n40-t7udc0-1pqhp.hk3.p5pv.com
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_173 #1'
+  name: 🇭🇰 HK_173
   network: ws
   port: 80
   server: cf9c1166-sv2sg0-tcp4th-1c4g6.hk3.p5pv.com
@@ -92,7 +92,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 'HK_135 #1'
+  name: HK_135
   network: ws
   port: 80
   server: 04165a49-sv2sg0-t5cryd-4w8.hk3.p5pv.com
@@ -105,7 +105,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK-1.36.223.11-4974 #1'
+  name: 🇭🇰 HK-1.36.223.11-4974
   network: ws
   port: 80
   server: 80f0806d-szg740-t41p4y-1hpo0.hk3.p5pv.com
@@ -118,7 +118,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_172 #1'
+  name: 🇭🇰 HK_172
   network: ws
   port: 80
   server: 04e4679b-sv2sg0-swfla6-1rdqg.hk3.p5pv.com
@@ -131,7 +131,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_187 #1'
+  name: 🇭🇰 HK_187
   network: ws
   port: 80
   server: 266007c7-sv4n40-syu0n5-1hd7v.hk3.p5pv.com
@@ -144,7 +144,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 'HK_139 #1'
+  name: HK_139
   network: ws
   port: 80
   server: 0f64e685-sv0xs0-svwnuh-1t4wg.hk3.p5pv.com
@@ -157,7 +157,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_100 #1'
+  name: 🇭🇰 HK_100
   network: ws
   port: 80
   server: da79f07b-sv0xs0-t7hu58-1q1la.hk3.p5pv.com
@@ -170,7 +170,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_77 #1'
+  name: 🇭🇰 HK_77
   network: ws
   port: 80
   server: 3a0b963a-t02f40-tiuovf-v3c2.hk3.p5pv.com
@@ -183,7 +183,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰HK²_55|1.5MB/s|YT|NF|X #1'
+  name: 🇭🇰HK²_55|1.5MB/s|YT|NF|X
   network: ws
   port: 80
   server: 73256a3a-t53wg0-teivih-1rz31.hk3.p5pv.com
@@ -196,7 +196,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_116 #1'
+  name: 🇭🇰 HK_116
   network: ws
   port: 80
   server: 3f54bee7-sv4n40-tbpu76-1thmd.hk3.p5pv.com
@@ -209,7 +209,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK-1.36.223.11-5391 #1'
+  name: 🇭🇰 HK-1.36.223.11-5391
   network: ws
   port: 80
   server: 5e4f31de-sv0xs0-sv0wpw-17xo8.hk3.p5pv.com
@@ -222,7 +222,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_160 #1'
+  name: 🇭🇰 HK_160
   network: ws
   port: 80
   server: 272ffc58-sv2sg0-t4v3jz-1k8ga.hk3.p5pv.com
@@ -235,7 +235,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_124 #1'
+  name: 🇭🇰 HK_124
   network: ws
   port: 80
   server: a0ae8f27-sv4n40-sw5wi7-ufc0.hk3.p5pv.com
@@ -248,7 +248,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_171 #1'
+  name: 🇭🇰 HK_171
   network: ws
   port: 80
   server: 6bbeaaf6-sv4n40-t8tsp0-1szmi.hk3.p5pv.com
@@ -261,7 +261,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰HK²_24|1.8MB/s|2%|YT|X #1'
+  name: 🇭🇰HK²_24|1.8MB/s|2%|YT|X
   network: ws
   port: 80
   server: 6bbacbda-t1ekg0-t2uo6p-yjq0.hk3.p5pv.com
@@ -274,7 +274,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_103 #1'
+  name: 🇭🇰 HK_103
   network: ws
   port: 80
   server: 2bc8c2b4-sv0xs0-tcr97d-2b2n.hk3.p5pv.com
@@ -287,7 +287,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_104 #1'
+  name: 🇭🇰 HK_104
   network: ws
   port: 80
   server: 10cd2f16-sv2sg0-t7hu58-1q1la.hk3.p5pv.com
@@ -300,7 +300,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_179 #1'
+  name: 🇭🇰 HK_179
   network: ws
   port: 80
   server: 1dd7778a-sv4n40-szxh9w-46gc.hk3.p5pv.com
@@ -313,7 +313,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_64 #1'
+  name: 🇭🇰 HK_64
   network: ws
   port: 80
   server: 4cdbea97-t53wg0-to8xn3-l4nv.hk3.p5pv.com
@@ -326,7 +326,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 HK_66 #1'
+  name: 🇭🇰 HK_66
   network: ws
   port: 80
   server: dfed4efb-t4n8g0-t636g9-luwe.hk3.p5pv.com
@@ -337,50 +337,69 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: 未知 TROJAN-1464 | free-nodes
+- name: 香港-002 | RIPAOJIEDIAN
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 219.78.209.224
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 未知 TROJAN-204 | free-nodes
+  udp: true
+- client-fingerprint: chrome
+  name: 香港-003 |2.1MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tfo: false
+  tls: true
+  type: trojan
+  udp: true
+- name: 香港-005 |19.2MB/s|2%|YT|NF|D+|X...
   password: BxceQaOe
   port: 443
   server: 58.152.53.174
-  skip-cert-verify: false
-  sni: t.me%252Fripaojiedian
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
   type: trojan
-- name: 未知 TROJAN-1611 | free-nodes
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 香港-014 |0.9MB/s|2%|YT|NF|X|Kee...
+  network: ws
+  port: 443
+  server: 219.76.13.166
+  servername: aa.nbee.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
+  ws-opts:
+    headers:
+      HOST: aa.nbee.pp.ua
+    path: /qq
+- name: 香港-015 | 5.48Mb
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tfo: false
+  tls: true
+  type: trojan
+  udp: true
+- name: 香港-024 |24.67Mb
+  network: tcp
   password: 76d630f2af6619c4a5de0ef953df3c6a
   port: 443
   server: 58.152.110.82
+  skip-cert-verify: false
   sni: www.nintendogames.net
+  tls: true
   type: trojan
-- name: 未知 TROJAN-2051 | free-nodes
-  password: 92690597d6298061459918a371e8d77d
-  port: 443
-  server: 47.242.225.242
-  sni: hezijiasuqi.com
-  type: trojan
-- name: 未知 TROJAN-1717 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  sni: t.me%25252Fripaojiedian
-  type: trojan
-- name: HK TROJAN-137 | free-nodes
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: HK TROJAN-1850 | free-nodes
-  network: ws
-  password: vip
-  port: 8443
-  server: www.visa.com.hk
-  sni: heihu880.pages.dev
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
+  udp: true

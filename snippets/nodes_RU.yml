@@ -1,1 +1,59 @@
-proxies: []
+proxies:
+- name: 俄罗斯联邦-001 |3.1MB/s
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 5.182.84.22
+  skip-cert-verify: true
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 俄罗斯联邦-006 |2.4MB/s|GPT⁺|TK|X|K...
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 46.29.161.237
+  skip-cert-verify: true
+  sni: 46.29.161.237
+  tls: true
+  type: trojan
+  udp: true
+- name: 俄罗斯联邦-007
+  network: ws
+  password: trojan
+  port: 443
+  server: 45.135.135.131
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 俄罗斯联邦-012 |2.1MB/s
+  password: d3837224ed465f00
+  port: 57456
+  server: 45.139.26.173
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯联邦-014 |630KB/s
+  password: AqZbt1QCs3ngEfXo1p7T-w
+  port: 1080
+  server: 81.200.158.206
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 俄罗斯联邦-015 |3.8MB/s
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true

@@ -1,47 +1,78 @@
 proxies:
-- name: All--@IRAN_V2RAY1🇬🇧
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
-  sni: kotlet.arshiacomplus.dpdns.org
-  tls: false
-  type: hysteria2
-- name: GB VLESS-56 | free-nodes
-  port: 8443
-  server: 94.72.99.160
-  tls: false
-  type: vless
-  uuid: f5d7d068-3325-43d8-85bd-e8ed665abcd5
-- grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: GB VLESS-101 | free-nodes
-  network: grpc
-  port: 32418
-  server: 141.227.174.26
-  tls: false
-  type: vless
-  uuid: aab74025-0737-410c-b048-bcbde3bc1852
-- name: GB VLESS-122 | free-nodes
+- cipher: chacha20-ietf-poly1305
+  name: 英国-001 |2.0MB/s
+  password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
   port: 443
-  server: 108.162.195.45
-  tls: false
-  type: vless
-  uuid: 7270612b-49f6-4b04-999c-34d8263da767
+  server: 45.14.245.2
+  type: ss
+  udp: true
+- name: 英国-002
+  network: ws
+  password: trojan
+  port: 8443
+  server: 138.68.182.97
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
   ws-opts:
-    path: '%2Faymdlws'
-- name: GB VLESS-129 | free-nodes
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 英国-003 | 高速专线-hy2
+  password: cec99403-94cd-48c9-af6b-1ab100687e82
+  port: 35000
+  server: 85.159.92.99
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+- encryption: none
+  fast-open: false
+  name: 英国-004 |4.7MB/s|12%|GPT⁺|NF|D+...
   network: ws
   port: 443
-  server: cosmin.ns.cloudflare.com
-  servername: picassoo.info
+  server: 167.99.86.115
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    max-early-data: 2560
+    path: /
+- name: 英国-005 |4.4MB/s
+  network: ws
+  port: 443
+  server: 206.189.25.65
+  servername: kuangbao.xiejiang.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 7270612b-49f6-4b04-999c-34d8263da767
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
   ws-opts:
     headers:
-      Host: picassoo.info
-    path: '%2Faymdlws'
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 英国-006 |3.3MB/s
+  network: ws
+  port: 2096
+  server: 25.25.25.253
+  servername: alanconf.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
+  ws-opts:
+    headers:
+      Host: alanconf.info
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /
+  xudp: true
