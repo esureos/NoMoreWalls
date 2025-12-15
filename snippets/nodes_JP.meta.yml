@@ -1,21 +1,6 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 日本-001 |693KB/s
-  network: tcp
-  port: 2443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 178.239.126.118
-  servername: pizzastrada.jp
-  tls: true
-  type: vless
-  udp: true
-  uuid: d6b62381-8d75-4a0c-9946-bf8f40772afe
-  xudp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 日本-002
+  name: 日本-001
   password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   port: 8080
   server: 57.181.28.141
@@ -23,9 +8,22 @@ proxies:
   sni: jp06.476579.xyz
   type: hysteria2
   udp: true
-- name: 日本-003 |3.6MB/s|TK-JP|YT-CN|GP...
+- name: 日本-002 |3.8MB/s|YT-CN|GPT⁺
   password: vZ9gnU
   port: 38736
   server: 103.134.35.75
   type: http
   username: kZXMC3Z1
+- encryption: none
+  name: 日本-003 |5.0MB/s|YT-JP
+  network: ws
+  port: 42841
+  server: 43.165.190.11
+  servername: mot.morisi.ggff.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.morisi.ggff.net
+    path: /@Marisa_kristi

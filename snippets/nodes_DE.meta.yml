@@ -1,128 +1,21 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 德国-001 | 7.96Mb
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: broadcastlv.chat.bilibili.com
+- name: 德国-002
+  network: ws
+  password: trojan
+  port: 2004
+  server: 89.58.40.153
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: -@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN
-  name: 德国-002 |2.8MB/s
-  network: grpc
-  port: 3060
-  reality-opts:
-    public-key: LnDnwg2lFWruzisAY8t6ouWZ3JoQ_47XAl-jUx8tJx0
-    short-id: '!!str acd96c5fc628f1'
-  server: 91.98.92.70
-  servername: miro.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: '-----@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray'
-  name: 德国-003 |3.5MB/s
-  network: grpc
-  port: 2050
-  reality-opts:
-    public-key: WJTQY_Yo_AYMgT3nzuSLfDclRPTsb03TkfZayEPsyUc
-    short-id: '!!str acd96c5fc628f1'
-  server: 91.98.92.70
-  servername: miro.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn
-  name: 德国-004 |3.0MB/s
-  network: grpc
-  port: 2025
-  reality-opts:
-    public-key: dR17Gzr3ANEEM9cY1tsFMTmxNmkxQy6oDUAug8CZyxs
-    short-id: '!!str 76d1c1ac0b92f212'
-  server: 91.98.92.70
-  servername: miro.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c01340c-3d47-485f-b938-6182a452112c
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 德国-005 |3.8MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: i3AAHIiAZOk2-3BFfQlPN5eRBfBpLt53M3p0JKuE0Cw
-    short-id: '!!str 0d680ba281cb229b'
-  server: 85.192.24.131
-  servername: web.max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 07e0d9f5-6ed1-4bfb-8c19-311a312cba7d
-  xudp: true
-- auth: 3878e793-3cb6-4475-a016-c5d50dbc8b17
-  down: 100
-  name: 德国-006
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 3878e793-3cb6-4475-a016-c5d50dbc8b17
-  port: 443
-  server: 85.209.53.170
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- alpn:
-  - h3
-  name: 德国-007
-  password: c269c786-0d2f-424d-8d95-b2d5e50d888d
-  port: 10811
-  server: 5.231.70.217
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 德国-008 |3.9MB/s
-  password: 5BFVs5TE
-  port: 26234
-  server: 5.231.56.98
-  type: http
-  username: kZXMC3Z1
-- encryption: none
-  name: 德国-009 |3.5MB/s
-  network: tcp
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 德国-003
+  network: ws
+  password: trojan
   port: 8443
-  server: 5.75.231.32
-  type: vless
-  udp: true
-  uuid: 47c08e3c-1178-4b8b-b7cb-1d8c5c991477
-  xudp: true
-- name: 德国-010
-  network: ws
-  password: trojan
-  port: 20003
-  server: 194.24.161.146
+  server: 167.235.65.225
   skip-cert-verify: true
   sni: tianjiu.pages.dev
   type: trojan
@@ -130,71 +23,33 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 德国-011
-  network: ws
-  password: trojan
-  port: 8080
-  server: 185.110.189.174
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  name: 德国-012 |954KB/s
-  network: ws
-  port: 443
-  server: 77.37.33.39
-  servername: gb-8981.shenzogmbh.com
-  tls: true
+- encryption: none
+  name: 德国-004 |2.0MB/s
+  network: tcp
+  port: 110
+  server: 91.107.157.103
   type: vless
   udp: true
-  uuid: 5ec3a039-ea63-4bf9-a848-a65c9bfa66f5
-  ws-opts:
-    headers:
-      Host: gb-8981.shenzogmbh.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /api/v1
+  uuid: 0ee15f99-6f01-4339-b100-dbe2b6469688
   xudp: true
-- name: 德国-013 |1.6MB/s
-  network: ws
-  port: 2053
-  server: 81.200.154.2
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 德国-005 |2.2MB/s
+  network: grpc
+  port: 45415
+  server: 209.38.218.66
   type: vless
   udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- name: 德国-015
-  network: ws
-  port: 2053
-  server: 194.35.119.135
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
+  uuid: e5e1fd55-9174-4ae3-9471-ae2c6aea6198
+  xudp: true
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: 德国-016 |1.9MB/s|GPT
+  name: 德国-006 |1.9MB/s|GPT
   network: http
   port: 19751
   server: 43.165.7.71
@@ -203,31 +58,26 @@ proxies:
   type: vmess
   udp: true
   uuid: 6cfa6103-5d06-40cb-f452-b563db578288
-- client-fingerprint: chrome
-  name: 德国-017
-  network: ws
-  port: 2053
-  server: 85.193.92.242
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 德国-007 |3.0MB/s
+  network: grpc
+  port: 53478
+  server: 134.122.94.36
   type: vless
   udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
+  uuid: a8e856d9-1498-474b-a42c-1243563d18c9
   xudp: true
-- name: 德国-018 |6.4MB/s|GPT
-  network: ws
-  port: 10200
-  server: 168.119.104.156
-  type: vless
+- auth: 913d96fb-6fcf-4e1d-b66b-f23ec56672c3
+  down: 2
+  name: 德国-008
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 913d96fb-6fcf-4e1d-b66b-f23ec56672c3
+  port: 443
+  server: 85.209.53.170
+  skip-cert-verify: true
+  type: hysteria2
   udp: true
-  uuid: b786d9bd-b9f7-4587-a580-eb8a219f19f3
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-  xudp: true
+  up: 2

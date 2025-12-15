@@ -1,9 +1,22 @@
 proxies:
-- name: 美国-010
+- alterId: '0'
+  cipher: auto
+  name: 德国-001 |2.7MB/s|TK-US|YT-CN|GP...
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: 美国-002
   network: ws
   password: trojan
-  port: 80
-  server: 172.233.195.154
+  port: 10424
+  server: 193.29.14.205
   skip-cert-verify: true
   sni: tianjiu.pages.dev
   type: trojan
@@ -11,24 +24,53 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-015 |6.1MB/s
-  network: ws
-  password: 7f1744fb-e014-43e9-ab39-1dca96f5e604
-  port: 443
-  server: 141.193.213.199
+- alterId: '0'
+  cipher: auto
+  name: 美国-004 |1.5MB/s|GPT
+  network: tcp
+  port: 59807
+  server: 38.14.99.179
   skip-cert-verify: false
-  sni: 1cyq93vs4amcu625.ukgogo202511.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: 1cyq93vs4amcu625.ukgogo202511.top
-    path: /images
-- name: 美国-018
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  xudp: true
+- name: 美国-005
   network: ws
   password: trojan
-  port: 81
-  server: 82.117.252.189
+  port: 20015
+  server: 154.40.33.39
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- alterId: '0'
+  cipher: auto
+  name: 美国-006 |1.2MB/s
+  network: tcp
+  port: 59807
+  server: 38.14.99.163
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 荷兰-002 |5.3MB/s|0%|GPT⁺|YT-US|...
+  password: _bypfvq6ra7g4n5yCCR9DoVeGya2XUUS
+  port: 8444
+  server: 185.82.73.212
+  type: ss
+- name: 美国-008
+  network: ws
+  password: trojan
+  port: 443
+  server: 159.203.150.39
   skip-cert-verify: true
   sni: tianjiu.pages.dev
   type: trojan

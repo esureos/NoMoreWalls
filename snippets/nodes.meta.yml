@@ -13,12 +13,11 @@ proxies:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - cipher: aes-256-cfb
-  name: 韩国-007 | RIPAOJIEDIAN
+  name: '🇰🇷_KR_韩国 #1'
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
   type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: '🇰🇷_KR_韩国_1 #1'
   password: qwerREWQ@@
@@ -147,7 +146,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 法国-001 |1.8MB/s
+  name: 法国-002 |1.6MB/s
   port: 50011
   protocol: udp
   server: 62.210.10.186
@@ -377,98 +376,55 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 0
-  name: 香港-001 |17.6MB/s|2%|YT-CN|NF|D...
+- name: 香港-001 |2.5MB/s
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.18.95
-  skip-cert-verify: true
-  sni: 58.152.18.95
-  tfo: false
-  tls: true
-  type: trojan
-  udp: true
-- name: 香港-002 | RIPAOJIEDIAN
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.78.209.224
+  server: 58.152.25.153
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 香港-003 |2.1MB/s
-  network: tcp
+- name: 香港-002 |7.7MB/s
+  password: nOEy3w0R
+  port: 20344
+  server: 8.218.207.5
+  type: http
+  username: kZXMC3Z1
+- name: 香港-003 |3.4MB/s
   password: BxceQaOe
   port: 443
-  server: 58.152.25.20
+  server: 219.79.214.159
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  tfo: false
-  tls: true
   type: trojan
   udp: true
-- name: 香港-004 |0.5MB/s|2%|YT-CN|NF|D+...
+- name: 香港-004 |3.3MB/s|YT-CN|NF|D+|X|...
   network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.25.242
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: t.me%25252Fripaojiedian
   tfo: false
   tls: true
   type: trojan
   udp: true
-- name: 香港-005 |19.2MB/s|2%|YT|NF|D+|X...
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.174
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 日本-001
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 57.181.28.141
+  skip-cert-verify: false
+  sni: jp06.476579.xyz
+  type: hysteria2
   udp: true
-- name: 韩国-001 |1.0MB/s
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 日本-001 |693KB/s
-  network: tcp
-  port: 2443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 178.239.126.118
-  servername: pizzastrada.jp
-  tls: true
-  type: vless
-  udp: true
-  uuid: d6b62381-8d75-4a0c-9946-bf8f40772afe
-  xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 美国-001 |3.7MB/s|GPT⁺|YT-CN|NF
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: '55'
-  name: 荷兰-001 |3.4MB/s
+  name: 荷兰-001 |3.7MB/s|TK-NL|GPT⁺
   port: 49003
   protocol: udp
   server: 51.159.226.1
@@ -477,45 +433,43 @@ proxies:
   type: hysteria
   udp: true
   up: '11'
-- encryption: none
-  name: 美国-002 |2.1MB/s
-  network: ws
-  port: 2096
-  server: 166.62.104.101
-  servername: spdf.qzz.io
-  tls: true
-  type: vless
-  uuid: 502524df-bb02-4a14-8362-d84caf2b0a76
-  ws-opts:
-    headers:
-      Host: spdf.qzz.io
-    path: Telegram🇨🇳@WangCai2/?ed=2560
-- encryption: none
-  name: 美国-003 |5.4MB/s
-  network: ws
-  port: 2096
-  server: 135.84.73.101
-  servername: spdf.qzz.io
-  tls: true
-  type: vless
-  uuid: 502524df-bb02-4a14-8362-d84caf2b0a76
-  ws-opts:
-    headers:
-      Host: spdf.qzz.io
-    path: Telegram🇨🇳@WangCai2/?ed=2560
-- encryption: none
-  name: 美国-004 |599KB/s
-  network: ws
-  port: 2096
-  server: 130.250.137.101
-  servername: spdf.qzz.io
-  tls: true
-  type: vless
-  uuid: 502524df-bb02-4a14-8362-d84caf2b0a76
-  ws-opts:
-    headers:
-      Host: spdf.qzz.io
-    path: Telegram🇨🇳@WangCai2/?ed=2560
+- name: 美国-001 |1.0MB/s
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  type: http
+  username: fQ67Dpe5dU
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '100'
+  name: 法国-001 |4.0MB/s|TK-FR|YT-FR|GP...
+  port: 15010
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '100'
+- alterId: '0'
+  cipher: auto
+  name: 德国-001 |2.7MB/s|TK-US|YT-CN|GP...
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: 日本-002 |3.8MB/s|YT-CN|GPT⁺
+  password: vZ9gnU
+  port: 38736
+  server: 103.134.35.75
+  type: http
+  username: kZXMC3Z1
 - cipher: chacha20-ietf-poly1305
   name: 英国-001 |2.0MB/s
   password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
@@ -523,49 +477,203 @@ proxies:
   server: 45.14.245.2
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-001 | 7.96Mb
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: broadcastlv.chat.bilibili.com
+- name: 美国-002
+  network: ws
+  password: trojan
+  port: 10424
+  server: 193.29.14.205
   skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-003 |2.2MB/s
+  password: V8SKoIbr
+  port: 38353
+  server: 154.29.151.219
+  type: http
+  username: kZXMC3Z1
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-005
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 202.85.53.135
+  skip-cert-verify: false
+  sni: hkt05.476579.xyz
+  type: hysteria2
+  udp: true
+- name: 香港-006
+  password: wanghui1
+  port: 3000
+  server: 43.252.229.243
+  type: http
+  username: wanghui1
+- alterId: '0'
+  cipher: auto
+  name: 美国-004 |1.5MB/s|GPT
+  network: tcp
+  port: 59807
+  server: 38.14.99.179
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- encryption: none
-  grpc-opts:
-    grpc-service-name: -@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN
-  name: 德国-002 |2.8MB/s
-  network: grpc
-  port: 3060
-  reality-opts:
-    public-key: LnDnwg2lFWruzisAY8t6ouWZ3JoQ_47XAl-jUx8tJx0
-    short-id: 'acd96c5fc628f1'
-  server: 91.98.92.70
-  servername: miro.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   xudp: true
+- name: 美国-005
+  network: ws
+  password: trojan
+  port: 20015
+  server: 154.40.33.39
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: 法国-003 |1.6MB/s
+  port: 35511
+  protocol: udp
+  server: 62.210.10.186
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '11'
+- name: 德国-002
+  network: ws
+  password: trojan
+  port: 2004
+  server: 89.58.40.153
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 德国-003
+  network: ws
+  password: trojan
+  port: 8443
+  server: 167.235.65.225
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- alterId: '0'
+  cipher: auto
+  name: 美国-006 |1.2MB/s
+  network: tcp
+  port: 59807
+  server: 38.14.99.163
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  xudp: true
+- cipher: aes-128-gcm
+  name: 【机场推荐：https://a0a.xyz/】23
+  password: kfuzkwdg4oynv495aywc
+  port: 13262
+  server: 86.106.84.195
+  tfo: false
+  type: ss
+  udp: true
 - encryption: none
-  grpc-opts:
-    grpc-service-name: '-----@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray'
-  name: 德国-003 |3.5MB/s
-  network: grpc
-  port: 2050
-  reality-opts:
-    public-key: WJTQY_Yo_AYMgT3nzuSLfDclRPTsb03TkfZayEPsyUc
-    short-id: 'acd96c5fc628f1'
-  server: 91.98.92.70
-  servername: miro.com
-  tls: true
+  name: 德国-004 |2.0MB/s
+  network: tcp
+  port: 110
+  server: 91.107.157.103
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 0ee15f99-6f01-4339-b100-dbe2b6469688
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 法国-004 |4.1MB/s
+  port: 26691
+  protocol: udp
+  server: 62.210.196.68
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
+- cipher: aes-128-gcm
+  name: 【机场推荐：https://a0a.xyz/】2
+  password: phizo046s4oqsm33sfvm
+  port: 13265
+  server: 86.106.84.198
+  tfo: false
+  type: ss
+  udp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 德国-005 |2.2MB/s
+  network: grpc
+  port: 45415
+  server: 209.38.218.66
+  type: vless
+  udp: true
+  uuid: e5e1fd55-9174-4ae3-9471-ae2c6aea6198
+  xudp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 美国-007
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 52.14.83.3
+  skip-cert-verify: false
+  sni: hyfnus09.376897.xyz
+  type: hysteria2
+  udp: true
+- name: 法国-005 |2.9MB/s
+  password: dongtaiwang.com
+  port: 33880
+  server: 195.154.206.231
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 德国-006 |1.9MB/s|GPT
+  network: http
+  port: 19751
+  server: 43.165.7.71
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6cfa6103-5d06-40cb-f452-b563db578288
+- encryption: none
+  http-opts:
+    path:
+    - /
+  name: 英国-002 |4.1MB/s|GPT
+  network: tcp
+  port: 4655
+  server: 94.237.121.29
+  type: vless
+  udp: true
+  uuid: 82f9beee-a609-47f2-9142-14c25258dc0b
   xudp: true
 - name: 俄罗斯联邦-001 |3.1MB/s
   network: ws
@@ -578,187 +686,81 @@ proxies:
   udp: true
   ws-opts:
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 美国-005 |725KB/s
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  type: http
-  username: fQ67Dpe5dU
 - encryption: none
   grpc-opts:
-    grpc-service-name: Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn
-  name: 德国-004 |3.0MB/s
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 德国-007 |3.0MB/s
   network: grpc
-  port: 2025
-  reality-opts:
-    public-key: dR17Gzr3ANEEM9cY1tsFMTmxNmkxQy6oDUAug8CZyxs
-    short-id: '76d1c1ac0b92f212'
-  server: 91.98.92.70
-  servername: miro.com
-  tls: true
+  port: 53478
+  server: 134.122.94.36
   type: vless
   udp: true
-  uuid: 7c01340c-3d47-485f-b938-6182a452112c
+  uuid: a8e856d9-1498-474b-a42c-1243563d18c9
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55
-  name: 法国-002 |1.1MB/s
-  port: 35511
-  protocol: udp
-  server: 62.210.10.186
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
+- cipher: chacha20-ietf-poly1305
+  name: 荷兰-002 |5.3MB/s|0%|GPT⁺|YT-US|...
+  password: _bypfvq6ra7g4n5yCCR9DoVeGya2XUUS
+  port: 8444
+  server: 185.82.73.212
+  type: ss
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 英国-003 |2.6MB/s
+  network: grpc
+  port: 21250
+  server: 209.38.168.122
+  type: vless
   udp: true
-  up: 11
-- name: 香港-006 |5.4MB/s|2%|YT-CN|NF|D+...
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tfo: false
+  uuid: 69239696-f17e-4eb2-a337-7ce07d65d23d
+  xudp: true
+- encryption: none
+  name: 日本-003 |5.0MB/s|YT-JP
+  network: ws
+  port: 42841
+  server: 43.165.190.11
+  servername: mot.morisi.ggff.net
   tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.morisi.ggff.net
+    path: /@Marisa_kristi
+- cipher: chacha20-ietf-poly1305
+  name: 瑞士-003 |3.8MB/s
+  password: nqcIfYHlpMn3jzqkNDjKaG
+  port: 25572
+  server: 138.124.67.26
+  type: ss
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 新加坡-001
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 103.190.179.49
+  skip-cert-verify: false
+  sni: sg11.352343.cc
+  type: hysteria2
+  udp: true
+- name: 美国-008
+  network: ws
+  password: trojan
+  port: 443
+  server: 159.203.150.39
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
   type: trojan
-  udp: true
-- name: 香港-007 |4.9MB/s
-  password: nOEy3w0R
-  port: 20344
-  server: 8.218.207.5
-  type: http
-  username: kZXMC3Z1
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
 - encryption: none
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 摩尔多瓦-001 |3.6MB/s
-  network: tcp
-  port: 443
-  server: 103.113.71.9
-  servername: deu637.webunlocked.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51be809d-3e82-4090-b14f-a42a32100ff9
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 德国-005 |3.8MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: i3AAHIiAZOk2-3BFfQlPN5eRBfBpLt53M3p0JKuE0Cw
-    short-id: '0d680ba281cb229b'
-  server: 85.192.24.131
-  servername: web.max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 07e0d9f5-6ed1-4bfb-8c19-311a312cba7d
-  xudp: true
-- auth: 3878e793-3cb6-4475-a016-c5d50dbc8b17
-  down: 100
-  name: 德国-006
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 3878e793-3cb6-4475-a016-c5d50dbc8b17
-  port: 443
-  server: 85.209.53.170
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 100
-- alpn:
-  - h3
-  name: 德国-007
-  password: c269c786-0d2f-424d-8d95-b2d5e50d888d
-  port: 10811
-  server: 5.231.70.217
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 荷兰-002 |4.8MB/s|GPT|39%
-  network: grpc
-  port: 46106
-  server: 141.227.130.6
-  type: vless
-  udp: true
-  uuid: 89d98d66-4695-400d-9fdf-7767af9f24a5
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-002 |2.6MB/s|0%|GPT⁺|GM|...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: lJscl0GgEiVZtTVrMVI6O0-zSJTgmug9Cs-KJqpxWw0
-    short-id: 'f6fb0261a102c0c8'
-  server: 89.23.101.203
-  servername: www.vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d5f7970e-121f-4e6f-9acf-250effc0715b
-  xudp: true
-- name: 荷兰-003 |3.7MB/s|GPT⁺|X
-  port: 1080
-  server: 104.248.197.67
-  skip-cert-verify: true
-  type: socks5
-- encryption: none
-  http-opts:
-    path:
-    - /
-  name: 美国-006 |3.1MB/s
-  network: tcp
-  port: 10001
-  reality-opts:
-    public-key: ip65cPljcoLAJwWfjL3SbikfdRHI2bhVpODh8mxbMmw
-    short-id: '1a24af87'
-  server: 172.233.171.226
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0f1b978a-e1ea-4bcd-84fa-16d77cdc5b6a
-  xudp: true
-- auth: dongtaiwang.com
-  name: 法国-003 |2.8MB/s
-  password: dongtaiwang.com
-  port: 5355
-  server: 163.172.21.105
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-  udp: true
-- name: 新加坡-001 |6.5MB/s|0%|GPT⁺|GM|X|...
-  port: 10808
-  server: 213.35.126.34
-  skip-cert-verify: true
-  type: socks5
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-003 |2.6MB/s
+  name: 俄罗斯联邦-002 |5.8MB/s|7%|GPT⁺|YT-...
   network: tcp
   port: 7443
   reality-opts:
@@ -771,281 +773,267 @@ proxies:
   udp: true
   uuid: 2f0e01f3-8c74-458e-a474-b4aa4ac879aa
   xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-004 |4.2MB/s
-  network: tcp
-  port: 1488
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 51.250.99.190
-  servername: ads.x5.ru
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 瑞士-004 |2.5MB/s
+  password: UdKq4itZdbbvsy0PCHTEUi
+  port: 443
+  server: 138.124.67.26
+  type: ss
   udp: true
-  uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-  xudp: true
-- cipher: aes-256-cfb
-  name: 越南-001 |699KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.51
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-002 |1.5MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.152
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-003 |1.5MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.129
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-004 |2.1MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.205
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-005 |2.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.249
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-006 |1.1MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.146
-  type: ss
-- flow: xtls-rprx-vision
-  fp: chrome
-  name: 俄罗斯联邦-005 |796KB/s
-  network: tcp
-  pbk: yMs4tt6a4h1RVpAlLGatQ7mfNtvsUCkteaxJGTbWcGc
-  port: 8443
-  reality-opts:
-    public-key: yMs4tt6a4h1RVpAlLGatQ7mfNtvsUCkteaxJGTbWcGc
-    short-id: 'cb7cc107ab90bac8'
-  security: reality
-  server: 85.192.33.79
-  servername: sun6-21.userapi.com
-  sid: cb7cc107ab90bac8
-  sni: sun6-21.userapi.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 4a406d5c-839d-41f0-83b1-c03a62eb0e6b
-- cipher: aes-256-cfb
-  name: 越南-007 |1.5MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.215
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-008 |649KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.236
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-009 |1.3MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.237
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-010 |1.3MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.150
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-011 |1.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.50
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-012 |2.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.84
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-013 |548KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.17
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-014 |1.6MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.38
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-015 |2.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.44
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-016 |1.7MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.83
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-017 |1.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.19
-  type: ss
 - encryption: none
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 荷兰-004 |1.0MB/s
+  name: 俄罗斯联邦-003 |5.5MB/s|0%|GPT⁺|TK|...
   network: tcp
-  port: 8443
+  port: 443
   reality-opts:
-    public-key: 8W9r2aXGhKNtvPxnL6EiPpQuSm9OJT17x2xyxwxIo30
-    short-id: '84f70f1177981563'
-  server: 167.17.70.16
-  servername: www.microsoft.com
+    public-key: zkeQCEkz7LlrzwzeG26Ae_HEk3_QlgM9CbiWJx5iWh0
+  server: 83.166.255.72
+  servername: 01.img.avito.st
   tls: true
   type: vless
   udp: true
-  uuid: 55975415-43c0-461c-8752-d5b8013364e3
+  uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
+  xudp: true
+- encryption: none
+  name: 美国-009
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: jp1-jp1.aiopen.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+  ws-opts:
+    headers:
+      Host: jp1-jp1.aiopen.sbs
+    path: /kbjc/jp1
+  xudp: true
+- name: 新加坡-002 |5.3MB/s|0%|GPT⁺|X|Kee...
+  port: 10808
+  server: 213.35.126.34
+  skip-cert-verify: true
+  type: socks5
+- cipher: aes-256-cfb
+  name: 越南-001 |819KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.164
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-002 |2.1MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.51
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-003 |2.2MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.81
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-004 |2.5MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.207
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-005 |704KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.178
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-006 |1.3MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.12
+  type: ss
+- encryption: none
+  name: 荷兰-003 |3.2MB/s
+  network: ws
+  port: 80
+  server: 185.18.184.66
+  servername: hello.96xckkzx.workers.dev
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: hello.96xckkzx.workers.dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /?ed=2048@v2ray_configs_pools--@v2ray_configs_pools
   xudp: true
 - cipher: aes-256-cfb
-  name: 越南-018 |896KB/s
+  name: 越南-007 |1.2MB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.63
+  server: 103.186.155.234
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-019 |1.2MB/s
+  name: 越南-008 |1.2MB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.12
+  server: 103.186.155.56
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-020 |1.1MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.108
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-021 |2.9MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.8
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-022 |2.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.111
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-023 |961KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.59
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-024 |2.3MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.60
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-025 |1.8MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.63
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-026 |2.3MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.32
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-027 |2.9MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.240
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-028 |1.6MB/s
+  name: 越南-009 |1.6MB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.33
   type: ss
+- auth: 913d96fb-6fcf-4e1d-b66b-f23ec56672c3
+  down: 2
+  name: 德国-008
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 913d96fb-6fcf-4e1d-b66b-f23ec56672c3
+  port: 443
+  server: 85.209.53.170
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 2
 - cipher: aes-256-cfb
-  name: 越南-029 |1.5MB/s
+  name: 越南-010 |798KB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.4
+  server: 103.186.155.207
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-030 |1.3MB/s
+  name: 越南-011 |2.1MB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.9
+  server: 103.186.155.230
   type: ss
-- cipher: aes-256-cfb
-  name: 越南-031 |1.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.40
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-032 |2.1MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.23
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-033 |2.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.58
-  type: ss
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 新加坡-003
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 103.190.179.40
+  skip-cert-verify: false
+  sni: sg10.352343.cc
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 新加坡-004
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 103.190.179.39
+  skip-cert-verify: false
+  sni: sg05.453521.xyz
+  type: hysteria2
+  udp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  down: '100'
-  name: 法国-004 |4.2MB/s
-  port: 15010
+  down: 55 Mbps
+  name: 美国-010 |3.7MB/s|GPT⁺|YT-CN|NF
+  port: 38845
   protocol: udp
-  server: 195.154.200.40
+  server: 208.87.243.151
   skip-cert-verify: true
-  sni: apple.com
+  sni: www.bing.com
   type: hysteria
-  up: '100'
+  udp: true
+  up: 11 Mbps
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-007
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 202.85.53.125
+  skip-cert-verify: false
+  sni: hkt04.476579.xyz
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-008
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 202.85.53.140
+  skip-cert-verify: false
+  sni: hkt06.476579.xyz
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-009
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 202.85.53.141
+  skip-cert-verify: false
+  sni: hkt07.344233.cc
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-010
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 202.85.53.98
+  skip-cert-verify: false
+  sni: hkmax03.476579.xyz
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-011
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 175.29.23.21
+  skip-cert-verify: false
+  sni: hkmax01.376897.xyz
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-012
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 202.85.53.169
+  skip-cert-verify: false
+  sni: hkt09.344233.cc
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-013
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 202.85.53.142
+  skip-cert-verify: false
+  sni: hkt08.344233.cc
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 新加坡-005
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 103.190.179.54
+  skip-cert-verify: false
+  sni: sg13.352343.cc
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-014
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 202.85.53.103
+  skip-cert-verify: false
+  sni: hkmax06.767887.xyz
+  type: hysteria2
+  udp: true
 - cipher: aes-256-cfb
-  name: 越南-034 |1.8MB/s
+  name: 越南-012 |773KB/s|GPT
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.149
+  server: 103.186.155.122
   type: ss
-- name: 德国-008 |3.9MB/s
-  password: 5BFVs5TE
-  port: 26234
-  server: 5.231.56.98
-  type: http
-  username: kZXMC3Z1
+  udp: true
 - mptcp: true
-  name: 美国-007
+  name: 美国-011
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -1069,7 +1057,7 @@ proxies:
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
 - mptcp: true
-  name: 美国-008
+  name: 美国-012
   network: ws
   packet-encoding: xudp
   port: 57649
@@ -1092,1153 +1080,6 @@ proxies:
     path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- auth: 438f5bb2-5d94-4868-85c8-e9c417df7eaa
-  down: 300
-  name: 美国-009
-  password: 438f5bb2-5d94-4868-85c8-e9c417df7eaa
-  port: 29001
-  server: 74.48.64.203
-  skip-cert-verify: true
-  sni: cn.bing.com
-  type: hysteria2
-  udp: true
-  up: 300
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-008
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 202.85.53.140
-  skip-cert-verify: false
-  sni: hkt06.476579.xyz
-  type: hysteria2
-  udp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-009
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 202.85.53.125
-  skip-cert-verify: false
-  sni: hkt04.476579.xyz
-  type: hysteria2
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 新加坡-002
-  network: tcp
-  port: 25001
-  reality-opts:
-    public-key: 5MvE55sHm_m1gELvk4PRRsPU1NEPyBI955o4djmDzEc
-    short-id: '5a226d27'
-  server: 140.245.46.100
-  servername: www.mcdaniel.edu
-  tls: true
-  type: vless
-  udp: true
-  uuid: 438f5bb2-5d94-4868-85c8-e9c417df7eaa
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-010
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 202.85.53.98
-  skip-cert-verify: false
-  sni: hkmax03.476579.xyz
-  type: hysteria2
-  udp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-011
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 202.85.53.141
-  skip-cert-verify: false
-  sni: hkt07.344233.cc
-  type: hysteria2
-  udp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-012
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 202.85.53.169
-  skip-cert-verify: false
-  sni: hkt09.344233.cc
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-003 | RIPAOJIEDIAN
-  password: q92MrrP9oJ3lMEzbQFpyuU
-  port: 21166
-  server: 209.74.81.149
-  type: ss
-  udp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-013
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 202.85.53.142
-  skip-cert-verify: false
-  sni: hkt08.344233.cc
-  type: hysteria2
-  udp: true
-- name: 荷兰-005 |8.5MB/s|TK-NL|YT-NL|GP...
-  port: 1080
-  server: 161.35.82.57
-  type: socks5
-  udp: true
-- name: 澳大利亚-001
-  network: ws
-  password: trojan
-  port: 443
-  server: 103.73.65.187
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: 法国-005 |2.3MB/s|KeepSucced
-  port: 35511
-  protocol: udp
-  server: 62.210.127.217
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '11'
-- name: 美国-010
-  network: ws
-  password: trojan
-  port: 80
-  server: 172.233.195.154
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- encryption: none
-  name: 德国-009 |3.5MB/s
-  network: tcp
-  port: 8443
-  server: 5.75.231.32
-  type: vless
-  udp: true
-  uuid: 47c08e3c-1178-4b8b-b7cb-1d8c5c991477
-  xudp: true
-- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  name: 法国-006
-  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  port: 50000
-  ports: 50000-53000
-  server: 89.168.32.96
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 摩尔多瓦-002 |810KB/s
-  password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
-  port: 443
-  server: 213.159.67.124
-  type: ss
-  udp: true
-- name: 英国-002
-  network: ws
-  password: trojan
-  port: 8443
-  server: 138.68.182.97
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 法国-007 |2.1MB/s
-  port: 50011
-  protocol: udp
-  server: 62.210.127.217
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
-- name: 摩尔多瓦-003
-  network: ws
-  password: trojan
-  port: 81
-  server: 94.131.119.136
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 新加坡-004
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 103.190.179.39
-  skip-cert-verify: false
-  sni: sg05.453521.xyz
-  type: hysteria2
-  udp: true
-- name: 英国-003 | 高速专线-hy2
-  password: cec99403-94cd-48c9-af6b-1ab100687e82
-  port: 35000
-  server: 85.159.92.99
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-- name: 德国-010
-  network: ws
-  password: trojan
-  port: 20003
-  server: 194.24.161.146
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 香港-014 |0.9MB/s|2%|YT|NF|X|Kee...
-  network: ws
-  port: 443
-  server: 219.76.13.166
-  servername: aa.nbee.pp.ua
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
-  ws-opts:
-    headers:
-      HOST: aa.nbee.pp.ua
-    path: /qq
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 新加坡-005
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 103.190.179.52
-  skip-cert-verify: false
-  sni: hkmax02.352343.cc
-  type: hysteria2
-  udp: true
-- name: 芬兰-001
-  network: ws
-  password: trojan
-  port: 6444
-  server: 46.62.144.110
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- encryption: none
-  fast-open: false
-  name: 英国-004 |4.7MB/s|12%|GPT⁺|NF|D+...
-  network: ws
-  port: 443
-  server: 167.99.86.115
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    max-early-data: 2560
-    path: /
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 美国-011
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 52.14.83.3
-  skip-cert-verify: false
-  sni: hyfnus09.376897.xyz
-  type: hysteria2
-  udp: true
-- name: 香港-015 | 5.48Mb
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tfo: false
-  tls: true
-  type: trojan
-  udp: true
-- name: 德国-011
-  network: ws
-  password: trojan
-  port: 8080
-  server: 185.110.189.174
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- client-fingerprint: ios
-  name: 美国-012
-  network: ws
-  port: 443
-  server: 69.84.182.18
-  servername: jpa1.xn--ghqu5fm27b67w.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cec99403-94cd-48c9-af6b-1ab100687e82
-  ws-opts:
-    headers:
-      host: jpa1.xn--ghqu5fm27b67w.com
-    path: /pq/jp1
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 新加坡-006
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 103.190.179.40
-  skip-cert-verify: false
-  sni: sg10.352343.cc
-  type: hysteria2
-  udp: true
-- name: 英国-005 |4.4MB/s
-  network: ws
-  port: 443
-  server: 206.189.25.65
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- name: 美国-013
-  network: ws
-  port: 443
-  server: 69.84.182.108
-  servername: pq-us6.globals-download.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cec99403-94cd-48c9-af6b-1ab100687e82
-  ws-opts:
-    headers:
-      host: pq-us6.globals-download.com
-    path: /pq/us6
-- name: 芬兰-002
-  network: ws
-  password: trojan
-  port: 87
-  server: 65.109.196.103
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 俄罗斯联邦-006 |2.4MB/s|GPT⁺|TK|X|K...
-  password: af4b064a9c39472fb34ad8b113acdc6b
-  port: 443
-  server: 46.29.161.237
-  skip-cert-verify: true
-  sni: 46.29.161.237
-  tls: true
-  type: trojan
-  udp: true
-- name: 香港-016
-  password: wanghui1
-  port: 3000
-  server: 43.252.229.243
-  type: http
-  username: wanghui1
-- name: 芬兰-003
-  network: ws
-  password: trojan
-  port: 8080
-  server: 65.109.190.248
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 香港-017 |19.2MB/s|2%|YT-CN|NF|D...
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.118.116.66
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  fast-open: true
-  name: 荷兰-006 |4.1MB/s
-  port: 37519
-  ports: 10000-20000
-  protocol: udp
-  server: 109.104.153.91
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 1000
-- name: 俄罗斯联邦-007
-  network: ws
-  password: trojan
-  port: 443
-  server: 45.135.135.131
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 韩国-002 |1.1MB/s|GPT⁺|GM|X
-  port: 1080
-  server: 8.220.194.115
-  skip-cert-verify: true
-  type: socks5
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-008 |7.2MB/s|TK-RU|YT-RU
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 73XglR9lOaXBISd7mGgTEP60v28mz8pmCDivcDAF_WU
-    short-id: '7c9cc821'
-  server: 176.123.162.253
-  servername: pimg.mycdn.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a2a6062-003c-0012-b293-ee0d0416afee
-  xudp: true
-- encryption: none
-  name: 韩国-003 |1.4MB/s
-  network: ws
-  port: 31337
-  server: 211.219.241.28
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-009 |5.0MB/s|YT|TK|X|Kee...
-  network: tcp
-  port: 2443
-  reality-opts:
-    public-key: IgaNLuUg1JOIoUdX4CegMU_XBU35B5RAYRL_-KZfpSY
-    short-id: 'c84a28bb05989ff4'
-  server: 158.160.175.98
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 62b0e46b-d2a5-423d-8457-95bde707fc19
-  xudp: true
-- name: 新加坡-007 |3.1MB/s|GPT⁺
-  password: Uxhl4WjczX
-  port: 31319
-  server: 103.229.96.181
-  type: http
-  username: uxOwbuiu1s
-- encryption: none
-  http-opts:
-    path:
-    - /
-  name: 法国-008 |1.4MB/s
-  network: tcp
-  port: 2066
-  reality-opts:
-    public-key: -Z0BnqW2MHBXjDsB2a8-KPfg8GqTO1uIPXriHQAMhSY
-    short-id: '6b245ab1'
-  server: 185.193.17.80
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 44830663-914e-4127-a9b3-412406f59cbe
-  xudp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 法国-009 |3.3MB/s
-  network: grpc
-  port: 56089
-  server: 141.227.172.96
-  type: vless
-  udp: true
-  uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
-  xudp: true
-- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  name: 澳大利亚-002
-  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  port: 50000
-  ports: 50000-53000
-  server: 152.69.160.74
-  skip-cert-verify: true
-  sni: fastcdn.hoyoverse.com
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  flow: xtls-rprx-vision
-  name: 香港-018
-  network: tcp
-  port: 1234
-  reality-opts:
-    public-key: _L3ta9tN2BGO3OO5BiHrI4FMhXuJ0BvAwfZ4HHYKuWw
-    short-id: 'd7fb0b4ebf'
-  server: 91.149.237.50
-  servername: tesla.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c0e8c949-c719-469f-9f18-eeb04243bceb
-- encryption: none
-  name: 英国-006 |3.3MB/s
-  network: ws
-  port: 2096
-  server: 25.25.25.253
-  servername: alanconf.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
-  ws-opts:
-    headers:
-      Host: alanconf.info
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-010 |2.1MB/s
-  network: tcp
-  port: 4249
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 51.250.24.245
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-  xudp: true
-- auth: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
-  name: 美国-014 |964KB/s
-  password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
-  port: 47974
-  server: 75.127.13.83
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-  udp: true
-- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  name: 澳大利亚-003
-  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  port: 50000
-  ports: 50000-53000
-  server: 168.138.109.21
-  skip-cert-verify: true
-  sni: fastcdn.hoyoverse.com
-  type: hysteria2
-  udp: true
-- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  name: 韩国-004 | X3
-  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  port: 50000
-  ports: 50000-53000
-  server: 193.123.238.66
-  skip-cert-verify: true
-  sni: fastcdn.hoyoverse.com
-  type: hysteria2
-  udp: true
-- encryption: none
-  name: 德国-012 |954KB/s
-  network: ws
-  port: 443
-  server: 77.37.33.39
-  servername: gb-8981.shenzogmbh.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5ec3a039-ea63-4bf9-a848-a65c9bfa66f5
-  ws-opts:
-    headers:
-      Host: gb-8981.shenzogmbh.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /api/v1
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-011 |2.3MB/s|TK-EE|YT-RU...
-  network: tcp
-  port: 1243
-  reality-opts:
-    public-key: jcJeCbLo5JtfveFIQLV6WNm1148XzxDc0Rzy336hXy0
-    short-id: 'ff3cef7cdcf9'
-  server: 45.92.176.55
-  servername: rontgen.fasssst.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d29bde62-daa4-4804-9c69-6e23a4150006
-  xudp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 俄罗斯联邦-012 |2.1MB/s
-  password: d3837224ed465f00
-  port: 57456
-  server: 45.139.26.173
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: true
-- encryption: none
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-013 |2.2MB/s|YT|TK|X|Kee...
-  network: tcp
-  port: 52900
-  reality-opts:
-    public-key: AjYSCSFHfqOg-NbP_ngiRvJkKNKZXuHNDa1sJd4TRRQ
-    short-id: '1fbc'
-  server: 62.113.42.65
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97e7c83c-9346-49b4-85a5-1e3bbf7488b9
-  xudp: true
-- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  name: 韩国-005 | X3
-  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  port: 50000
-  ports: 50000-53000
-  server: 193.123.237.20
-  skip-cert-verify: true
-  sni: fastcdn.hoyoverse.com
-  type: hysteria2
-  udp: true
-- name: 澳大利亚-004 | 高速专线-hy2
-  password: cec99403-94cd-48c9-af6b-1ab100687e82
-  port: 35000
-  server: 207.211.147.108
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
-- name: 新加坡-008 | 高速专线-hy2
-  password: cec99403-94cd-48c9-af6b-1ab100687e82
-  port: 35000
-  server: 152.69.220.212
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 越南-035 |750KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.122
-  type: ss
-  udp: true
-- name: 美国-015 |6.1MB/s
-  network: ws
-  password: 7f1744fb-e014-43e9-ab39-1dca96f5e604
-  port: 443
-  server: 141.193.213.199
-  skip-cert-verify: false
-  sni: 1cyq93vs4amcu625.ukgogo202511.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 1cyq93vs4amcu625.ukgogo202511.top
-    path: /images
-- cipher: chacha20-ietf-poly1305
-  name: 俄罗斯联邦-014 |630KB/s
-  password: AqZbt1QCs3ngEfXo1p7T-w
-  port: 1080
-  server: 81.200.158.206
-  type: ss
-  udp: true
-- encryption: none
-  name: 美国-016
-  network: ws
-  port: 443
-  server: 69.84.182.13
-  servername: fr-1-fr-1.aiopen.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1347acec-0c12-46c0-9436-19603093d9ab
-  ws-opts:
-    headers:
-      Host: fr-1-fr-1.aiopen.sbs
-    path: /kbjc/fr1
-  xudp: true
-- name: 韩国-006 | 高速专线-hy2
-  password: cec99403-94cd-48c9-af6b-1ab100687e82
-  port: 35000
-  server: 146.56.164.36
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
-- name: 德国-013 |1.6MB/s
-  network: ws
-  port: 2053
-  server: 81.200.154.2
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- name: 澳大利亚-005 | 高速专线-hy2
-  password: cec99403-94cd-48c9-af6b-1ab100687e82
-  port: 35000
-  server: 158.179.18.251
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
-- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  name: 阿联酋-001
-  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  port: 50000
-  ports: 50000-53000
-  server: 139.185.49.195
-  skip-cert-verify: true
-  sni: fastcdn.hoyoverse.com
-  type: hysteria2
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-036 |1.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.238
-  type: ss
-  udp: true
-- name: 香港-019 | 移动联通推荐
-  password: cec99403-94cd-48c9-af6b-1ab100687e82
-  port: 35000
-  server: 103.197.71.117
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 越南-037 |1.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.239
-  type: ss
-- http-opts:
-    path:
-    - /
-  name: 德国-014 |6.6MB/s|9%|GPT⁺|YT-US|...
-  network: tcp
-  port: 10100
-  server: 168.119.104.156
-  type: vless
-  udp: true
-  uuid: 0c6fc388-2d1b-450b-a232-9df7dd56cd6b
-  xudp: true
-- cipher: aes-256-cfb
-  name: 越南-038 |1.5MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.235
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-039 |1.3MB/s|GPT
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.224
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-040 |1.9MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.131
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-041 |579KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.196
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-042 |1.4MB/s|GPT
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.213
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-043 |1.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.153
-  type: ss
-  udp: true
-- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  name: 阿联酋-002
-  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  port: 50000
-  ports: 50000-53000
-  server: 193.123.93.213
-  skip-cert-verify: true
-  sni: fastcdn.hoyoverse.com
-  type: hysteria2
-  udp: true
-- name: 俄罗斯联邦-015 |3.8MB/s
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: m.vk.com
-  type: trojan
-  udp: true
-- name: 德国-015
-  network: ws
-  port: 2053
-  server: 194.35.119.135
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- name: 香港-020 | 移动联通推荐
-  password: cec99403-94cd-48c9-af6b-1ab100687e82
-  port: 35000
-  server: 103.197.71.75
-  skip-cert-verify: true
-  sni: tv.apple.com
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 越南-044 |531KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.56
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-045 |2.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.119
-  type: ss
-- auth: 7f1744fb-e014-43e9-ab39-1dca96f5e604
-  name: 美国-017 |5.4MB/s|GPT⁺|NF|GM
-  password: 7f1744fb-e014-43e9-ab39-1dca96f5e604
-  port: 52728
-  server: 172.96.161.74
-  skip-cert-verify: true
-  sni: apps.apple.com
-  type: hysteria2
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-046 |1.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.192
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-047 |0.7MB/s|GPT⁺|GM|YT|TK|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.54
-  type: ss
-- client-fingerprint: random
-  encryption: none
-  name: 俄罗斯联邦-016 |2.2MB/s
-  network: tcp
-  port: 49943
-  reality-opts:
-    public-key: _7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw
-    short-id: 'ffffffffff'
-  server: 89.23.113.137
-  servername: ietf.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 德国-016 |1.9MB/s|GPT
-  network: http
-  port: 19751
-  server: 43.165.7.71
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6cfa6103-5d06-40cb-f452-b563db578288
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚-006 |2.5MB/s
-  password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
-  port: 443
-  server: 95.111.222.113
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-048 |1.7MB/s|GPT⁺|GM|TK|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.75
-  type: ss
-- name: 德国-017
-  network: ws
-  port: 2053
-  server: 85.193.92.242
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-  xudp: true
-- name: 俄罗斯联邦-017
-  network: ws
-  port: 2053
-  server: 80.90.187.190
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-  xudp: true
-- cipher: aes-256-cfb
-  name: 越南-049 |1.2MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.56
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-050 |1.9MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.31
-  type: ss
-- name: 阿联酋-003 | 高速专线-hy2
-  password: cec99403-94cd-48c9-af6b-1ab100687e82
-  port: 35000
-  server: 139.185.46.236
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-021
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 202.85.53.103
-  skip-cert-verify: false
-  sni: hkmax06.767887.xyz
-  type: hysteria2
-  udp: true
-- name: 俄罗斯联邦-018 |561KB/s
-  port: 1080
-  server: 5.183.70.46
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-018 |6.4MB/s|GPT
-  network: ws
-  port: 10200
-  server: 168.119.104.156
-  type: vless
-  udp: true
-  uuid: b786d9bd-b9f7-4587-a580-eb8a219f19f3
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-  xudp: true
-- encryption: none
-  name: 阿联酋-004 |4.6MB/s
-  network: ws
-  port: 443
-  server: 139.185.34.131
-  servername: kuangbao.xiejiang.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 新加坡-009
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 103.190.179.54
-  skip-cert-verify: false
-  sni: sg13.352343.cc
-  type: hysteria2
-  udp: true
-- encryption: none
-  name: 香港-022 |4.8MB/s
-  network: ws
-  port: 443
-  server: 8.217.180.234
-  servername: kuangbao.xiejiang.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/39.0.2171.95 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-023
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 175.29.23.21
-  skip-cert-verify: false
-  sni: hkmax01.376897.xyz
-  type: hysteria2
-  udp: true
-- name: 澳大利亚-007 | 高速专线-hy2
-  password: cec99403-94cd-48c9-af6b-1ab100687e82
-  port: 35000
-  server: 159.13.35.245
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  type: hysteria2
-- name: 俄罗斯联邦-019 |4.7MB/s|GPT⁺|X
-  port: 10808
-  server: 193.42.125.156
-  skip-cert-verify: true
-  type: socks5
-- name: 香港-024 |24.67Mb
-  network: tcp
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 443
-  server: 58.152.110.82
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 日本-002
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 57.181.28.141
-  skip-cert-verify: false
-  sni: jp06.476579.xyz
-  type: hysteria2
-  udp: true
-- name: 日本-003 |3.6MB/s|TK-JP|YT-CN|GP...
-  password: vZ9gnU
-  port: 38736
-  server: 103.134.35.75
-  type: http
-  username: kZXMC3Z1
-- name: 美国-018
-  network: ws
-  password: trojan
-  port: 81
-  server: 82.117.252.189
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- cipher: aes-128-gcm
-  name: 【机场推荐：https://a0a.xyz/】2
-  password: phizo046s4oqsm33sfvm
-  port: 13265
-  server: 86.106.84.198
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 【机场推荐：https://a0a.xyz/】3
   password: wwzVn2ZnHfqYa6l8EWh3eY
@@ -2416,13 +1257,6 @@ proxies:
     headers:
       Host: img14.360buyimg.com
     path: /obj
-- cipher: aes-128-gcm
-  name: 【机场推荐：https://a0a.xyz/】23
-  password: kfuzkwdg4oynv495aywc
-  port: 13262
-  server: 86.106.84.195
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 【机场推荐：https://a0a.xyz/】27

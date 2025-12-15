@@ -1,1 +1,31 @@
-proxies: []
+proxies:
+- cipher: aes-128-gcm
+  name: 【机场推荐：https://a0a.xyz/】23
+  password: kfuzkwdg4oynv495aywc
+  port: 13262
+  server: 86.106.84.195
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 【机场推荐：https://a0a.xyz/】2
+  password: phizo046s4oqsm33sfvm
+  port: 13265
+  server: 86.106.84.198
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 瑞士-003 |3.8MB/s
+  password: nqcIfYHlpMn3jzqkNDjKaG
+  port: 25572
+  server: 138.124.67.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 瑞士-004 |2.5MB/s
+  password: UdKq4itZdbbvsy0PCHTEUi
+  port: 443
+  server: 138.124.67.26
+  type: ss
+  udp: true

@@ -6,15 +6,3 @@ proxies:
   server: 45.14.245.2
   type: ss
   udp: true
-- name: 英国-002
-  network: ws
-  password: trojan
-  port: 8443
-  server: 138.68.182.97
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560

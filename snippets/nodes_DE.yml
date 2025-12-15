@@ -1,21 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 德国-001 | 7.96Mb
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 德国-010
+- name: 德国-002
   network: ws
   password: trojan
-  port: 20003
-  server: 194.24.161.146
+  port: 2004
+  server: 89.58.40.153
   skip-cert-verify: true
   sni: tianjiu.pages.dev
   type: trojan
@@ -23,11 +11,11 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 德国-011
+- name: 德国-003
   network: ws
   password: trojan
-  port: 8080
-  server: 185.110.189.174
+  port: 8443
+  server: 167.235.65.225
   skip-cert-verify: true
   sni: tianjiu.pages.dev
   type: trojan
@@ -41,7 +29,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 德国-016 |1.9MB/s|GPT
+  name: 德国-006 |1.9MB/s|GPT
   network: http
   port: 19751
   server: 43.165.7.71

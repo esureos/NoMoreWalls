@@ -6,73 +6,26 @@ proxies:
   server: 45.14.245.2
   type: ss
   udp: true
-- name: 英国-002
-  network: ws
-  password: trojan
-  port: 8443
-  server: 138.68.182.97
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 英国-003 | 高速专线-hy2
-  password: cec99403-94cd-48c9-af6b-1ab100687e82
-  port: 35000
-  server: 85.159.92.99
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
 - encryption: none
-  fast-open: false
-  name: 英国-004 |4.7MB/s|12%|GPT⁺|NF|D+...
-  network: ws
-  port: 443
-  server: 167.99.86.115
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  http-opts:
+    path:
+    - /
+  name: 英国-002 |4.1MB/s|GPT
+  network: tcp
+  port: 4655
+  server: 94.237.121.29
   type: vless
   udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    max-early-data: 2560
-    path: /
-- name: 英国-005 |4.4MB/s
-  network: ws
-  port: 443
-  server: 206.189.25.65
-  servername: kuangbao.xiejiang.dpdns.org
-  skip-cert-verify: false
-  tls: true
+  uuid: 82f9beee-a609-47f2-9142-14c25258dc0b
+  xudp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 英国-003 |2.6MB/s
+  network: grpc
+  port: 21250
+  server: 209.38.168.122
   type: vless
   udp: true
-  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-  ws-opts:
-    headers:
-      Host: kuangbao.xiejiang.dpdns.org
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  name: 英国-006 |3.3MB/s
-  network: ws
-  port: 2096
-  server: 25.25.25.253
-  servername: alanconf.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
-  ws-opts:
-    headers:
-      Host: alanconf.info
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /
+  uuid: 69239696-f17e-4eb2-a337-7ce07d65d23d
   xudp: true
