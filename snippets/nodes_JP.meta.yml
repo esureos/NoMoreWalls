@@ -8,7 +8,7 @@ proxies:
   sni: jp06.476579.xyz
   type: hysteria2
   udp: true
-- name: 日本-002 |3.8MB/s|YT-CN|GPT⁺
+- name: 日本-002 |3.0MB/s|TK-JP|YT-CN|GP...
   password: vZ9gnU
   port: 38736
   server: 103.134.35.75

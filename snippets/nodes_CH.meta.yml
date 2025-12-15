@@ -1,17 +1,17 @@
 proxies:
 - cipher: aes-128-gcm
-  name: 【机场推荐：https://a0a.xyz/】23
-  password: kfuzkwdg4oynv495aywc
-  port: 13262
-  server: 86.106.84.195
-  tfo: false
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
   name: 【机场推荐：https://a0a.xyz/】2
   password: phizo046s4oqsm33sfvm
   port: 13265
   server: 86.106.84.198
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 【机场推荐：https://a0a.xyz/】23
+  password: kfuzkwdg4oynv495aywc
+  port: 13262
+  server: 86.106.84.195
   tfo: false
   type: ss
   udp: true

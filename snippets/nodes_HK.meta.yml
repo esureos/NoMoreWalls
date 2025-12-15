@@ -337,73 +337,42 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: 香港-001 |2.5MB/s
+- name: 香港-001 |18.1MB/s|2%|YT|NF|D+|X
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.79.214.159
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tfo: false
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 香港-002 |1.1MB/s
   network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.25.153
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tls: true
   type: trojan
   udp: true
-- name: 香港-002 |7.7MB/s
+- name: 香港-003
+  password: 76nlxJLO35
+  port: 36855
+  server: 172.93.165.193
+  type: http
+  username: xZedCGy2A5
+- name: 香港-004
   password: nOEy3w0R
   port: 20344
   server: 8.218.207.5
   type: http
   username: kZXMC3Z1
-- name: 香港-003 |3.4MB/s
-  password: BxceQaOe
-  port: 443
-  server: 219.79.214.159
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   name: 香港-005
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 202.85.53.135
-  skip-cert-verify: false
-  sni: hkt05.476579.xyz
-  type: hysteria2
-  udp: true
-- name: 香港-006
-  password: wanghui1
-  port: 3000
-  server: 43.252.229.243
-  type: http
-  username: wanghui1
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-007
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 202.85.53.125
-  skip-cert-verify: false
-  sni: hkt04.476579.xyz
-  type: hysteria2
-  udp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-008
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 202.85.53.140
-  skip-cert-verify: false
-  sni: hkt06.476579.xyz
-  type: hysteria2
-  udp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-009
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 202.85.53.141
-  skip-cert-verify: false
-  sni: hkt07.344233.cc
-  type: hysteria2
-  udp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-010
   password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   port: 8080
   server: 202.85.53.98
@@ -412,25 +381,31 @@ proxies:
   type: hysteria2
   udp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-011
+  name: 香港-006
   password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   port: 8080
-  server: 175.29.23.21
+  server: 202.85.53.140
   skip-cert-verify: false
-  sni: hkmax01.376897.xyz
+  sni: hkt06.476579.xyz
+  type: hysteria2
+  udp: true
+- name: 香港-007
+  password: wanghui1
+  port: 3000
+  server: 43.252.229.243
+  type: http
+  username: wanghui1
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-008
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 202.85.53.135
+  skip-cert-verify: false
+  sni: hkt05.476579.xyz
   type: hysteria2
   udp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-012
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 202.85.53.169
-  skip-cert-verify: false
-  sni: hkt09.344233.cc
-  type: hysteria2
-  udp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-013
+  name: 香港-009
   password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   port: 8080
   server: 202.85.53.142
@@ -439,11 +414,38 @@ proxies:
   type: hysteria2
   udp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 香港-014
+  name: 香港-010
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 175.29.23.21
+  skip-cert-verify: false
+  sni: hkmax01.376897.xyz
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-011
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 202.85.53.141
+  skip-cert-verify: false
+  sni: hkt07.344233.cc
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-012
   password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   port: 8080
   server: 202.85.53.103
   skip-cert-verify: false
   sni: hkmax06.767887.xyz
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 香港-013
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 202.85.53.125
+  skip-cert-verify: false
+  sni: hkt04.476579.xyz
   type: hysteria2
   udp: true

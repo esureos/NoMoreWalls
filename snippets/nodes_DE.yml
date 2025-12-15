@@ -1,35 +1,11 @@
 proxies:
-- name: 德国-002
-  network: ws
-  password: trojan
-  port: 2004
-  server: 89.58.40.153
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 德国-003
-  network: ws
-  password: trojan
-  port: 8443
-  server: 167.235.65.225
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: 德国-006 |1.9MB/s|GPT
+  name: 德国-001 |1.9MB/s|GPT
   network: http
   port: 19751
   server: 43.165.7.71

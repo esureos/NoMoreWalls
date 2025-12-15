@@ -1,55 +1,11 @@
 proxies:
-- name: 德国-002
-  network: ws
-  password: trojan
-  port: 2004
-  server: 89.58.40.153
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 德国-003
-  network: ws
-  password: trojan
-  port: 8443
-  server: 167.235.65.225
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- encryption: none
-  name: 德国-004 |2.0MB/s
-  network: tcp
-  port: 110
-  server: 91.107.157.103
-  type: vless
-  udp: true
-  uuid: 0ee15f99-6f01-4339-b100-dbe2b6469688
-  xudp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 德国-005 |2.2MB/s
-  network: grpc
-  port: 45415
-  server: 209.38.218.66
-  type: vless
-  udp: true
-  uuid: e5e1fd55-9174-4ae3-9471-ae2c6aea6198
-  xudp: true
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: 德国-006 |1.9MB/s|GPT
+  name: 德国-001 |1.9MB/s|GPT
   network: http
   port: 19751
   server: 43.165.7.71
@@ -58,26 +14,24 @@ proxies:
   type: vmess
   udp: true
   uuid: 6cfa6103-5d06-40cb-f452-b563db578288
-- encryption: none
-  grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 德国-007 |3.0MB/s
-  network: grpc
-  port: 53478
-  server: 134.122.94.36
-  type: vless
-  udp: true
-  uuid: a8e856d9-1498-474b-a42c-1243563d18c9
-  xudp: true
-- auth: 913d96fb-6fcf-4e1d-b66b-f23ec56672c3
+- auth: d39fcc67-2047-4799-bc49-d014200a754f
   down: 2
-  name: 德国-008
+  name: 德国-002
   obfs: salamander
   obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 913d96fb-6fcf-4e1d-b66b-f23ec56672c3
+  password: d39fcc67-2047-4799-bc49-d014200a754f
   port: 443
   server: 85.209.53.170
   skip-cert-verify: true
   type: hysteria2
   udp: true
   up: 2
+- encryption: none
+  name: 德国-003 |2.0MB/s
+  network: tcp
+  port: 110
+  server: 91.107.157.103
+  type: vless
+  udp: true
+  uuid: 0ee15f99-6f01-4339-b100-dbe2b6469688
+  xudp: true

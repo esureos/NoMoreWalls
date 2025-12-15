@@ -1,20 +1,39 @@
 proxies:
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 新加坡-001
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 103.190.179.49
-  skip-cert-verify: false
-  sni: sg11.352343.cc
-  type: hysteria2
-  udp: true
-- name: 新加坡-002 |5.3MB/s|0%|GPT⁺|X|Kee...
+- name: 新加坡-001 |3.3MB/s|YT-SG|GPT⁺
   port: 10808
   server: 213.35.126.34
   skip-cert-verify: true
   type: socks5
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 新加坡-002
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 103.190.179.54
+  skip-cert-verify: false
+  sni: sg13.352343.cc
+  type: hysteria2
+  udp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   name: 新加坡-003
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 103.190.179.55
+  skip-cert-verify: false
+  sni: sg12.352343.cc
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 新加坡-004
+  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  port: 8080
+  server: 103.190.179.52
+  skip-cert-verify: false
+  sni: hkmax02.352343.cc
+  type: hysteria2
+  udp: true
+- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
+  name: 新加坡-005
   password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   port: 8080
   server: 103.190.179.40
@@ -23,20 +42,11 @@ proxies:
   type: hysteria2
   udp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 新加坡-004
+  name: 新加坡-006
   password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   port: 8080
   server: 103.190.179.39
   skip-cert-verify: false
   sni: sg05.453521.xyz
-  type: hysteria2
-  udp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 新加坡-005
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 103.190.179.54
-  skip-cert-verify: false
-  sni: sg13.352343.cc
   type: hysteria2
   udp: true
