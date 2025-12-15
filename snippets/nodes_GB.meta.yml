@@ -1,10 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 【机场推荐：https://a0a.xyz/】_4
+  name: 英国-001 |2.0MB/s
   password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
   port: 443
   server: 45.14.245.2
-  tfo: false
   type: ss
   udp: true
 - name: 英国-002
