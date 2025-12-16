@@ -5,8 +5,23 @@ proxies:
   skip-cert-verify: true
   type: socks5
   udp: true
+- encryption: none
+  name: 新加坡-002 |3.0MB/s
+  network: ws
+  port: 42409
+  server: 143.198.222.68
+  type: vless
+  udp: true
+  uuid: 7519638e-b786-4279-baaf-8501548caf1f
+  ws-opts:
+    headers:
+      Host: zoom.us
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/31.0.1650.57 Safari/537.36
+    path: /FREE By Tharuwa (0767597317)
+  xudp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 新加坡-002
+  name: 新加坡-003
   password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   port: 8080
   server: 103.190.179.54
@@ -15,7 +30,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 新加坡-003
+  name: 新加坡-004
   password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   port: 8080
   server: 103.190.179.55
@@ -24,7 +39,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 新加坡-004
+  name: 新加坡-005
   password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   port: 8080
   server: 103.190.179.52
@@ -33,20 +48,11 @@ proxies:
   type: hysteria2
   udp: true
 - auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 新加坡-005
+  name: 新加坡-006
   password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
   port: 8080
   server: 103.190.179.40
   skip-cert-verify: false
   sni: sg10.352343.cc
-  type: hysteria2
-  udp: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 新加坡-006
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 103.190.179.39
-  skip-cert-verify: false
-  sni: sg05.453521.xyz
   type: hysteria2
   udp: true
