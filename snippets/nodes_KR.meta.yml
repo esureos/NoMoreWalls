@@ -11,3 +11,9 @@ proxies:
   port: 4652
   server: p141.panda001.net
   type: ss
+- name: 韩国-001
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  udp: true

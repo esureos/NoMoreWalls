@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- name: 新加坡-001 |1.5MB/s|GPT⁺|GM|X
+  port: 1011
+  server: 47.237.70.144
+  skip-cert-verify: true
+  type: socks5
+- name: 新加坡-002 |3.4MB/s|YT-SG|GPT⁺
+  port: 10808
+  server: 213.35.126.34
+  skip-cert-verify: true
+  type: socks5
+  udp: true

@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: 印度-001 |7.9MB/s|GPT⁺|GM|YT-CA|...
+  network: tcp
+  port: 550
+  server: 103.97.203.220
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+  xudp: true

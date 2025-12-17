@@ -1,1 +1,26 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 日本-001 |5.1MB/s|GPT
+  network: tcp
+  port: 27724
+  reality-opts:
+    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+  server: 116.80.44.144
+  servername: www.yahoo.co.jp
+  tls: true
+  type: vless
+  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+- name: 日本-002 |1.5MB/s
+  password: 7a88d322-eb4a-4a59-8c62-8c60d76abf4b
+  port: 28253
+  server: 161.33.185.230
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 日本-003 |4.7MB/s|YT-CN|GPT⁺
+  password: vZ9gnU
+  port: 38736
+  server: 103.134.35.75
+  type: http
+  username: kZXMC3Z1

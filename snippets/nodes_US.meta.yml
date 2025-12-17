@@ -5,26 +5,106 @@ proxies:
   server: 154.26.192.123
   type: http
   username: fQ67Dpe5dU
-- cipher: chacha20-ietf-poly1305
-  name: 美国-002 |11.1MB/s|TK-US|YT-US|G...
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: feb7fa9:154948
-    mode: tls
-    tls: false
-  port: 2377
-  server: 88.210.36.107
-  type: ss
+- client-fingerprint: chrome
+  mptcp: true
+  name: 美国-002
+  network: ws
+  packet-encoding: xudp
+  port: 22800
+  server: 154.17.2.173
+  servername: us.alice.cloudns.pro
+  skip-cert-verify: false
+  smux:
+    enabled: true
+    max-streams: 10
+    padding: true
+    protocol: h2mux
+  tfo: true
+  tls: true
+  type: vless
   udp: true
+  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  ws-opts:
+    headers:
+      Host: us.alice.cloudns.pro
+    path: /siehdfioshfiosdfskkk
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 美国-003
+  network: tcp
+  port: 28190
+  reality-opts:
+    public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+  server: 159.89.87.21
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 美国-004 |1.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BaTi5Wrua_Oo_CMJ-uQ6UWtDId9z9IhzoOvRe2qvBhQ
+    short-id: '!!str 63d80d5199a2bc'
+  server: 158.62.198.132
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd7d3e61-288e-4d0f-b5dc-591dcdbc119f
+  xudp: true
+- name: 美国-005
+  network: ws
+  password: trojan
+  port: 443
+  server: 159.203.150.39
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  mptcp: true
+  name: 美国-006
+  network: ws
+  packet-encoding: xudp
+  port: 30690
+  server: 154.9.234.118
+  servername: us.alice.cloudns.pro
+  skip-cert-verify: false
+  smux:
+    enabled: true
+    max-streams: 10
+    padding: true
+    protocol: h2mux
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  ws-opts:
+    headers:
+      Host: us.alice.cloudns.pro
+    path: /siehdfioshfiosdfskkk
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
   grpc-opts:
+    grpc-mode: gun
     grpc-service-name: www.bing.com
-  name: 美国-003 |605KB/s
+  name: 美国-007
   network: grpc
   port: 32252
   server: 3.143.235.221
@@ -34,9 +114,55 @@ proxies:
   udp: true
   uuid: f0a44f8f-c01f-490c-a6eb-29106a2509a4
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-008
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+  udp: true
+- client-fingerprint: random
+  name: 美国-009 |2.5MB/s|GPT⁺|GM|YT|NF|...
+  network: ws
+  port: 443
+  server: 34.83.245.149
+  servername: bp.suoni.nyc.mn
+  tls: true
+  type: vless
+  udp: true
+  uuid: 54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58
+  ws-opts:
+    headers:
+      Host: bp.suoni.nyc.mn
+    path: /proxyip=ProxyIP.SG.CMLiussss.net
+- name: 美国-010 |5.0MB/s|GPT⁺|GM|YT|TK|...
+  port: 1080
+  server: 192.241.156.17
+  skip-cert-verify: true
+  type: socks5
+- cipher: aes-256-cfb
+  name: 越南-010 |2.0MB/s|GPT⁺|GM|YT-US|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.34
+  type: ss
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 美国-011 |3.7MB/s|GPT⁺|YT-CN|NF
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
 - client-fingerprint: chrome
   mptcp: true
-  name: 美国-004
+  name: 美国-012
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -59,54 +185,15 @@ proxies:
     path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- client-fingerprint: chrome
-  mptcp: true
-  name: 美国-005
-  network: ws
-  packet-encoding: xudp
-  port: 25222
-  server: 104.194.68.16
-  servername: sg.alice.cloudns.pro
-  skip-cert-verify: false
-  smux:
-    enabled: true
-    max-streams: 10
-    padding: true
-    protocol: h2mux
-  tfo: true
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 美国-013 |11.1MB/s|TK-US|YT-US|G...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: feb7fa9:154948
+    mode: tls
+    tls: false
+  port: 2377
+  server: 88.210.36.107
+  type: ss
   udp: true
-  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-  ws-opts:
-    headers:
-      Host: sg.alice.cloudns.pro
-    path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: 美国-006
-  network: ws
-  password: trojan
-  port: 443
-  server: 159.203.150.39
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 美国-007 |3.7MB/s|GPT⁺|YT-CN|NF
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
