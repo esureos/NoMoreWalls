@@ -5,7 +5,7 @@ proxies:
   auth_str: dongtaiwang.com
   client-fingerprint: chrome
   down: 55 Mbps
-  name: 法国-001
+  name: 法国-002
   port: 50011
   protocol: udp
   server: 62.210.10.186
@@ -16,9 +16,21 @@ proxies:
   up: 11 Mbps
 - alpn:
   - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '100'
+  name: 法国-001 |2.5MB/s|TK-FR|YT-FR|GP...
+  port: 15010
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '100'
+- alpn:
+  - h3
   auth_str: dongtaiwang.com
   down: '55'
-  name: 法国-002 |1.6MB/s
+  name: 法国-003 |1.8MB/s
   port: 35511
   protocol: udp
   server: 62.210.10.186
@@ -31,7 +43,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 法国-003
+  name: 法国-004
   port: 26691
   protocol: udp
   server: 62.210.196.68
@@ -40,15 +52,3 @@ proxies:
   type: hysteria
   udp: true
   up: 11 Mbps
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '100'
-  name: 法国-004 |3.7MB/s|TK-FR|YT-FR|GP...
-  port: 15010
-  server: 195.154.200.40
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '100'

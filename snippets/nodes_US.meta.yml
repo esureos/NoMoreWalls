@@ -6,7 +6,7 @@ proxies:
   type: http
   username: fQ67Dpe5dU
 - cipher: chacha20-ietf-poly1305
-  name: 美国-002 |2.2MB/s
+  name: 美国-002 |11.1MB/s|TK-US|YT-US|G...
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -17,38 +17,30 @@ proxies:
   server: 88.210.36.107
   type: ss
   udp: true
-- client-fingerprint: chrome
-  mptcp: true
-  name: 美国-003
-  network: ws
-  packet-encoding: xudp
-  port: 12888
-  server: 166.0.188.91
-  servername: pl.alice.cloudns.pro
-  skip-cert-verify: false
-  smux:
-    enabled: true
-    max-streams: 10
-    padding: true
-    protocol: h2mux
-  tfo: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: www.bing.com
+  name: 美国-003 |605KB/s
+  network: grpc
+  port: 32252
+  server: 3.143.235.221
+  servername: 3.143.235.221
   tls: true
   type: vless
   udp: true
-  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-  ws-opts:
-    headers:
-      Host: pl.alice.cloudns.pro
-    path: /gseuifghuisgfuiseuifseguif
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
+  uuid: f0a44f8f-c01f-490c-a6eb-29106a2509a4
+  xudp: true
 - client-fingerprint: chrome
   mptcp: true
   name: 美国-004
   network: ws
   packet-encoding: xudp
-  port: 25222
-  server: 104.194.68.16
+  port: 8443
+  server: 104.194.69.254
   servername: sg.alice.cloudns.pro
   skip-cert-verify: false
   smux:
@@ -72,8 +64,8 @@ proxies:
   name: 美国-005
   network: ws
   packet-encoding: xudp
-  port: 8443
-  server: 104.194.69.254
+  port: 25222
+  server: 104.194.68.16
   servername: sg.alice.cloudns.pro
   skip-cert-verify: false
   smux:
@@ -92,36 +84,7 @@ proxies:
     path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: www.bing.com
-  name: 美国-006 |1.7MB/s
-  network: grpc
-  port: 32252
-  server: 3.143.235.221
-  servername: 3.143.235.221
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0a44f8f-c01f-490c-a6eb-29106a2509a4
-  xudp: true
-- name: 美国-007
-  password: V8SKoIbr
-  port: 38353
-  server: 154.29.151.219
-  type: http
-  username: kZXMC3Z1
-- cipher: aes-128-gcm
-  name: 美国-008 |4.2MB/s
-  password: 3px0wmx0e81145g568ga
-  port: 10880
-  server: 69.164.240.86
-  type: ss
-- name: 美国-009
+- name: 美国-006
   network: ws
   password: trojan
   port: 443
@@ -138,7 +101,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 美国-010 |3.7MB/s|GPT⁺|YT-CN|NF
+  name: 美国-007 |3.7MB/s|GPT⁺|YT-CN|NF
   port: 38845
   protocol: udp
   server: 208.87.243.151
@@ -147,37 +110,3 @@ proxies:
   type: hysteria
   udp: true
   up: 11 Mbps
-- client-fingerprint: chrome
-  mptcp: true
-  name: 美国-012
-  network: ws
-  packet-encoding: xudp
-  port: 57649
-  server: 38.150.2.108
-  servername: sg.alice.cloudns.pro
-  skip-cert-verify: false
-  smux:
-    enabled: true
-    max-streams: 10
-    padding: true
-    protocol: h2mux
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-  ws-opts:
-    headers:
-      Host: sg.alice.cloudns.pro
-    path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- auth: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  name: 美国-013
-  password: dc7e2ad2-be7b-4f0b-bd82-cb6e83423327
-  port: 8080
-  server: 52.14.83.3
-  skip-cert-verify: false
-  sni: hyfnus09.376897.xyz
-  type: hysteria2
-  udp: true
