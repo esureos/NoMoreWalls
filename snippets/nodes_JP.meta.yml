@@ -24,3 +24,13 @@ proxies:
   server: 103.134.35.75
   type: http
   username: kZXMC3Z1
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 节点日期：12-18
+  port: 550
+  server: 103.97.203.220
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156

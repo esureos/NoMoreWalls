@@ -115,10 +115,11 @@ proxies:
   uuid: f0a44f8f-c01f-490c-a6eb-29106a2509a4
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 美国-008
+  name: 【机场推荐：https://a0a.xyz/】187
   password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
   port: 443
   server: 23.95.75.146
+  tfo: false
   type: ss
   udp: true
 - client-fingerprint: random
