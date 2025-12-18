@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 德国-004
+  name: 德国-001
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -13,7 +13,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 德国-005 |0.9MB/s|47%|GPT⁺|YT|TK...
+  name: 德国-003 |0.9MB/s|47%|GPT⁺|YT|TK...
   password: lejSRyqa033OEPmEQsvRsl
   port: 46114
   server: 194.59.183.134

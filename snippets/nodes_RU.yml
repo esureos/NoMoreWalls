@@ -10,3 +10,16 @@ proxies:
   udp: true
   ws-opts:
     path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: chacha20-ietf-poly1305
+  name: 【机场推荐：https://a0a.xyz/】5
+  password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
+  port: 443
+  server: 176.126.83.121
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚-001 |1.3MB/s|25%|GPT⁺|YT-...
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 45.15.185.70
+  type: ss

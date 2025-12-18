@@ -1,7 +1,28 @@
 proxies:
+- name: 日本-001
+  password: vZ9gnU
+  port: 38736
+  server: 103.134.35.75
+  type: http
+  username: kZXMC3Z1
+- cipher: rc4-md5
+  name: 日本-002 |13.4MB/s|50%|GPT⁺|GM|Y...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 172.105.199.111
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 尼日利亚-001 |1.1MB/s
+  network: none
+  port: 36334
+  server: 160.119.196.92
+  tls: false
+  type: vmess
+  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 日本-001 |5.1MB/s|GPT
+  name: 日本-003 |5.1MB/s|GPT
   network: tcp
   port: 27724
   reality-opts:
@@ -11,19 +32,6 @@ proxies:
   tls: true
   type: vless
   uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
-- name: 日本-002 |1.5MB/s
-  password: 7a88d322-eb4a-4a59-8c62-8c60d76abf4b
-  port: 28253
-  server: 161.33.185.230
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 日本-003 |4.7MB/s|YT-CN|GPT⁺
-  password: vZ9gnU
-  port: 38736
-  server: 103.134.35.75
-  type: http
-  username: kZXMC3Z1
 - alterId: 0
   cipher: auto
   name: 🇯🇵 节点日期：12-18

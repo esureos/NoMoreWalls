@@ -10,8 +10,31 @@ proxies:
   udp: true
   ws-opts:
     path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: chacha20-ietf-poly1305
+  name: 【机场推荐：https://a0a.xyz/】5
+  password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
+  port: 443
+  server: 176.126.83.121
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-002 |0.6MB/s|0%|GPT⁺|YT-...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: '!!str 672ff0'
+  server: 178.154.205.131
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd4b0117-d752-46fd-9a94-21a21e360fdb
+  xudp: true
 - encryption: none
-  name: 荷兰-004 |3.3MB/s|0%|GPT⁺|YT-RU|...
+  name: 荷兰-002 |3.3MB/s|0%|GPT⁺|YT-RU|...
   network: tcp
   port: 3001
   server: 103.90.75.252
@@ -19,6 +42,12 @@ proxies:
   udp: true
   uuid: 61757901-3818-46c7-8482-683fa7f6ba10
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚-001 |1.3MB/s|25%|GPT⁺|YT-...
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 45.15.185.70
+  type: ss
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -26,7 +55,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-002 |0.8MB/s|0%|GPT⁺|YT|...
+  name: 俄罗斯联邦-003 |0.8MB/s|0%|GPT⁺|YT|...
   network: tcp
   pbk: zkeQCEkz7LlrzwzeG26Ae_HEk3_QlgM9CbiWJx5iWh0
   port: 443

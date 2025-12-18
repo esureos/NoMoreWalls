@@ -1,49 +1,7 @@
 proxies:
-- encryption: none
-  name: 德国-001 |5.9MB/s|10%|GPT⁺|YT|NF...
-  network: ws
-  port: 2095
-  server: 46.224.119.100
-  type: vless
-  udp: true
-  uuid: ddd02f94-4422-4242-835a-90e71a231704
-  ws-opts:
-    headers:
-      Host: test3.amin8263.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 德国-002 |6.1MB/s|10%|GPT⁺|YT|TK...
-  network: tcp
-  port: 2050
-  reality-opts:
-    public-key: Tua_E2HKPrVU1Xikr5b0v0uKKUjpAnG5w8UjqfoEnkI
-    short-id: '!!str 35d64c10241d8efc'
-  server: 49.13.203.113
-  servername: canva.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 44dd59b7-a153-44de-8b62-c2affe0fff02
-  xudp: true
-- auth: 0d89764f-941d-4d5b-82cc-be6570362f7c
-  down: 2
-  name: 德国-003
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: 0d89764f-941d-4d5b-82cc-be6570362f7c
-  port: 443
-  server: 85.209.53.170
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-  up: 2
 - alterId: 0
   cipher: auto
-  name: 德国-004
+  name: 德国-001
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -54,13 +12,59 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
+- encryption: none
+  name: 德国-002 |2.6MB/s
+  network: tcp
+  port: 443
+  server: 116.203.102.8
+  type: vless
+  udp: true
+  uuid: 4395eaf8-bcec-464c-9105-47701857be8b
+  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 德国-005 |0.9MB/s|47%|GPT⁺|YT|TK...
+  name: 德国-003 |0.9MB/s|47%|GPT⁺|YT|TK...
   password: lejSRyqa033OEPmEQsvRsl
   port: 46114
   server: 194.59.183.134
   type: ss
   udp: true
+- auth: 34b28b95-f91e-4f10-854c-2480508c3e46
+  down: 2
+  name: 德国-004
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 34b28b95-f91e-4f10-854c-2480508c3e46
+  port: 443
+  server: 85.209.53.170
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 2
+- client-fingerprint: chrome
+  mptcp: true
+  name: 德国-005
+  network: ws
+  packet-encoding: xudp
+  port: 28520
+  server: 31.25.89.105
+  servername: us.alice.cloudns.pro
+  skip-cert-verify: false
+  smux:
+    enabled: true
+    max-streams: 10
+    padding: true
+    protocol: h2mux
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  ws-opts:
+    headers:
+      Host: us.alice.cloudns.pro
+    path: /siehdfioshfiosdfskkk
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
 - alterId: 0
   cipher: auto
   http-opts:
@@ -76,3 +80,14 @@ proxies:
   type: vmess
   udp: true
   uuid: 6cfa6103-5d06-40cb-f452-b563db578288
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 德国-007 |7.0MB/s|TK-DE|YT-DE|GP...
+  network: grpc
+  port: 53479
+  server: 134.122.94.36
+  type: vless
+  udp: true
+  uuid: 0ae40bf3-d28b-4d2e-a01a-f1a01cabcb96
+  xudp: true

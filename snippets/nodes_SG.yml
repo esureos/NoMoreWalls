@@ -1,1 +1,28 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 【机场推荐：https://a0a.xyz/】70
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 95.173.218.203
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 新加坡-003 |12.3MB/s|GPT⁺|YT|TK|N...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 128.199.172.224
+  type: ss
+- cipher: rc4-md5
+  name: 新加坡-004 |4.3MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡-005 |1.6MB/s
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 38.89.142.56
+  type: ss
+  udp: true

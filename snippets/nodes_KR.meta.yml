@@ -11,7 +11,8 @@ proxies:
   port: 4652
   server: p141.panda001.net
   type: ss
-- name: 韩国-001
+- client-fingerprint: chrome
+  name: 韩国-001 |1.9MB/s
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
