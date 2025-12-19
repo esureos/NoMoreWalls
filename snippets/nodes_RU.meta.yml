@@ -11,11 +11,10 @@ proxies:
   ws-opts:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - cipher: chacha20-ietf-poly1305
-  name: 【机场推荐：https://a0a.xyz/】5
+  name: 意大利-002 |0.5MB/s|83%|GPT⁺|YT-R...
   password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
   port: 443
   server: 176.126.83.121
-  tfo: false
   type: ss
 - client-fingerprint: chrome
   encryption: none

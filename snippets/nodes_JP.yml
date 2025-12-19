@@ -16,7 +16,7 @@ proxies:
   uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 节点日期：12-18
+  name: 🇯🇵 节点日期：12-19
   port: 550
   server: 103.97.203.220
   skip-cert-verify: false
