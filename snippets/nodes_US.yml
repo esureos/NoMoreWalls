@@ -1,4 +1,32 @@
 proxies:
+- cipher: aes-256-cfb
+  name: '🇺🇸_US_美国_1 #1'
+  password: amazonskr05
+  port: 443
+  server: 54.244.200.142
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: '🇺🇸_US_美国_2 #1'
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 79.110.53.169
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '🇺🇸_US_美国->🇦🇺_AU_澳大利亚 #1'
+  password: amazonskr05
+  port: 443
+  server: 34.222.136.128
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '🇺🇸_US_美国_3 #1'
+  password: amazonskr05
+  port: 443
+  server: 54.201.174.149
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 【机场推荐：https://a0a.xyz/】99
   password: 0eC4ZBvStOgQEzTpCYjWN5
