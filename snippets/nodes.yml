@@ -422,11 +422,10 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 【机场推荐：https://a0a.xyz/】18
+  name: 加拿大-001 |2.8MB/s
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 79.127.200.169
-  tfo: false
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -791,47 +790,19 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 节点日期：12-19
-  port: 550
-  server: 103.97.203.220
+  name: 🇯🇵 节点日期：12-20
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 【机场推荐：https://a0a.xyz/】108
   password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
   port: 443
   server: 194.246.114.101
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 【机场推荐：https://a0a.xyz/】109
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 45.82.252.109
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 【机场推荐：https://a0a.xyz/】10
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 103.57.251.240
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 【机场推荐：https://a0a.xyz/】34
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 37.235.56.69
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 【机场推荐：https://a0a.xyz/】201
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 23.95.76.147
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -841,21 +812,11 @@ proxies:
   server: 185.47.255.22
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 【机场推荐：https://a0a.xyz/】115
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-128-gcm
-  name: 【机场推荐：https://a0a.xyz/】81
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.169
+- cipher: chacha20-ietf-poly1305
+  name: 【机场推荐：https://a0a.xyz/】10
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 103.57.251.240
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -863,12 +824,5 @@ proxies:
   password: shadowsocks
   port: 443
   server: 173.244.56.6
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: 【机场推荐：https://a0a.xyz/】83
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.170
   tfo: false
   type: ss

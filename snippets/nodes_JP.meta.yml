@@ -34,11 +34,11 @@ proxies:
   uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 节点日期：12-19
-  port: 550
-  server: 103.97.203.220
+  name: 🇯🇵 节点日期：12-20
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 9e0e83ca-0fbc-44b1-8024-0eb8f9414156
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
