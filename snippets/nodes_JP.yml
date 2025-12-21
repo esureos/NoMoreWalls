@@ -14,13 +14,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 节点日期：12-20
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
