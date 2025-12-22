@@ -10,16 +10,177 @@ proxies:
   udp: true
   ws-opts:
     path: /?ed=2560&proxyip=ts.hpc.tw
-- cipher: chacha20-ietf-poly1305
-  name: 意大利-002 |0.5MB/s|83%|GPT⁺|YT-R...
-  password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
-  port: 443
-  server: 176.126.83.121
-  type: ss
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦-002 |0.6MB/s|0%|GPT⁺|YT-...
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-002 |5.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 3f200574d011010f'
+  server: 51.250.75.158
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76f385df-bb5c-4e92-b60b-fce540b0a6a0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-004 |5.0MB/s|GPT
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str a76ea384b29a4f79'
+  server: 51.250.83.255
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76f385df-bb5c-4e92-b60b-fce540b0a6a0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-005 |4.9MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 2476f063981ffd92'
+  server: 84.252.138.63
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76f385df-bb5c-4e92-b60b-fce540b0a6a0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ads.x5.ru
+  name: 俄罗斯联邦-006 |3.1MB/s
+  network: grpc
+  port: 444
+  reality-opts:
+    public-key: L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM
+    short-id: '!!str 0614386789abcdef'
+  server: 51.250.75.169
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c495cf08-e046-4311-aa4b-82cc16576992
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-008 |5.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 2476f063981ffd92'
+  server: 51.250.65.209
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76f385df-bb5c-4e92-b60b-fce540b0a6a0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ads.x5.ru
+  name: 俄罗斯联邦-009 |5.1MB/s|GPT⁺
+  network: grpc
+  port: 444
+  reality-opts:
+    public-key: L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM
+    short-id: '!!str 0614386789abcdef'
+  server: 51.250.66.217
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c495cf08-e046-4311-aa4b-82cc16576992
+  xudp: true
+- name: 俄罗斯联邦-010
+  network: ws
+  port: 34841
+  server: 138.124.14.37
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7d109bff-4a3e-4505-8827-bbf1858c099a
+  ws-opts:
+    path: /@mrconfig_group@mrconfig_group@mrconfig_group@mrconfig_group@mrconfig_group
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-011 |4.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TrAxIFIhSCc4C5IWnGvvAs2cSD_mVag1MlTCJPeLkGg
+    short-id: '!!str b9ceed646f470d2d'
+  server: 158.160.197.118
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ads.x5.ru
+  name: 俄罗斯联邦-012 |2.3MB/s
+  network: grpc
+  port: 446
+  reality-opts:
+    public-key: mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8
+    short-id: '!!str 0512567389abcdef'
+  server: 51.250.88.6
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c495cf08-e046-4311-aa4b-82cc16576992
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ads.x5.ru
+  name: 俄罗斯联邦-013 |4.9MB/s|GPT⁺|YT-PL|...
+  network: grpc
+  port: 444
+  reality-opts:
+    public-key: L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM
+    short-id: '!!str 0614386789abcdef'
+  server: 51.250.6.178
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c495cf08-e046-4311-aa4b-82cc16576992
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-014 |4.5MB/s|0%|GPT|YT-R...
   network: tcp
   port: 443
   reality-opts:
@@ -27,45 +188,33 @@ proxies:
     short-id: '!!str 672ff0'
   server: 178.154.205.131
   servername: ads.x5.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: fd4b0117-d752-46fd-9a94-21a21e360fdb
   xudp: true
-- encryption: none
-  name: 荷兰-002 |3.3MB/s|0%|GPT⁺|YT-RU|...
-  network: tcp
-  port: 3001
-  server: 103.90.75.252
-  type: vless
-  udp: true
-  uuid: 61757901-3818-46c7-8482-683fa7f6ba10
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 澳大利亚-001 |1.3MB/s|25%|GPT⁺|YT-...
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 45.15.185.70
-  type: ss
+- name: 俄罗斯联邦-015 |0.6MB/s|GPT⁺|X|Keep...
+  port: 5566
+  server: 37.18.73.60
+  skip-cert-verify: true
+  type: socks5
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  fp: chrome
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-003 |0.8MB/s|0%|GPT⁺|YT|...
+  name: 俄罗斯联邦-016 |1.4MB/s|33%|GPT⁺|YT...
   network: tcp
-  pbk: zkeQCEkz7LlrzwzeG26Ae_HEk3_QlgM9CbiWJx5iWh0
-  port: 443
+  port: 47944
   reality-opts:
-    public-key: zkeQCEkz7LlrzwzeG26Ae_HEk3_QlgM9CbiWJx5iWh0
-  security: reality
-  server: 83.166.255.72
-  servername: 01.img.avito.st
-  sni: 01.img.avito.st
+    public-key: _7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw
+    short-id: '!!str ffffffffff'
+  server: 89.23.113.137
+  servername: www.ietf.org
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
+  uuid: 9f721f50-e015-5ea3-8bb0-22428307e9c0
   xudp: true

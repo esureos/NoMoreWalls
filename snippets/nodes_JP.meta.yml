@@ -1,34 +1,25 @@
 proxies:
-- name: 日本-001
+- client-fingerprint: chrome
+  encryption: none
+  name: 日本-001 |3.2MB/s|YT-JP
+  network: ws
+  port: 42841
+  server: 43.165.190.11
+  servername: mot.luyuju.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.luyuju.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- name: 日本-002 |5.0MB/s|TK-JP|YT-CN|GP...
   password: vZ9gnU
   port: 38736
   server: 103.134.35.75
   type: http
   username: kZXMC3Z1
-- cipher: rc4-md5
-  name: 日本-002 |13.4MB/s|50%|GPT⁺|GM|Y...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 172.105.199.111
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 尼日利亚-001 |1.1MB/s
-  network: none
-  port: 36334
-  server: 160.119.196.92
-  tls: false
-  type: vmess
-  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 日本-003 |5.1MB/s|GPT
-  network: tcp
-  port: 27724
-  reality-opts:
-    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-  server: 116.80.44.144
-  servername: www.yahoo.co.jp
-  tls: true
-  type: vless
-  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e

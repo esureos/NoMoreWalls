@@ -1,76 +1,9 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 美国-002 |4.8MB/s|0%|GPT⁺|YT-HK|...
-  password: 0eC4ZBvStOgQEzTpCYjWN5
-  port: 443
-  server: 217.60.249.112
-  type: ss
-- cipher: aes-128-gcm
-  name: 美国-005 |2.6MB/s
-  password: i2i17a39ixdfx3v8cu25
-  port: 17897
-  server: 205.209.104.94
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 美国-006 |2.0MB/s|GPT⁺
-  network: tcp
-  port: 14102
-  server: 172.233.229.91
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 27ba87fc-583f-4763-9060-83cf0b9264db
-- cipher: chacha20-ietf-poly1305
-  name: 摩尔多瓦-005 |4.5MB/s|4%|GPT⁺|YT-U...
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 176.123.5.253
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-005 |2.4MB/s|GPT⁺|GM|YT-US|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.106
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-006 |0.9MB/s|GPT⁺|GM|YT-US|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.114
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-007 |1.3MB/s|GPT⁺|GM|YT-US|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.220
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-009 |1.4MB/s|GPT⁺|GM|YT-US|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.235
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-011 |1.5MB/s|GPT⁺|GM|YT-US|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.27
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-015 |1.7MB/s|GPT⁺|GM|YT-US|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.203
-  type: ss
-- name: 美国-017
+- name: 美国-002
   network: ws
   password: trojan
   port: 443
-  server: 159.203.150.39
+  server: 5.78.50.75
   skip-cert-verify: true
   sni: tianjiu.pages.dev
   type: trojan
@@ -78,3 +11,51 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
+- name: 美国-004
+  password: 11e94b13-601d-426c-9ca9-5b92355d0a1f
+  port: 41501
+  server: 77.110.109.168
+  skip-cert-verify: true
+  sni: osxapps.itunes.apple.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 美国-005
+  port: 41701
+  server: 77.110.109.168
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 11e94b13-601d-426c-9ca9-5b92355d0a1f
+- cipher: aes-256-cfb
+  name: 越南-003 |1.2MB/s|GPT⁺|YT-US|TK|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.36
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-009 |2.2MB/s|GPT⁺|GM|YT-US|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.221
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-010 |1.2MB/s|GPT⁺|YT-US|TK|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.135
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-016 |2.6MB/s|GPT⁺|GM|YT-US|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.222
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-019 |1.0MB/s|GPT⁺|GM|YT-US|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.209
+  type: ss
