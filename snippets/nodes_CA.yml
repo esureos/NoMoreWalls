@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】53\r"
+  name: 【机场推荐：https://a0a.xyz/】53
   password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
   port: 443
   server: 193.203.203.66

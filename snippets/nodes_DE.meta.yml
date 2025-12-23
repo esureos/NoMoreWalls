@@ -1,5 +1,5 @@
 proxies:
-- name: "【机场推荐：https://a0a.xyz/】45\r"
+- name: 德国-001 |6.0MB/s|10%|GPT⁺|YT|TK...
   network: tcp
   port: 55484
   server: 46.224.152.184
@@ -9,19 +9,19 @@ proxies:
   uuid: 1d03fcc7-8af7-4277-9a6d-bf8f1f0eb6e4
 - alterId: 0
   cipher: auto
-  name: 【机场推荐：https://a0a.xyz/】48
+  name: 德国-002
   network: tcp
   port: 180
   server: 82.198.246.97
-  servername: ''
-  skip-cert-verify: true
+  servername: cdnfire.xiaomispeed.com
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】43\r"
+  name: 德国-003 |530KB/s|GPT|10%
   password: VQhct3pJXkASHgKQcQcliw
   port: 1080
   server: 46.224.157.198
