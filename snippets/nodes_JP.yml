@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 日本-001 |8.4MB/s
+  password: BxceQaOe
+  port: 2762
+  server: 18.177.141.4
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true

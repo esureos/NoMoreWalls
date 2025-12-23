@@ -1,13 +1,10 @@
 proxies:
-- auth: d82321fd-df52-42e9-98a9-7b379310c361
-  name: 新加坡-001
-  password: d82321fd-df52-42e9-98a9-7b379310c361
-  port: 8080
-  server: 103.190.179.55
-  skip-cert-verify: false
-  sni: sg12.352343.cc
-  type: hysteria2
-  udp: true
+- cipher: chacha20-ietf
+  name: 新加坡-001 |2.9MB/s|TK|X|KeepHist...
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
 - auth: d82321fd-df52-42e9-98a9-7b379310c361
   name: 新加坡-002
   password: d82321fd-df52-42e9-98a9-7b379310c361
@@ -15,5 +12,20 @@ proxies:
   server: 103.190.179.40
   skip-cert-verify: false
   sni: sg10.352343.cc
+  type: hysteria2
+  udp: true
+- name: 新加坡-003 |2.3MB/s
+  port: 10808
+  server: 213.35.126.34
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+- auth: d82321fd-df52-42e9-98a9-7b379310c361
+  name: 新加坡-004
+  password: d82321fd-df52-42e9-98a9-7b379310c361
+  port: 8080
+  server: 103.190.179.55
+  skip-cert-verify: false
+  sni: sg12.352343.cc
   type: hysteria2
   udp: true

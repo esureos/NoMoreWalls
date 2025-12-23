@@ -13,16 +13,13 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-002 |5.0MB/s
+  name: 俄罗斯联邦-003 |5.0MB/s
   network: tcp
   port: 443
   reality-opts:
     public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 3f200574d011010f'
-  server: 51.250.75.158
+    short-id: '!!str 2476f063981ffd92'
+  server: 51.250.65.209
   servername: api-maps.yandex.ru
   tls: true
   type: vless
@@ -31,11 +28,30 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-004 |1.4MB/s|33%|GPT⁺|YT...
+  network: tcp
+  port: 47944
+  reality-opts:
+    public-key: _7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw
+    short-id: '!!str ffffffffff'
+  server: 89.23.113.137
+  servername: www.ietf.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f721f50-e015-5ea3-8bb0-22428307e9c0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-004 |5.0MB/s|GPT
+  name: 俄罗斯联邦-005 |5.0MB/s|GPT
   network: tcp
   port: 443
   reality-opts:
@@ -50,11 +66,130 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
+  grpc-opts:
+    grpc-service-name: ads.x5.ru
+  name: 俄罗斯联邦-006 |2.5MB/s
+  network: grpc
+  port: 444
+  reality-opts:
+    public-key: L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM
+    short-id: '!!str 0614386789abcdef'
+  server: 51.250.6.178
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c495cf08-e046-4311-aa4b-82cc16576992
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ads.x5.ru
+  name: 俄罗斯联邦-007 |1.3MB/s
+  network: grpc
+  port: 446
+  reality-opts:
+    public-key: mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8
+    short-id: '!!str 0512567389abcdef'
+  server: 51.250.88.6
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c495cf08-e046-4311-aa4b-82cc16576992
+  xudp: true
+- encryption: none
+  name: 俄罗斯联邦-008 |3.7MB/s|TK|X|KeepSu...
+  network: ws
+  port: 34841
+  server: 138.124.14.37
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7d109bff-4a3e-4505-8827-bbf1858c099a
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /@mrconfig_group@mrconfig_group@mrconfig_group@mrconfig_group@mrconfig_group
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-005 |4.9MB/s
+  name: 俄罗斯联邦-009 |2.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 3f200574d011010f'
+  server: 51.250.75.158
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 76f385df-bb5c-4e92-b60b-fce540b0a6a0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ads.x5.ru
+  name: 俄罗斯联邦-010 |3.9MB/s|TK-PL|YT-PL...
+  network: grpc
+  port: 444
+  reality-opts:
+    public-key: L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM
+    short-id: '!!str 0614386789abcdef'
+  server: 51.250.75.169
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c495cf08-e046-4311-aa4b-82cc16576992
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ads.x5.ru
+  name: 俄罗斯联邦-011 |2.7MB/s
+  network: grpc
+  port: 444
+  reality-opts:
+    public-key: L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM
+    short-id: '!!str 0614386789abcdef'
+  server: 51.250.66.217
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c495cf08-e046-4311-aa4b-82cc16576992
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ads.x5.ru
+  name: 俄罗斯联邦-012 |3.3MB/s
+  network: grpc
+  port: 446
+  reality-opts:
+    public-key: mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8
+    short-id: '!!str 0512567389abcdef'
+  server: 51.250.66.217
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: c495cf08-e046-4311-aa4b-82cc16576992
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-013 |4.9MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -71,105 +206,12 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: ads.x5.ru
-  name: 俄罗斯联邦-006 |3.1MB/s
-  network: grpc
-  port: 444
-  reality-opts:
-    public-key: L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM
-    short-id: '!!str 0614386789abcdef'
-  server: 51.250.75.169
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c495cf08-e046-4311-aa4b-82cc16576992
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-008 |5.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 2476f063981ffd92'
-  server: 51.250.65.209
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76f385df-bb5c-4e92-b60b-fce540b0a6a0
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ads.x5.ru
-  name: 俄罗斯联邦-009 |5.1MB/s|GPT⁺
-  network: grpc
-  port: 444
-  reality-opts:
-    public-key: L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM
-    short-id: '!!str 0614386789abcdef'
-  server: 51.250.66.217
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c495cf08-e046-4311-aa4b-82cc16576992
-  xudp: true
-- name: 俄罗斯联邦-010
-  network: ws
-  port: 34841
-  server: 138.124.14.37
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7d109bff-4a3e-4505-8827-bbf1858c099a
-  ws-opts:
-    path: /@mrconfig_group@mrconfig_group@mrconfig_group@mrconfig_group@mrconfig_group
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-011 |4.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TrAxIFIhSCc4C5IWnGvvAs2cSD_mVag1MlTCJPeLkGg
-    short-id: '!!str b9ceed646f470d2d'
-  server: 158.160.197.118
-  servername: ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ads.x5.ru
-  name: 俄罗斯联邦-012 |2.3MB/s
+  name: 俄罗斯联邦-014 |1.0MB/s
   network: grpc
   port: 446
   reality-opts:
     public-key: mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8
     short-id: '!!str 0512567389abcdef'
-  server: 51.250.88.6
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c495cf08-e046-4311-aa4b-82cc16576992
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ads.x5.ru
-  name: 俄罗斯联邦-013 |4.9MB/s|GPT⁺|YT-PL|...
-  network: grpc
-  port: 444
-  reality-opts:
-    public-key: L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM
-    short-id: '!!str 0614386789abcdef'
   server: 51.250.6.178
   servername: ads.x5.ru
   tls: true
@@ -180,7 +222,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦-014 |4.5MB/s|0%|GPT|YT-R...
+  name: 俄罗斯联邦-016 |4.5MB/s|0%|GPT|YT-R...
   network: tcp
   port: 443
   reality-opts:
@@ -193,28 +235,4 @@ proxies:
   type: vless
   udp: true
   uuid: fd4b0117-d752-46fd-9a94-21a21e360fdb
-  xudp: true
-- name: 俄罗斯联邦-015 |0.6MB/s|GPT⁺|X|Keep...
-  port: 5566
-  server: 37.18.73.60
-  skip-cert-verify: true
-  type: socks5
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-016 |1.4MB/s|33%|GPT⁺|YT...
-  network: tcp
-  port: 47944
-  reality-opts:
-    public-key: _7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw
-    short-id: '!!str ffffffffff'
-  server: 89.23.113.137
-  servername: www.ietf.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9f721f50-e015-5ea3-8bb0-22428307e9c0
   xudp: true

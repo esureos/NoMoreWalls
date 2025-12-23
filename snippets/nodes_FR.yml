@@ -1,22 +1,5 @@
 proxies:
-- name: 法国-003 |1.7MB/s|1%|GPT⁺|YT|TK|...
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.236.125.108
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
-  udp: true
-- name: 法国-004 |5.6MB/s|1%|GPT⁺|YT|TK|...
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.180.77.112
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 法国-005 |4.8MB/s|GPT
+- name: 法国-002 |5.4MB/s|1%|GPT⁺|YT|TK|...
   password: telegram-id-directvpn
   port: 22223
   server: 35.180.77.112

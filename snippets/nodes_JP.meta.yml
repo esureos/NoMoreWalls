@@ -1,7 +1,16 @@
 proxies:
 - client-fingerprint: chrome
+  name: 日本-001 |8.4MB/s
+  password: BxceQaOe
+  port: 2762
+  server: 18.177.141.4
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
   encryption: none
-  name: 日本-001 |3.2MB/s|YT-JP
+  name: 日本-002 |3.2MB/s|YT-JP
   network: ws
   port: 42841
   server: 43.165.190.11
@@ -17,9 +26,3 @@ proxies:
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 日本-002 |5.0MB/s|TK-JP|YT-CN|GP...
-  password: vZ9gnU
-  port: 38736
-  server: 103.134.35.75
-  type: http
-  username: kZXMC3Z1
