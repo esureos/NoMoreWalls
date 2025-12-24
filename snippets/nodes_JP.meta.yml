@@ -26,3 +26,13 @@ proxies:
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
+- name: "节点日期：12-24\r"
+  network: ws
+  port: 2053
+  server: legion.lenovo.com
+  servername: stall.saass.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 6949ea89-4825-1b47-3b03-113cede87254
+  ws-opts:
+    path: /proxyip=sjc.o00o.ooo

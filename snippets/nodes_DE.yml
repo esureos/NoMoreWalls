@@ -15,12 +15,12 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 德国-009
+  name: 【机场推荐：https://a0a.xyz/】18
   network: tcp
   port: 180
   server: 82.198.246.97
-  servername: cdnfire.xiaomispeed.com
-  skip-cert-verify: false
+  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
