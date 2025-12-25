@@ -1,4 +1,24 @@
 proxies:
+- cipher: aes-128-gcm
+  name: '🇺🇸_US_美国_1 #1'
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.6
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸_US_美国_4 #1'
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 185.47.255.22
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸 US_188 #1'
+  network: none
+  port: 27502
+  server: 216.238.87.47
+  type: vmess
+  uuid: b8155ce4-7e08-4c40-800f-8671312b7124
 - client-fingerprint: chrome
   encryption: none
   name: 美国-001 |5.0MB/s
@@ -108,13 +128,6 @@ proxies:
   port: 38388
   server: 103.186.154.36
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】22\r"
-  password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
-  port: 443
-  server: 194.246.114.101
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 越南-005 |1.3MB/s|GPT⁺|GM|YT-US|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV

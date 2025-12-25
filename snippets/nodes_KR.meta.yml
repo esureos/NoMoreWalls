@@ -1,16 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: '🇰🇷_KR_韩国 #1'
-  password: qwerREWQ@@
-  port: 4652
-  server: 218.237.185.230
-  type: ss
-- cipher: aes-256-cfb
-  name: '🇰🇷_KR_韩国_1 #1'
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
 - client-fingerprint: chrome
   name: 韩国-001 |1.9MB/s
   port: 1090

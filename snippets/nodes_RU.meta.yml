@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "【机场推荐：https://a0a.xyz/】22\r"
+  password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+  port: 443
+  server: 194.246.114.101
+  type: ss
+  udp: true
 - name: 俄罗斯联邦-001 |3.1MB/s
   network: ws
   password: Aimer

@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- name: '🇨🇳_CN_中国 #1'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.79.214.159
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- cipher: chacha20-ietf
+  name: '🇨🇳_CN_中国_2 #1'
+  password: asd123456
+  port: 8388
+  server: 103.149.183.80
+  type: ss
