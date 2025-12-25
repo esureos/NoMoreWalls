@@ -26,10 +26,10 @@ proxies:
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: "节点日期：12-24\r"
+- name: "节点日期：12-25\r"
   network: ws
   port: 2053
-  server: legion.lenovo.com
+  server: www.aapanel.com
   servername: stall.saass.ccwu.cc
   tls: true
   type: vless
