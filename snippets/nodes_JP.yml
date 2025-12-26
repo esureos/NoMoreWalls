@@ -8,3 +8,9 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "节点日期：12-26\r"
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 45.82.252.109
+  type: ss

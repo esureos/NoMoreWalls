@@ -150,7 +150,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】15\r"
+  name: 加拿大-002 |2.1MB/s
   password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
   port: 443
   server: 193.203.203.66
@@ -300,14 +300,14 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】12\r"
+  name: 摩尔多瓦-003 |1.5MB/s
   password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb
   port: 443
   server: 89.221.225.15
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】4\r"
+  name: "【机场推荐：https://a0a.xyz/】3\r"
   password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
   port: 443
   server: 95.164.116.33
@@ -326,7 +326,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 【机场推荐：https://a0a.xyz/】19
+  name: 【机场推荐：https://a0a.xyz/】7
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -375,76 +375,12 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】3\r"
-  password: 6NKlSzWD8jDh44G7StAsRA
-  port: 56949
-  server: 77.110.99.118
+  name: "节点日期：12-26\r"
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 45.82.252.109
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 【机场推荐：https://a0a.xyz/】8
-  network: ws
-  port: 443
-  server: ssssssssssssfffffffgh.2032.pp.ua
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-  ws-opts:
-    headers:
-      host: ssssssssssssfffffffgh.2032.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
-- alterId: 0
-  cipher: auto
-  name: 【机场推荐：https://a0a.xyz/】10
-  network: ws
-  port: 443
-  server: sssssssxxxx.2032.pp.ua
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-  ws-opts:
-    headers:
-      host: sssssssxxxx.2032.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
-- alterId: 0
-  cipher: auto
-  name: 【机场推荐：https://a0a.xyz/】11
-  network: tcp
-  port: 51000
-  server: 8.217.90.175
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6c82a994-b6ba-48ca-f2ed-11288fe4913b
-- cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】13\r"
-  password: 5LD874oS39jQ26cT97NaAo
-  port: 56033
-  server: 178.173.250.47
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 【机场推荐：https://a0a.xyz/】14
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】16\r"
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-- name: "【机场推荐：https://a0a.xyz/】17\r"
+- name: "【机场推荐：https://a0a.xyz/】5\r"
   network: tcp
   password: 44e660b0ee21cf3ac66aee2c08af85d2
   port: 443
@@ -453,3 +389,9 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "【机场推荐：https://a0a.xyz/】8\r"
+  password: Mb7c1yskGeWF3qsl2Z3Zth
+  port: 443
+  server: 217.60.63.96
+  type: ss

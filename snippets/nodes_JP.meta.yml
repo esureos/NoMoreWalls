@@ -26,13 +26,9 @@ proxies:
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: "节点日期：12-25\r"
-  network: ws
-  port: 2053
-  server: www.aapanel.com
-  servername: stall.saass.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 6949ea89-4825-1b47-3b03-113cede87254
-  ws-opts:
-    path: /proxyip=sjc.o00o.ooo
+- cipher: chacha20-ietf-poly1305
+  name: "节点日期：12-26\r"
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 45.82.252.109
+  type: ss
