@@ -1,1 +1,37 @@
-proxies: []
+proxies:
+- name: 瑞典-001
+  network: ws
+  password: trojan
+  port: 442
+  server: 185.96.163.220
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 瑞典-002
+  network: ws
+  password: trojan
+  port: 5936
+  server: 46.246.92.211
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 瑞典-003
+  network: ws
+  password: trojan
+  port: 8443
+  server: 172.234.96.64
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560

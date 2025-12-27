@@ -19,9 +19,393 @@ proxies:
   server: 216.238.87.47
   type: vmess
   uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+- name: 美国-001
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  type: http
+  username: fQ67Dpe5dU
+- client-fingerprint: chrome
+  mptcp: true
+  name: 美国-002
+  network: ws
+  packet-encoding: xudp
+  port: 30690
+  server: 154.9.234.118
+  servername: us.alice.cloudns.pro
+  skip-cert-verify: false
+  smux:
+    enabled: true
+    max-streams: 10
+    padding: true
+    protocol: h2mux
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  ws-opts:
+    headers:
+      Host: us.alice.cloudns.pro
+    path: /siehdfioshfiosdfskkk
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- name: 美国-003
+  network: ws
+  password: trojan
+  port: 30000
+  server: 47.254.18.134
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-004
+  network: ws
+  password: trojan
+  port: 443
+  server: 45.45.217.92
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-005
+  network: ws
+  password: trojan
+  port: 443
+  server: 165.1.73.141
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 美国-006 |3.7MB/s|GPT⁺|YT-CN|NF
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
+- name: 美国-007
+  network: ws
+  password: trojan
+  port: 8080
+  server: 23.105.206.209
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
 - client-fingerprint: chrome
   encryption: none
-  name: 美国-001 |5.0MB/s
+  name: 美国-008 |5.1MB/s
+  network: ws
+  port: 2096
+  server: 159.246.55.61
+  servername: vless.hubp.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: vless.hubp.de
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /snippets
+  xudp: true
+- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
+  name: 美国-009
+  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
+  port: 50000
+  ports: 50000-53000
+  server: 167.234.222.167
+  skip-cert-verify: true
+  sni: fastcdn.hoyoverse.com
+  type: hysteria2
+  udp: true
+- name: 美国-010
+  network: ws
+  password: trojan
+  port: 1112
+  server: 155.248.200.6
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-011
+  network: ws
+  password: trojan
+  port: 30023
+  server: 43.135.165.80
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-012 |9.5MB/s|TK-US|YT-US|GP...
+  password: nX51bl545I
+  port: 38003
+  server: 64.81.34.56
+  type: http
+  username: UgpWOagagJ
+- cipher: auto
+  client-fingerprint: chrome
+  name: 美国-013 |719KB/s
+  network: none
+  port: 54661
+  server: 99.88.80.195
+  tls: false
+  type: vless
+  uuid: aa3e6633-40ff-4d90-fb85-a3a73c0ee4c3
+- name: 美国-014
+  network: ws
+  password: trojan
+  port: 30006
+  server: 144.168.59.87
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-015
+  network: ws
+  password: trojan
+  port: 81
+  server: 195.123.240.40
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 加拿大-001 |1.8MB/s|YT-US|NF|D+
+  network: ws
+  port: 2096
+  server: 74.49.215.61
+  servername: vless.hubp.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: vless.hubp.de
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /snippets
+  xudp: true
+- name: 美国-016
+  network: ws
+  password: trojan
+  port: 2083
+  server: 142.171.50.6
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-017
+  network: ws
+  password: trojan
+  port: 18888
+  server: 104.160.47.72
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-018
+  network: ws
+  password: trojan
+  port: 443
+  server: 107.174.53.66
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-019
+  network: ws
+  password: trojan
+  port: 443
+  server: 104.234.4.130
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
+  name: 美国-020
+  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
+  port: 50000
+  ports: 50000-53000
+  server: 129.153.202.4
+  skip-cert-verify: true
+  sni: fastcdn.hoyoverse.com
+  type: hysteria2
+  udp: true
+- name: 美国-021
+  network: ws
+  password: trojan
+  port: 45678
+  server: 142.171.224.209
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-022
+  network: ws
+  password: trojan
+  port: 2087
+  server: 45.32.95.145
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-023
+  network: ws
+  password: trojan
+  port: 20183
+  server: 162.141.164.185
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 美国-024 |4.1MB/s
+  network: ws
+  port: 2096
+  server: 167.68.42.61
+  servername: vless.hubp.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: vless.hubp.de
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /snippets
+  xudp: true
+- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
+  name: 美国-025
+  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
+  port: 50000
+  ports: 50000-53000
+  server: 129.153.76.186
+  skip-cert-verify: true
+  sni: fastcdn.hoyoverse.com
+  type: hysteria2
+  udp: true
+- name: 美国-026
+  network: ws
+  password: trojan
+  port: 49664
+  server: 173.249.201.109
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-027
+  network: ws
+  password: trojan
+  port: 8080
+  server: 104.207.148.215
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-028
+  network: ws
+  password: trojan
+  port: 10089
+  server: 66.42.68.129
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-029
+  network: ws
+  password: trojan
+  port: 10073
+  server: 38.247.8.232
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-030
+  network: ws
+  password: trojan
+  port: 10013
+  server: 38.247.8.232
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 美国-031 |6.2MB/s|50%|GPT⁺|YT|TK...
   network: ws
   port: 2053
   server: 208.103.161.32
@@ -33,68 +417,140 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /?ed=2560
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 美国-002 |4.8MB/s|GPT
-  network: tcp
-  port: 59807
-  server: 38.14.99.163
-  servername: 38.14.99.163
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: '0'
-  cipher: auto
-  name: 美国-003 |4.7MB/s|GPT
-  network: tcp
-  port: 59807
-  server: 38.14.99.179
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  xudp: true
-- client-fingerprint: chrome
-  name: 摩尔多瓦-001 |4.8MB/s|TK-MD|YT-US|...
-  network: tcp
-  port: 41360
-  reality-opts:
-    public-key: TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU
-    short-id: '!!str 1aab45'
-  server: 94.232.247.168
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e16a35ea-6715-4e75-9845-d20358bd0876
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 美国-004 |1.1MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: BaTi5Wrua_Oo_CMJ-uQ6UWtDId9z9IhzoOvRe2qvBhQ
-    short-id: '!!str 63d80d5199a2bc'
-  server: 158.62.198.132
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd7d3e61-288e-4d0f-b5dc-591dcdbc119f
-  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 美国-005 |6.5MB/s|TK-US|YT-US|GP...
-  password: SS2QvbC9nqLp2sXXZo0BVy4slcErRuCt
-  port: 443
-  server: 103.35.189.136
+  name: 荷兰-007 |3.0MB/s|0%|GPT⁺|YT-UA|...
+  password: dZxQ63nLxtGYu6WpVt6Iva
+  port: 18851
+  server: 144.31.92.138
   type: ss
+- name: 美国-032
+  network: ws
+  password: trojan
+  port: 443
+  server: 128.199.0.28
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
+  name: 美国-033
+  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
+  port: 50000
+  ports: 50000-53000
+  server: 108.181.23.231
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
   udp: true
+- name: 美国-034
+  network: ws
+  password: trojan
+  port: 81
+  server: 185.186.245.40
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-035 |5.0MB/s|GPT⁺|GM|X|Keep...
+  port: 1080
+  server: 174.138.61.184
+  skip-cert-verify: true
+  type: socks5
+- name: 美国-036
+  network: ws
+  password: trojan
+  port: 443
+  server: 103.124.105.222
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-037
+  network: ws
+  password: trojan
+  port: 16711
+  server: 66.42.68.129
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 美国-038 |6.1MB/s|0%|GPT⁺|YT|TK|...
+  network: ws
+  port: 2053
+  server: 208.103.161.33
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 美国-039
+  network: ws
+  password: trojan
+  port: 10015
+  server: 50.3.90.17
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- cipher: rc4-md5
+  name: 美国-040 |4.0MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.42.68
+  type: ss
+- client-fingerprint: chrome
+  mptcp: true
+  name: 美国-041
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 104.194.69.254
+  servername: sg.alice.cloudns.pro
+  skip-cert-verify: false
+  smux:
+    enabled: true
+    max-streams: 10
+    padding: true
+    protocol: h2mux
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  ws-opts:
+    headers:
+      Host: sg.alice.cloudns.pro
+    path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
 - alpn:
   - h2
   - http/1.1
@@ -103,7 +559,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: www.bing.com
-  name: 美国-006
+  name: 美国-042
   network: grpc
   port: 32252
   server: 3.143.235.221
@@ -113,41 +569,67 @@ proxies:
   udp: true
   uuid: f0a44f8f-c01f-490c-a6eb-29106a2509a4
   xudp: true
-- encryption: none
-  name: 美国-007 |5.0MB/s|TK-US|YT-US|GP...
-  network: tcp
-  port: 4655
-  server: 194.113.73.136
-  type: vless
-  udp: true
-  uuid: 2668fdee-331d-4770-8244-d2a4efbf6ef8
-  xudp: true
-- cipher: aes-256-cfb
-  name: 越南-004 |1.2MB/s|GPT⁺|YT-US|TK|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.36
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-005 |1.3MB/s|GPT⁺|GM|YT-US|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.183
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-008 |2.2MB/s|GPT⁺|GM|YT-US|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.221
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-009 |1.2MB/s|GPT⁺|YT-US|TK|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.135
-  type: ss
-- name: 法国-010 |2.2MB/s|TK-FR|YT-US|GP...
+- name: 美国-043
+  network: ws
+  password: trojan
+  port: 20067
+  server: 162.141.164.69
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-044
+  network: ws
+  password: trojan
+  port: 17777
+  server: 144.34.191.46
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-045
+  network: ws
+  password: trojan
+  port: 443
+  server: 165.232.129.138
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-046
+  network: ws
+  password: trojan
+  port: 9443
+  server: 23.105.202.93
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-047
+  network: ws
+  password: trojan
+  port: 443
+  server: 23.130.4.111
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 摩尔多瓦-005 |2.2MB/s|TK-FR|YT-US|...
   network: ws
   port: 443
   server: 94.131.118.18
@@ -161,50 +643,48 @@ proxies:
     headers:
       Host: ads.x5.ru
     path: /kmdznvws
-- cipher: aes-256-cfb
-  name: 越南-012 |2.6MB/s|GPT⁺|GM|YT-US|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.222
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-014 |1.6MB/s|GPT|GM|YT-US|T...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.66
-  type: ss
-- client-fingerprint: chrome
-  mptcp: true
-  name: 美国-008
+- name: 美国-048
   network: ws
-  packet-encoding: xudp
-  port: 25222
-  server: 104.194.68.16
-  servername: sg.alice.cloudns.pro
-  skip-cert-verify: false
-  smux:
-    enabled: true
-    max-streams: 10
-    padding: true
-    protocol: h2mux
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  password: trojan
+  port: 2053
+  server: 142.171.50.6
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
   ws-opts:
     headers:
-      Host: sg.alice.cloudns.pro
-    path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-049
+  network: ws
+  password: trojan
+  port: 20000
+  server: 47.251.168.90
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-050
+  network: ws
+  password: trojan
+  port: 8080
+  server: 142.171.50.6
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
 - alpn:
   - h3
   client-fingerprint: chrome
   congestion-controller: cubic
   disable-sni: false
-  name: 加拿大-003 |2.0MB/s|GPT|YT-US
+  name: 加拿大-002 |2.0MB/s|GPT|YT-US
   password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
   port: 52434
   reduce-rtt: false
@@ -216,76 +696,3 @@ proxies:
   udp-relay-mode: native
   uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
   version: '5'
-- cipher: aes-256-cfb
-  name: 越南-018 |1.0MB/s|GPT⁺|GM|YT-US|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.209
-  type: ss
-- client-fingerprint: chrome
-  mptcp: true
-  name: 美国-009
-  network: ws
-  packet-encoding: xudp
-  port: 24961
-  server: 37.123.192.201
-  servername: sg.alice.cloudns.pro
-  skip-cert-verify: false
-  smux:
-    enabled: true
-    max-streams: 10
-    padding: true
-    protocol: h2mux
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-  ws-opts:
-    headers:
-      Host: sg.alice.cloudns.pro
-    path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: 美国-010
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  type: http
-  username: fQ67Dpe5dU
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 美国-011 |3.7MB/s|GPT⁺|YT-CN|NF
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
-- name: 美国-012
-  password: 79c4455e-75de-4d3f-bca9-fbaf8228e0b5
-  port: 41501
-  server: 77.110.109.168
-  skip-cert-verify: true
-  sni: osxapps.itunes.apple.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 美国-013
-  port: 41701
-  server: 77.110.109.168
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 79c4455e-75de-4d3f-bca9-fbaf8228e0b5
-- name: 美国-014 |4.7MB/s|GPT⁺|GM|X|Keep...
-  port: 1080
-  server: 174.138.61.184
-  skip-cert-verify: true
-  type: socks5

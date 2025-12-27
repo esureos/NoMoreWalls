@@ -1,16 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 加拿大-001 |10.4MB/s|YT-CA|GPT⁺
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 79.127.200.169
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 加拿大-002 |2.1MB/s
-  password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
-  port: 443
-  server: 193.203.203.66
-  type: ss
-  udp: true
+proxies: []

@@ -1,7 +1,19 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 新加坡-001 |2.9MB/s|TK|X|KeepHist...
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+- cipher: rc4-md5
+  name: 新加坡-003 |4.1MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.45
   type: ss
+- name: 新加坡-007
+  network: ws
+  password: trojan
+  port: 443
+  server: 52.230.95.97
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
