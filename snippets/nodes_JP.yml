@@ -1,24 +1,5 @@
 proxies:
-- name: 日本-002 |2.1MB/s
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 2760
-  server: 160.16.136.130
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本-005
-  network: ws
-  password: trojan
-  port: 1030
-  server: 47.79.88.131
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 日本-006
+- name: 日本-003
   network: ws
   password: trojan
   port: 7000

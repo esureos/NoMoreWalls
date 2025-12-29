@@ -5,7 +5,7 @@ proxies:
   auth_str: dongtaiwang.com
   client-fingerprint: chrome
   down: 55 Mbps
-  name: 法国-003 |2.5MB/s|TK-FR|YT-FR|GP...
+  name: 法国-003 |2.2MB/s|GPT⁺|YT-FR
   port: 26691
   protocol: udp
   server: 62.210.196.68
@@ -19,7 +19,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: '55'
-  name: 法国-002 |1.6MB/s
+  name: 法国-002 |1.0MB/s|GPT⁺
   port: 35511
   protocol: udp
   server: 62.210.10.186
@@ -34,7 +34,7 @@ proxies:
   auth_str: dongtaiwang.com
   client-fingerprint: chrome
   down: 55 Mbps
-  name: 法国-001 |1.5MB/s
+  name: 法国-001 |1.4MB/s|GPT⁺
   port: 50011
   protocol: udp
   server: 62.210.10.186
@@ -52,31 +52,7 @@ proxies:
   servername: v35.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 法国-004
-  network: ws
-  password: trojan
-  port: 8443
-  server: 135.125.238.176
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 法国-005
-  network: ws
-  password: trojan
-  port: 2096
-  server: 88.218.78.20
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 法国-006 |5.0MB/s
+- name: 法国-004 |5.7MB/s
   network: ws
   password: iwangjie
   port: 2053
@@ -88,20 +64,31 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: '%2F%3Fed%3D2560'
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '100'
-  name: 法国-007 |2.5MB/s|TK-FR|YT-FR|GP...
-  port: 15010
-  server: 195.154.200.40
+- name: 法国-005 |6.5MB/s
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 141.94.68.216
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- name: 法国-006
+  network: ws
+  password: trojan
+  port: 8443
+  server: 135.125.238.176
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '100'
-- name: 法国-008
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 法国-007
   network: ws
   password: trojan
   port: 20003
@@ -113,11 +100,23 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 法国-009
+- name: 法国-008
   network: ws
   password: trojan
   port: 8002
   server: 51.68.197.158
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 法国-009
+  network: ws
+  password: trojan
+  port: 2096
+  server: 88.218.78.20
   skip-cert-verify: true
   sni: tianjiu.pages.dev
   type: trojan

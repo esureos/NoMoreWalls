@@ -1,46 +1,12 @@
 proxies:
-- auth: d82321fd-df52-42e9-98a9-7b379310c361
-  name: 新加坡-001
-  password: d82321fd-df52-42e9-98a9-7b379310c361
-  port: 8080
-  server: 103.190.179.39
-  skip-cert-verify: false
-  sni: sg05.453521.xyz
-  type: hysteria2
-  udp: true
-- auth: d82321fd-df52-42e9-98a9-7b379310c361
-  name: 新加坡-002
-  password: d82321fd-df52-42e9-98a9-7b379310c361
-  port: 8080
-  server: 103.190.179.49
-  skip-cert-verify: false
-  sni: sg11.352343.cc
-  type: hysteria2
-  udp: true
-- cipher: rc4-md5
-  name: 新加坡-003 |4.1MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.227.45
-  type: ss
-- auth: d82321fd-df52-42e9-98a9-7b379310c361
-  name: 新加坡-004
-  password: d82321fd-df52-42e9-98a9-7b379310c361
-  port: 8080
-  server: 103.190.179.55
-  skip-cert-verify: false
-  sni: sg12.352343.cc
-  type: hysteria2
-  udp: true
-- name: 新加坡-005 |0.8MB/s|X
-  port: 8200
-  server: 13.229.106.200
+- name: 新加坡-001 |11.0MB/s|1%|GM|X|Keep...
+  port: 1080
+  server: 43.133.37.149
   skip-cert-verify: true
-  tls: true
-  type: http
+  type: socks5
 - client-fingerprint: chrome
   encryption: none
-  name: 新加坡-006 |2.1MB/s
+  name: 新加坡-002 |2.1MB/s
   network: ws
   port: 443
   server: 43.134.174.114
@@ -56,19 +22,7 @@ proxies:
         Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /?ed=2560
   xudp: true
-- name: 新加坡-007
-  network: ws
-  password: trojan
-  port: 443
-  server: 52.230.95.97
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 新加坡-008
+- name: 新加坡-003
   network: ws
   port: 23675
   server: 152.42.185.230
@@ -77,10 +31,21 @@ proxies:
   udp: true
   uuid: bfb7355f-da10-470c-99d2-16c5061c403a
   ws-opts:
+    headers:
+      Host: m.zoom.us
     path: /FREE By Tharuwa (0767597317)
-- name: 新加坡-009 |2.3MB/s
+- name: 新加坡-004 |2.3MB/s
   port: 10808
   server: 213.35.126.34
   skip-cert-verify: true
   type: socks5
+  udp: true
+- auth: d82321fd-df52-42e9-98a9-7b379310c361
+  name: 新加坡-005
+  password: d82321fd-df52-42e9-98a9-7b379310c361
+  port: 8080
+  server: 103.190.179.55
+  skip-cert-verify: false
+  sni: sg12.352343.cc
+  type: hysteria2
   udp: true

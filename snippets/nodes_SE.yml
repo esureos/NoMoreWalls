@@ -1,5 +1,5 @@
 proxies:
-- name: 瑞典-001
+- name: 瑞典-002
   network: ws
   password: trojan
   port: 442
@@ -11,7 +11,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 瑞典-002
+- name: 瑞典-003
   network: ws
   password: trojan
   port: 5936
@@ -23,7 +23,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 瑞典-003
+- name: 瑞典-004
   network: ws
   password: trojan
   port: 8443

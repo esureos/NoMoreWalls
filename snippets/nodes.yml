@@ -35,7 +35,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 摩尔多瓦-003 |2.8MB/s|21%|GM|YT-US...
+  name: 摩尔多瓦-006
   password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
   port: 443
   server: 194.246.114.101
@@ -95,90 +95,13 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- name: 美国-003
-  network: ws
-  password: trojan
-  port: 30000
-  server: 47.254.18.134
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-004
-  network: ws
-  password: trojan
-  port: 443
-  server: 45.45.217.92
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-005
-  network: ws
-  password: trojan
-  port: 443
-  server: 165.1.73.141
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-007
-  network: ws
-  password: trojan
-  port: 8080
-  server: 23.105.206.209
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-010
-  network: ws
-  password: trojan
-  port: 1112
-  server: 155.248.200.6
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-011
-  network: ws
-  password: trojan
-  port: 30023
-  server: 43.135.165.80
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-014
-  network: ws
-  password: trojan
-  port: 30006
-  server: 144.168.59.87
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: "【机场推荐：https://a0a.xyz/】5\r"
+  password: 7saUuuV-YDq8BTKgWUQFARU5BuPeXEfZ
+  port: 2050
+  server: 144.31.84.76
+  type: ss
+  udp: true
 - name: 俄罗斯联邦-001 |3.1MB/s
   network: ws
   password: Aimer
@@ -190,7 +113,327 @@ proxies:
   udp: true
   ws-opts:
     path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 法国-004 |5.7MB/s
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 135.125.232.253
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- name: 荷兰-001
+  network: ws
+  password: trojan
+  port: 1033
+  server: 45.154.98.100
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 法国-005 |6.5MB/s
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 141.94.68.216
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- name: 德国-004
+  network: ws
+  password: trojan
+  port: 8880
+  server: 165.232.77.39
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 意大利-001
+  network: ws
+  password: trojan
+  port: 81
+  server: 87.120.237.36
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  name: 西班牙-001 |1.9MB/s|25%|GPT⁺|YT|T...
+  password: EXN3S3eQpjE7EJu8
+  port: 9027
+  server: 5.188.181.201
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-001 |1.6MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.174
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-002 |2.8MB/s|GPT⁺|YT-US|TK|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.58
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-003 |540KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.10
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-004 |2.6MB/s|GPT⁺|GM|YT-US|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.205
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-005 |2.2MB/s|GPT|GM|YT|TK|N...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.182
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-006 |568KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.41
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-007 |1.3MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.50
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-008 |2.1MB/s|GPT⁺|GM|YT-US|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.51
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-009 |2.5MB/s|GPT⁺|GM|YT|TK|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.61
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-010 |2.1MB/s|GPT⁺|GM|YT-US|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.3
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-011 |2.1MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.232
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-012 |2.0MB/s|GPT⁺|GM|YT|TK|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.19
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-013 |2.5MB/s|GPT⁺|TK|NF|X|K...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.30
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-014 |587KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.234
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-015 |1.4MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.25
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-016 |0.8MB/s|GPT|GM|YT|TK|N...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.223
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-017 |1.7MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.236
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-018 |2.0MB/s|GPT⁺|GM|YT-US|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.128
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-019 |2.1MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.5
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-020 |2.1MB/s|GPT⁺|GM|YT|TK|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.215
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-021 |2.6MB/s|GPT⁺|GM|YT-US|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.116
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-022 |2.4MB/s|GPT⁺|GM|YT|TK|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.229
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-023 |1.1MB/s|GPT⁺|GM|YT|TK|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.13
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-024 |2.1MB/s|GPT⁺|GM|YT-US|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.132
+  type: ss
+- name: 日本-003
+  network: ws
+  password: trojan
+  port: 7000
+  server: 158.101.139.31
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-012
+  network: ws
+  password: trojan
+  port: 30000
+  server: 47.254.18.134
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-013
+  network: ws
+  password: trojan
+  port: 443
+  server: 45.45.217.92
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
 - name: 美国-015
+  network: ws
+  password: trojan
+  port: 443
+  server: 165.1.73.141
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-016
+  network: ws
+  password: trojan
+  port: 8080
+  server: 23.105.206.209
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-019
+  network: ws
+  password: trojan
+  port: 30006
+  server: 144.168.59.87
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-020
+  network: ws
+  password: trojan
+  port: 17777
+  server: 144.34.191.46
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-021
+  network: ws
+  password: trojan
+  port: 1112
+  server: 155.248.200.6
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-022
+  network: ws
+  password: trojan
+  port: 30023
+  server: 43.135.165.80
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-023
   network: ws
   password: trojan
   port: 81
@@ -202,19 +445,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-016
-  network: ws
-  password: trojan
-  port: 2083
-  server: 142.171.50.6
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-017
+- name: 美国-024
   network: ws
   password: trojan
   port: 18888
@@ -226,7 +457,19 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-018
+- name: 美国-025
+  network: ws
+  password: trojan
+  port: 2083
+  server: 142.171.50.6
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-026
   network: ws
   password: trojan
   port: 443
@@ -238,7 +481,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-019
+- name: 美国-027
   network: ws
   password: trojan
   port: 443
@@ -250,7 +493,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-021
+- name: 美国-029
   network: ws
   password: trojan
   port: 45678
@@ -262,7 +505,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-022
+- name: 美国-030
   network: ws
   password: trojan
   port: 2087
@@ -274,7 +517,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-023
+- name: 美国-031
   network: ws
   password: trojan
   port: 20183
@@ -286,7 +529,19 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-026
+- name: 美国-032
+  network: ws
+  password: trojan
+  port: 9443
+  server: 23.105.202.93
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-034
   network: ws
   password: trojan
   port: 49664
@@ -299,19 +554,19 @@ proxies:
       Host: tianjiu.pages.dev
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 立陶宛-001 |1.5MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 立陶宛-002 |1.4MB/s
+  name: 立陶宛-001 |1.4MB/s
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 45.87.175.185
   type: ss
   udp: true
-- name: 美国-027
+- cipher: chacha20-ietf-poly1305
+  name: 立陶宛-002 |1.5MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 45.87.175.35
+  type: ss
+- name: 美国-036
   network: ws
   password: trojan
   port: 8080
@@ -324,13 +579,25 @@ proxies:
       Host: tianjiu.pages.dev
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 英国-001 |2.0MB/s|GPT
+  name: 英国-003 |2.0MB/s|GPT
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.184
   type: ss
   udp: true
-- name: 荷兰-003
+- name: 荷兰-004
+  network: ws
+  password: trojan
+  port: 81
+  server: 185.186.244.191
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 荷兰-005
   network: ws
   password: trojan
   port: 443
@@ -342,7 +609,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-028
+- name: 美国-037
   network: ws
   password: trojan
   port: 10089
@@ -354,7 +621,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-029
+- name: 美国-038
   network: ws
   password: trojan
   port: 10073
@@ -366,7 +633,19 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-030
+- name: 瑞典-002
+  network: ws
+  password: trojan
+  port: 442
+  server: 185.96.163.220
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-039
   network: ws
   password: trojan
   port: 10013
@@ -378,7 +657,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 荷兰-004
+- name: 荷兰-006
   network: ws
   password: trojan
   port: 2015
@@ -391,25 +670,37 @@ proxies:
       Host: tianjiu.pages.dev
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 荷兰-005 |6.2MB/s|GPT|3%
+  name: 荷兰-007 |6.2MB/s|GPT|3%
   password: 5LD874oS39jQ26cT97NaAo
   port: 56033
   server: 178.173.250.47
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 荷兰-006 |2.5MB/s|GPT
+  name: 荷兰-008 |2.5MB/s|GPT
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.188
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 荷兰-007 |3.0MB/s|0%|GPT⁺|YT-UA|...
+  name: 荷兰-009 |3.0MB/s|0%|GPT⁺|YT-UA|...
   password: dZxQ63nLxtGYu6WpVt6Iva
   port: 18851
   server: 144.31.92.138
   type: ss
+- name: 瑞典-003
+  network: ws
+  password: trojan
+  port: 5936
+  server: 46.246.92.211
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: 立陶宛-003 |2.6MB/s
   password: QCXDxuDlTTMD7jtgHUjIoj
@@ -417,7 +708,7 @@ proxies:
   server: 45.87.175.180
   type: ss
   udp: true
-- name: 德国-002
+- name: 德国-005
   network: ws
   password: trojan
   port: 443
@@ -429,7 +720,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-032
+- name: 美国-041
   network: ws
   password: trojan
   port: 443
@@ -442,13 +733,13 @@ proxies:
       Host: tianjiu.pages.dev
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 英国-002 |4.4MB/s
+  name: 英国-004 |4.4MB/s
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.208
   type: ss
   udp: true
-- name: 荷兰-008
+- name: 荷兰-010
   network: ws
   password: trojan
   port: 2026
@@ -460,7 +751,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 荷兰-009
+- name: 荷兰-011
   network: ws
   password: trojan
   port: 2026
@@ -472,7 +763,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 荷兰-010
+- name: 荷兰-012
   network: ws
   password: trojan
   port: 2027
@@ -484,7 +775,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 法国-004
+- name: 法国-006
   network: ws
   password: trojan
   port: 8443
@@ -496,7 +787,31 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 德国-003
+- name: 美国-042
+  network: ws
+  password: trojan
+  port: 2053
+  server: 142.171.50.6
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 法国-007
+  network: ws
+  password: trojan
+  port: 20003
+  server: 185.255.112.193
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 德国-006
   network: ws
   password: trojan
   port: 4004
@@ -515,7 +830,7 @@ proxies:
   server: 45.87.175.183
   type: ss
   udp: true
-- name: 德国-004
+- name: 德国-007
   network: ws
   password: trojan
   port: 2083
@@ -527,829 +842,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 荷兰-011
-  network: ws
-  password: trojan
-  port: 1026
-  server: 194.26.192.251
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 德国-005
-  network: ws
-  password: trojan
-  port: 1002
-  server: 5.199.130.149
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 德国-006
-  network: ws
-  password: trojan
-  port: 2033
-  server: 213.202.208.7
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 德国-007
-  network: ws
-  password: trojan
-  port: 2000
-  server: 91.107.139.23
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 荷兰-012
-  network: ws
-  password: trojan
-  port: 4005
-  server: 45.154.98.100
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
 - name: 德国-008
-  network: ws
-  password: trojan
-  port: 8080
-  server: 49.13.58.80
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 日本-002 |2.1MB/s
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 2760
-  server: 160.16.136.130
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 德国-009
-  network: ws
-  password: trojan
-  port: 2002
-  server: 5.104.108.215
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-034
-  network: ws
-  password: trojan
-  port: 81
-  server: 185.186.245.40
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 德国-010
-  network: ws
-  password: trojan
-  port: 2008
-  server: 89.58.38.132
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 荷兰-013
-  network: ws
-  password: trojan
-  port: 4004
-  server: 194.26.192.125
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 德国-011
-  network: ws
-  password: trojan
-  port: 7991
-  server: 5.75.220.207
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 英国-005
-  network: ws
-  password: trojan
-  port: 443
-  server: 217.154.53.220
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 荷兰-014
-  network: ws
-  password: trojan
-  port: 2018
-  server: 194.26.192.125
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-036
-  network: ws
-  password: trojan
-  port: 443
-  server: 103.124.105.222
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-037
-  network: ws
-  password: trojan
-  port: 16711
-  server: 66.42.68.129
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 荷兰-015
-  network: ws
-  password: trojan
-  port: 4005
-  server: 194.26.192.251
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 德国-013
-  network: ws
-  password: trojan
-  port: 4433
-  server: 78.47.172.202
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 英国-006 |1.2MB/s
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.202
-  type: ss
-- name: 德国-014
-  network: ws
-  password: trojan
-  port: 2015
-  server: 185.94.29.46
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 拉脱维亚-001 |5.0MB/s|GPT
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 46.183.217.204
-  type: ss
-- name: 荷兰-017
-  network: ws
-  password: trojan
-  port: 5005
-  server: 194.26.192.251
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 荷兰-018
-  network: ws
-  password: trojan
-  port: 4008
-  server: 2.58.56.170
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 意大利-001 |2.3MB/s
-  password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
-  port: 443
-  server: 176.126.83.121
-  type: ss
-  udp: true
-- name: 俄罗斯联邦-002
-  network: ws
-  password: trojan
-  port: 443
-  server: 45.135.135.131
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 摩尔多瓦-001
-  network: ws
-  password: trojan
-  port: 81
-  server: 45.67.229.128
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯联邦-003 |2.7MB/s|X|KeepHisto...
-  network: none
-  port: 34895
-  server: 2.56.242.210
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-  ws-opts:
-    path: /
-  xudp: true
-- name: 法国-005
-  network: ws
-  password: trojan
-  port: 2096
-  server: 88.218.78.20
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 俄罗斯联邦-004 |4.1MB/s
-  password: LuRLif1Ptivft1GWn3JPWq
-  port: 10826
-  server: 45.89.52.98
-  type: ss
-  udp: true
-- name: 美国-039
-  network: ws
-  password: trojan
-  port: 10015
-  server: 50.3.90.17
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 俄罗斯联邦-005 |3.0MB/s
-  password: fCBdXVTFNpwH8LyvH3DGRi
-  port: 11274
-  server: 176.125.240.71
-  type: ss
-  udp: true
-- name: 荷兰-019
-  network: ws
-  password: trojan
-  port: 443
-  server: 45.142.164.17
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 俄罗斯联邦-006 |5.1MB/s|GPT⁺|TK|X|K...
-  password: 3ef03de40a234d209bb2d3807ca0d643
-  port: 443
-  server: 46.29.161.237
-  skip-cert-verify: true
-  sni: 46.29.161.237
-  tls: true
-  type: trojan
-  udp: true
-- cipher: rc4-md5
-  name: 美国-040 |4.0MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 138.199.42.68
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 摩尔多瓦-002 |2.5MB/s|GPT⁺
-  password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb
-  port: 443
-  server: 89.221.225.15
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: 新加坡-003 |4.1MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 68.183.227.45
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 立陶宛-005
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.22
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 韩国-002 |1.4MB/s|4%|GPT⁺|GM|YT|...
-  network: http
-  port: 80
-  server: 152.70.92.69
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
-- cipher: aes-256-cfb
-  name: 越南-001 |1.2MB/s|GPT
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.251
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-002 |2.2MB/s|GPT⁺|TK|NF|X|K...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.67
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-003 |530KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.148
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 德国-017
-  password: 6NKlSzWD8jDh44G7StAsRA
-  port: 56949
-  server: 77.110.99.118
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 保加利亚-001
-  password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
-  port: 443
-  server: 95.164.116.33
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-004 |1.2MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.118
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-005 |1.8MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.67
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-006 |677KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.110
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-007 |1.1MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.43
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-008 |1.5MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.49
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-009 |1.4MB/s|GPT
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.36
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-010 |761KB/s|GPT
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.206
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-011 |868KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.46
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-012 |639KB/s|GPT
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.131
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-013 |579KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.52
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-014 |1.2MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.194
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-015 |3.2MB/s|GPT⁺|YT|TK|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.74
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-016 |950KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.80
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-017 |0.9MB/s|GPT⁺|TK|NF|X|K...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.162
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-018 |806KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.214
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-019 |1.3MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.120
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰-020 |2.9MB/s
-  password: PgJV4yRPpGpoV-40PS8N0G6gS4BpBRkF
-  port: 1234
-  server: 89.23.103.60
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-020 |652KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.227
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-021 |1.7MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.253
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-022 |1.2MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.186
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-023 |776KB/s|GPT
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.61
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-024 |765KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.105
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-025 |1.2MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.246
-  type: ss
-- name: 法国-006 |5.0MB/s
-  network: ws
-  password: iwangjie
-  port: 2053
-  server: 135.125.232.253
-  skip-cert-verify: false
-  sni: nodes.830901.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: '%2F%3Fed%3D2560'
-- cipher: aes-256-cfb
-  name: 越南-026 |914KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.226
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-027 |542KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.233
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-028 |1.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.202
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-029 |1.8MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.192
-  type: ss
-- cipher: aes-256-cfb
-  name: 葡萄牙-001
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-030
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.22
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-031 |738KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.50
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 德国-019 |2.2MB/s
-  password: yJJBNrprAXeS3RxRJas61o
-  port: 42886
-  server: 185.170.154.39
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 德国-020 |3.2MB/s|GPT
-  network: http
-  port: 19751
-  server: 43.165.7.71
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6cfa6103-5d06-40cb-f452-b563db578288
-- name: 新加坡-007
-  network: ws
-  password: trojan
-  port: 443
-  server: 52.230.95.97
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 日本-005
-  network: ws
-  password: trojan
-  port: 1030
-  server: 47.79.88.131
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 日本-006
-  network: ws
-  password: trojan
-  port: 7000
-  server: 158.101.139.31
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 塞舌尔-001
-  network: ws
-  password: trojan
-  port: 10029
-  server: 156.232.10.223
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-043
-  network: ws
-  password: trojan
-  port: 20067
-  server: 162.141.164.69
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-044
-  network: ws
-  password: trojan
-  port: 17777
-  server: 144.34.191.46
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-045
-  network: ws
-  password: trojan
-  port: 443
-  server: 165.232.129.138
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-046
-  network: ws
-  password: trojan
-  port: 9443
-  server: 23.105.202.93
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 荷兰-022
-  network: ws
-  password: trojan
-  port: 81
-  server: 185.186.244.191
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 瑞典-001
-  network: ws
-  password: trojan
-  port: 442
-  server: 185.96.163.220
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-047
-  network: ws
-  password: trojan
-  port: 443
-  server: 23.130.4.111
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 瑞典-002
-  network: ws
-  password: trojan
-  port: 5936
-  server: 46.246.92.211
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 美国-048
-  network: ws
-  password: trojan
-  port: 2053
-  server: 142.171.50.6
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 法国-008
-  network: ws
-  password: trojan
-  port: 20003
-  server: 185.255.112.193
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 德国-021
   network: ws
   password: trojan
   port: 8004
@@ -1361,7 +854,19 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-049
+- name: 荷兰-013
+  network: ws
+  password: trojan
+  port: 1026
+  server: 194.26.192.251
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-043
   network: ws
   password: trojan
   port: 20000
@@ -1373,7 +878,31 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 荷兰-023
+- name: 德国-009
+  network: ws
+  password: trojan
+  port: 1002
+  server: 5.199.130.149
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 德国-010
+  network: ws
+  password: trojan
+  port: 2033
+  server: 213.202.208.7
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 荷兰-014
   network: ws
   password: trojan
   port: 4008
@@ -1385,7 +914,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 荷兰-024
+- name: 荷兰-015
   network: ws
   password: trojan
   port: 81
@@ -1397,11 +926,11 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 荷兰-025
+- name: 德国-011
   network: ws
   password: trojan
-  port: 443
-  server: 193.123.37.121
+  port: 2000
+  server: 91.107.139.23
   skip-cert-verify: true
   sni: tianjiu.pages.dev
   type: trojan
@@ -1409,7 +938,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 荷兰-026
+- name: 荷兰-016
   network: ws
   password: trojan
   port: 2019
@@ -1421,7 +950,19 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 德国-022
+- name: 荷兰-017
+  network: ws
+  password: trojan
+  port: 4005
+  server: 45.154.98.100
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 德国-012
   network: ws
   password: trojan
   port: 2019
@@ -1433,7 +974,19 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 德国-023
+- name: 德国-013
+  network: ws
+  password: trojan
+  port: 8080
+  server: 49.13.58.80
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 德国-014
   network: ws
   password: trojan
   port: 2026
@@ -1445,7 +998,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 德国-024
+- name: 德国-015
   network: ws
   password: trojan
   port: 2010
@@ -1457,7 +1010,67 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 德国-025
+- name: 德国-016
+  network: ws
+  password: trojan
+  port: 2002
+  server: 5.104.108.215
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-044
+  network: ws
+  password: trojan
+  port: 81
+  server: 185.186.245.40
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 德国-017
+  network: ws
+  password: trojan
+  port: 2008
+  server: 89.58.38.132
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 荷兰-018
+  network: ws
+  password: trojan
+  port: 4004
+  server: 194.26.192.125
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 德国-018
+  network: ws
+  password: trojan
+  port: 7991
+  server: 5.75.220.207
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 德国-019
   network: ws
   password: trojan
   port: 8002
@@ -1469,7 +1082,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 美国-050
+- name: 美国-045
   network: ws
   password: trojan
   port: 8080
@@ -1481,31 +1094,67 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
+- name: 荷兰-019
+  network: ws
+  password: trojan
+  port: 2018
+  server: 194.26.192.125
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-046
+  network: ws
+  password: trojan
+  port: 80
+  server: 172.233.195.154
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-047
+  network: ws
+  password: trojan
+  port: 16711
+  server: 66.42.68.129
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 荷兰-020
+  network: ws
+  password: trojan
+  port: 4005
+  server: 194.26.192.251
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 德国-021
+  network: ws
+  password: trojan
+  port: 4433
+  server: 78.47.172.202
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
 - name: 芬兰-002
-  network: ws
-  password: trojan
-  port: 443
-  server: 46.62.148.243
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 英国-007
-  network: ws
-  password: trojan
-  port: 443
-  server: 87.106.65.110
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 芬兰-003
   network: ws
   password: trojan
   port: 8080
@@ -1517,11 +1166,11 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 德国-026
+- name: 德国-022
   network: ws
   password: trojan
-  port: 2014
-  server: 213.202.211.233
+  port: 2015
+  server: 185.94.29.46
   skip-cert-verify: true
   sni: tianjiu.pages.dev
   type: trojan
@@ -1529,11 +1178,35 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 芬兰-004
+- name: 荷兰-022
+  network: ws
+  password: trojan
+  port: 5005
+  server: 194.26.192.251
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 美国-048
   network: ws
   password: trojan
   port: 443
-  server: 188.130.154.155
+  server: 35.212.176.219
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 德国-023
+  network: ws
+  password: trojan
+  port: 2014
+  server: 213.202.211.233
   skip-cert-verify: true
   sni: tianjiu.pages.dev
   type: trojan
@@ -1565,7 +1238,26 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 芬兰-005
+- name: 荷兰-023
+  network: ws
+  password: trojan
+  port: 4008
+  server: 2.58.56.170
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 意大利-002 |2.3MB/s
+  password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
+  port: 443
+  server: 176.126.83.121
+  type: ss
+  udp: true
+- name: 芬兰-003
   network: ws
   password: trojan
   port: 87
@@ -1577,7 +1269,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 芬兰-006
+- name: 芬兰-004
   network: ws
   password: trojan
   port: 8880
@@ -1589,7 +1281,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 法国-009
+- name: 法国-008
   network: ws
   password: trojan
   port: 8002
@@ -1601,7 +1293,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 芬兰-007
+- name: 芬兰-005
   network: ws
   password: trojan
   port: 2086
@@ -1613,7 +1305,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 荷兰-027
+- name: 荷兰-024
   network: ws
   password: trojan
   port: 4008
@@ -1625,7 +1317,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 荷兰-028
+- name: 荷兰-025
   network: ws
   password: trojan
   port: 4007
@@ -1637,31 +1329,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 荷兰-029
-  network: ws
-  password: trojan
-  port: 443
-  server: 31.214.157.113
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 意大利-002
-  network: ws
-  password: trojan
-  port: 81
-  server: 87.120.237.36
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 芬兰-008
+- name: 芬兰-006
   network: ws
   password: trojan
   port: 8443
@@ -1673,7 +1341,19 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 芬兰-009
+- name: 摩尔多瓦-004
+  network: ws
+  password: trojan
+  port: 81
+  server: 45.67.229.128
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- name: 芬兰-007
   network: ws
   password: trojan
   port: 8443
@@ -1685,6 +1365,25 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
+- name: 法国-009
+  network: ws
+  password: trojan
+  port: 2096
+  server: 88.218.78.20
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯联邦-007 |4.1MB/s
+  password: LuRLif1Ptivft1GWn3JPWq
+  port: 10826
+  server: 45.89.52.98
+  type: ss
+  udp: true
 - name: 西班牙-002
   network: ws
   password: trojan
@@ -1697,7 +1396,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 瑞典-003
+- name: 瑞典-004
   network: ws
   password: trojan
   port: 8443
@@ -1709,19 +1408,14 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 荷兰-031
-  network: ws
-  password: trojan
-  port: 443
-  server: 45.130.21.169
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 荷兰-032
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯联邦-008 |3.0MB/s
+  password: fCBdXVTFNpwH8LyvH3DGRi
+  port: 11274
+  server: 176.125.240.71
+  type: ss
+  udp: true
+- name: 荷兰-027
   network: ws
   password: trojan
   port: 3033
@@ -1733,7 +1427,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 俄罗斯联邦-011
+- name: 俄罗斯联邦-009
   network: ws
   password: trojan
   port: 2027
@@ -1746,13 +1440,13 @@ proxies:
       Host: tianjiu.pages.dev
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 土耳其-001
-  password: bgvLZUfs8sivoB9A7wkYdm
-  port: 25232
-  server: 83.217.9.17
+  name: 摩尔多瓦-005 |3.8MB/s
+  password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb
+  port: 443
+  server: 89.221.225.15
   type: ss
   udp: true
-- name: 俄罗斯联邦-012
+- name: 俄罗斯联邦-010
   network: ws
   password: trojan
   port: 2026
@@ -1764,7 +1458,7 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 俄罗斯联邦-016
+- name: 俄罗斯联邦-014
   network: ws
   password: trojan
   port: 2018
@@ -1776,141 +1470,28 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 德国-028
-  network: ws
-  password: trojan
-  port: 1011
-  server: 89.58.27.36
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 荷兰-033
-  network: ws
-  password: trojan
-  port: 5008
-  server: 194.26.192.125
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 荷兰-034
-  network: ws
-  password: trojan
-  port: 2018
-  server: 45.154.98.100
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
 - cipher: aes-256-cfb
-  name: 越南-032 |697KB/s
+  name: 越南-025
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.229
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-033 |1.5MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.204
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-034 |2.0MB/s|GPT
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.16
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-035
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.104
+  server: 103.186.154.67
   type: ss
   udp: true
-- name: 荷兰-035
-  network: ws
-  password: trojan
-  port: 2004
-  server: 194.26.192.251
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-036 |1.2MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.18
+- cipher: chacha20-ietf-poly1305
+  name: 保加利亚-001 |4.3MB/s|TK-TR|YT-US|...
+  password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
+  port: 443
+  server: 95.164.116.33
   type: ss
-- name: 荷兰-036
-  network: ws
-  password: trojan
-  port: 8505
-  server: 194.26.192.31
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 德国-031
-  network: ws
-  password: trojan
-  port: 2021
-  server: 89.163.150.205
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 荷兰-037
-  network: ws
-  password: trojan
-  port: 4007
-  server: 194.26.192.251
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
+  udp: true
 - cipher: aes-256-cfb
-  name: 越南-037 |1.0MB/s|GPT
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.196
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-038 |1.3MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.127
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-039
+  name: 越南-026
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.155
   type: ss
   udp: true
-- name: 荷兰-038
+- name: 荷兰-028
   network: ws
   password: trojan
   port: 5004
@@ -1922,11 +1503,11 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
-- name: 芬兰-010
+- name: 美国-050
   network: ws
   password: trojan
-  port: 6444
-  server: 46.62.144.110
+  port: 443
+  server: 104.224.152.99
   skip-cert-verify: true
   sni: tianjiu.pages.dev
   type: trojan
@@ -1934,6 +1515,13 @@ proxies:
     headers:
       Host: tianjiu.pages.dev
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 德国-027 |2.2MB/s
+  password: yJJBNrprAXeS3RxRJas61o
+  port: 42886
+  server: 185.170.154.39
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: "【机场推荐：https://a0a.xyz/】3\r"
   password: gKYygTcRYhc3skc2x6tZ073lYz0DnieX
@@ -1949,12 +1537,6 @@ proxies:
   sni: green2.cdntencentmusic.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】5\r"
-  password: 7saUuuV-YDq8BTKgWUQFARU5BuPeXEfZ
-  port: 2050
-  server: 144.31.84.76
-  type: ss
 - name: "【机场推荐：https://a0a.xyz/】7\r"
   network: tcp
   password: 32e5f2a8-b568-4227-8724-9378d38817c1

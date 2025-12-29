@@ -1,43 +1,8 @@
 proxies:
 - client-fingerprint: chrome
-  name: 韩国-001 |2.9MB/s|YT-KR|GPT⁺
+  name: 韩国-001 |5.0MB/s|GPT
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
   type: socks5
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 韩国-002 |1.4MB/s|4%|GPT⁺|GM|YT|...
-  network: http
-  port: 80
-  server: 152.70.92.69
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
-- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  name: 韩国-003 | X3
-  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  port: 50000
-  ports: 50000-53000
-  server: 193.123.237.20
-  skip-cert-verify: true
-  sni: fastcdn.hoyoverse.com
-  type: hysteria2
-  udp: true
-- auth: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  name: 韩国-004 | X3
-  password: 50af7daf-50d9-48ab-892f-ddbe53a177b7
-  port: 50000
-  ports: 50000-53000
-  server: 193.123.238.66
-  skip-cert-verify: true
-  sni: fastcdn.hoyoverse.com
-  type: hysteria2
   udp: true
