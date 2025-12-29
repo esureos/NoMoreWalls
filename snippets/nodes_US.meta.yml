@@ -172,8 +172,8 @@ proxies:
   username: UgpWOagagJ
 - cipher: auto
   client-fingerprint: chrome
-  name: 美国-013 |719KB/s
-  network: none
+  name: "【机场推荐：https://a0a.xyz/】34\r"
+  network: tcp
   port: 54661
   server: 99.88.80.195
   tls: false
