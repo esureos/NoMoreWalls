@@ -1,13 +1,11 @@
 proxies:
-- name: 日本-003
-  network: ws
-  password: trojan
-  port: 7000
-  server: 158.101.139.31
+- alterId: 0
+  name: 日本-002 |2.5MB/s|0%|GPT⁺|YT-CN|...
+  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
+  port: 25010
+  server: 37.202.200.19
   skip-cert-verify: true
-  sni: tianjiu.pages.dev
+  sni: 37.202.200.19
+  tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
+  udp: true

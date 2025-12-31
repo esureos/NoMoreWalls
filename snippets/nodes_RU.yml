@@ -1,12 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 摩尔多瓦-006
+  name: 摩尔多瓦-005
   password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
   port: 443
   server: 194.246.114.101
   type: ss
   udp: true
-- name: 俄罗斯联邦-001 |3.1MB/s
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 俄罗斯联邦-001 |581KB/s
+  network: none
+  port: 34895
+  server: 2.56.242.210
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+  ws-opts:
+    path: /
+  xudp: true
+- name: 俄罗斯联邦-002 |3.1MB/s
   network: ws
   password: Aimer
   port: 2096
@@ -17,45 +32,19 @@ proxies:
   udp: true
   ws-opts:
     path: /?ed=2560&proxyip=ts.hpc.tw
-- cipher: chacha20-ietf-poly1305
-  name: 俄罗斯联邦-007 |4.1MB/s
-  password: LuRLif1Ptivft1GWn3JPWq
-  port: 10826
-  server: 45.89.52.98
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 俄罗斯联邦-008 |3.0MB/s
-  password: fCBdXVTFNpwH8LyvH3DGRi
-  port: 11274
-  server: 176.125.240.71
-  type: ss
-  udp: true
+- name: 俄罗斯联邦-008
+  network: ws
+  password: trojan
+  port: 443
+  server: 45.135.135.131
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
 - name: 俄罗斯联邦-009
-  network: ws
-  password: trojan
-  port: 2027
-  server: 109.196.103.21
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 俄罗斯联邦-010
-  network: ws
-  password: trojan
-  port: 2026
-  server: 109.196.103.21
-  skip-cert-verify: true
-  sni: tianjiu.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tianjiu.pages.dev
-    path: /?ed=2560
-- name: 俄罗斯联邦-014
   network: ws
   password: trojan
   port: 2018
