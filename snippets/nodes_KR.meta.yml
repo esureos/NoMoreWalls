@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 韩国-001 |5.3MB/s|GPT⁺|GM
+  name: 韩国-001 |1.4MB/s
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
   port: 64413
   server: 158.180.79.168
@@ -11,19 +11,15 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- client-fingerprint: chrome
-  name: 韩国-002 |2.5MB/s|YT-KR|GPT⁺
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  type: socks5
-  udp: true
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 韩国-003 |5.1MB/s|GPT⁺|GM
+  disable-sni: false
+  name: 韩国-002 |6.6MB/s|11%|GPT⁺|YT|TK...
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
   port: 52706
+  reduce-rtt: false
+  request-timeout: 0
   server: 130.162.157.157
   sni: shouer.nezhasu.com
   type: tuic
