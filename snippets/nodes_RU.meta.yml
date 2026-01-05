@@ -7,65 +7,15 @@ proxies:
   type: ss
 - client-fingerprint: chrome
   encryption: none
-  name: 奥地利-001 |3.4MB/s|30%|GPT⁺|YT-R...
-  network: tcp
-  port: 30326
-  reality-opts:
-    public-key: OGdmH9sTKUt8EYv3qd_R01Ck0KDCLQNlKiYcXrmSFkY
-    short-id: '!!str 786a49cf4b2655a0'
-  server: 195.133.88.228
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 52aa4a12-892d-4a29-be2b-efe1717b1dcc
-  xudp: true
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦-001 |4.1MB/s|GPT⁺
+  name: 俄罗斯联邦-001 |1.1MB/s
   network: tcp
-  port: 1488
+  port: 7443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 51.250.25.11
-  servername: ads.x5.ru
-  skip-cert-verify: false
+    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
+    short-id: '!!str fd88bd27db4cc661'
+  server: 45.139.26.152
+  servername: eh.vk.com
   tls: true
   type: vless
-  udp: true
-  uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 俄罗斯联邦-002 |2.7MB/s
-  network: tcp
-  port: 34895
-  server: 2.56.242.210
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-  ws-opts:
-    path: /
-  xudp: true
-- name: 俄罗斯联邦-003 |0.9MB/s|29%|GPT⁺|X|...
-  port: 5566
-  server: 37.18.73.60
-  skip-cert-verify: true
-  type: socks5
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-004 |3.4MB/s
-  network: tcp
-  port: 1488
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 51.250.25.119
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5
-  xudp: true
+  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487

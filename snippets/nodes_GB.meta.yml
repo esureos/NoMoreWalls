@@ -8,15 +8,3 @@ proxies:
   servername: v36.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 英国-001 |801KB/s
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 55024
-  server: 132.145.68.142
-  sni: lundun2.nezhasu.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b

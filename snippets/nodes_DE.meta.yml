@@ -5,30 +5,28 @@ proxies:
   port: 8080
   server: 45.87.175.174
   type: ss
-- name: 德国-001 |5.3MB/s|GPT⁺|X|KeepSuc...
-  port: 1080
-  server: 161.35.31.237
+- alterId: 0
+  cipher: auto
+  name: 【机场推荐：https://a0a.xyz/】13
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: ''
   skip-cert-verify: true
-  type: socks5
-- name: 德国-003 |0.8MB/s|10%|GPT⁺|X|Kee...
-  port: 1080
-  server: 193.233.254.9
-  skip-cert-verify: true
-  type: socks5
-- auth: ac99161b-451f-444f-8e40-95cd5b3ff288
-  down: 2
-  name: 德国-004
-  obfs: salamander
-  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  password: ac99161b-451f-444f-8e40-95cd5b3ff288
-  port: 443
-  server: 185.181.10.175
-  skip-cert-verify: true
-  type: hysteria2
+  tls: false
+  type: vmess
   udp: true
-  up: 2
-- name: 德国-005 |3.3MB/s|10%|X
-  port: 1080
-  server: 193.233.254.7
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: 德国-003 |773KB/s|GPT|YT-DE|NF
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 202.61.254.159
   skip-cert-verify: true
-  type: socks5
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'

@@ -5,18 +5,3 @@ proxies:
   port: 443
   server: 194.246.114.101
   type: ss
-- alterId: '0'
-  cipher: auto
-  client-fingerprint: chrome
-  name: 俄罗斯联邦-002 |2.7MB/s
-  network: tcp
-  port: 34895
-  server: 2.56.242.210
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
-  ws-opts:
-    path: /
-  xudp: true

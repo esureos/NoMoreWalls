@@ -5,7 +5,7 @@ proxies:
   auth_str: dongtaiwang.com
   client-fingerprint: chrome
   down: 55 Mbps
-  name: 法国-004 |3.4MB/s|TK-FR|YT-FR|GP...
+  name: 法国-001 |1.6MB/s
   port: 26691
   protocol: udp
   server: 62.210.196.68
@@ -17,31 +17,26 @@ proxies:
 - alpn:
   - h3
   auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
   down: '55'
-  name: 法国-003 |1.3MB/s
+  name: '🇫🇷_FR_法国_1 #1'
   port: 35511
   protocol: udp
   server: 62.210.10.186
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
-  udp: true
   up: '11'
 - alpn:
   - h3
   auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
   down: 55 Mbps
-  name: 法国-001 |950KB/s
+  name: '🇫🇷_FR_法国_2 #1'
   port: 50011
   protocol: udp
   server: 62.210.10.186
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
-  udp: true
   up: 11 Mbps
 - alterId: 2
   cipher: auto
@@ -52,15 +47,27 @@ proxies:
   servername: v35.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 法国-002 |677KB/s
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 61823
-  server: 129.151.255.22
-  sni: marseille-1.nezhasu.com
-  type: tuic
+- cipher: chacha20-ietf-poly1305
+  name: 法国-002 |1.8MB/s
+  password: 27e645dcf11ded1f
+  port: 47000
+  server: 57.128.190.144
+  type: ss
   udp: true
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 法国-003 |2.0MB/s
+  network: grpc
+  port: 43529
+  reality-opts:
+    public-key: SOqL8NC53BMPU7P0XHYtKyxwk8So11osWZUT27cqlV8
+    short-id: '!!str 80a70b'
+  server: 152.228.231.200
+  servername: sourceforge.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13a28931-8818-4004-8cc4-0e8a315464de
+  xudp: true

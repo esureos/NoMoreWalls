@@ -19,28 +19,49 @@ proxies:
   server: 216.238.87.47
   type: vmess
   uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+- name: 德国-002 |1.4MB/s|GPT|YT-US|NF|D...
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 188.244.122.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: 美国-002 |1.9MB/s|GPT|YT-GB|NF|D...
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 160.153.136.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- cipher: aes-256-cfb
+  name: 越南-002 |1.2MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.102
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 【机场推荐：https://a0a.xyz/】13
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 美国-006 |5.2MB/s|TK-US|YT-NL|GP...
-  network: none
-  port: 29431
-  server: 185.221.23.251
+  name: 美国-003 |1.8MB/s
+  network: ws
+  port: 26785
+  server: 74.117.196.232
+  servername: imafake.locker
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 8b78363e-3c3a-44ab-f0d8-f13d950c8572
+  uuid: f1a513d2-c32a-49dc-8e64-d4f8a2f1e001
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
   xudp: true
