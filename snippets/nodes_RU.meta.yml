@@ -1,14 +1,92 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: '🇷🇺_RU_俄罗斯_1 #1'
+  name: 摩尔多瓦-005
   password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
   port: 443
   server: 194.246.114.101
   type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 俄罗斯联邦-001 |581KB/s
+  network: none
+  port: 34895
+  server: 2.56.242.210
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+  ws-opts:
+    path: /
+  xudp: true
+- name: 俄罗斯联邦-002
+  network: ws
+  password: trojan
+  port: 443
+  server: 45.135.135.131
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦-001 |1.1MB/s
+  name: 俄罗斯联邦-003 |902KB/s
+  network: tcp
+  port: 4248
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 51.250.28.151
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-004 |5.5MB/s|GPT
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
+    short-id: '!!str 4d4421a0bac569'
+  server: 51.250.4.181
+  servername: eh.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-005 |2.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dFORJuMEa7izUStNjvhLFvJ2Hudr4v07VQhQS-Wbyh8
+    short-id: '!!str fd'
+  server: 89.169.182.230
+  servername: vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ac2c8871-d4eb-40a6-8487-fd1b31c3bc22
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-006 |1.1MB/s
   network: tcp
   port: 7443
   reality-opts:
@@ -19,3 +97,70 @@ proxies:
   tls: true
   type: vless
   uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
+- name: 俄罗斯联邦-007 |0.6MB/s|GPT⁺|X|Keep...
+  port: 5566
+  server: 37.18.73.60
+  skip-cert-verify: true
+  type: socks5
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-008 |3.4MB/s
+  network: tcp
+  port: 1488
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 51.250.25.119
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5
+  xudp: true
+- name: 俄罗斯联邦-009 |3.1MB/s
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 5.182.84.22
+  skip-cert-verify: true
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-010 |3.0MB/s|34%|GPT|YT-...
+  network: tcp
+  port: 47944
+  reality-opts:
+    public-key: _7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw
+    short-id: '!!str ffffffffff'
+  server: 89.23.113.137
+  servername: www.ietf.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9f721f50-e015-5ea3-8bb0-22428307e9c0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-011 |1.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: '!!str 672ff0'
+  server: 178.154.205.131
+  servername: ads.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fd4b0117-d752-46fd-9a94-21a21e360fdb
+  xudp: true

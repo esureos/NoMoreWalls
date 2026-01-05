@@ -9,9 +9,21 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: 法国-002 |1.8MB/s
+  name: 法国-004 |1.8MB/s
   password: 27e645dcf11ded1f
   port: 47000
   server: 57.128.190.144
   type: ss
   udp: true
+- name: 法国-005 |5.7MB/s
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 135.125.232.253
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'

@@ -1,9 +1,16 @@
 proxies:
-- name: 韩国-001 |2.3MB/s|YT-KR|NF|D+
+- cipher: aes-256-cfb
+  name: 韩国-002 |1.5MB/s
+  password: qwerREWQ@@
+  port: 35452
+  server: 221.150.109.22
+  type: ss
+  udp: true
+- name: 韩国-003 |3.8MB/s|YT-KR|NF|D+
   network: ws
   password: 5a2c16f9
-  port: 12312
-  server: 211.48.77.114
+  port: 19413
+  server: 121.165.101.69
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
@@ -11,19 +18,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 韩国-002 |3.2MB/s|GPT⁺|YT-KR|NF|...
-  network: ws
-  password: 5a2c16f9
-  port: 50001
-  server: 112.185.223.152
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 韩国-003 |1.1MB/s|GPT|YT-KR|NF|D...
+- name: 韩国-004 |1.1MB/s|GPT|YT-KR|NF|D...
   network: ws
   password: 5a2c16f9
   port: 50000
@@ -35,18 +30,11 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- cipher: aes-256-cfb
-  name: 韩国-004 |1.5MB/s
-  password: qwerREWQ@@
-  port: 50411
-  server: 210.217.18.69
-  type: ss
-  udp: true
-- name: 韩国-005 |4.8MB/s|YT-KR|NF|D+
+- name: 韩国-005 |3.2MB/s|GPT⁺|YT-KR|NF|...
   network: ws
   password: 5a2c16f9
   port: 50001
-  server: 221.161.207.216
+  server: 112.185.223.152
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
@@ -54,11 +42,11 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 韩国-006 |3.8MB/s|YT-KR|NF|D+
+- name: 韩国-007 |4.8MB/s|YT-KR|NF|D+
   network: ws
   password: 5a2c16f9
-  port: 19413
-  server: 121.165.101.69
+  port: 50001
+  server: 221.161.207.216
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
@@ -78,7 +66,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 韩国-010 |3.9MB/s|YT-KR|NF|D+|GM
+- name: 韩国-011 |3.9MB/s|YT-KR|NF|D+|GM
   network: ws
   password: 5a2c16f9
   port: 31337
@@ -90,11 +78,35 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 韩国-011 |3.7MB/s|YT-KR|NF|D+|GM
+- name: 韩国-012 |3.7MB/s|YT-KR|NF|D+|GM
   network: ws
   password: 5a2c16f9
   port: 50000
   server: 125.135.43.66
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: 韩国-013 |2.3MB/s|YT-KR|NF|D+
+  network: ws
+  password: 5a2c16f9
+  port: 12312
+  server: 211.48.77.114
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: 韩国-015 |1.3MB/s|GPT|YT-KR|NF|D...
+  network: ws
+  password: 5a2c16f9
+  port: 30012
+  server: 116.93.199.28
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan

@@ -35,11 +35,12 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '🇷🇺_RU_俄罗斯_1 #1'
+  name: 摩尔多瓦-005
   password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
   port: 443
   server: 194.246.114.101
   type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   name: '🇬🇧 英国 - Slough - DigitalOcean,... #1'
@@ -108,47 +109,11 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- name: 韩国-001 |2.3MB/s|YT-KR|NF|D+
-  network: ws
-  password: 5a2c16f9
-  port: 12312
-  server: 211.48.77.114
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 韩国-002 |3.2MB/s|GPT⁺|YT-KR|NF|...
-  network: ws
-  password: 5a2c16f9
-  port: 50001
-  server: 112.185.223.152
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 韩国-003 |1.1MB/s|GPT|YT-KR|NF|D...
-  network: ws
-  password: 5a2c16f9
-  port: 50000
-  server: 222.97.1.10
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
 - cipher: aes-256-cfb
-  name: 韩国-004 |1.5MB/s
+  name: 韩国-002 |1.5MB/s
   password: qwerREWQ@@
-  port: 50411
-  server: 210.217.18.69
+  port: 35452
+  server: 221.150.109.22
   type: ss
   udp: true
 - name: 德国-002 |1.4MB/s|GPT|YT-US|NF|D...
@@ -163,19 +128,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 韩国-005 |4.8MB/s|YT-KR|NF|D+
-  network: ws
-  password: 5a2c16f9
-  port: 50001
-  server: 221.161.207.216
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 韩国-006 |3.8MB/s|YT-KR|NF|D+
+- name: 韩国-003 |3.8MB/s|YT-KR|NF|D+
   network: ws
   password: 5a2c16f9
   port: 19413
@@ -187,7 +140,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 美国-002 |1.9MB/s|GPT|YT-GB|NF|D...
+- name: 美国-003 |1.9MB/s|GPT|YT-GB|NF|D...
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -197,7 +150,26 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 日本-001 |2.2MB/s|YT-JP|NF|D+
+- name: 韩国-004 |1.1MB/s|GPT|YT-KR|NF|D...
+  network: ws
+  password: 5a2c16f9
+  port: 50000
+  server: 222.97.1.10
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- cipher: chacha20-ietf-poly1305
+  name: 法国-004 |1.8MB/s
+  password: 27e645dcf11ded1f
+  port: 47000
+  server: 57.128.190.144
+  type: ss
+  udp: true
+- name: 日本-002 |2.2MB/s|YT-JP|NF|D+
   network: ws
   password: 5a2c16f9
   port: 443
@@ -209,6 +181,80 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: 德国-003 |773KB/s|GPT|YT-DE|NF
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 202.61.254.159
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- cipher: aes-256-cfb
+  name: 越南-001 |1.6MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.123
+  type: ss
+- name: 韩国-005 |3.2MB/s|GPT⁺|YT-KR|NF|...
+  network: ws
+  password: 5a2c16f9
+  port: 50001
+  server: 112.185.223.152
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: 法国-005 |5.7MB/s
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 135.125.232.253
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯联邦-001 |581KB/s
+  network: none
+  port: 34895
+  server: 2.56.242.210
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+  ws-opts:
+    path: /
+  xudp: true
+- name: 韩国-007 |4.8MB/s|YT-KR|NF|D+
+  network: ws
+  password: 5a2c16f9
+  port: 50001
+  server: 221.161.207.216
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- cipher: aes-256-cfb
+  name: 越南-002 |717KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.29
+  type: ss
 - name: 韩国-008 |4.2MB/s|GPT⁺|YT-KR|NF|...
   network: ws
   password: 5a2c16f9
@@ -221,6 +267,30 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- cipher: aes-256-cfb
+  name: 越南-003 |711KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.4
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-004 |2.1MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.52
+  type: ss
+- name: 俄罗斯联邦-002
+  network: ws
+  password: trojan
+  port: 443
+  server: 45.135.135.131
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
 - name: 日本-003 |689KB/s
   network: ws
   password: 5a2c16f9
@@ -235,33 +305,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /Telegram🇨🇳WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 法国-002 |1.8MB/s
-  password: 27e645dcf11ded1f
-  port: 47000
-  server: 57.128.190.144
-  type: ss
-  udp: true
-- name: 德国-003 |773KB/s|GPT|YT-DE|NF
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 202.61.254.159
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- cipher: aes-256-cfb
-  name: 越南-001 |1.4MB/s|GPT⁺|YT-VN|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.9
-  type: ss
-  udp: true
-- name: 韩国-010 |3.9MB/s|YT-KR|NF|D+|GM
+- name: 韩国-011 |3.9MB/s|YT-KR|NF|D+|GM
   network: ws
   password: 5a2c16f9
   port: 31337
@@ -273,7 +317,13 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 韩国-011 |3.7MB/s|YT-KR|NF|D+|GM
+- cipher: aes-256-cfb
+  name: 越南-005 |848KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.83
+  type: ss
+- name: 韩国-012 |3.7MB/s|YT-KR|NF|D+|GM
   network: ws
   password: 5a2c16f9
   port: 50000
@@ -286,34 +336,39 @@ proxies:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
 - cipher: aes-256-cfb
-  name: 越南-002 |1.2MB/s|GPT⁺|YT-US|NF|...
+  name: 越南-006 |1.4MB/s|GPT⁺|YT-VN|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.102
+  server: 103.186.154.9
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 越南-003 |1.3MB/s
+  name: 越南-007 |704KB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.223
+  server: 103.186.155.240
   type: ss
+- name: 意大利-001
+  network: ws
+  password: trojan
+  port: 81
+  server: 87.120.237.36
+  skip-cert-verify: true
+  sni: tianjiu.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tianjiu.pages.dev
+    path: /?ed=2560
 - cipher: aes-256-cfb
-  name: 越南-004 |1.6MB/s|GPT⁺|YT-VN|NF|...
+  name: 越南-008 |795KB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.219
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-005 |1.9MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.206
+  server: 103.186.155.48
   type: ss
 - alterId: 0
   cipher: auto
-  name: 美国-003 |1.8MB/s
+  name: 美国-011 |1.8MB/s
   network: ws
   port: 26785
   server: 74.117.196.232
@@ -328,6 +383,74 @@ proxies:
       Host: imafake.locker
     path: /speedtest
   xudp: true
+- name: 韩国-013 |2.3MB/s|YT-KR|NF|D+
+  network: ws
+  password: 5a2c16f9
+  port: 12312
+  server: 211.48.77.114
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- cipher: aes-256-cfb
+  name: 越南-009 |1.8MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.33
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-010 |1.6MB/s|GPT⁺|YT-VN|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.219
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-011 |1.1MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.70
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-012 |2.0MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.208
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-013 |571KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.124
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-014 |663KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.150
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-015 |1.2MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.102
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-016 |1.1MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.65
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-017 |1.5MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.175
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 乌克兰-001 |2.0MB/s
   password: 9VZoDGTivItaGWVRnCBbwgIFoZw02Mg390K0NiWNW5tHTjlV
@@ -335,6 +458,18 @@ proxies:
   server: 194.38.23.137
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 越南-018 |906KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.133
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-019 |1.3MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.117
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 阿曼-001 |1.6MB/s
   password: 4f53937e66f3d673
@@ -342,14 +477,108 @@ proxies:
   server: 154.205.147.105
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 越南-020 |547KB/s|GPT⁺|YT-VN|NF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.73
+  type: ss
+- cipher: aes-256-cfb
+  name: 葡萄牙-001
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
+  type: ss
+- name: 俄罗斯联邦-009 |3.1MB/s
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 5.182.84.22
+  skip-cert-verify: true
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: aes-256-cfb
+  name: 越南-021 |1.0MB/s|GPT
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.174
+  type: ss
+- name: 韩国-015 |1.3MB/s|GPT|YT-KR|NF|D...
+  network: ws
+  password: 5a2c16f9
+  port: 30012
+  server: 116.93.199.28
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- cipher: aes-256-cfb
+  name: 越南-022 |1.3MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.134
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-023 |1.3MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.223
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 摩尔多瓦-004 |3.8MB/s
+  password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb
+  port: 443
+  server: 89.221.225.15
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-024
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.67
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 保加利亚-001 |4.3MB/s|TK-TR|YT-US|...
+  password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
+  port: 443
+  server: 95.164.116.33
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 尼日利亚-001 |1.0MB/s
-  network: tcp
-  port: 36334
-  server: 160.119.196.92
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 德国-007 |3.2MB/s|GPT
+  network: http
+  port: 19751
+  server: 43.165.7.71
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
+  udp: true
+  uuid: 6cfa6103-5d06-40cb-f452-b563db578288
+- cipher: aes-256-cfb
+  name: 越南-025
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.22
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-026 |738KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.50
+  type: ss
 - alterId: 0
   cipher: auto
   name: 【机场推荐：https://a0a.xyz/】19

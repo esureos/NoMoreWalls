@@ -30,3 +30,47 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- auth: 34b28b95-f91e-4f10-854c-2480508c3e46
+  down: 2
+  name: 德国-004
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 34b28b95-f91e-4f10-854c-2480508c3e46
+  port: 443
+  server: 85.209.53.170
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 2
+- auth: 881837a1-9615-4398-b31c-0def409febe4
+  down: 2
+  name: 德国-005
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: 881837a1-9615-4398-b31c-0def409febe4
+  port: 443
+  server: 185.181.10.175
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+  up: 2
+- name: 德国-006 |3.3MB/s|10%|X
+  port: 1080
+  server: 193.233.254.7
+  skip-cert-verify: true
+  type: socks5
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 德国-007 |3.2MB/s|GPT
+  network: http
+  port: 19751
+  server: 43.165.7.71
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6cfa6103-5d06-40cb-f452-b563db578288

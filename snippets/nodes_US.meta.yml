@@ -19,15 +19,12 @@ proxies:
   server: 216.238.87.47
   type: vmess
   uuid: b8155ce4-7e08-4c40-800f-8671312b7124
-- encryption: none
-  name: 美国-001 |3.3MB/s
-  network: tcp
-  port: 4655
-  server: 138.197.234.185
-  type: vless
-  udp: true
-  uuid: 1602a406-a38e-4211-bbdc-3f75c890303d
-  xudp: true
+- name: 美国-001 |593KB/s
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  type: http
+  username: fQ67Dpe5dU
 - name: 德国-002 |1.4MB/s|GPT|YT-US|NF|D...
   network: ws
   password: 5a2c16f9
@@ -40,7 +37,22 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 美国-002 |1.9MB/s|GPT|YT-GB|NF|D...
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国-002
+  network: tcp
+  port: 42356
+  reality-opts:
+    public-key: nY642oPT9bs-EddohAqLcif8a7qaxAUwxeDD85eXNjw
+  server: 159.223.205.136
+  servername: dash.cloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe
+- name: 美国-003 |1.9MB/s|GPT|YT-GB|NF|D...
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -50,16 +62,147 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 美国-004 |2.9MB/s|GPT
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 51409
+  server: 132.226.29.29
+  sni: phoenix-4.nezhasu.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 美国-005 |3.1MB/s|GPT⁺
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 62103
+  server: 129.153.204.12
+  sni: phoenix-3.nezhasu.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 美国-006 |3.0MB/s|GPT
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 64015
+  server: 132.226.99.211
+  sni: phoenix-2.nezhasu.cn
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- client-fingerprint: chrome
+  encryption: none
+  name: 美国-007
+  network: ws
+  port: 2053
+  server: 208.103.161.32
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560
+  xudp: true
+- name: 摩尔多瓦-001 |2.2MB/s|TK-FR|YT-US|...
+  network: ws
+  port: 443
+  server: 94.131.118.18
+  servername: ads.x5.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 784ac0b2-3837-4889-8ad6-b58259dd1d0f
+  ws-opts:
+    headers:
+      Host: ads.x5.ru
+    path: /kmdznvws
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 美国-008 |855KB/s
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 54759
+  server: 144.24.2.103
+  sni: phoenix-1.nezhasu.cn
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- client-fingerprint: chrome
+  mptcp: true
+  name: 美国-009
+  network: ws
+  packet-encoding: xudp
+  port: 30690
+  server: 154.9.234.118
+  servername: us.alice.cloudns.pro
+  skip-cert-verify: false
+  smux:
+    enabled: true
+    max-streams: 10
+    padding: true
+    protocol: h2mux
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  ws-opts:
+    headers:
+      Host: us.alice.cloudns.pro
+    path: /siehdfioshfiosdfskkk
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
 - cipher: aes-256-cfb
-  name: 越南-002 |1.2MB/s|GPT⁺|YT-US|NF|...
+  name: 越南-001 |1.6MB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.102
+  server: 103.186.155.123
   type: ss
-  udp: true
+- name: 美国-010 |5.2MB/s|GPT⁺|GM|YT|X|K...
+  port: 1080
+  server: 174.138.61.184
+  skip-cert-verify: true
+  type: socks5
+- cipher: aes-256-cfb
+  name: 越南-003 |711KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.4
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-005 |848KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.83
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-007 |704KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.240
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-008 |795KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.48
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 美国-003 |1.8MB/s
+  name: 美国-011 |1.8MB/s
   network: ws
   port: 26785
   server: 74.117.196.232
@@ -74,3 +217,154 @@ proxies:
       Host: imafake.locker
     path: /speedtest
   xudp: true
+- cipher: aes-256-cfb
+  name: 越南-011 |1.1MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.70
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-013 |571KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.124
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-015 |1.2MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.102
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-018 |906KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.133
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-019 |1.3MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.117
+  type: ss
+- name: 英国-001 |5.1MB/s|21%|GPT⁺|YT-US...
+  network: ws
+  port: 443
+  server: 146.19.230.83
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
+  ws-opts:
+    path: /hormoz
+- client-fingerprint: chrome
+  mptcp: true
+  name: 美国-012
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 104.194.69.254
+  servername: sg.alice.cloudns.pro
+  skip-cert-verify: false
+  smux:
+    enabled: true
+    max-streams: 10
+    padding: true
+    protocol: h2mux
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  ws-opts:
+    headers:
+      Host: sg.alice.cloudns.pro
+    path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 美国-013 |3.7MB/s|GPT⁺|YT-CN|NF
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
+- encryption: none
+  name: 美国-014 |3.3MB/s
+  network: tcp
+  port: 4655
+  server: 138.197.234.185
+  type: vless
+  udp: true
+  uuid: 1602a406-a38e-4211-bbdc-3f75c890303d
+  xudp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 美国-015 |1.7MB/s
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 51500
+  server: 141.148.44.35
+  sni: ashburn-1.nezhasu.cn
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- cipher: chacha20-ietf-poly1305
+  name: 保加利亚-001 |4.3MB/s|TK-TR|YT-US|...
+  password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
+  port: 443
+  server: 95.164.116.33
+  type: ss
+  udp: true
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  congestion-controller: cubic
+  disable-sni: false
+  name: 加拿大-001 |2.0MB/s|GPT|YT-US
+  password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+  port: 52434
+  reduce-rtt: false
+  request-timeout: 15000
+  server: 40.233.77.57
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+  version: '5'
+- client-fingerprint: chrome
+  mptcp: true
+  name: 美国-016
+  network: ws
+  packet-encoding: xudp
+  port: 25222
+  server: 104.194.68.16
+  servername: sg.alice.cloudns.pro
+  skip-cert-verify: false
+  smux:
+    enabled: true
+    max-streams: 10
+    padding: true
+    protocol: h2mux
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  ws-opts:
+    headers:
+      Host: sg.alice.cloudns.pro
+    path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true

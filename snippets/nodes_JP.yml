@@ -1,5 +1,5 @@
 proxies:
-- name: 日本-001 |2.2MB/s|YT-JP|NF|D+
+- name: 日本-002 |2.2MB/s|YT-JP|NF|D+
   network: ws
   password: 5a2c16f9
   port: 443
@@ -26,11 +26,3 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /Telegram🇨🇳WangCai2
-- alterId: 0
-  cipher: auto
-  name: 尼日利亚-001 |1.0MB/s
-  network: tcp
-  port: 36334
-  server: 160.119.196.92
-  type: vmess
-  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7
