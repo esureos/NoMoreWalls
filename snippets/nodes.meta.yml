@@ -568,7 +568,7 @@ proxies:
     path: /Telegram🇨🇳WangCai2
 - alterId: 0
   cipher: auto
-  name: 【机场推荐：https://a0a.xyz/】13
+  name: 【机场推荐：https://a0a.xyz/】8
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -914,7 +914,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 【机场推荐：https://a0a.xyz/】19
+  name: 【机场推荐：https://a0a.xyz/】2
   network: tcp
   port: 30830
   server: v30.hdacd.com
@@ -923,34 +923,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】5\r"
-  password: 7saUuuV-YDq8BTKgWUQFARU5BuPeXEfZ
-  port: 2050
-  server: 144.31.84.76
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】10\r"
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-- name: "【机场推荐：https://a0a.xyz/】33\r"
+- name: "【机场推荐：https://a0a.xyz/】3\r"
   network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.26.1.110
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
+  port: 2096
+  server: api.dark-coffe.com
+  servername: PjHqGd1N0i.HiGhSmArTcO.cOm
+  tls: true
+  type: vless
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
-    headers:
-      host: snippets.kkii.eu.org
-    path: //
+    path: /
 - alterId: 0
   cipher: auto
-  name: 【机场推荐：https://a0a.xyz/】8
+  name: 【机场推荐：https://a0a.xyz/】4
   network: tcp
   port: 30812
   server: v12.hdacd.com
@@ -959,29 +944,29 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: "【机场推荐：https://a0a.xyz/】12\r"
+- name: "【机场推荐：https://a0a.xyz/】6\r"
   network: ws
-  password: 5a2c16f9
   port: 443
-  server: one.cf.cdn.hyli.xyz
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
+  server: 20.247.137.183
+  servername: page.anjue39.qzz.io
+  tls: true
+  type: vless
+  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
   ws-opts:
-    headers:
-      host: snippets.kkii.eu.org
-    path: //
-- name: "【机场推荐：https://a0a.xyz/】32\r"
+    path: /?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: "【机场推荐：https://a0a.xyz/】7\r"
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- name: "【机场推荐：https://a0a.xyz/】9\r"
   network: ws
-  password: 5a2c16f9
   port: 443
-  server: cf.130519.xyz
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
+  server: api.dark-coffe.com
+  servername: Lg9JlQc0Vy.HiGhSmArTcO.cOm
+  tls: true
+  type: vless
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
-    headers:
-      host: snippets.kkii.eu.org
-    path: //
+    path: /
