@@ -12,7 +12,7 @@ proxies:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: 英国-002 |783KB/s|GPT
+  name: 英国-001 |783KB/s|GPT
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
   port: 55024
   reduce-rtt: false

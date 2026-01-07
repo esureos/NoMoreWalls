@@ -1,19 +1,16 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-001 |3.8MB/s|GPT⁺|YT-JP|NF|...
-  network: tcp
-  port: 40721
-  reality-opts:
-    public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU
-    short-id: '!!str c588'
-  server: 150.230.4.210
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e0aafde7-37e2-486b-eb30-efa71166bf7e
-  xudp: true
+- name: 日本-001 |2.9MB/s
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 103.53.81.139
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
 - name: 日本-002 |2.2MB/s|YT-JP|NF|D+
   network: ws
   password: 5a2c16f9
@@ -27,23 +24,8 @@ proxies:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
 - client-fingerprint: chrome
-  name: 日本-003 |689KB/s
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 168.138.46.67
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /Telegram🇨🇳WangCai2
-- client-fingerprint: chrome
   encryption: none
-  name: 日本-004 |3.6MB/s
+  name: 日本-003 |3.6MB/s
   network: ws
   port: 42841
   server: 43.165.190.11
