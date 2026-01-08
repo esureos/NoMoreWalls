@@ -1,31 +1,21 @@
 proxies:
-- name: 日本-001 |2.9MB/s
+- name: 日本-001 |2.1MB/s|GPT⁺|YT-JP|NF|...
   network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 103.53.81.139
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: 日本-002 |2.2MB/s|YT-JP|NF|D+
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 158.101.80.84
+  port: 433
+  server: 8.222.81.32
+  servername: gyhh2333.h2333.ggff.net
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
+  tls: true
+  type: vless
+  udp: true
+  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+      Host: gyhh2333.h2333.ggff.net
+    path: /
 - client-fingerprint: chrome
   encryption: none
-  name: 日本-003 |3.6MB/s
+  name: 日本-002 |3.2MB/s
   network: ws
   port: 42841
   server: 43.165.190.11

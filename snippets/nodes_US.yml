@@ -8,98 +8,36 @@ proxies:
   type: trojan
   ws-opts:
     path: 🔒
-- cipher: aes-256-cfb
-  name: 越南-001 |593KB/s|GPT⁺|YT-US|NF
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.36
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-002 |817KB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.183
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 亚美尼亚-001 |811KB/s|GPT⁺|YT-US|N...
-  password: e716d7bbae4bdd14
-  port: 18792
-  server: 85.90.207.104
+  name: 立陶宛-001 |5.1MB/s|GPT⁺|YT-US|NF...
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 45.87.175.180
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-002 |1.3MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.230
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-003 |1.2MB/s|YT-US|NF|GPT⁺|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.205
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-004 |816KB/s|YT-US|NF|GPT⁺|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.188
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 亚美尼亚-002 |1.1MB/s|GPT⁺|YT-US|N...
+  name: 亚美尼亚-001 |1.1MB/s|GPT⁺|YT-US|N...
   password: e716d7bbae4bdd14
   port: 18794
   server: 85.90.207.104
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 亚美尼亚-003 |778KB/s|GPT⁺|YT-US|N...
-  password: e716d7bbae4bdd14
-  port: 18793
-  server: 85.90.207.104
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-003 |954KB/s|GPT⁺|YT-US|NF
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.25
-  type: ss
-- name: 土耳其-001 |1.6MB/s|GPT⁺|YT-US|NF...
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2096
-  server: 185.7.240.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- name: 荷兰-001 |1.5MB/s|GPT⁺|YT-US|NF|...
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2096
-  server: 45.149.12.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- cipher: aes-256-cfb
-  name: 越南-004 |1.1MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.4
-  type: ss
-- name: 美国-007 |1.4MB/s
-  network: ws
-  password: 5a2c16f9
-  port: 2053
-  server: 199.119.137.77
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram@V2rayAlpha
-- name: 韩国-015 |3.0MB/s|GPT|YT-US|NF|D...
-  network: ws
-  password: 5a2c16f9
-  port: 11027
-  server: 121.175.77.73
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
