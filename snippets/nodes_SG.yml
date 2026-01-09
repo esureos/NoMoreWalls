@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- cipher: rc4-md5
+  name: 新加坡-003 |3.0MB/s|GPT⁺|NF
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.45
+  type: ss

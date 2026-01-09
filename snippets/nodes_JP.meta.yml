@@ -1,21 +1,7 @@
 proxies:
-- name: 日本-001 |2.1MB/s|GPT⁺|YT-JP|NF|...
-  network: ws
-  port: 433
-  server: 8.222.81.32
-  servername: gyhh2333.h2333.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  ws-opts:
-    headers:
-      Host: gyhh2333.h2333.ggff.net
-    path: /
 - client-fingerprint: chrome
   encryption: none
-  name: 日本-002 |3.2MB/s
+  name: 日本-001 |3.2MB/s
   network: ws
   port: 42841
   server: 43.165.190.11

@@ -1,9 +1,29 @@
 proxies:
-- name: 德国-002 |3.3MB/s|10%|X
-  port: 1080
-  server: 193.233.254.7
+- alpn:
+  - h3
+  name: 德国-001 |2.5MB/s
+  obfs: salamander
+  obfs-password: KLSADFIU43#$
+  password: xtGIM7iEx9
+  port: 8443
+  server: 91.107.190.166
   skip-cert-verify: true
-  type: socks5
+  sni: dash.cloudflare.com
+  type: hysteria2
+- name: 德国-002 |2.1MB/s
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  type: vless
+  udp: true
+  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+  ws-opts:
+    headers:
+      Host: welcomtofreeboarders.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 【机场推荐：https://a0a.xyz/】9
@@ -17,3 +37,8 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
+- name: 德国-004 |3.3MB/s|10%|X
+  port: 1080
+  server: 193.233.254.7
+  skip-cert-verify: true
+  type: socks5

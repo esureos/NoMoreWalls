@@ -8,90 +8,78 @@ proxies:
   type: trojan
   ws-opts:
     path: 🔒
-- name: 美国-001 |723KB/s|0%
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  type: http
-  username: fQ67Dpe5dU
-- name: 美国-002 |574KB/s|0%|TK-US|YT-US...
-  network: ws
-  port: 443
-  server: 154.26.185.91
-  servername: gyhh2333.h2333.ggff.net
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 美国-001 |3.7MB/s|GPT⁺|YT-CN|NF
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  ws-opts:
-    headers:
-      Host: gyhh2333.h2333.ggff.net
-    path: /
-- name: 美国-003 |1.2MB/s|GPT⁺|YT-US|NF|...
-  network: ws
-  port: 9981
-  server: 154.21.87.182
-  servername: gyhh2333.h2333.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: www.bing.com
+  type: hysteria
   udp: true
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  ws-opts:
-    headers:
-      Host: gyhh2333.h2333.ggff.net
-    path: /
-- name: 德国-001 |3.7MB/s|9%|TK-DE|YT-US...
-  obfs: salamander
-  obfs-password: KLSADFIU43#$
-  password: xtGIM7iEx9
-  port: 8443
-  server: 91.107.190.166
+  up: 11 Mbps
+- alpn:
+  - h3
+  name: 美国-002 |2.9MB/s|GPT⁺|YT-US|NF|...
+  password: f19823db-48e6-44fc-8a6a-372ce3611763
+  port: 26902
+  server: 170.9.63.232
   skip-cert-verify: true
-  sni: dash.cloudflare.com
+  sni: www.bing.com
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 立陶宛-001 |5.1MB/s|GPT⁺|YT-US|NF...
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 45.87.175.180
-  type: ss
-- name: 美国-004 |707KB/s|3%|YT-HK|NF|GP...
-  network: ws
-  port: 443
-  server: 68.64.179.199
-  servername: gyhh2333.h2333.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  ws-opts:
-    headers:
-      Host: gyhh2333.h2333.ggff.net
-    path: /
-- name: 美国-005 |4.9MB/s|GPT⁺|YT-US|NF|...
-  network: ws
-  port: 1311
-  server: 154.17.228.219
-  servername: gyhh2333.h2333.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 483809cc-4a30-42d9-b713-6916b048aad7
-  ws-opts:
-    headers:
-      Host: gyhh2333.h2333.ggff.net
-    path: /
 - cipher: aes-256-cfb
-  name: 越南-002 |1.3MB/s|GPT⁺|YT-US|NF|...
+  name: 越南-001 |1.2MB/s|YT-US|NF|GPT⁺|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.230
+  server: 103.186.154.205
   type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-004 |585KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.185
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-005 |1005KB/s|GPT⁺|YT-US|NF...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.21
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-006 |771KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.191
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 亚美尼亚-001 |811KB/s|GPT⁺|YT-US|N...
+  password: e716d7bbae4bdd14
+  port: 18792
+  server: 85.90.207.104
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 亚美尼亚-002 |778KB/s|GPT⁺|YT-US|N...
+  password: e716d7bbae4bdd14
+  port: 18793
+  server: 85.90.207.104
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 亚美尼亚-003 |1.1MB/s|GPT⁺|YT-US|N...
+  password: e716d7bbae4bdd14
+  port: 18794
+  server: 85.90.207.104
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   mptcp: true
-  name: 美国-006
+  name: 美国-003
   network: ws
   packet-encoding: xudp
   port: 30690
@@ -114,28 +102,70 @@ proxies:
     path: /siehdfioshfiosdfskkk
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- cipher: aes-256-cfb
-  name: 越南-003 |1.2MB/s|YT-US|NF|GPT⁺|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.205
-  type: ss
+- client-fingerprint: chrome
+  mptcp: true
+  name: 美国-004
+  network: ws
+  packet-encoding: xudp
+  port: 25222
+  server: 104.194.68.16
+  servername: sg.alice.cloudns.pro
+  skip-cert-verify: false
+  smux:
+    enabled: true
+    max-streams: 10
+    padding: true
+    protocol: h2mux
+  tfo: true
+  tls: true
+  type: vless
   udp: true
+  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  ws-opts:
+    headers:
+      Host: sg.alice.cloudns.pro
+    path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- name: 美国-005 |723KB/s|0%
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  type: http
+  username: fQ67Dpe5dU
+- client-fingerprint: chrome
+  mptcp: true
+  name: 美国-006
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 104.194.69.254
+  servername: sg.alice.cloudns.pro
+  skip-cert-verify: false
+  smux:
+    enabled: true
+    max-streams: 10
+    padding: true
+    protocol: h2mux
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  ws-opts:
+    headers:
+      Host: sg.alice.cloudns.pro
+    path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
 - name: 美国-007 |5.2MB/s|GPT⁺|GM|YT|X|K...
   port: 1080
   server: 174.138.61.184
   skip-cert-verify: true
   type: socks5
-- cipher: aes-256-cfb
-  name: 越南-004 |816KB/s|YT-US|NF|GPT⁺|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.188
-  type: ss
-  udp: true
 - auth: S1XZDIaoUX
   client-fingerprint: chrome
-  name: 捷克-001 |3.1MB/s|GPT⁺|YT-US|NF|...
+  name: 捷克-001 |2.2MB/s|50%|TK-AL|YT-U...
   obfs: salamander
   obfs-password: Parsashonam
   password: S1XZDIaoUX
@@ -144,25 +174,4 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-  udp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 美国-008 |3.7MB/s|GPT⁺|YT-CN|NF
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
-- cipher: chacha20-ietf-poly1305
-  name: 亚美尼亚-001 |1.1MB/s|GPT⁺|YT-US|N...
-  password: e716d7bbae4bdd14
-  port: 18794
-  server: 85.90.207.104
-  type: ss
   udp: true
