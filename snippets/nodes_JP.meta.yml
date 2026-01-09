@@ -29,3 +29,9 @@ proxies:
       Host: mot.luyuju.dpdns.org
     path: /@Marisa_kristi
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: "节点日期：01-09\r"
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
