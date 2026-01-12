@@ -8,134 +8,185 @@ proxies:
   type: trojan
   ws-opts:
     path: 🔒
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 美国-001 |3.7MB/s|GPT⁺|YT-CN|NF
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
-- alpn:
-  - h3
-  name: 美国-002 |2.9MB/s|GPT⁺|YT-US|NF|...
-  password: f19823db-48e6-44fc-8a6a-372ce3611763
-  port: 26902
-  server: 170.9.63.232
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 越南-001 |1.2MB/s|YT-US|NF|GPT⁺|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.205
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-004 |585KB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.185
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-005 |1005KB/s|GPT⁺|YT-US|NF...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.21
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-006 |771KB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.191
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 亚美尼亚-001 |811KB/s|GPT⁺|YT-US|N...
-  password: e716d7bbae4bdd14
-  port: 18792
-  server: 85.90.207.104
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 亚美尼亚-002 |778KB/s|GPT⁺|YT-US|N...
-  password: e716d7bbae4bdd14
-  port: 18793
-  server: 85.90.207.104
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 亚美尼亚-003 |1.1MB/s|GPT⁺|YT-US|N...
-  password: e716d7bbae4bdd14
-  port: 18794
-  server: 85.90.207.104
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  mptcp: true
-  name: 美国-003
-  network: ws
-  packet-encoding: xudp
-  port: 30690
-  server: 154.9.234.118
-  servername: us.alice.cloudns.pro
+- alterId: '0'
+  cipher: auto
+  name: 美国-001 |744KB/s
+  network: none
+  port: 24004
+  server: 156.233.232.192
   skip-cert-verify: false
-  smux:
-    enabled: true
-    max-streams: 10
-    padding: true
-    protocol: h2mux
-  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
+  xudp: true
+- name: 美国-002 |5.0MB/s|YT-US|NF|D+
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  sni: epge.muarua.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 英国-001 |6.0MB/s|GPT⁺|YT-US|NF|...
+  network: ws
+  port: 2053
+  server: 25.129.197.138
+  servername: KhAmeneI.DPdNs.OrG
   tls: true
   type: vless
   udp: true
-  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
   ws-opts:
     headers:
-      Host: us.alice.cloudns.pro
-    path: /siehdfioshfiosdfskkk
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
+      Host: khamenei.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: "【机场推荐：https://a0a.xyz/】14\r"
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 151.242.251.131
+  type: ss
 - client-fingerprint: chrome
-  mptcp: true
-  name: 美国-004
-  network: ws
-  packet-encoding: xudp
-  port: 25222
-  server: 104.194.68.16
-  servername: sg.alice.cloudns.pro
-  skip-cert-verify: false
-  smux:
-    enabled: true
-    max-streams: 10
-    padding: true
-    protocol: h2mux
-  tfo: true
+  encryption: none
+  name: 美国-003 |4.2MB/s|GPT⁺|YT-US|NF|...
+  network: tcp
+  port: 29028
+  reality-opts:
+    public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA
+  server: 142.171.217.19
+  servername: addons.mozilla.org
   tls: true
   type: vless
   udp: true
-  uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+  uuid: 7426d51e-bb52-403d-e3bb-ef823d306766
+  xudp: true
+- client-fingerprint: firefox
+  name: 美国-004 |1.2MB/s
+  port: 2255
+  reality-opts:
+    public-key: Cs7yLk8XXPksSjf6GB1JFYyFICqWVL3nL-10K7jQ7xc
+    short-id: '!!str 983c9303725c67'
+  server: 79.110.63.79
+  servername: radar.arvancloud.ir
+  tls: true
+  type: vless
+  uuid: 02b320ce-09f8-4cb5-9c46-9024f5585881
+- cipher: aes-256-cfb
+  name: 美国-005 |1018KB/s
+  password: qwerREWQ@@
+  port: 37186
+  server: 140.174.52.97
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-003 |709KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.9
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-005 |1.4MB/s|GPT⁺|YT-US|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.238
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-008 |1.8MB/s|GPT⁺|YT-US|NF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.70
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-009 |2.1MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.142
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-010 |1.7MB/s|GPT⁺|YT-US|NF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.66
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-012 |1.2MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.34
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-016 |838KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-021 |2.8MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.55
+  type: ss
+- name: 美国-006 |3.1MB/s|YT-US|NF|D+|GM
+  network: ws
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: sg.alice.cloudns.pro
-    path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: 美国-005 |723KB/s|0%
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  type: http
-  username: fQ67Dpe5dU
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- cipher: aes-256-cfb
+  name: 越南-024 |1.6MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.153
+  type: ss
+- client-fingerprint: chrome
+  name: 德国-006 |3.4MB/s|GPT⁺|YT-US|34%
+  network: ws
+  port: 2087
+  server: 5.10.214.5
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
+- cipher: rc4-md5
+  name: 亚美尼亚-001 |1.1MB/s
+  password: 6c325435b2176c2d
+  port: 18790
+  server: 85.90.207.104
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-026 |1.2MB/s|GPT⁺|YT-US|NF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.142
+  type: ss
 - client-fingerprint: chrome
   mptcp: true
-  name: 美国-006
+  name: 美国-007
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -158,20 +209,3 @@ proxies:
     path: /huiasdgyhuigyhuisefgyhisedfgbyhisdefbyhui
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- name: 美国-007 |5.2MB/s|GPT⁺|GM|YT|X|K...
-  port: 1080
-  server: 174.138.61.184
-  skip-cert-verify: true
-  type: socks5
-- auth: S1XZDIaoUX
-  client-fingerprint: chrome
-  name: 捷克-001 |2.2MB/s|50%|TK-AL|YT-U...
-  obfs: salamander
-  obfs-password: Parsashonam
-  password: S1XZDIaoUX
-  port: 50163
-  server: 193.108.112.6
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-  udp: true

@@ -1,23 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-001 |3.2MB/s
+- name: "节点日期：01-12\r"
   network: ws
-  port: 42841
-  server: 43.165.190.11
-  servername: mot.luyuju.dpdns.org
+  port: 2087
+  server: api.dark-coffe.com
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
   tls: true
   type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
-    headers:
-      Host: mot.luyuju.dpdns.org
-    path: /@Marisa_kristi
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: "节点日期：01-09\r"
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
+    path: /

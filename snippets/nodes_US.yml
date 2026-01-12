@@ -8,49 +8,119 @@ proxies:
   type: trojan
   ws-opts:
     path: 🔒
+- alterId: '0'
+  cipher: auto
+  name: 美国-001 |744KB/s
+  network: none
+  port: 24004
+  server: 156.233.232.192
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
+  xudp: true
+- name: 美国-002 |5.0MB/s|YT-US|NF|D+
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  sni: epge.muarua.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "【机场推荐：https://a0a.xyz/】14\r"
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 151.242.251.131
+  type: ss
 - cipher: aes-256-cfb
-  name: 越南-001 |1.2MB/s|YT-US|NF|GPT⁺|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.205
+  name: 美国-005 |1018KB/s
+  password: qwerREWQ@@
+  port: 37186
+  server: 140.174.52.97
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 越南-004 |585KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-003 |709KB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.185
+  server: 103.186.155.9
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-005 |1005KB/s|GPT⁺|YT-US|NF...
+  name: 越南-005 |1.4MB/s|GPT⁺|YT-US|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.21
+  server: 103.186.154.238
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-006 |771KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-008 |1.8MB/s|GPT⁺|YT-US|NF
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.191
+  server: 103.186.154.70
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 亚美尼亚-001 |811KB/s|GPT⁺|YT-US|N...
-  password: e716d7bbae4bdd14
-  port: 18792
+- cipher: aes-256-cfb
+  name: 越南-009 |2.1MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.142
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-010 |1.7MB/s|GPT⁺|YT-US|NF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.66
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-012 |1.2MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.34
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-016 |838KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-021 |2.8MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.55
+  type: ss
+- name: 美国-006 |3.1MB/s|YT-US|NF|D+|GM
+  network: ws
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: true
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- cipher: aes-256-cfb
+  name: 越南-024 |1.6MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.153
+  type: ss
+- cipher: rc4-md5
+  name: 亚美尼亚-001 |1.1MB/s
+  password: 6c325435b2176c2d
+  port: 18790
   server: 85.90.207.104
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 亚美尼亚-002 |778KB/s|GPT⁺|YT-US|N...
-  password: e716d7bbae4bdd14
-  port: 18793
-  server: 85.90.207.104
+- cipher: aes-256-cfb
+  name: 越南-026 |1.2MB/s|GPT⁺|YT-US|NF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.142
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 亚美尼亚-003 |1.1MB/s|GPT⁺|YT-US|N...
-  password: e716d7bbae4bdd14
-  port: 18794
-  server: 85.90.207.104
-  type: ss
-  udp: true
