@@ -1,11 +1,10 @@
 proxies:
-- name: "节点日期：01-12\r"
-  network: ws
-  port: 2087
-  server: api.dark-coffe.com
-  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-  tls: true
-  type: vless
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    path: /
+- name: "节点日期：01-13\r"
+  network: tcp
+  password: 61d8077bfb174e171b8283f155a555ad
+  port: 443
+  server: 112.118.116.123
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
