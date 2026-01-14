@@ -1,8 +1,1 @@
-proxies:
-- cipher: chacha20-ietf
-  name: 新加坡-001 |3.8MB/s
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-  udp: true
+proxies: []

@@ -41,21 +41,25 @@ proxies:
   port: 41240
   server: 221.139.79.41
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 韩国-002 |781KB/s
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  tfo: true
-  type: ss
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 韩国-002 |4.5MB/s|4%|GPT⁺|GM|X|H...
+  network: http
+  port: 80
+  server: 152.70.92.69
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 韩国-003 |766KB/s
-  password: qwerREWQ@@
-  port: 11815
-  server: 121.170.203.148
-  tfo: true
-  type: ss
+  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+- client-fingerprint: chrome
+  name: 韩国-003 |1.3MB/s|GM
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
   udp: true
