@@ -1,10 +1,1 @@
-proxies:
-- name: "节点日期：01-13\r"
-  network: tcp
-  password: 61d8077bfb174e171b8283f155a555ad
-  port: 443
-  server: 112.118.116.123
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
+proxies: []
