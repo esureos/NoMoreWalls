@@ -14,13 +14,3 @@ proxies:
   udp: true
   uuid: e0aafde7-37e2-486b-eb30-efa71166bf7e
   xudp: true
-- name: "节点日期：01-15\r"
-  network: ws
-  port: 443
-  server: betty.ns.cloudflare.com
-  servername: 639031180460930556.altima-amsjq.info
-  tls: true
-  type: vless
-  uuid: d851e68a-af64-4dfc-a85a-7ffad2483230
-  ws-opts:
-    path: /oqxdqtws
