@@ -1,16 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-001 |4.3MB/s|GPT⁺|YT-JP|NF|...
-  network: tcp
-  port: 40721
-  reality-opts:
-    public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU
-    short-id: '!!str c588'
-  server: 150.230.4.210
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e0aafde7-37e2-486b-eb30-efa71166bf7e
-  xudp: true
+proxies: []

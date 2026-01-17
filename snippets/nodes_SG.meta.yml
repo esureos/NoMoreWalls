@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡-001 |6.1MB/s|GPT⁺|YT-SG|NF...
+  password: ed78b7ec3662e43a
+  port: 11201
+  server: 81.28.13.223
+  type: ss
+  udp: true
+- name: 新加坡-002 |7.1MB/s|GPT⁺|GM|X|Suc...
+  port: 7497
+  server: 167.71.220.29
+  skip-cert-verify: true
+  type: socks5

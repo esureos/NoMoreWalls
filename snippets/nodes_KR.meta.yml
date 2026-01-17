@@ -35,29 +35,8 @@ proxies:
   port: 4483
   server: 218.234.149.9
   type: ss
-- cipher: aes-256-cfb
-  name: 韩国-001 |1.2MB/s
-  password: qwerREWQ@@
-  port: 41240
-  server: 221.139.79.41
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 韩国-002 |4.5MB/s|4%|GPT⁺|GM|X|H...
-  network: http
-  port: 80
-  server: 152.70.92.69
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
 - client-fingerprint: chrome
-  name: 韩国-003 |1.3MB/s|GM
+  name: 韩国-001 |1.4MB/s|GPT⁺|X|History
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true

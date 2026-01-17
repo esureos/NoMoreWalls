@@ -9,39 +9,29 @@ proxies:
   ws-opts:
     path: 🔒
 - cipher: aes-256-cfb
-  name: 越南-001 |541KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-007 |0.5MB/s|GPT⁺|YT-US|X|S...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.40
+  server: 103.186.155.156
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-002 |1.3MB/s|GPT⁺|YT-US|NF|...
+  name: 越南-010 |2.5MB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.140
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-004 |892KB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.5
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-007 |1.2MB/s|GPT⁺|YT-US|NF
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.168
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 美国-006 |688KB/s
-  password: 98f7aedd8adda6fe
-  port: 45995
-  server: 207.244.226.239
+  server: 103.186.155.22
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 越南-009 |1.3MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.244
+- cipher: chacha20-ietf-poly1305
+  name: 美国-002 |4.3MB/s|60%|GPT⁺|X|His...
+  password: 5d8680180abdb564
+  port: 45234
+  server: 154.53.34.27
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-004 |1.6MB/s|GPT⁺|YT-US|NF|...
+  password: f96d6b42e30595dc
+  port: 11201
+  server: 15.204.28.84
+  type: ss
+  udp: true

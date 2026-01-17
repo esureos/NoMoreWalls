@@ -1,8 +1,27 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-001 |1.4MB/s|GPT⁺|YT-RU
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 4a3ad88ff867a295'
+  server: 37.18.15.139
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
+  xudp: true
 - client-fingerprint: random
   encryption: none
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦-001 |2.9MB/s
+  name: 俄罗斯联邦-002 |2.9MB/s
   network: tcp
   port: 7443
   reality-opts:
@@ -18,25 +37,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-002 |2.4MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 176.98.177.145
-  servername: de.reality.tv123.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-003 |4.0MB/s|YT-RU
+  name: 俄罗斯联邦-003 |4.7MB/s|YT-RU
   network: tcp
   port: 51191
   reality-opts:
@@ -49,18 +50,13 @@ proxies:
   udp: true
   uuid: 62770d79-dc4d-07d0-b01c-ea30399725aa
   xudp: true
-- name: 俄罗斯联邦-005 |0.6MB/s|GPT⁺|X|Keep...
-  port: 5566
-  server: 37.18.73.60
-  skip-cert-verify: true
-  type: socks5
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-006 |2.6MB/s
+  name: 俄罗斯联邦-004 |1.6MB/s|GPT⁺|YT-FI|...
   network: tcp
   port: 443
   reality-opts:
@@ -73,24 +69,36 @@ proxies:
   uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
   xudp: true
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-005 |2.2MB/s|GPT⁺|YT-FI|...
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 217.198.13.50
+  servername: fi.reality.tv123.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-007 |5.8MB/s|GPT⁺|X|Hist...
+  name: 俄罗斯联邦-006 |5.5MB/s|YT|X|Histor...
   network: tcp
   port: 443
   reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 2476f063981ffd92'
-  server: 51.250.87.167
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 158.160.135.161
   servername: api-maps.yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -98,30 +106,25 @@ proxies:
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-008 |1.4MB/s|GPT⁺|YT-RU
+  name: 俄罗斯联邦-007 |2.4MB/s
   network: tcp
   port: 443
   reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 4a3ad88ff867a295'
-  server: 37.18.15.139
-  servername: max.ru
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 176.98.177.145
+  servername: de.reality.tv123.ru
   tls: true
   type: vless
   udp: true
-  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
+  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-009 |2.0MB/s
-  port: 443
-  reality-opts:
-    public-key: dEHsPQQSnMJiHJKnJRbbLFKQmwIemUXQsQ1zIYbLZng
-    short-id: '!!str f6'
-  server: 51.250.95.143
-  servername: www.mobile.yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5725a60c-34a5-476d-9ae3-9e43d945ca8f
+- name: 俄罗斯联邦-008 |2.3MB/s|X|History
+  port: 1080
+  server: 78.140.46.48
+  skip-cert-verify: true
+  type: socks5
+- name: 俄罗斯联邦-009 |0.6MB/s|GPT⁺|X|Keep...
+  port: 5566
+  server: 37.18.73.60
+  skip-cert-verify: true
+  type: socks5
