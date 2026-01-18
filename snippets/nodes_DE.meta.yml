@@ -51,7 +51,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: "【机场推荐：https://a0a.xyz/】36\r"
+  name: 德国-013 |4.2MB/s
   network: ws
   port: 2096
   server: 5.10.214.5
@@ -62,6 +62,8 @@ proxies:
   udp: true
   uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
   ws-opts:
+    headers:
+      host: TzS7v35LfD.sMaRtTeChZaAl.InFo
     path: /
 - auth: zhangyang
   name: 德国-015 |791KB/s
