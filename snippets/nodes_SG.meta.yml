@@ -1,13 +1,38 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-001 |6.1MB/s|GPT⁺|YT-SG|NF...
-  password: ed78b7ec3662e43a
-  port: 11201
-  server: 81.28.13.223
-  type: ss
+- name: 新加坡-001 |4.6MB/s|GPT⁺|YT-SG|NF...
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 新加坡-002 |7.1MB/s|GPT⁺|GM|X|Suc...
-  port: 7497
-  server: 167.71.220.29
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    headers:
+      Host: sni.meibidi.pp.ua
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 新加坡-002 |1.1MB/s|GPT⁺|YT-SG|NF...
+  network: ws
+  port: 443
+  server: 217.142.185.111
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- name: 新加坡-003 |4.5MB/s|GPT
+  port: 10808
+  server: 213.35.110.67
   skip-cert-verify: true
   type: socks5

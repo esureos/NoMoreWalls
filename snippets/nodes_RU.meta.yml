@@ -1,28 +1,7 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-001 |1.4MB/s|GPT⁺|YT-RU
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-    short-id: '!!str 4a3ad88ff867a295'
-  server: 37.18.15.139
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-002 |2.9MB/s
-  network: tcp
+  name: 俄罗斯联邦-001 |2.1MB/s
   port: 7443
   reality-opts:
     public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
@@ -31,13 +10,87 @@ proxies:
   servername: eh.vk.com
   tls: true
   type: vless
-  udp: true
   uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: 俄罗斯联邦-002 |4.4MB/s|YT-RU
+  network: grpc
+  port: 2083
+  reality-opts:
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: '!!str 6da16b1335651b38'
+  server: 95.163.209.178
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  xudp: true
+- name: 波兰-001 |5.7MB/s|GPT⁺|YT-RU|NF|...
+  port: 443
+  server: 144.31.1.127
+  servername: plcdn13.suio.me
+  tls: true
+  type: vless
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: 俄罗斯联邦-003 |4.2MB/s|YT-RU
+  network: grpc
+  port: 2083
+  reality-opts:
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: '!!str 6da16b1335651b38'
+  server: 79.174.92.44
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    path:
+    - /
+  name: 芬兰-001 |3.7MB/s|GPT⁺|YT-RU|NF|...
+  network: tcp
+  port: 443
+  server: 144.31.90.215
+  servername: ficdn19.suio.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
   xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦-003 |4.7MB/s|YT-RU
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-004 |5.8MB/s|GPT⁺|X|Hist...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 2476f063981ffd92'
+  server: 51.250.87.167
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-005 |1.8MB/s
   network: tcp
   port: 51191
   reality-opts:
@@ -52,79 +105,104 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-004 |1.6MB/s|GPT⁺|YT-FI|...
-  network: tcp
-  port: 443
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: 俄罗斯联邦-007 |1.3MB/s|GPT⁺|YT-RU|...
+  network: grpc
+  port: 62443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 109.71.245.198
-  servername: fi.reality.tv123.ru
+    public-key: qwGpMbc6HUZoxbeFaG-JoIfI_Sdryg-w_muocbZTCyk
+    short-id: '!!str c89210338c9d029f'
+  server: 178.154.204.225
+  servername: kinopoisk.ru
   tls: true
   type: vless
   udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: 俄罗斯联邦-008 |1.1MB/s|GPT⁺|YT-RU|...
+  network: grpc
+  port: 2083
+  reality-opts:
+    public-key: dZa2XW10LFCKNROY-o-ItQzBbGyatkYR9CWNUw3DzBU
+    short-id: '!!str 70005607870ddd35'
+  server: 178.154.204.225
+  servername: kinopoisk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦-005 |2.2MB/s|GPT⁺|YT-FI|...
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 217.198.13.50
-  servername: fi.reality.tv123.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-006 |5.5MB/s|YT|X|Histor...
+  name: 俄罗斯联邦-009 |6.1MB/s|0%|GPT⁺|D+|...
   network: tcp
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 158.160.135.161
+    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
+    short-id: '!!str 15affa0af66dfc79'
+  server: 158.160.53.57
   servername: api-maps.yandex.ru
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+  uuid: 3d29bd40-5f23-4024-aab6-17258cd55a7e
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-007 |2.4MB/s
+  name: 波兰-002 |5.9MB/s|GPT⁺|YT-RU|NF|...
   network: tcp
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 176.98.177.145
-  servername: de.reality.tv123.ru
+  server: 144.31.0.64
+  servername: plcdn1.suio.me
   tls: true
   type: vless
   udp: true
-  uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
   xudp: true
-- name: 俄罗斯联邦-008 |2.3MB/s|X|History
-  port: 1080
-  server: 78.140.46.48
-  skip-cert-verify: true
-  type: socks5
-- name: 俄罗斯联邦-009 |0.6MB/s|GPT⁺|X|Keep...
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-010 |3.0MB/s
+  port: 443
+  reality-opts:
+    public-key: GgiY38LjRI1hS1LKhdqvtJ5SDDO436GvihG-TzEI2XE
+    short-id: '!!str aabbccdd'
+  server: 176.125.240.166
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 俄罗斯联邦-011 |0.6MB/s|GPT⁺|X|Keep...
   port: 5566
   server: 37.18.73.60
   skip-cert-verify: true
   type: socks5
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-012 |1.4MB/s|GPT⁺|YT-RU
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: '!!str 4a3ad88ff867a295'
+  server: 37.18.15.139
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
+  xudp: true

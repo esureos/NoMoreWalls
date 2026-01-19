@@ -1,8 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-001 |6.1MB/s|GPT⁺|YT-SG|NF...
-  password: ed78b7ec3662e43a
-  port: 11201
-  server: 81.28.13.223
-  type: ss
-  udp: true
+proxies: []

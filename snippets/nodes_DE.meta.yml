@@ -1,11 +1,37 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 德国-001 |5.9MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: chrome
+  name: 德国-002 |7.0MB/s|YT-DE|D+
+  network: ws
+  port: 8081
+  server: 31.25.88.229
+  servername: etc.mesa.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: etc.mesa.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 德国-002 |2.8MB/s|GPT⁺|YT-DE|NF|...
+  name: 德国-003 |1.5MB/s|GPT⁺|NF|D+|0%
   network: tcp
   port: 443
   reality-opts:
@@ -17,30 +43,57 @@ proxies:
   udp: true
   uuid: 84f66368-8a37-468e-ae95-5622255fd4db
   xudp: true
-- name: 德国-003 |2.2MB/s|2.6MB/s|X|Hist...
-  port: 1080
-  server: 193.233.254.7
+- name: 德国-004 |6.8MB/s|1%|GPT⁺|TK|X|S...
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.121.254.171
   skip-cert-verify: true
-  tls: false
-  type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
-- name: 德国-005 |2.0MB/s|2.5MB/s|X|Hist...
-  port: 1080
-  server: 193.233.254.8
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- name: 德国-005 |6.9MB/s|1%|GPT⁺|TK|NF|...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.121.254.171
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- name: 德国-006 |2.7MB/s|0%|GPT⁺|X
+  port: 31415
+  server: 37.120.162.180
   skip-cert-verify: true
   type: socks5
-- name: 德国-006 |1.7MB/s|9%|GPT⁺|X|Succ...
-  port: 1080
-  server: 193.233.254.9
+- name: 德国-008 |7.3MB/s|0%|GPT⁺|X|Succ...
+  port: 43145
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-009 |2.4MB/s|1%|GPT⁺|X|Succ...
+  port: 10523
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-011 |1.3MB/s|0%|GPT⁺|X
+  port: 40961
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-012 |4.0MB/s|4.9MB/s|X|Succ...
+  port: 19201
+  server: 37.120.162.180
   skip-cert-verify: true
   type: socks5
 - client-fingerprint: chrome
   encryption: none
-  name: 德国-010 |6.1MB/s|33%|GPT|X|Hist...
+  name: 德国-013 |10.4MB/s|X|History
   network: ws
   port: 443
   server: 5.10.214.5
   servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -48,10 +101,46 @@ proxies:
   ws-opts:
     headers:
       Host: GfV5t2331T.sMaRtTeChZaAl.InFo
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 德国-013 |4.2MB/s
+  name: 德国-016 |4.2MB/s
+  network: ws
+  port: 2087
+  server: 5.10.214.0
+  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+    path: /
+- name: 德国-017 |3.4MB/s
+  password: '@193.233.254.7'
+  port: 1080
+  server: 193.233.254.7
+  skip-cert-verify: true
+  type: socks5
+  username: Og@193.233.254.7
+- name: 德国-018 |0.8MB/s|Succeed|2.1MB/...
+  port: 1080
+  server: 193.233.254.9
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+- name: 德国-019 |3.1MB/s|6%|GPT|X|Succe...
+  port: 1080
+  server: 193.233.254.8
+  skip-cert-verify: true
+  type: socks5
+  udp: true
+- client-fingerprint: chrome
+  name: 德国-020 |4.2MB/s
   network: ws
   port: 2096
   server: 5.10.214.5
@@ -65,12 +154,3 @@ proxies:
     headers:
       host: TzS7v35LfD.sMaRtTeChZaAl.InFo
     path: /
-- auth: zhangyang
-  name: 德国-015 |791KB/s
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
-  type: hysteria2
-  udp: true
