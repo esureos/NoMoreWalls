@@ -1,5 +1,5 @@
 proxies:
-- name: 新加坡-001 |4.6MB/s|GPT⁺|YT-SG|NF...
+- name: 新加坡-001 |12.6MB/s|YT|D+|X|Hist...
   network: ws
   port: 443
   server: 34.143.159.175
@@ -15,7 +15,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   encryption: none
-  name: 新加坡-002 |1.1MB/s|GPT⁺|YT-SG|NF...
+  name: 新加坡-002 |2.8MB/s|YT|X|History|...
   network: ws
   port: 443
   server: 217.142.185.111
@@ -31,8 +31,3 @@ proxies:
       Host: sni.meibidi.pp.ua
     max-early-data: 2560
     path: /
-- name: 新加坡-003 |4.5MB/s|GPT
-  port: 10808
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
