@@ -48,7 +48,7 @@ proxies:
   udp: true
   uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
   xudp: true
-- name: "【机场推荐：https://a0a.xyz/】15\r"
+- name: "【机场推荐：https://a0a.xyz/】8\r"
   network: tcp
   port: 443
   server: 144.31.0.228

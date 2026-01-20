@@ -1,11 +1,9 @@
 proxies:
-- name: "节点日期：01-19\r"
-  network: ws
+- name: "节点日期：01-20\r"
+  network: tcp
   port: 443
-  server: 217.142.185.111
-  servername: sni.meibidi.pp.ua
+  server: plcdn14.suio.me
+  servername: plcdn14.suio.me
   tls: true
   type: vless
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    path: /?ed=2560
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
