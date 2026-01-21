@@ -36,10 +36,11 @@ proxies:
   server: 218.234.149.9
   type: ss
 - client-fingerprint: chrome
-  name: 韩国-001 |2.1MB/s|GPT⁺|GM|NF|X|S...
+  name: 韩国-001 |0.8MB/s|5%|GPT⁺|GM|X|H...
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
   tls: false
   type: socks5
   udp: true
+  username: Og%3D%3D

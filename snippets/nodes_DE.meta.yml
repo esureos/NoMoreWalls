@@ -1,11 +1,50 @@
 proxies:
+- name: 德国-001 |2.8MB/s|GPT⁺|YT-DE|NF|...
+  password: dongtaiwang.com
+  port: 33550
+  server: 89.144.35.25
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 德国-002 |1.9MB/s|GPT⁺|YT-DE|NF|...
+  password: b2871db02e5f7e2f
+  port: 11201
+  server: 57.129.35.242
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 德国-003 |6.6MB/s|9%|GPT⁺|TK|NF|...
+  network: ws
+  port: 51649
+  server: 91.107.252.110
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6507fcbd-9fb0-4470-8ec4-22f2df436047
+  ws-opts:
+    path: /
+  xudp: true
+- cipher: aes-256-gcm
+  name: 德国-004 |4.1MB/s|GPT⁺|YT-DE|NF|...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  type: ss
+- name: 德国-005 |3.3MB/s
+  port: 1080
+  server: 193.233.254.7
+  tls: false
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 德国-001 |1.5MB/s|GPT⁺|NF|D+|0%
+  name: 德国-006 |1.5MB/s|GPT⁺|NF|D+|0%
   network: tcp
   port: 443
   reality-opts:
@@ -17,156 +56,16 @@ proxies:
   udp: true
   uuid: 84f66368-8a37-468e-ae95-5622255fd4db
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 德国-003 |3.6MB/s
-  network: ws
-  port: 443
-  server: 5.10.214.5
-  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      host: GfV5t2331T.sMaRtTeChZaAl.InFo
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 德国-005 |3.0MB/s
-  network: ws
-  port: 443
-  server: 5.10.214.0
-  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      host: GfV5t2331T.sMaRtTeChZaAl.InFo
-    path: /
-- client-fingerprint: chrome
-  name: 德国-008 |4.2MB/s
-  network: ws
-  port: 2096
-  server: 5.10.214.5
-  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      host: TzS7v35LfD.sMaRtTeChZaAl.InFo
-    path: /
-- name: 德国-009 |4.1MB/s|2%|GPT⁺|X
-  port: 10335
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-010 |6.2MB/s|0%|GPT⁺|X
-  port: 33655
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-011 |0.8MB/s|0%|GPT⁺|X|Succ...
-  port: 27047
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-012 |5.5MB/s|20%|GPT⁺|D+|X
-  port: 28243
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-014 |3.6MB/s|8%|GPT⁺|X
-  port: 44239
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-015 |1.6MB/s|0%|GPT⁺|X
-  port: 49943
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-016 |2.9MB/s|2%|GPT⁺|X
-  port: 10850
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-017 |2.3MB/s|1%|GPT⁺|X
-  port: 22771
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-018 |6.0MB/s|2%|GPT⁺|D+|X
-  port: 28171
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-019 |2.3MB/s|1%|GPT⁺|X
-  port: 41401
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-020 |1.1MB/s|0%|GPT⁺|X
-  port: 20929
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-021 |1.3MB/s|0%|GPT⁺|X
-  port: 37883
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-022 |2.3MB/s|2%|GPT⁺|X
-  port: 45195
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-023 |5.1MB/s|2%|GPT⁺|X
-  port: 28629
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-024 |1.0MB/s|GPT⁺|X
-  port: 12714
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-025 |1.8MB/s|X
-  port: 13677
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-026 |1.5MB/s|X
-  port: 44762
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-027 |3.0MB/s|X
-  port: 12032
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-028 |2.0MB/s|0%|GPT⁺|X
-  port: 55419
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- name: 德国-029 |3.1MB/s|6%|GPT|X|Succe...
+- name: 德国-008 |2.7MB/s
   port: 1080
   server: 193.233.254.8
   skip-cert-verify: true
+  tls: false
   type: socks5
   udp: true
+  username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
 - client-fingerprint: chrome
-  name: 德国-030 |4.2MB/s
+  name: 德国-011 |4.2MB/s
   network: ws
   port: 2087
   server: 5.10.214.0
@@ -180,9 +79,146 @@ proxies:
     headers:
       host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
     path: /
+- name: 德国-012 |2.9MB/s|2%|GPT⁺|X
+  port: 10850
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-015 |3.6MB/s
+  network: ws
+  port: 443
+  server: 5.10.214.5
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      host: GfV5t2331T.sMaRtTeChZaAl.InFo
+    path: /
+  xudp: true
+- name: 德国-016 |1.8MB/s|X
+  port: 13677
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-017 |6.0MB/s|2%|GPT⁺|D+|X
+  port: 28171
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- client-fingerprint: chrome
+  name: 德国-018 |3.0MB/s
+  network: ws
+  port: 443
+  server: 5.10.214.0
+  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      host: GfV5t2331T.sMaRtTeChZaAl.InFo
+    path: /
+- client-fingerprint: chrome
+  name: 德国-019 |4.2MB/s
+  network: ws
+  port: 2096
+  server: 5.10.214.5
+  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  ws-opts:
+    headers:
+      host: TzS7v35LfD.sMaRtTeChZaAl.InFo
+    path: /
+- name: 德国-020 |1.3MB/s|0%|GPT⁺|X
+  port: 37883
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-021 |4.1MB/s|2%|GPT⁺|X
+  port: 10335
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-022 |6.2MB/s|0%|GPT⁺|X
+  port: 33655
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-023 |2.3MB/s|1%|GPT⁺|X
+  port: 22771
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-024 |5.5MB/s|20%|GPT⁺|D+|X
+  port: 28243
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-025 |3.6MB/s|8%|GPT⁺|X
+  port: 44239
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-026 |1.6MB/s|0%|GPT⁺|X
+  port: 49943
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-027 |2.3MB/s|1%|GPT⁺|X
+  port: 41401
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-028 |1.1MB/s|0%|GPT⁺|X
+  port: 20929
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-029 |2.3MB/s|2%|GPT⁺|X
+  port: 45195
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-030 |5.1MB/s|2%|GPT⁺|X
+  port: 28629
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-031 |1.0MB/s|GPT⁺|X
+  port: 12714
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-032 |1.5MB/s|X
+  port: 44762
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-033 |3.0MB/s|X
+  port: 12032
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
+- name: 德国-034 |2.0MB/s|0%|GPT⁺|X
+  port: 55419
+  server: 37.120.162.180
+  skip-cert-verify: true
+  type: socks5
 - alterId: 0
   cipher: auto
-  name: 德国-031 |5.9MB/s
+  name: 德国-035 |5.9MB/s
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -190,7 +226,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
-  name: 德国-032 |7.0MB/s|GPT⁺|NF|4%
+  name: 德国-036 |7.0MB/s|GPT⁺|NF|4%
   network: ws
   port: 8081
   server: 31.25.88.229
@@ -206,8 +242,3 @@ proxies:
         (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 德国-033 |1.3MB/s|0%|GPT⁺|X|Succ...
-  port: 58975
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5

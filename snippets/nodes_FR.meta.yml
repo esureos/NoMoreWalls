@@ -1,9 +1,24 @@
 proxies:
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 法国-001 |2.0MB/s
+  port: 26691
+  protocol: udp
+  server: 62.210.196.68
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: UpdateService
-  name: 法国-001 |2.0MB/s
+  name: 法国-002 |1.1MB/s
   network: grpc
   port: 2083
   reality-opts:
@@ -18,11 +33,20 @@ proxies:
   xudp: true
 - alpn:
   - h3
+  name: 法国-003 |4.6MB/s|GPT⁺|YT-FR|NF|...
+  password: a516b408-e06d-4278-9e6d-5271571ecab5
+  port: 20248
+  server: 51.75.118.149
+  skip-cert-verify: true
+  sni: dash.cloudflare.com
+  type: hysteria2
+- alpn:
+  - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   client-fingerprint: chrome
   down: 55 Mbps
-  name: 法国-002 |1.9MB/s
+  name: 法国-004 |1.9MB/s
   port: 50011
   protocol: udp
   server: 62.210.10.186
@@ -36,7 +60,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: '100'
-  name: 法国-003 |2.5MB/s|TK-FR|YT-FR|GP...
+  name: 法国-005 |2.5MB/s|TK-FR|YT-FR|GP...
   port: 15010
   server: 195.154.200.40
   skip-cert-verify: true
@@ -48,23 +72,8 @@ proxies:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 法国-004 |2.0MB/s
-  port: 26691
-  protocol: udp
-  server: 62.210.196.68
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
   down: 55
-  name: 法国-005 |2.3MB/s|GPT⁺|TK|NF|X|K...
+  name: 法国-006 |2.3MB/s|GPT⁺|TK|NF|X|K...
   port: 35511
   protocol: udp
   server: 62.210.10.186

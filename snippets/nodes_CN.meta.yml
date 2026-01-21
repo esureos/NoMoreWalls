@@ -11,16 +11,3 @@ proxies:
   port: 11201
   server: 154.205.147.237
   type: ss
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 越南-012 |1.8MB/s|GPT⁺|YT-CN|NF|...
-  network: tcp
-  port: 443
-  server: 103.173.155.212
-  servername: u730537u5e31s525.okgfw.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: e32f9c43-b141-3d58-b879-15c6a402e119
-  xudp: true
