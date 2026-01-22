@@ -1,9 +1,10 @@
 proxies:
-- name: "节点日期：01-20\r"
+- name: "节点日期：01-22\r"
   network: tcp
+  password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
-  server: plcdn14.suio.me
-  servername: plcdn14.suio.me
-  tls: true
-  type: vless
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+  server: tuntro003.instconn.com
+  skip-cert-verify: true
+  sni: login-staticjpc.jasmine-douyin.top
+  type: trojan
+  udp: true
