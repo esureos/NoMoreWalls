@@ -34,7 +34,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: "【机场推荐：https://a0a.xyz/】18\r"
+  name: 波兰-001 |2.3MB/s|GPT⁺|YT-RU|NF|...
   network: tcp
   port: 443
   server: 144.31.0.64
@@ -46,7 +46,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: "【机场推荐：https://a0a.xyz/】12\r"
+  name: 芬兰-001 |3.1MB/s|GPT⁺|YT-RU|NF|...
   network: tcp
   port: 443
   server: 144.31.90.215
@@ -78,7 +78,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: "【机场推荐：https://a0a.xyz/】10\r"
+  name: 波兰-002 |1.3MB/s|GPT|YT-RU|NF|0...
   network: tcp
   port: 443
   server: 144.31.0.228
@@ -88,7 +88,7 @@ proxies:
   udp: true
   uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
   xudp: true
-- name: "【机场推荐：https://a0a.xyz/】6\r"
+- name: 波兰-003 |1.9MB/s|GPT⁺|YT-RU|NF|...
   network: tcp
   port: 443
   server: 144.31.1.127
@@ -164,7 +164,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: "【机场推荐：https://a0a.xyz/】19\r"
+  name: 波兰-004 |3.1MB/s|GPT⁺|YT-RU|NF|...
   network: tcp
   port: 443
   server: 144.31.1.167

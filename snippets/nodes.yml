@@ -528,30 +528,3 @@ proxies:
   port: 38388
   server: 103.186.154.145
   type: ss
-- name: "节点日期：01-22\r"
-  network: tcp
-  password: 30077070-596e-48ea-9400-14c8ed07bd97
-  port: 443
-  server: tuntro003.instconn.com
-  skip-cert-verify: true
-  sni: login-staticjpc.jasmine-douyin.top
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】9\r"
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】16\r"
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 45.87.175.92
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "【机场推荐：https://a0a.xyz/】23\r"
-  password: d27faed8a9b98bd0
-  port: 11201
-  server: 163.171.137.72
-  type: ss
