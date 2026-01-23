@@ -1,13 +1,4 @@
 proxies:
-- name: '🇺🇸_US_美国_2 #1'
-  password: er668
-  port: 443
-  server: kfjdi.pages.dev
-  skip-cert-verify: false
-  tls: false
-  type: trojan
-  ws-opts:
-    path: 🔒
 - name: 美国-001 |723KB/s|0%
   password: gs4BXwT6SW
   port: 10988

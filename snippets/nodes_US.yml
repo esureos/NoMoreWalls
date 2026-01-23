@@ -1,13 +1,4 @@
 proxies:
-- name: '🇺🇸_US_美国_2 #1'
-  password: er668
-  port: 443
-  server: kfjdi.pages.dev
-  skip-cert-verify: false
-  tls: false
-  type: trojan
-  ws-opts:
-    path: 🔒
 - cipher: chacha20-ietf-poly1305
   name: 美国-004 |3.1MB/s|GPT⁺|YT-US|NF|...
   password: v3aFfXcIkVTikF2MibVk0n

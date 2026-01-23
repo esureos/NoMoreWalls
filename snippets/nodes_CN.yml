@@ -1,13 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳_CN_中国 #1'
-  password: 34bafa5f59fc339f
-  port: 11201
-  server: 156.244.36.105
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇳_CN_中国_1 #1'
-  password: 2272de48c53e0a57
-  port: 11201
-  server: 154.205.147.237
-  type: ss
+proxies: []
