@@ -1,243 +1,96 @@
 proxies:
-- name: 美国-001 |723KB/s|0%
+- name: 美国-001 |882KB/s|NF|D+
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
   type: http
   username: fQ67Dpe5dU
-- name: 美国-002 |2.8MB/s|GPT|YT-HK|NF|D...
-  network: ws
-  port: 443
-  server: 68.64.176.135
-  servername: sni.meibidi.pp.ua
-  tls: true
-  type: vless
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: sni.meibidi.pp.ua
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 美国-003 |3.1MB/s|GPT|YT-GB|NF|D...
-  network: ws
-  port: 443
-  server: 50.62.172.8
-  tls: true
-  type: vless
-  udp: true
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: ww2.allxniu.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 英国-001 |1.5MB/s|GPT⁺|YT-US|NF|...
-  network: ws
-  port: 2053
-  server: 25.129.197.138
-  servername: KhAmeneI.DPdNs.OrG
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-  ws-opts:
-    headers:
-      Host: khamenei.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国-004 |3.1MB/s|GPT⁺|YT-US|NF|...
-  password: v3aFfXcIkVTikF2MibVk0n
-  port: 443
-  server: 216.105.168.18
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 英国-002 |3.3MB/s|GPT⁺|YT-US|NF|...
-  network: ws
-  port: 2053
-  server: 25.129.199.205
-  servername: KhAmeneI.DPdNs.OrG
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-  ws-opts:
-    headers:
-      Host: KhAmeneI.DPdNs.OrG
-    path: /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-  xudp: true
-- name: 美国-005 |2.5MB/s
-  network: ws
-  port: 443
-  server: 154.17.227.191
-  servername: sni.meibidi.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: sni.meibidi.pp.ua
-    path: /?ed=2560
-- name: 美国-006 |2.9MB/s
-  network: ws
-  port: 443
-  server: 154.17.10.237
-  servername: sni.meibidi.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: sni.meibidi.pp.ua
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  fp: chrome
-  name: 美国-007 |4.8MB/s|GPT⁺|YT-US|NF
-  network: tcp
-  pbk: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-  port: 443
-  reality-opts:
-    public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
-  security: reality
-  server: 47.251.25.74
-  servername: www.amazon.com
-  sni: www.amazon.com
-  tls: true
-  type: vless
-  udp: false
-  uuid: 18805ff3-b420-45de-af18-93be14024ae8
-- cipher: aes-256-cfb
-  name: 越南-008 |1.3MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.33
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-009 |890KB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.175
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-010 |818KB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.141
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-014 |0.7MB/s|GPT⁺|YT-US|X|[...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.240
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-018 |1.4MB/s|GPT⁺|YT-US|NF
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.142
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-019 |594KB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.102
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-020 |1.3MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.140
-  type: ss
-- alterId: 0
-  cipher: auto
+- alpn:
+  - h3
+  - h2
+  - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 德国-007 |5.7MB/s|7%|GPT⁺|YT-US|...
+  name: 美国-002 |1.1MB/s|GPT⁺|YT-US|NF|...
   network: ws
-  port: 80
-  server: 146.75.119.82
-  servername: welcomtofreeboarders.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
-  ws-opts:
-    headers:
-      Host: welcomtofreeboarders.com
-    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
-  xudp: true
-- cipher: aes-256-cfb
-  name: 越南-024 |0.7MB/s|GPT⁺|GM|YT-US|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.145
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-026 |1.4MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.50
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-027 |1.0MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.34
-  type: ss
-- name: 德国-009 |2.8MB/s|GPT⁺|YT-US|NF
-  network: ws
-  port: 8443
-  server: 5.10.214.0
-  servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo
-  skip-cert-verify: true
+  port: 54443
+  server: 173.249.201.109
+  servername: page.anjue39.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
   ws-opts:
     headers:
-      host: TjLwH7cTdH.sMaRtTeChZaAl.InFo
-    path: /
+      Host: page.anjue39.qzz.io
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /?ed=2048
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 美国-003 |1020KB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 17750
+  server: 173.249.210.53
+  servername: page.anjue39.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
+  ws-opts:
+    headers:
+      Host: page.anjue39.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /?ed=2048
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 德国-010 |2.6MB/s|GPT|YT-US|31%
-  network: ws
-  port: 8443
-  server: 5.10.214.5
-  servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: 土耳其-001 |2.4MB/s|GPT⁺|YT-US|NF...
+  network: grpc
+  port: 2083
+  reality-opts:
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: '!!str 6da16b1335651b38'
+  server: 45.141.148.251
+  servername: apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: TjLwH7cTdH.sMaRtTeChZaAl.InFo
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
 - cipher: aes-256-cfb
-  name: 越南-029 |710KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-008 |1.8MB/s|GPT|GM|YT-US|X...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.148
+  server: 103.186.154.244
   type: ss
+- name: 美国-004 |3.3MB/s
+  port: 1080
+  server: 174.138.61.184
+  skip-cert-verify: true
+  type: socks5
+- cipher: chacha20-ietf-poly1305
+  name: 美国-005 |5.0MB/s|80%|GPT⁺|NF|X|...
+  password: 90e3f0733aa4fe2b
+  port: 29551
+  server: 212.56.42.207
+  type: ss
+- name: 美国-006 |4.9MB/s|29%|GPT⁺|X|His...
+  port: 1080
+  server: 104.219.236.127
+  skip-cert-verify: true
+  type: socks5
 - client-fingerprint: chrome
-  name: 德国-013 |1.5MB/s|GPT⁺|YT-US|33%
+  encryption: none
+  name: 德国-015 |1.3MB/s|GPT|YT-US|31%
   network: ws
   port: 2087
   server: 5.10.214.5
@@ -249,13 +102,13 @@ proxies:
   ws-opts:
     headers:
       Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 德国-014 |2.3MB/s|GPT⁺|YT-US|NF|...
+  name: 德国-017 |2.3MB/s|GPT⁺|YT-US|NF|...
   network: ws
   port: 2096
   server: 5.10.214.0
@@ -270,12 +123,49 @@ proxies:
       host: TzS7v35LfD.sMaRtTeChZaAl.InFo
     path: /
   xudp: true
+- client-fingerprint: ios
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ssp
+  name: 美国-007 |1.7MB/s|GPT⁺|YT-US|NF|...
+  network: grpc
+  port: 443
+  server: 174.136.231.115
+  servername: u730537u7fdbs694.okgfw.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: e32f9c43-b141-3d58-b879-15c6a402e119
+  xudp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 美国-008 |1.3MB/s
+  network: tcp
+  port: 30003
+  reality-opts:
+    public-key: hDXY23v5S_49APGptqI_AKB64vUDshlUY1N47AZAogs
+    short-id: '!!str 5c705576253d25'
+  server: 23.148.20.100
+  servername: mensura.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5daf1be0-eee4-4e94-8c5b-8d72ea26eb4a
+  xudp: true
+- name: 美国-009 |3.6MB/s|X
+  port: 10799
+  server: 152.53.171.242
+  skip-cert-verify: true
+  type: socks5
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 美国-008 |3.7MB/s|GPT⁺|YT-CN|NF
+  name: 美国-010 |3.7MB/s|GPT⁺|YT-CN|NF
   port: 38845
   protocol: udp
   server: 208.87.243.151
@@ -284,72 +174,3 @@ proxies:
   type: hysteria
   udp: true
   up: 11 Mbps
-- client-fingerprint: chrome
-  name: 美国-009 |3.1MB/s|GPT⁺|YT-GB|NF|...
-  network: ws
-  port: 443
-  server: 50.62.172.13
-  tls: true
-  type: vless
-  udp: true
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: ww2.allxniu.qzz.io
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 美国-010 |2.4MB/s|GPT⁺|YT-GB|NF|...
-  network: ws
-  port: 443
-  server: 50.62.172.3
-  tls: true
-  type: vless
-  udp: true
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: ww2.allxniu.qzz.io
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.135 Safari/537.36
-    path: /
-  xudp: true
-- name: 美国-011 |4.3MB/s|GPT⁺|X|Succeed
-  port: 1080
-  server: 174.138.61.184
-  skip-cert-verify: true
-  type: socks5
-- name: 美国-012 |2.2MB/s
-  network: ws
-  port: 443
-  server: 154.17.13.69
-  servername: sni.meibidi.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: sni.meibidi.pp.ua
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-038 |1.5MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.224
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-044 |1.1MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.106
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-048 |2.1MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.40
-  type: ss

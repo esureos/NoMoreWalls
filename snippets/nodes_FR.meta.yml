@@ -1,84 +1,19 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 法国-001 |2.0MB/s
-  port: 26691
-  protocol: udp
-  server: 62.210.196.68
+- name: 法国-002 |5.8MB/s|1%|GPT⁺|X|[广播|...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.44.124.96
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: UpdateService
-  name: 法国-002 |1.1MB/s
-  network: grpc
-  port: 2083
-  reality-opts:
-    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-    short-id: '!!str 6da16b1335651b38'
-  server: 213.176.73.206
-  servername: apple.com
+  sni: trojan.burgerip.co.uk
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  xudp: true
-- alpn:
-  - h3
-  name: 法国-003 |4.6MB/s|GPT⁺|YT-FR|NF|...
-  password: a516b408-e06d-4278-9e6d-5271571ecab5
-  port: 20248
-  server: 51.75.118.149
+- name: 法国-003 |5.6MB/s|1%|GPT⁺|X|Succ...
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.44.124.96
   skip-cert-verify: true
-  sni: dash.cloudflare.com
-  type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  client-fingerprint: chrome
-  down: 55 Mbps
-  name: 法国-004 |1.9MB/s
-  port: 50011
-  protocol: udp
-  server: 62.210.10.186
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
   udp: true
-  up: 11 Mbps
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '100'
-  name: 法国-005 |2.5MB/s|TK-FR|YT-FR|GP...
-  port: 15010
-  server: 195.154.200.40
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '100'
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55
-  name: 法国-006 |2.3MB/s|GPT⁺|TK|NF|X|K...
-  port: 35511
-  protocol: udp
-  server: 62.210.10.186
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 11

@@ -1,14 +1,5 @@
 proxies:
-- encryption: none
-  name: 伊朗-001 |4.4MB/s|GPT⁺|YT-GB|NF|...
-  network: tcp
-  port: 2024
-  server: 85.133.204.131
-  type: vless
-  udp: true
-  uuid: efdd92c0-c32d-4039-a564-374abaa5d8ce
-  xudp: true
-- name: 英国-003 |3.5MB/s
+- name: 英国-001 |7.4MB/s|9%|GPT|X|Histo...
   network: ws
   port: 2096
   server: 25.129.197.138
@@ -23,20 +14,11 @@ proxies:
       Host: speed1.best-cloud.ir
     path: /?ed=2048
 - encryption: none
-  name: 英国-004 |7.7MB/s|27%|GPT⁺|X|His...
-  network: ws
-  port: 8880
-  server: 25.25.25.0
-  servername: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
-  skip-cert-verify: false
-  tls: false
+  name: 伊朗-001 |1.8MB/s|GPT⁺|YT-GB|NF|...
+  network: tcp
+  port: 2024
+  server: 85.133.204.131
   type: vless
   udp: true
-  uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
-  ws-opts:
-    headers:
-      Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /
+  uuid: efdd92c0-c32d-4039-a564-374abaa5d8ce
   xudp: true

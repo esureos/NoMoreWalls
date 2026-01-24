@@ -1,14 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 毛里求斯-002 |4.0MB/s|YT-HK|NF|D+|...
-  network: http
-  port: 443
-  server: 45.196.235.171
-  tls: false
-  type: vmess
-  uuid: ac6e19f8-4852-41e1-c120-c7261ee8f6e5
+proxies: []

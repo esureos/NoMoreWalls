@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- alpn:
+  - http/1.1
+  alterId: 0
+  client-fingerprint: random
+  encryption: none
+  name: 日本-001 |6.7MB/s|GPT⁺|YT-JP|NF|...
+  network: ws
+  port: 8443
+  server: 167.88.186.107
+  servername: snippet.danfeng.casacam.net
+  skip-cert-verify: true
+  sni: snippet.danfeng.casacam.net
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.casacam.net
+    path: /danfeng?ed=2560
