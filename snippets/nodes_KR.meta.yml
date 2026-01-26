@@ -7,3 +7,54 @@ proxies:
   tls: false
   type: socks5
   udp: true
+- client-fingerprint: random
+  name: 韩国-002 |3.4MB/s|GPT|YT-KR|NF|D...
+  network: ws
+  port: 50001
+  server: 115.94.122.118
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  name: 韩国-003 |3.4MB/s|GPT|YT-KR|NF|D...
+  network: ws
+  port: 12433
+  server: 221.158.139.181
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  name: 韩国-004 |3.4MB/s|GPT|YT-KR|NF|D...
+  network: ws
+  port: 32764
+  server: 125.137.68.79
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /

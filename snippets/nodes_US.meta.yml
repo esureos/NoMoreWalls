@@ -5,13 +5,187 @@ proxies:
   server: 154.26.192.123
   type: http
   username: fQ67Dpe5dU
+- client-fingerprint: random
+  name: 新加坡-002 |1.7MB/s|YT-US|NF|D+|G...
+  network: ws
+  port: 443
+  server: 27.50.48.8
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 塞舌尔-001 |3.1MB/s|YT-US|NF|D+|G...
+  network: ws
+  port: 443
+  server: 154.218.15.198
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 新加坡-003 |4.0MB/s|GPT|YT-US|NF|...
+  network: ws
+  port: 443
+  server: 27.50.48.2
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 美国-002 |2.5MB/s|GPT|YT-US|NF|D...
+  network: ws
+  port: 443
+  server: 154.211.8.18
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 塞舌尔-002 |3.7MB/s|GPT|YT-US|NF|...
+  network: ws
+  port: 443
+  server: 154.218.15.1
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 新加坡-004 |3.6MB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 443
+  server: 27.50.48.13
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 新加坡-005 |4.4MB/s|YT-US|NF|D+|G...
+  network: ws
+  port: 443
+  server: 27.50.49.104
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 美国-003 |974KB/s|GPT|YT-US|NF|D...
+  network: ws
+  port: 443
+  server: 198.62.62.241
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 美国-004 |4.2MB/s
+  network: ws
+  port: 443
+  server: 69.84.182.20
+  servername: rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg
+  tls: true
+  type: vless
+  udp: true
+  uuid: c309bb98-f7d2-4d0a-b963-94bd8ebd762a
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /ws
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 美国-005 |3.4MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 208.103.161.110
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 美国-006 |3.4MB/s
+  network: ws
+  port: 443
+  server: 69.84.182.152
+  servername: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2dfb0dd6-65c9-46fe-bd43-776a9e015d8e
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /ws
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 美国-007 |3.7MB/s|GPT⁺|YT-CN|NF
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 美国-002 |1.1MB/s|GPT⁺|YT-US|NF|...
+  name: 美国-008 |1.1MB/s|GPT⁺|YT-US|NF|...
   network: ws
   port: 54443
   server: 173.249.201.109
@@ -27,150 +201,3 @@ proxies:
         (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: /?ed=2048
   xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 美国-003 |1020KB/s|GPT⁺|YT-US|NF...
-  network: ws
-  port: 17750
-  server: 173.249.210.53
-  servername: page.anjue39.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
-  ws-opts:
-    headers:
-      Host: page.anjue39.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /?ed=2048
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: UpdateService
-  name: 土耳其-001 |2.4MB/s|GPT⁺|YT-US|NF...
-  network: grpc
-  port: 2083
-  reality-opts:
-    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-    short-id: '!!str 6da16b1335651b38'
-  server: 45.141.148.251
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  xudp: true
-- cipher: aes-256-cfb
-  name: 越南-008 |1.8MB/s|GPT|GM|YT-US|X...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.244
-  type: ss
-- name: 美国-004 |3.3MB/s
-  port: 1080
-  server: 174.138.61.184
-  skip-cert-verify: true
-  type: socks5
-- cipher: chacha20-ietf-poly1305
-  name: 美国-005 |5.0MB/s|80%|GPT⁺|NF|X|...
-  password: 90e3f0733aa4fe2b
-  port: 29551
-  server: 212.56.42.207
-  type: ss
-- name: 美国-006 |4.9MB/s|29%|GPT⁺|X|His...
-  port: 1080
-  server: 104.219.236.127
-  skip-cert-verify: true
-  type: socks5
-- client-fingerprint: chrome
-  encryption: none
-  name: 德国-015 |1.3MB/s|GPT|YT-US|31%
-  network: ws
-  port: 2087
-  server: 5.10.214.5
-  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 德国-017 |2.3MB/s|GPT⁺|YT-US|NF|...
-  network: ws
-  port: 2096
-  server: 5.10.214.0
-  servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      host: TzS7v35LfD.sMaRtTeChZaAl.InFo
-    path: /
-  xudp: true
-- client-fingerprint: ios
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ssp
-  name: 美国-007 |1.7MB/s|GPT⁺|YT-US|NF|...
-  network: grpc
-  port: 443
-  server: 174.136.231.115
-  servername: u730537u7fdbs694.okgfw.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: e32f9c43-b141-3d58-b879-15c6a402e119
-  xudp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 美国-008 |1.3MB/s
-  network: tcp
-  port: 30003
-  reality-opts:
-    public-key: hDXY23v5S_49APGptqI_AKB64vUDshlUY1N47AZAogs
-    short-id: '!!str 5c705576253d25'
-  server: 23.148.20.100
-  servername: mensura.cdn-apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5daf1be0-eee4-4e94-8c5b-8d72ea26eb4a
-  xudp: true
-- name: 美国-009 |3.6MB/s|X
-  port: 10799
-  server: 152.53.171.242
-  skip-cert-verify: true
-  type: socks5
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 美国-010 |3.7MB/s|GPT⁺|YT-CN|NF
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps

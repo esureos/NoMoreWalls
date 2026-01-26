@@ -1,22 +1,25 @@
 proxies:
-- alpn:
-  - http/1.1
-  alterId: 0
-  client-fingerprint: random
-  encryption: none
-  name: 日本-001 |6.7MB/s|GPT⁺|YT-JP|NF|...
+- name: 日本-001 |574KB/s|GPT⁺|YT-SG|NF
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 3901
+  server: 160.16.150.76
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: random
+  name: 日本-002 |2.2MB/s|GPT|YT-JP|NF|G...
   network: ws
-  port: 8443
-  server: 167.88.186.107
-  servername: snippet.danfeng.casacam.net
-  skip-cert-verify: true
-  sni: snippet.danfeng.casacam.net
+  port: 443
+  server: 43.153.184.43
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng.casacam.net
-    path: /danfeng?ed=2560
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /

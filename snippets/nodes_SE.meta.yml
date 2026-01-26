@@ -1,12 +1,1 @@
-proxies:
-- encryption: none
-  grpc-opts:
-    grpc-service-name: max.ru
-  name: 瑞典-002 |2.0MB/s|GPT⁺|YT-SE|NF|...
-  network: grpc
-  port: 8080
-  server: 62.182.192.232
-  type: vless
-  udp: true
-  uuid: d44175ee-d3e2-45d3-b16a-ea2705cbfe7b
-  xudp: true
+proxies: []

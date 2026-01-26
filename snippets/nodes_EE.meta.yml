@@ -1,11 +1,1 @@
-proxies:
-- name: 爱沙尼亚-001 |0.5MB/s|GPT|X
-  port: 8888
-  server: 94.156.236.221
-  skip-cert-verify: true
-  type: socks5
-- name: 爱沙尼亚-002 |0.5MB/s|X
-  port: 4145
-  server: 94.156.236.221
-  skip-cert-verify: true
-  type: socks5
+proxies: []
