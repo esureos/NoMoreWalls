@@ -1,13 +1,54 @@
 proxies:
-- name: 日本-001 |574KB/s|GPT⁺|YT-SG|NF
+- name: 日本-001 |2.9MB/s
+  password: a2d12dc9-c111-45ac-b803-87e48f3484d8
+  port: 443
+  server: 160.16.75.254
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+  username: a2d12dc9-c111-45ac-b803-87e48f3484d8
+- name: 日本-002 |7.4MB/s|YT-CN|NF|D+|1%
+  network: tcp
+  password: BxceQaOe
+  port: 1867
+  server: 18.179.118.202
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 日本-003 |4.0MB/s|GPT⁺|X
   password: 869e9086806483ca4744a4cb0f3d6e16
   port: 3901
-  server: 160.16.150.76
+  server: 160.16.87.174
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+- name: 日本-004 |6.7MB/s|GPT⁺|YT-CN|NF
+  network: tcp
+  password: BxceQaOe
+  port: 3579
+  server: 13.158.129.83
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 日本-005 |4.9MB/s|GPT⁺|YT-RU|NF|...
+  network: tcp
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 5076
+  server: 18.179.118.202
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tls: true
+  type: trojan
+- name: 日本-007 |3.5MB/s|GPT⁺|YT-CN|NF|...
+  network: tcp
+  password: BxceQaOe
+  port: 2173
+  server: 13.158.129.83
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: random
-  name: 日本-002 |2.2MB/s|GPT|YT-JP|NF|G...
+  name: 日本-008 |2.2MB/s|GPT|YT-JP|NF|G...
   network: ws
   port: 443
   server: 43.153.184.43
@@ -23,3 +64,10 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
+- name: 日本-009 |574KB/s|GPT⁺|YT-SG|NF
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 3901
+  server: 160.16.150.76
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan

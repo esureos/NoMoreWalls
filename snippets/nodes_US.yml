@@ -1,9 +1,24 @@
 proxies:
+- client-fingerprint: chrome
+  name: 美国-003 |2.2MB/s
+  network: ws
+  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
+  port: 443
+  server: 208.103.161.231
+  skip-cert-verify: false
+  sni: gzjx.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /51.91.253.83=8443
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 美国-005 |3.4MB/s
+  name: 美国-009 |3.4MB/s
   network: ws
   password: humanity
   port: 443

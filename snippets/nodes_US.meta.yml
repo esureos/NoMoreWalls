@@ -1,64 +1,32 @@
 proxies:
-- name: 美国-001 |882KB/s|NF|D+
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  type: http
-  username: fQ67Dpe5dU
-- client-fingerprint: random
-  name: 新加坡-002 |1.7MB/s|YT-US|NF|D+|G...
+- name: 美国-001 |4.8MB/s|GPT⁺|YT-HK|NF|...
   network: ws
   port: 443
-  server: 27.50.48.8
-  servername: snip.ere.de5.net
+  server: 68.64.179.248
+  servername: l.ayovo.netlib.re
   tls: true
   type: vless
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     headers:
-      Host: snip.ere.de5.net
+      Host: l.ayovo.netlib.re
     path: /?ed=2560
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 美国-002 |3.7MB/s|GPT⁺|YT-CN|NF
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
 - client-fingerprint: random
-  name: 塞舌尔-001 |3.1MB/s|YT-US|NF|D+|G...
-  network: ws
-  port: 443
-  server: 154.218.15.198
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    headers:
-      Host: snip.ere.de5.net
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 新加坡-003 |4.0MB/s|GPT|YT-US|NF|...
-  network: ws
-  port: 443
-  server: 27.50.48.2
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    headers:
-      Host: snip.ere.de5.net
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 美国-002 |2.5MB/s|GPT|YT-US|NF|D...
-  network: ws
-  port: 443
-  server: 154.211.8.18
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    headers:
-      Host: snip.ere.de5.net
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 塞舌尔-002 |3.7MB/s|GPT|YT-US|NF|...
+  name: 塞舌尔-001 |4.1MB/s|GPT⁺|YT-US|NF...
   network: ws
   port: 443
   server: 154.218.15.1
@@ -71,7 +39,61 @@ proxies:
       Host: snip.ere.de5.net
     path: /?ed=2560
 - client-fingerprint: random
-  name: 新加坡-004 |3.6MB/s|GPT⁺|YT-US|NF...
+  name: 新加坡-001 |1.2MB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 443
+  server: 27.50.48.6
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 新加坡-002 |819KB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 443
+  server: 27.50.48.8
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 美国-003 |2.2MB/s
+  network: ws
+  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
+  port: 443
+  server: 208.103.161.231
+  skip-cert-verify: false
+  sni: gzjx.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /51.91.253.83=8443
+- client-fingerprint: random
+  name: 新加坡-003 |1.9MB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 443
+  server: 27.50.48.2
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 新加坡-004 |2.0MB/s|GPT⁺|YT-US|NF...
   network: ws
   port: 443
   server: 27.50.48.13
@@ -83,8 +105,30 @@ proxies:
     headers:
       Host: snip.ere.de5.net
     path: /?ed=2560
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 美国-004 |3.4MB/s
+  network: ws
+  port: 443
+  server: 192.0.54.34
+  servername: cErT.sHakHle.iR
+  tls: true
+  type: vless
+  udp: true
+  uuid: 96dd3618-ae4e-4a9d-89f9-5316296d7814
+  ws-opts:
+    headers:
+      Host: cErT.sHakHle.iR
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /?ed=1024/?TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
+  xudp: true
 - client-fingerprint: random
-  name: 新加坡-005 |4.4MB/s|YT-US|NF|D+|G...
+  name: 新加坡-005 |2.5MB/s|GPT⁺|YT-US|NF...
   network: ws
   port: 443
   server: 27.50.49.104
@@ -96,8 +140,21 @@ proxies:
     headers:
       Host: snip.ere.de5.net
     path: /?ed=2560
+- client-fingerprint: random
+  name: 美国-005 |1.7MB/s|GPT⁺|YT-US|NF|...
+  network: ws
+  port: 443
+  server: 154.211.8.18
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
 - client-fingerprint: chrome
-  name: 美国-003 |974KB/s|GPT|YT-US|NF|D...
+  name: 美国-006 |4.8MB/s|GPT⁺|YT-US|NF|...
   network: ws
   port: 443
   server: 198.62.62.241
@@ -111,9 +168,15 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
+- name: 美国-007 |882KB/s|NF|D+
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  type: http
+  username: fQ67Dpe5dU
 - client-fingerprint: chrome
   encryption: none
-  name: 美国-004 |4.2MB/s
+  name: 美国-008 |4.2MB/s
   network: ws
   port: 443
   server: 69.84.182.20
@@ -133,7 +196,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 美国-005 |3.4MB/s
+  name: 美国-009 |3.4MB/s
   network: ws
   password: humanity
   port: 443
@@ -149,7 +212,7 @@ proxies:
     path: /assignment
 - client-fingerprint: chrome
   encryption: none
-  name: 美国-006 |3.4MB/s
+  name: 美国-010 |3.4MB/s
   network: ws
   port: 443
   server: 69.84.182.152
@@ -164,40 +227,4 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /ws
-  xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 美国-007 |3.7MB/s|GPT⁺|YT-CN|NF
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
-  udp: true
-  up: 11 Mbps
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 美国-008 |1.1MB/s|GPT⁺|YT-US|NF|...
-  network: ws
-  port: 54443
-  server: 173.249.201.109
-  servername: page.anjue39.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
-  ws-opts:
-    headers:
-      Host: page.anjue39.qzz.io
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /?ed=2048
   xudp: true

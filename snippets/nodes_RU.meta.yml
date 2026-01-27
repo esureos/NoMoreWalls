@@ -1,10 +1,29 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: random
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦-001 |2.5MB/s
+  http-opts:
+    path:
+    - /
+  name: 塞浦路斯-001 |863KB/s|GPT⁺|YT-RU|N...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str f79448a30d'
+  server: 45.15.162.34
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-001 |4.1MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -19,11 +38,7 @@ proxies:
   xudp: true
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-002 |3.6MB/s
-  network: tcp
+  name: 俄罗斯联邦-002 |3.7MB/s
   port: 7443
   reality-opts:
     public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
@@ -32,24 +47,4 @@ proxies:
   servername: eh.vk.com
   tls: true
   type: vless
-  udp: true
   uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    path:
-    - /
-  name: 芬兰-002 |4.0MB/s|GPT⁺|YT-RU|NF|...
-  network: tcp
-  port: 47539
-  reality-opts:
-    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
-    short-id: '!!str 82a55f31981ea6be'
-  server: 178.17.53.28
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
-  xudp: true

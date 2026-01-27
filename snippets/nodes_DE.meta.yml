@@ -1,18 +1,19 @@
 proxies:
-- name: 德国-001 |6.4MB/s|9%|GPT⁺|X
-  port: 56005
-  server: 195.201.2.238
-  skip-cert-verify: true
-  type: socks5
-- client-fingerprint: chrome
-  name: 德国-002 |3.3MB/s
-  password: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
+- name: 德国-002 |659KB/s
   port: 1080
   server: 193.233.254.7
+  skip-cert-verify: true
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuNzo@193.233.254.7
+- name: 德国-003 |2.4MB/s
+  password: Og@193.233.254.8
+  port: 1080
+  server: 193.233.254.8
+  skip-cert-verify: true
   tls: false
   type: socks5
   udp: true
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
+  username: Og@193.233.254.8
 - http-opts:
     headers:
       Host:
@@ -20,7 +21,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 德国-003 |763KB/s|GPT⁺|YT-AT|NF|...
+  name: 德国-004 |709KB/s|GPT⁺|YT-AT|NF|...
   network: http
   port: 443
   server: 152.53.33.43
@@ -30,8 +31,32 @@ proxies:
   type: vless
   udp: true
   uuid: 057b649c-54b1-4f68-86b1-90381637a2cf
+- name: 德国-005 |3.5MB/s
+  password: '@193.233.254.9:'
+  port: 1080
+  server: 193.233.254.9
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  username: Og@193.233.254.9
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 德国-006 |1.6MB/s|0%|GPT⁺|X|Hist...
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: isw9UCSqdj1pzN3KpqY634QY4eLCYmDrMgvI1XsQimA
+  server: 64.188.91.193
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b64ff004-ec17-4cbb-9f32-c4eb7f4660e8
+  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 德国-004 |4.5MB/s|X
+  name: 德国-007 |4.5MB/s|X
   password: TxUz18504p5egfiVecTQll
   port: 7048
   server: 62.133.60.60
@@ -43,7 +68,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 德国-005 |1.1MB/s|GPT⁺|YT-DE|NF|...
+  name: 德国-008 |1.1MB/s|GPT⁺|YT-DE|NF|...
   network: ws
   port: 443
   server: 5.39.249.146
@@ -65,7 +90,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 荷兰-002 |784KB/s|GPT⁺|YT-DE|NF|...
+  name: 荷兰-004 |784KB/s|GPT⁺|YT-DE|NF|...
   network: ws
   port: 443
   server: 89.169.13.242
@@ -80,31 +105,4 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
     path: /?ed=2048
-  xudp: true
-- name: 德国-007 |539KB/s
-  password: Og@193.233.254.8
-  port: 1080
-  server: 193.233.254.8
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: Og@193.233.254.8
-- client-fingerprint: chrome
-  name: 德国-008 |4.4MB/s
-  network: ws
-  port: 443
-  server: 5.10.214.0
-  servername: GfV5t2331T.sMaRtTeChZaAl.InFo
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      Host: GfV5t2331T.sMaRtTeChZaAl.InFo
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /
   xudp: true
