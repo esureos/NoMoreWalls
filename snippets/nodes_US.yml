@@ -13,7 +13,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
 - client-fingerprint: chrome
-  name: 美国-004 |5.0MB/s|YT-GB|NF|D+
+  name: 美国-002 |5.0MB/s|YT-GB|NF|D+
   network: ws
   password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
   port: 443
@@ -28,27 +28,34 @@ proxies:
         like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /5.223.47.32=443
 - cipher: aes-256-cfb
-  name: 越南-004 |2.4MB/s|GPT⁺|YT-US|NF|...
+  name: 越南-012 |2.4MB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.47
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 英国-002 |581KB/s|GPT⁺|YT-US|NF|...
-  password: y3SowqUkrt1cbm487g74Ac
-  port: 443
-  server: 78.129.140.11
+- cipher: aes-256-cfb
+  name: 越南-021 |853KB/s|GPT⁺|YT-US|NF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.158
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-035 |1.4MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.115
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-045 |863KB/s|YT-US|NF|GPT⁺|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.65
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-046 |1.1MB/s|TK-VN|YT-US|NF...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.36
+  sub_tag: (AzadNet.t.me)
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 越南-009 |878KB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.195
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-018 |1.0MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.55
-  type: ss
