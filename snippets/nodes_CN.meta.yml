@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 荷兰-001 |3.7MB/s|GPT⁺|YT-CN|NF|...
+  network: tcp
+  port: 443
+  server: 193.142.59.180
+  servername: u730537u0236s148.okgfw.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: e32f9c43-b141-3d58-b879-15c6a402e119
+  xudp: true

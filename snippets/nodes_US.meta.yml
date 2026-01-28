@@ -1,32 +1,95 @@
 proxies:
-- name: 美国-001 |4.8MB/s|GPT⁺|YT-HK|NF|...
+- name: 美国-001 |812KB/s
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  skip-cert-verify: false
+  tls: false
+  type: http
+  username: fQ67Dpe5dU
+- client-fingerprint: chrome
+  encryption: none
+  name: 瑞士-001 |5.7MB/s|GPT⁺|YT-US|NF
   network: ws
   port: 443
-  server: 68.64.179.248
+  server: 185.18.250.245
   servername: l.ayovo.netlib.re
   tls: true
   type: vless
+  udp: true
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
     headers:
       Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /x-aniu/?ed=2560
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 德国-001 |2.1MB/s|25%|TK-US|YT-C...
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: 4120-BE04-13ef56096989.457.PP.ua
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- client-fingerprint: random
+  name: 美国-002 |4.5MB/s|GPT⁺|YT-US|NF|...
+  network: ws
+  port: 443
+  server: 154.211.8.18
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
     path: /?ed=2560
 - alpn:
   - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 美国-002 |3.7MB/s|GPT⁺|YT-CN|NF
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 美国-003 |3.9MB/s|GPT⁺|YT-US|NF|...
+  network: ws
+  port: 54443
+  server: 173.249.201.109
+  servername: pages.anjue39.qzz.io
+  tls: true
+  type: vless
   udp: true
-  up: 11 Mbps
+  uuid: c02eda60-5974-4aaa-876a-c0f8fb620cc7
+  ws-opts:
+    headers:
+      Host: pages.anjue39.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /?ed=2048
+  xudp: true
+- client-fingerprint: chrome
+  name: 美国-004 |5.0MB/s|YT-GB|NF|D+
+  network: ws
+  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
+  port: 443
+  server: 216.24.57.250
+  skip-cert-verify: false
+  sni: afrcloud1.mmv.kr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /5.223.47.32=443
 - client-fingerprint: random
-  name: 塞舌尔-001 |4.1MB/s|GPT⁺|YT-US|NF...
+  name: 塞舌尔-001 |3.9MB/s|GPT⁺|YT-US|NF...
   network: ws
   port: 443
   server: 154.218.15.1
@@ -37,6 +100,21 @@ proxies:
   ws-opts:
     headers:
       Host: snip.ere.de5.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 美国-005 |1.2MB/s|GPT⁺|YT-US|NF|...
+  network: ws
+  port: 443
+  server: 198.62.62.241
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
     path: /?ed=2560
 - client-fingerprint: random
   name: 新加坡-001 |1.2MB/s|GPT⁺|YT-US|NF...
@@ -52,10 +130,10 @@ proxies:
       Host: snip.ere.de5.net
     path: /?ed=2560
 - client-fingerprint: random
-  name: 新加坡-002 |819KB/s|GPT⁺|YT-US|NF...
+  name: 塞舌尔-002 |3.7MB/s|GPT⁺|YT-US|NF...
   network: ws
   port: 443
-  server: 27.50.48.8
+  server: 154.218.15.198
   servername: snip.ere.de5.net
   tls: true
   type: vless
@@ -64,21 +142,19 @@ proxies:
     headers:
       Host: snip.ere.de5.net
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 美国-003 |2.2MB/s
+- client-fingerprint: random
+  name: 新加坡-002 |5.6MB/s|GPT⁺|YT-US|NF...
   network: ws
-  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
   port: 443
-  server: 208.103.161.231
-  skip-cert-verify: false
-  sni: gzjx.dpdns.org
-  type: trojan
-  udp: true
+  server: 27.50.49.104
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /51.91.253.83=8443
+      Host: snip.ere.de5.net
+    path: /?ed=2560
 - client-fingerprint: random
   name: 新加坡-003 |1.9MB/s|GPT⁺|YT-US|NF...
   network: ws
@@ -105,13 +181,114 @@ proxies:
     headers:
       Host: snip.ere.de5.net
     path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  fp: chrome
+  name: 美国-006 |4.8MB/s|GPT⁺|YT-US|NF
+  network: tcp
+  pbk: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+  port: 443
+  reality-opts:
+    public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+  security: reality
+  server: 47.251.25.74
+  servername: www.amazon.com
+  sni: www.amazon.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: 18805ff3-b420-45de-af18-93be14024ae8
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 美国-004 |3.4MB/s
+  name: 美国-007 |1.3MB/s|GPT⁺|YT-US|NF|...
+  network: ws
+  port: 21009
+  server: 192.9.138.69
+  servername: pages.anjue39.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: c02eda60-5974-4aaa-876a-c0f8fb620cc7
+  ws-opts:
+    headers:
+      Host: pages.anjue39.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /?ed=2048
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 美国-008 |1.2MB/s|GPT⁺|YT-US|NF|...
+  network: ws
+  port: 21626
+  server: 23.105.199.91
+  servername: pages.anjue39.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: c02eda60-5974-4aaa-876a-c0f8fb620cc7
+  ws-opts:
+    headers:
+      Host: pages.anjue39.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /?ed=2048
+  xudp: true
+- cipher: aes-256-cfb
+  name: 越南-004 |2.4MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.47
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 英国-002 |581KB/s|GPT⁺|YT-US|NF|...
+  password: y3SowqUkrt1cbm487g74Ac
+  port: 443
+  server: 78.129.140.11
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-009 |878KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.195
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-018 |1.0MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.55
+  type: ss
+- encryption: none
+  name: 美国-009 |5.6MB/s
+  network: ws
+  port: 80
+  server: 151.101.3.19
+  type: vless
+  udp: true
+  uuid: 0b516cf6-cd76-470c-954d-9374d734f445
+  ws-opts:
+    headers:
+      Host: yalandonya.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /site
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 美国-010 |3.6MB/s
   network: ws
   port: 443
   server: 192.0.54.34
@@ -123,108 +300,70 @@ proxies:
   ws-opts:
     headers:
       Host: cErT.sHakHle.iR
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /?ed=1024/?TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
   xudp: true
-- client-fingerprint: random
-  name: 新加坡-005 |2.5MB/s|GPT⁺|YT-US|NF...
-  network: ws
-  port: 443
-  server: 27.50.49.104
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    headers:
-      Host: snip.ere.de5.net
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 美国-005 |1.7MB/s|GPT⁺|YT-US|NF|...
-  network: ws
-  port: 443
-  server: 154.211.8.18
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    headers:
-      Host: snip.ere.de5.net
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 美国-006 |4.8MB/s|GPT⁺|YT-US|NF|...
-  network: ws
-  port: 443
-  server: 198.62.62.241
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
+- http-opts:
+    path:
+    - /
+  name: 伊朗-001 |3.9MB/s|GPT|YT-US|NF|0...
+  network: tcp
+  port: 8880
+  server: 91.216.71.109
   type: vless
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- name: 美国-007 |882KB/s|NF|D+
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  type: http
-  username: fQ67Dpe5dU
-- client-fingerprint: chrome
-  encryption: none
-  name: 美国-008 |4.2MB/s
-  network: ws
-  port: 443
-  server: 69.84.182.20
-  servername: rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg
-  tls: true
-  type: vless
-  udp: true
-  uuid: c309bb98-f7d2-4d0a-b963-94bd8ebd762a
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-de-1.pAriSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /ws
+  uuid: 4660d0c6-4367-40c9-b730-864194e7efa7
   xudp: true
+- client-fingerprint: random
+  name: 新加坡-005 |819KB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 443
+  server: 27.50.48.8
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+    path: /?ed=2560
+- name: 美国-011 |3.1MB/s
+  port: 1080
+  server: 174.138.61.184
+  skip-cert-verify: true
+  type: socks5
 - alpn:
+  - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 美国-009 |3.4MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 208.103.161.110
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
   encryption: none
-  name: 美国-010 |3.4MB/s
+  name: 美国-012 |1.5MB/s|GPT⁺|YT-US|NF|...
   network: ws
-  port: 443
-  server: 69.84.182.152
-  servername: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
+  port: 38945
+  server: 141.148.181.105
+  servername: pages.anjue39.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 2dfb0dd6-65c9-46fe-bd43-776a9e015d8e
+  uuid: c02eda60-5974-4aaa-876a-c0f8fb620cc7
   ws-opts:
     headers:
-      Host: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /ws
+      Host: pages.anjue39.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2048
   xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 美国-013 |3.7MB/s|GPT⁺|YT-CN|NF
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps

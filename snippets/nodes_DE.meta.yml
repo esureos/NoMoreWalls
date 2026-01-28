@@ -1,37 +1,51 @@
 proxies:
-- name: 德国-002 |659KB/s
+- client-fingerprint: chrome
+  name: 德国-002 |3.3MB/s
+  password: '@193.233.254.7:'
   port: 1080
   server: 193.233.254.7
   skip-cert-verify: true
-  type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzo@193.233.254.7
-- name: 德国-003 |2.4MB/s
-  password: Og@193.233.254.8
-  port: 1080
-  server: 193.233.254.8
-  skip-cert-verify: true
   tls: false
   type: socks5
   udp: true
-  username: Og@193.233.254.8
-- http-opts:
-    headers:
-      Host:
-      - www.speedtest.net
-    method: GET
-    path:
-    - /
-  name: 德国-004 |709KB/s|GPT⁺|YT-AT|NF|...
-  network: http
+  username: Og@193.233.254.7
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 德国-003 |2.5MB/s
+  network: tcp
   port: 443
-  server: 152.53.33.43
-  servername: www.speedtest.net
-  skip-cert-verify: false
-  tls: false
+  reality-opts:
+    public-key: O2ttHpVFmwoAf-E1rHgOlv7NggcwxcWkHHen7jkIBjY
+    short-id: '!!str f5390f7c74c4ea5c'
+  server: 94.141.123.137
+  servername: de2.mcqueenconnection.ru
+  tls: true
   type: vless
   udp: true
-  uuid: 057b649c-54b1-4f68-86b1-90381637a2cf
-- name: 德国-005 |3.5MB/s
+  uuid: f3f6f19f-c68a-462c-a534-9b388663fffa
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 哈萨克斯坦-001 |8.9MB/s|GPT⁺|YT-DE|...
+  network: ws
+  port: 2083
+  server: 194.76.18.23
+  servername: dc5f87946b526954.redgren.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: d3462b28-d6a5-44db-8a20-4dcfd7e29003
+  ws-opts:
+    headers:
+      Host: gr.redgren.org
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /file/upload/image?ed=2560
+  xudp: true
+- name: 德国-005 |3.3MB/s
   password: '@193.233.254.9:'
   port: 1080
   server: 193.233.254.9
@@ -39,70 +53,9 @@ proxies:
   tls: false
   type: socks5
   username: Og@193.233.254.9
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 德国-006 |1.6MB/s|0%|GPT⁺|X|Hist...
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: isw9UCSqdj1pzN3KpqY634QY4eLCYmDrMgvI1XsQimA
-  server: 64.188.91.193
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b64ff004-ec17-4cbb-9f32-c4eb7f4660e8
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 德国-007 |4.5MB/s|X
-  password: TxUz18504p5egfiVecTQll
-  port: 7048
-  server: 62.133.60.60
-  type: ss
-  udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 德国-008 |1.1MB/s|GPT⁺|YT-DE|NF|...
-  network: ws
-  port: 443
-  server: 5.39.249.146
-  servername: page.anjue39.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
-  ws-opts:
-    headers:
-      Host: page.anjue39.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /?ed=2048
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 荷兰-004 |784KB/s|GPT⁺|YT-DE|NF|...
-  network: ws
-  port: 443
-  server: 89.169.13.242
-  servername: page.anjue39.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97e79a62-f686-4b91-87a7-be39c9e57658
-  ws-opts:
-    headers:
-      Host: page.anjue39.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /?ed=2048
-  xudp: true
+- name: 德国-006 |3.3MB/s
+  port: 1080
+  server: 193.233.254.8
+  skip-cert-verify: true
+  type: socks5
+  username: Og@193.233.254.8

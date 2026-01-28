@@ -1,4 +1,18 @@
 proxies:
+- client-fingerprint: ios
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ssp
+  name: 俄罗斯联邦-001 |532KB/s|GPT⁺|D+
+  network: grpc
+  port: 443
+  server: 195.133.52.89
+  servername: u730537u7cf5s718.okgfw.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: e32f9c43-b141-3d58-b879-15c6a402e119
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -18,12 +32,48 @@ proxies:
   udp: true
   uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
   xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-002 |3.0MB/s|YT-RU
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str f79448a30d'
+  server: 185.234.59.173
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-003 |2.5MB/s|YT-RU
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str f79448a30d'
+  server: 185.234.59.174
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-004 |2.5MB/s
+  port: 7443
+  reality-opts:
+    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
+    short-id: '!!str fd88bd27db4cc661'
+  server: 45.139.26.152
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
 - alpn:
   - h2
-  client-fingerprint: chrome
+  client-fingerprint: random
   encryption: none
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦-001 |4.1MB/s
+  name: 俄罗斯联邦-005 |538KB/s|GPT|YT-RU|N...
   network: tcp
   port: 443
   reality-opts:
@@ -36,15 +86,22 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
-- client-fingerprint: random
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚-001 |2.1MB/s|0%|TK-AU|YT-...
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 45.15.185.70
+  type: ss
+  udp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦-002 |3.7MB/s
-  port: 7443
+  name: 荷兰-005 |3.2MB/s|GPT⁺|YT-RU|NF|...
+  port: 443
   reality-opts:
-    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
-    short-id: '!!str fd88bd27db4cc661'
-  server: 45.139.26.152
-  servername: eh.vk.com
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str 48720c'
+  server: 94.228.215.12
+  servername: hls-svod.itunes.apple.com
   tls: true
   type: vless
-  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
