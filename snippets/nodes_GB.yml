@@ -1,8 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 英国-001 |6.2MB/s
-  password: y3SowqUkrt1cbm487g74Ac
-  port: 443
-  server: 78.129.140.11
-  type: ss
-  udp: true
+proxies: []

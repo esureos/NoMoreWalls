@@ -1,27 +1,6 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 英国-001 |6.2MB/s
-  password: y3SowqUkrt1cbm487g74Ac
-  port: 443
-  server: 78.129.140.11
-  type: ss
-  udp: true
-- name: 英国-004 |7.4MB/s|9%|GPT|X|Histo...
-  network: ws
-  port: 2096
-  server: 25.129.197.138
-  servername: speed1.best-cloud.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
-  ws-opts:
-    headers:
-      Host: speed1.best-cloud.ir
-    path: /?ed=2048
 - encryption: none
-  name: 英国-005 |7.7MB/s|27%|GPT⁺|X|His...
+  name: 英国-002 |7.7MB/s|27%|GPT⁺|X|His...
   network: ws
   port: 8880
   server: 25.25.25.0

@@ -1,18 +1,11 @@
 proxies:
-- name: 韩国-001 |3.8MB/s|GPT⁺|YT-KR|NF|...
-  network: ws
-  port: 50001
-  server: 180.230.0.137
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
+- name: 韩国-001 |1.9MB/s
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
 - client-fingerprint: random
-  name: 韩国-002 |3.4MB/s|GPT|YT-KR|NF|D...
+  name: 韩国-002 |1.3MB/s
   network: ws
   port: 50001
   server: 115.94.122.118
@@ -23,11 +16,9 @@ proxies:
   type: vless
   uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
+    path: /?ed=2560
 - client-fingerprint: chrome
   name: 韩国-003 |597KB/s|GPT|YT-KR|D+
   network: ws
@@ -45,10 +36,10 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- name: 韩国-004 |823KB/s
+- name: 韩国-004 |3.8MB/s|GPT⁺|YT-KR|NF|...
   network: ws
-  port: 18093
-  server: 221.157.139.47
+  port: 50001
+  server: 180.230.0.137
   servername: l.ayovo.netlib.re
   tls: true
   type: vless
@@ -57,40 +48,22 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- client-fingerprint: random
-  name: 韩国-005 |3.7MB/s|GPT|YT-KR|NF|D...
-  network: ws
-  port: 32764
-  server: 125.137.68.79
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tfo: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 韩国-005 |2.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: j5tsCQhMqefjOq-shVxsZS195S4R7Ce_prmT8yFsvm8
+    short-id: '!!str d02456fe'
+  server: 146.56.158.145
+  servername: www.lamer.com
   tls: true
   type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
+  udp: true
+  uuid: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
 - client-fingerprint: chrome
-  name: 韩国-006 |4.5MB/s|GPT⁺|YT-KR|NF|...
-  network: ws
-  port: 10180
-  server: 220.118.97.223
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 韩国-007 |4.4MB/s|GPT⁺|YT-KR|NF|...
+  name: 韩国-006 |4.4MB/s|GPT⁺|YT-KR|NF|...
   network: ws
   port: 12547
   server: 220.85.144.155
@@ -106,8 +79,47 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- name: 韩国-008 |1.3MB/s|GM
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  type: socks5
+- client-fingerprint: chrome
+  name: 韩国-007 |1.2MB/s|GPT|D+|GM
+  network: ws
+  port: 10180
+  server: 220.118.97.223
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- name: 韩国-008 |1.6MB/s
+  network: ws
+  port: 18093
+  server: 221.157.139.47
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- client-fingerprint: random
+  name: 韩国-009 |3.7MB/s|GPT|YT-KR|NF|D...
+  network: ws
+  port: 32764
+  server: 125.137.68.79
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /

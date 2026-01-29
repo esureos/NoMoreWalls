@@ -1,6 +1,16 @@
 proxies:
-- name: 德国-002 |1.6MB/s
-  password: Og@193.233.254.8
+- client-fingerprint: chrome
+  name: 德国-001 |2.6MB/s
+  password: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
+  port: 1080
+  server: 193.233.254.7
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
+- name: 德国-002 |3.6MB/s
+  password: '@193.233.254.8:'
   port: 1080
   server: 193.233.254.8
   skip-cert-verify: true
@@ -8,27 +18,7 @@ proxies:
   type: socks5
   udp: true
   username: Og@193.233.254.8
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 哈萨克斯坦-001 |5.6MB/s|GPT⁺|YT-DE|...
-  network: ws
-  port: 2083
-  server: 194.76.18.23
-  servername: dc5f87946b526954.redgren.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: d3462b28-d6a5-44db-8a20-4dcfd7e29003
-  ws-opts:
-    headers:
-      Host: gr.redgren.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /file/upload/image?ed=2560
-  xudp: true
-- name: 德国-003 |2.7MB/s
+- name: 德国-003 |2.3MB/s
   password: '@193.233.254.9:'
   port: 1080
   server: 193.233.254.9
@@ -56,7 +46,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 德国-009 |4.4MB/s
+  name: 德国-008 |4.4MB/s
   network: ws
   port: 443
   server: 5.10.214.5
@@ -71,40 +61,10 @@ proxies:
       host: GfV5t2331T.sMaRtTeChZaAl.InFo
     path: /
   xudp: true
-- name: 德国-010 |2.9MB/s|2%|GPT⁺|X
-  port: 10850
-  server: 37.120.162.180
-  skip-cert-verify: true
-  type: socks5
-- client-fingerprint: chrome
-  name: 德国-011 |4.2MB/s
-  network: ws
-  port: 2087
-  server: 5.10.214.0
-  servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
-  ws-opts:
-    headers:
-      host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
-    path: /
-- client-fingerprint: chrome
-  name: 德国-012 |2.3MB/s
-  password: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-  port: 1080
-  server: 193.233.254.7
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOem9AMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNzo%3D
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 德国-013 |2.5MB/s
+  name: 德国-009 |2.5MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -116,4 +76,24 @@ proxies:
   type: vless
   udp: true
   uuid: f3f6f19f-c68a-462c-a534-9b388663fffa
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 哈萨克斯坦-003 |5.6MB/s|GPT⁺|YT-DE|...
+  network: ws
+  port: 2083
+  server: 194.76.18.23
+  servername: dc5f87946b526954.redgren.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: d3462b28-d6a5-44db-8a20-4dcfd7e29003
+  ws-opts:
+    headers:
+      Host: gr.redgren.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /file/upload/image?ed=2560
   xudp: true
