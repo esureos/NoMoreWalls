@@ -1,11 +1,81 @@
 proxies:
+- name: 法国-001
+  password: '!!str 1'
+  port: 8081
+  server: 51.77.190.29
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKWC7-VexcX8wW1xGXkbVNYGxsnp5o63PElOVpFduiCmYA==
+- name: 法国-002
+  password: '!!str 1'
+  port: 8081
+  server: 79.137.101.250
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXzpm3uil09dqV4nubqsZ1sxsnp5o63PElOVpFduiCmYA==
+- name: 法国-003
+  password: '!!str 1'
+  port: 8081
+  server: 51.77.190.70
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXEUlYJjHk-h7uvFKwAFdqVxsnp5o63PElOVpFduiCmYA==
+- name: 法国-004
+  password: '!!str 1'
+  port: 8081
+  server: 51.68.240.51
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUNDlDBUaEMQQQ21AUANBRnxsnp5o63PElOVpFduiCmYA==
+- name: 法国-005
+  password: '!!str 1'
+  port: 8081
+  server: 37.187.194.214
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKWnX2usCQEhkyRks5WrD3fwxsnp5o63PElOVpFduiCmYA==
+- name: 法国-006
+  password: '!!str 1'
+  port: 8081
+  server: 51.68.100.204
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKW4vg6XGsSpW8qCiZk5gSWhxsnp5o63PElOVpFduiCmYA==
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 法国-007 |5.0MB/s
+  network: tcp
+  port: 443
+  server: 162.19.10.94
+  servername: nasnet-162191094-direct.sharghdaily.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- name: 法国-008
+  password: '!!str 1'
+  port: 8081
+  server: 51.77.190.60
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKW36Hg8LQqk_eVN8otgWNc-xsnp5o63PElOVpFduiCmYA==
+- name: 法国-009
+  password: '!!str 1'
+  port: 8081
+  server: 139.64.167.210
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXt3n5-Tc2KWrAbsZUgT5cbxsnp5o63PElOVpFduiCmYA==
+- name: 法国-010
+  password: '!!str 1'
+  port: 8081
+  server: 139.64.167.194
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKVaSzD3aJd2t6A63zAk6kDexsnp5o63PElOVpFduiCmYA==
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   client-fingerprint: chrome
   down: 55 Mbps
-  name: 法国-001 |1.9MB/s
+  name: 法国-011 |1.9MB/s
   port: 50011
   protocol: udp
   server: 62.210.10.186
@@ -19,7 +89,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: '100'
-  name: 法国-002 |2.5MB/s|TK-FR|YT-FR|GP...
+  name: 法国-012 |2.5MB/s|TK-FR|YT-FR|GP...
   port: 15010
   server: 195.154.200.40
   skip-cert-verify: true
@@ -33,7 +103,7 @@ proxies:
   auth_str: dongtaiwang.com
   client-fingerprint: chrome
   down: 55 Mbps
-  name: 法国-003 |2.0MB/s
+  name: 法国-013 |2.0MB/s
   port: 26691
   protocol: udp
   server: 62.210.196.68
@@ -47,7 +117,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55
-  name: 法国-005 |2.3MB/s|GPT⁺|TK|NF|X|K...
+  name: 法国-014 |2.3MB/s|GPT⁺|TK|NF|X|K...
   port: 35511
   protocol: udp
   server: 62.210.10.186

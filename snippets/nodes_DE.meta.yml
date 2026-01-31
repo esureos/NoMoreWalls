@@ -1,6 +1,24 @@
 proxies:
+- name: 德国-001
+  password: '!!str 1'
+  port: 8081
+  server: 5.104.107.68
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUPqTJA7gUHaAHgOoMSm_lQxsnp5o63PElOVpFduiCmYA==
+- name: 德国-003
+  password: '!!str 1'
+  port: 8081
+  server: 57.129.88.70
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKWXEs7sGJ3-rrQgW2NEleV6xsnp5o63PElOVpFduiCmYA==
+- name: 德国-004
+  password: '!!str 1'
+  port: 8081
+  server: 89.249.73.26
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKU8H9-N21hiZ69kxH-h6Bw_oXw609MC0WdYefYZbCn32A==
 - client-fingerprint: chrome
-  name: 德国-001 |2.6MB/s
+  name: 德国-005 |3.3MB/s
   password: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
   port: 1080
   server: 193.233.254.7
@@ -9,16 +27,29 @@ proxies:
   type: socks5
   udp: true
   username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-- name: 德国-002 |3.6MB/s
-  password: '@193.233.254.8:'
-  port: 1080
-  server: 193.233.254.8
-  skip-cert-verify: true
+- name: 德国-006
+  password: '!!str 1'
+  port: 8081
+  server: 89.163.221.18
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUrj5Bh06LSA0OLActxcPV4xsnp5o63PElOVpFduiCmYA==
+- name: 德国-007
+  password: '!!str 1'
+  port: 8081
+  server: 51.38.121.161
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKVZIrNHGr5cVaZNojCdEz_jxsnp5o63PElOVpFduiCmYA==
+- name: 德国-008 |2.3MB/s
+  network: ws
+  port: 8880
+  server: 185.250.41.12
+  servername: divarcdn.com
   tls: false
-  type: socks5
-  udp: true
-  username: Og@193.233.254.8
-- name: 德国-003 |2.3MB/s
+  type: vless
+  uuid: 38cc3dff-5114-429f-9a45-fed484086c47
+  ws-opts:
+    path: /
+- name: 德国-009 |2.5MB/s
   password: '@193.233.254.9:'
   port: 1080
   server: 193.233.254.9
@@ -27,7 +58,69 @@ proxies:
   type: socks5
   username: Og@193.233.254.9
 - client-fingerprint: chrome
-  name: 德国-007 |4.4MB/s
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 德国-010 |3.1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: O2ttHpVFmwoAf-E1rHgOlv7NggcwxcWkHHen7jkIBjY
+    short-id: '!!str f5390f7c74c4ea5c'
+  server: 94.141.123.137
+  servername: de2.mcqueenconnection.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f3f6f19f-c68a-462c-a534-9b388663fffa
+  xudp: true
+- name: 德国-011
+  password: '!!str 1'
+  port: 8081
+  server: 23.160.72.36
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKWnMrS3tElodk9MHQ5QJDRnxsnp5o63PElOVpFduiCmYA==
+- name: 德国-012 |2.0MB/s
+  password: '@193.233.254.8:'
+  port: 1080
+  server: 193.233.254.8
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: Og@193.233.254.8
+- name: 德国-013
+  password: '!!str 1'
+  port: 8081
+  server: 193.108.116.229
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXO2OmScUOPG_1Ajfb066tVxsnp5o63PElOVpFduiCmYA==
+- name: 德国-014
+  password: '!!str 1'
+  port: 8081
+  server: 193.108.116.220
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKVMr1pdKl5jtMvooM_Svre9xsnp5o63PElOVpFduiCmYA==
+- name: 德国-015
+  password: '!!str 1'
+  port: 8081
+  server: 193.108.116.247
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUHadno102LnvX6-UX_CQJnxsnp5o63PElOVpFduiCmYA==
+- cipher: chacha20-ietf-poly1305
+  name: 德国-016 |881KB/s
+  password: cbbcbfd5330475d1
+  port: 11201
+  server: 141.95.106.215
+  type: ss
+  udp: true
+- name: 德国-017
+  password: '!!str 1'
+  port: 8081
+  server: 23.160.72.54
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXw8WNwdZBAmEFIFFmfT0Unxsnp5o63PElOVpFduiCmYA==
+- client-fingerprint: chrome
+  name: 德国-021 |4.4MB/s
   network: ws
   port: 443
   server: 5.10.214.0
@@ -46,7 +139,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 德国-008 |4.4MB/s
+  name: 德国-022 |4.4MB/s
   network: ws
   port: 443
   server: 5.10.214.5
@@ -60,40 +153,4 @@ proxies:
     headers:
       host: GfV5t2331T.sMaRtTeChZaAl.InFo
     path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 德国-009 |2.5MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: O2ttHpVFmwoAf-E1rHgOlv7NggcwxcWkHHen7jkIBjY
-    short-id: '!!str f5390f7c74c4ea5c'
-  server: 94.141.123.137
-  servername: de2.mcqueenconnection.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f3f6f19f-c68a-462c-a534-9b388663fffa
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 哈萨克斯坦-003 |5.6MB/s|GPT⁺|YT-DE|...
-  network: ws
-  port: 2083
-  server: 194.76.18.23
-  servername: dc5f87946b526954.redgren.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: d3462b28-d6a5-44db-8a20-4dcfd7e29003
-  ws-opts:
-    headers:
-      Host: gr.redgren.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /file/upload/image?ed=2560
   xudp: true

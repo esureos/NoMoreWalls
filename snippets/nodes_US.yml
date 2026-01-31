@@ -1,7 +1,23 @@
 proxies:
+- alterId: '0'
+  cipher: auto
+  name: 菲律宾-001 |4.8MB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 2086
+  server: 154.83.2.156
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  ws-opts:
+    headers:
+      Host: v205.19740822.xyz
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: 德国-010 |2.1MB/s|25%|TK-US|YT-C...
+  name: 德国-002 |2.1MB/s|25%|TK-US|YT-C...
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -12,43 +28,24 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
+- cipher: aes-256-cfb
+  name: 越南-017 |1.1MB/s|TK-VN|YT-US|NF...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.36
+  sub_tag: (AzadNet.t.me)
+  type: ss
+  udp: true
 - cipher: aes-128-gcm
-  name: 美国-013 |4.1MB/s|GPT⁺|YT-RU|NF|...
+  name: 美国-026 |4.1MB/s|GPT⁺|YT-RU|NF|...
   password: shisCffVrVeeYneLb6hcG4Qhu2cXJX6F
   port: 17895
   server: 205.209.104.91
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 越南-002 |1.8MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.206
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-004 |1.0MB/s|GPT⁺|YT-US|NF|...
+  name: 越南-020 |1.0MB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.240
-  type: ss
-- client-fingerprint: chrome
-  name: 美国-015 |5.0MB/s|YT-GB|NF|D+
-  network: ws
-  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
-  port: 443
-  server: 216.24.57.250
-  skip-cert-verify: false
-  sni: afrcloud1.mmv.kr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /5.223.47.32=443
-- cipher: aes-256-cfb
-  name: 越南-024 |863KB/s|YT-US|NF|GPT⁺|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.65
   type: ss

@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: 瑞典-001
+  password: '!!str 1'
+  port: 8081
+  server: 146.70.122.66
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKVReT3KhqHXGddrjh53iObGoXw609MC0WdYefYZbCn32A==

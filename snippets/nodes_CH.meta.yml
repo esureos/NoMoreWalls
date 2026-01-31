@@ -1,1 +1,25 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 瑞士-001 |2.3MB/s|GPT⁺|NF|D+|0%
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 138.124.79.4
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
+  xudp: true
+- name: 瑞士-002
+  password: '!!str 1'
+  port: 8081
+  server: 208.69.78.7
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKX-gvOngbTV0_gbKxPQTKWsoXw609MC0WdYefYZbCn32A==

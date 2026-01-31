@@ -1,13 +1,31 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 越南-001 |2.5MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.3
-  type: ss
+- name: 日本-001 |6.0MB/s|YT-HK|NF|D+|1%
+  network: tcp
+  password: BxceQaOe
+  port: 2826
+  server: 43.207.157.137
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: '0'
+  cipher: auto
+  name: 菲律宾-001 |4.8MB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 2086
+  server: 154.83.2.156
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
+  ws-opts:
+    headers:
+      Host: v205.19740822.xyz
+    path: /
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: 德国-010 |2.1MB/s|25%|TK-US|YT-C...
+  name: 德国-002 |2.1MB/s|25%|TK-US|YT-C...
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -18,170 +36,152 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- cipher: aes-128-gcm
-  name: 美国-013 |4.1MB/s|GPT⁺|YT-RU|NF|...
-  password: shisCffVrVeeYneLb6hcG4Qhu2cXJX6F
-  port: 17895
-  server: 205.209.104.91
+- cipher: aes-256-cfb
+  name: 越南-001 |2.4MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.139
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-002 |3.2MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.173
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-003 |1.7MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.141
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-004 |2.5MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.244
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-005 |2.5MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.220
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-006 |2.7MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.182
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-007 |2.6MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.179
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-008 |2.8MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.128
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-009 |2.5MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.71
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-010 |2.4MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.204
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-011 |2.8MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.221
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-012 |2.2MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.40
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-013 |2.5MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.41
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-014 |2.2MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.208
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-015 |1.3MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.156
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 德国-016 |881KB/s
+  password: cbbcbfd5330475d1
+  port: 11201
+  server: 141.95.106.215
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 越南-002 |1.8MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.206
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-003 |2.6MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.123
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-004 |1.0MB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.240
-  type: ss
-- cipher: aes-256-cfb
-  name: 葡萄牙-001
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-005 |1.5MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.78
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-006 |2.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.107
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-007 |2.7MB/s
+  name: 越南-016 |2.7MB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.243
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 越南-008 |2.1MB/s
+  name: 越南-017 |1.1MB/s|TK-VN|YT-US|NF...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.252
-  type: ss
-- name: 美国-015 |5.0MB/s|YT-GB|NF|D+
-  network: ws
-  password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
-  port: 443
-  server: 216.24.57.250
-  skip-cert-verify: false
-  sni: afrcloud1.mmv.kr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /5.223.47.32=443
-- cipher: aes-256-cfb
-  name: 越南-009 |2.1MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.4
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-010 |2.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.105
+  server: 103.186.155.36
+  sub_tag: (AzadNet.t.me)
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 越南-011 |1.7MB/s
+  name: 越南-018 |2.5MB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.101
+  server: 103.186.155.3
+  type: ss
+- cipher: aes-128-gcm
+  name: 美国-026 |4.1MB/s|GPT⁺|YT-RU|NF|...
+  password: shisCffVrVeeYneLb6hcG4Qhu2cXJX6F
+  port: 17895
+  server: 205.209.104.91
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-019 |2.6MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.123
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-012 |1.6MB/s
+  name: 越南-020 |1.0MB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.135
+  server: 103.186.155.240
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-013 |2.2MB/s
+  name: 越南-021 |1.5MB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.10
+  server: 103.186.155.78
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-014 |1.6MB/s
+  name: 越南-022 |2.4MB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.55
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-015 |2.2MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.63
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-016 |1.1MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.106
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-017 |2.5MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.55
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-018 |2.9MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.195
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-019 |1.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.9
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-020 |2.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.69
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-021 |1.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.166
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-022 |2.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.224
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-023 |759KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.145
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-024 |863KB/s|YT-US|NF|GPT⁺|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.65
+  server: 103.186.155.107
   type: ss

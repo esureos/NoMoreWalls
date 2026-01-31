@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- name: 爱沙尼亚-001
+  password: '!!str 1'
+  port: 8081
+  server: 95.153.32.34
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXHRKoWWWX1AxQDA9R3qTUWoXw609MC0WdYefYZbCn32A==
+- name: 爱沙尼亚-002
+  password: '!!str 1'
+  port: 8081
+  server: 95.153.31.102
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXHtlprgjZh_kygKM-IJkkRoXw609MC0WdYefYZbCn32A==

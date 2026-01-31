@@ -1,11 +1,24 @@
 proxies:
-- name: 韩国-001 |1.9MB/s
+- name: 韩国-001 |583KB/s
   port: 1090
   server: 121.169.46.116
-  skip-cert-verify: true
+  tls: false
   type: socks5
+  username: Og%3D%3D
+- name: 韩国-002
+  password: '!!str 1'
+  port: 8081
+  server: 61.255.174.11
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXEMlZ-kgwCibfMOeb0R01JoXw609MC0WdYefYZbCn32A==
+- name: 韩国-003
+  password: '!!str 1'
+  port: 8081
+  server: 140.174.179.129
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKWKS19iwNu71JN-DQqHHVEPoXw609MC0WdYefYZbCn32A==
 - client-fingerprint: random
-  name: 韩国-002 |1.3MB/s
+  name: 韩国-004 |1.3MB/s
   network: ws
   port: 50001
   server: 115.94.122.118
@@ -20,7 +33,7 @@ proxies:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 韩国-003 |597KB/s|GPT|YT-KR|D+
+  name: 韩国-005 |597KB/s|GPT|YT-KR|D+
   network: ws
   port: 12433
   server: 221.158.139.181
@@ -36,7 +49,7 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- name: 韩国-004 |3.8MB/s|GPT⁺|YT-KR|NF|...
+- name: 韩国-006 |3.8MB/s|GPT⁺|YT-KR|NF|...
   network: ws
   port: 50001
   server: 180.230.0.137
@@ -50,7 +63,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 韩国-005 |2.3MB/s
+  name: 韩国-007 |2.3MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -63,7 +76,7 @@ proxies:
   udp: true
   uuid: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
 - client-fingerprint: chrome
-  name: 韩国-006 |4.4MB/s|GPT⁺|YT-KR|NF|...
+  name: 韩国-008 |4.4MB/s|GPT⁺|YT-KR|NF|...
   network: ws
   port: 12547
   server: 220.85.144.155
@@ -80,7 +93,7 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  name: 韩国-007 |1.2MB/s|GPT|D+|GM
+  name: 韩国-009 |1.2MB/s|GPT|D+|GM
   network: ws
   port: 10180
   server: 220.118.97.223
@@ -94,7 +107,7 @@ proxies:
     headers:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
-- name: 韩国-008 |1.6MB/s
+- name: 韩国-010 |1.6MB/s
   network: ws
   port: 18093
   server: 221.157.139.47
@@ -107,7 +120,7 @@ proxies:
       Host: l.ayovo.netlib.re
     path: /?ed=2560
 - client-fingerprint: random
-  name: 韩国-009 |3.7MB/s|GPT|YT-KR|NF|D...
+  name: 韩国-011 |3.7MB/s|GPT|YT-KR|NF|D...
   network: ws
   port: 32764
   server: 125.137.68.79

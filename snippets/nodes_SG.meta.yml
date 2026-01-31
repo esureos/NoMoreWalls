@@ -1,5 +1,23 @@
 proxies:
-- name: 新加坡-006 |2.4MB/s|GPT
+- name: 新加坡-003
+  password: '!!str 1'
+  port: 8081
+  server: 116.251.216.100
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUebo73V-kpPVU4u_M1CKtioXw609MC0WdYefYZbCn32A==
+- name: 新加坡-004
+  password: '!!str 1'
+  port: 8081
+  server: 116.251.217.47
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXC1vgZplgxBjEh7IlFelszoXw609MC0WdYefYZbCn32A==
+- name: 新加坡-005
+  password: '!!str 1'
+  port: 8081
+  server: 103.200.209.250
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXKOXt2W_VPk0M7kogFTqwNoXw609MC0WdYefYZbCn32A==
+- name: 新加坡-009 |2.4MB/s|GPT
   port: 10850
   server: 213.35.110.67
   type: socks5
@@ -9,7 +27,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 新加坡-007 |3.8MB/s|GPT⁺|YT-SG|NF...
+  name: 新加坡-010 |3.8MB/s|GPT⁺|YT-SG|NF...
   network: ws
   port: 443
   server: 34.143.159.175

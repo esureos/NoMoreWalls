@@ -1,6 +1,113 @@
 proxies:
+- name: 英国-001
+  password: '!!str 1'
+  port: 8081
+  server: 57.129.140.187
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKV_zah1M6v1krpcAgo5mBdjxsnp5o63PElOVpFduiCmYA==
+- name: 英国-002
+  password: '!!str 1'
+  port: 8081
+  server: 88.150.230.5
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKU_5tRVUBE7IYZ2oZ16--y0oXw609MC0WdYefYZbCn32A==
+- name: 英国-003
+  password: '!!str 1'
+  port: 8081
+  server: 145.239.6.2
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXotjrvSFZ-o6sBHCOWWPvgoXw609MC0WdYefYZbCn32A==
+- name: 英国-004
+  password: '!!str 1'
+  port: 8081
+  server: 78.129.229.29
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKU4RRa2upPj7x-dEqFDRNE1xsnp5o63PElOVpFduiCmYA==
+- name: 英国-005
+  password: '!!str 1'
+  port: 8081
+  server: 51.89.153.211
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKU3tENO1Lo0fkUOEwPz9bUPxsnp5o63PElOVpFduiCmYA==
+- name: 英国-006
+  password: '!!str 1'
+  port: 8081
+  server: 139.28.176.106
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKWgwPVQtLIeGWH6xTpDGoeSoXw609MC0WdYefYZbCn32A==
+- name: 英国-007
+  password: '!!str 1'
+  port: 8081
+  server: 185.145.201.31
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUqBVRjOQ4Xns7PdpghfrYzxsnp5o63PElOVpFduiCmYA==
+- name: 英国-008
+  password: '!!str 1'
+  port: 8081
+  server: 51.89.173.123
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUkvzlWuKG9RacHea2eMx3Oxsnp5o63PElOVpFduiCmYA==
+- name: 英国-009
+  password: '!!str 1'
+  port: 8081
+  server: 212.84.160.58
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXb4tS8B69-DyGG9o80p4heoXw609MC0WdYefYZbCn32A==
+- client-fingerprint: random
+  name: 英国-010 |2.6MB/s
+  network: ws
+  port: 443
+  server: 57.129.137.56
+  servername: o00o.snip.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
+  ws-opts:
+    headers:
+      Host: o00o.snip.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /proxyip=sjc.o00o.ooo
+  xudp: true
+- name: 英国-011
+  password: '!!str 1'
+  port: 8081
+  server: 185.245.80.156
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKWaxY-cznD6aQvQixhRJVdyoXw609MC0WdYefYZbCn32A==
+- name: 英国-012
+  password: '!!str 1'
+  port: 8081
+  server: 5.180.211.94
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUZBsrN2zs-lHACZn5M4EnzoXw609MC0WdYefYZbCn32A==
+- name: 英国-013
+  password: '!!str 1'
+  port: 8081
+  server: 172.99.190.215
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKWZdNSScvy4DcnOshF0yJnloXw609MC0WdYefYZbCn32A==
+- name: 英国-014
+  password: '!!str 1'
+  port: 8081
+  server: 172.99.190.183
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUVvNGDzqKxWvzIH2v3FDBRoXw609MC0WdYefYZbCn32A==
+- name: 英国-015
+  password: '!!str 1'
+  port: 8081
+  server: 38.114.120.157
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUAVDmxHkJasl4lrPE-0zDHxsnp5o63PElOVpFduiCmYA==
+- name: 英国-016
+  password: '!!str 1'
+  port: 8081
+  server: 198.244.253.161
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKVsrucoxSpNKS4k4YjFy-Yaxsnp5o63PElOVpFduiCmYA==
 - encryption: none
-  name: 英国-002 |7.7MB/s|27%|GPT⁺|X|His...
+  name: 英国-018 |7.7MB/s|27%|GPT⁺|X|His...
   network: ws
   port: 8880
   server: 25.25.25.0

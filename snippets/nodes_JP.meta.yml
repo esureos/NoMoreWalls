@@ -1,17 +1,61 @@
 proxies:
-- name: 日本-001 |2.2MB/s|GPT⁺|YT-JP|NF|...
-  network: ws
-  port: 443
-  server: 155.248.163.243
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- name: 日本-002 |2.9MB/s
+- name: 日本-001 |6.0MB/s|YT-HK|NF|D+|1%
+  network: tcp
+  password: BxceQaOe
+  port: 2826
+  server: 43.207.157.137
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 日本-002
+  password: '!!str 1'
+  port: 8081
+  server: 103.108.230.50
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUTU-mVVrH9kIUwIZVgAE9_oXw609MC0WdYefYZbCn32A==
+- name: 日本-003
+  password: '!!str 1'
+  port: 8081
+  server: 103.108.230.51
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUIvUgGdkpSFfzSmDhkCMXfoXw609MC0WdYefYZbCn32A==
+- name: 日本-004
+  password: '!!str 1'
+  port: 8081
+  server: 180.149.230.169
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKWMxH9WEWa4O6kjB-SYI4BBoXw609MC0WdYefYZbCn32A==
+- name: 日本-005
+  password: '!!str 1'
+  port: 8081
+  server: 103.108.230.31
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUJ_-mmdJXrCl6XHLM1WdbYoXw609MC0WdYefYZbCn32A==
+- name: 日本-006
+  password: '!!str 1'
+  port: 8081
+  server: 180.149.230.241
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKW9m5nf8HwEogTil7Z-30PBoXw609MC0WdYefYZbCn32A==
+- name: 日本-007
+  password: '!!str 1'
+  port: 8081
+  server: 180.149.230.197
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKVZ00h66qE7zdbg6K-Syoigxsnp5o63PElOVpFduiCmYA==
+- name: 尼日利亚-001
+  password: '!!str 1'
+  port: 8081
+  server: 169.255.57.58
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUFjsH1KddksWnStNVY4ighoXw609MC0WdYefYZbCn32A==
+- name: 日本-008
+  password: '!!str 1'
+  port: 8081
+  server: 5.180.44.194
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXmiX3L69X4E4h9DLWD0CrgoXw609MC0WdYefYZbCn32A==
+- name: 日本-009 |2.9MB/s
   password: a2d12dc9-c111-45ac-b803-87e48f3484d8
   port: 443
   server: 160.16.75.254
@@ -20,7 +64,7 @@ proxies:
   udp: true
   username: a2d12dc9-c111-45ac-b803-87e48f3484d8
 - client-fingerprint: random
-  name: 日本-003 |2.2MB/s|GPT|YT-JP|NF|G...
+  name: 日本-010 |2.2MB/s|GPT|YT-JP|NF|G...
   network: ws
   port: 443
   server: 43.153.184.43
@@ -36,15 +80,3 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- name: 日本-004 |6.9MB/s|YT-JP|NF|D+|GM
-  network: ws
-  port: 443
-  server: 64.176.36.134
-  servername: hk9981.aniuge.qzz.io
-  tls: true
-  type: vless
-  uuid: e258977b-e413-4718-a3af-02d75492c349
-  ws-opts:
-    headers:
-      Host: hk9981.aniuge.qzz.io
-    path: //?ed=2095

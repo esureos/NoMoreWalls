@@ -1,1 +1,55 @@
-proxies: []
+proxies:
+- name: 加拿大-001
+  password: '!!str 1'
+  port: 8081
+  server: 135.84.180.228
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUi_fefXrp-hd_1fHMc6ORUoXw609MC0WdYefYZbCn32A==
+- name: 加拿大-002
+  password: '!!str 1'
+  port: 8081
+  server: 104.245.146.82
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKW6mClPgyRqr2FjOTEerJ2koXw609MC0WdYefYZbCn32A==
+- name: 加拿大-003
+  password: '!!str 1'
+  port: 8081
+  server: 173.209.51.250
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUZfORqcq-jQ4gtH93GwgQ2oXw609MC0WdYefYZbCn32A==
+- name: 加拿大-004
+  password: '!!str 1'
+  port: 8081
+  server: 173.209.48.162
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXznUiDqbAfxih1hhhGOowMoXw609MC0WdYefYZbCn32A==
+- name: 加拿大-005
+  password: '!!str 1'
+  port: 8081
+  server: 173.209.49.50
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUJR4-fJw80KVQ_-Ikf_kYfoXw609MC0WdYefYZbCn32A==
+- name: 加拿大-006
+  password: '!!str 1'
+  port: 8081
+  server: 173.209.63.146
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUd_8f-dXHeNrcIFRD4h9lzxsnp5o63PElOVpFduiCmYA==
+- name: 加拿大-007
+  password: '!!str 1'
+  port: 8081
+  server: 67.43.236.226
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKVcEUrUBXbvEXsz1G7Yq8Tkxsnp5o63PElOVpFduiCmYA==
+- name: 加拿大-008
+  password: '!!str 1'
+  port: 8081
+  server: 148.113.221.152
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUVNnU1YYuNxAWH3tijOmBMxsnp5o63PElOVpFduiCmYA==
+- name: 加拿大-009
+  password: '!!str 1'
+  port: 8081
+  server: 148.113.221.150
+  type: http
+  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKVQgZY3j_5z7fXfdNJIhb-xxsnp5o63PElOVpFduiCmYA==
