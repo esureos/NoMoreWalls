@@ -1,61 +1,47 @@
 proxies:
-- name: 日本-001 |6.0MB/s|YT-HK|NF|D+|1%
-  network: tcp
-  password: BxceQaOe
-  port: 2826
-  server: 43.207.157.137
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- name: 日本-001 |1.9MB/s|GPT⁺|YT-JP|NF|...
+  network: ws
+  port: 11867
+  server: 8.211.137.100
+  servername: mot.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.saghv.filegear-sg.me
+    path: /@Marisa_kristi
 - name: 日本-002
-  password: '!!str 1'
-  port: 8081
-  server: 103.108.230.50
-  type: http
-  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUTU-mVVrH9kIUwIZVgAE9_oXw609MC0WdYefYZbCn32A==
-- name: 日本-003
-  password: '!!str 1'
-  port: 8081
-  server: 103.108.230.51
-  type: http
-  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUIvUgGdkpSFfzSmDhkCMXfoXw609MC0WdYefYZbCn32A==
-- name: 日本-004
   password: '!!str 1'
   port: 8081
   server: 180.149.230.169
   type: http
-  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKWMxH9WEWa4O6kjB-SYI4BBoXw609MC0WdYefYZbCn32A==
-- name: 日本-005
+  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm7NadY0lAw40bIv6oBg5XmToXw609MC0WdYefYZbCn32A==
+- name: 日本-003
+  password: '!!str 1'
+  port: 8081
+  server: 103.108.230.50
+  type: http
+  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm4x4Sh-tRpnvT1HsDvl5YWvoXw609MC0WdYefYZbCn32A==
+- name: 日本-004
   password: '!!str 1'
   port: 8081
   server: 103.108.230.31
   type: http
-  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUJ_-mmdJXrCl6XHLM1WdbYoXw609MC0WdYefYZbCn32A==
-- name: 日本-006
-  password: '!!str 1'
-  port: 8081
-  server: 180.149.230.241
-  type: http
-  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKW9m5nf8HwEogTil7Z-30PBoXw609MC0WdYefYZbCn32A==
-- name: 日本-007
-  password: '!!str 1'
-  port: 8081
-  server: 180.149.230.197
-  type: http
-  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKVZ00h66qE7zdbg6K-Syoigxsnp5o63PElOVpFduiCmYA==
-- name: 尼日利亚-001
-  password: '!!str 1'
-  port: 8081
-  server: 169.255.57.58
-  type: http
-  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUFjsH1KddksWnStNVY4ighoXw609MC0WdYefYZbCn32A==
-- name: 日本-008
-  password: '!!str 1'
-  port: 8081
-  server: 5.180.44.194
-  type: http
-  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXmiX3L69X4E4h9DLWD0CrgoXw609MC0WdYefYZbCn32A==
-- name: 日本-009 |2.9MB/s
+  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm5AkW33PzuTLDfHiIn-c1E_oXw609MC0WdYefYZbCn32A==
+- name: 日本-005 |1.6MB/s|GPT⁺|YT-JP|NF|...
+  network: ws
+  port: 42841
+  server: 43.165.190.11
+  servername: mot.luyuju.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.luyuju.dpdns.org
+    path: /@Marisa_kristi
+- name: 日本-006 |5.0MB/s|GPT⁺|YT-CN|NF|...
   password: a2d12dc9-c111-45ac-b803-87e48f3484d8
   port: 443
   server: 160.16.75.254
@@ -63,20 +49,9 @@ proxies:
   type: anytls
   udp: true
   username: a2d12dc9-c111-45ac-b803-87e48f3484d8
-- client-fingerprint: random
-  name: 日本-010 |2.2MB/s|GPT|YT-JP|NF|G...
-  network: ws
-  port: 443
-  server: 43.153.184.43
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
+- name: 尼日利亚-001
+  password: '!!str 1'
+  port: 8081
+  server: 169.255.57.58
+  type: http
+  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm6SkzZIV3s9jy9iR5vDGyiVoXw609MC0WdYefYZbCn32A==

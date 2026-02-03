@@ -1,45 +1,42 @@
 proxies:
-- name: 新加坡-003
+- name: 新加坡-001 |5.0MB/s|GPT⁺|YT-SG|NF...
+  network: ws
+  port: 4096
+  server: 54.255.217.120
+  servername: mot.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+- name: 新加坡-002 |7.8MB/s|GPT⁺|YT-SG|NF...
+  network: ws
+  port: 10101
+  server: 175.41.167.160
+  servername: mot.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+- alterId: 0
+  cipher: auto
+  name: 新加坡-003 |1.8MB/s|GPT⁺|YT-SG|NF...
+  network: none
+  port: 17310
+  server: 82.21.80.224
+  servername: viffes.shortanimedrama.space
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
+- name: 新加坡-004
   password: '!!str 1'
   port: 8081
   server: 116.251.216.100
   type: http
-  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKUebo73V-kpPVU4u_M1CKtioXw609MC0WdYefYZbCn32A==
-- name: 新加坡-004
-  password: '!!str 1'
-  port: 8081
-  server: 116.251.217.47
-  type: http
-  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXC1vgZplgxBjEh7IlFelszoXw609MC0WdYefYZbCn32A==
-- name: 新加坡-005
-  password: '!!str 1'
-  port: 8081
-  server: 103.200.209.250
-  type: http
-  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKXKOXt2W_VPk0M7kogFTqwNoXw609MC0WdYefYZbCn32A==
-- name: 新加坡-009 |2.4MB/s|GPT
-  port: 10850
-  server: 213.35.110.67
-  type: socks5
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 新加坡-010 |3.8MB/s|GPT⁺|YT-SG|NF...
-  network: ws
-  port: 443
-  server: 34.143.159.175
-  servername: pages.anjue39.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: c02eda60-5974-4aaa-876a-c0f8fb620cc7
-  ws-opts:
-    headers:
-      Host: pages.anjue39.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /?ed=2048
-  xudp: true
+  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm6ydf2mGmnxe0iKKMG3k6JqoXw609MC0WdYefYZbCn32A==

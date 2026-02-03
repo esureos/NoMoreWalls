@@ -1,7 +1,28 @@
 proxies:
-- name: 瑞典-001
+- cipher: aes-256-cfb
+  name: 瑞典-001 |2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 51.20.81.17
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 瑞典-002 |5.0MB/s|GPT⁺|0%
+  password: amazonskr05
+  port: 443
+  server: 16.170.155.107
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 瑞典-003 |3.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 16.171.240.134
+  type: ss
+  udp: true
+- name: 瑞典-004
   password: '!!str 1'
   port: 8081
   server: 146.70.122.66
   type: http
-  username: afY491o7YfK00koaXQD9kY26EETROB_qZhNRwJo7YKVReT3KhqHXGddrjh53iObGoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm5FDwrhEM3lqCxrAXClFAyboXw609MC0WdYefYZbCn32A==
