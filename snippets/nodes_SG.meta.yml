@@ -1,28 +1,15 @@
 proxies:
-- name: 新加坡-001 |5.0MB/s|GPT⁺|YT-SG|NF...
-  network: ws
-  port: 4096
-  server: 54.255.217.120
-  servername: mot.saghv.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.saghv.filegear-sg.me
-    path: /@Marisa_kristi
-- name: 新加坡-002 |7.8MB/s|GPT⁺|YT-SG|NF...
-  network: ws
-  port: 10101
-  server: 175.41.167.160
-  servername: mot.saghv.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.saghv.filegear-sg.me
-    path: /@Marisa_kristi
+- name: 新加坡-001
+  password: '!!str 1'
+  port: 8081
+  server: 116.251.216.100
+  type: http
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBybXkDSI5OzSHEQYt2vw2PoXw609MC0WdYefYZbCn32A==
+- name: 新加坡-002 |1.8MB/s|1.5MB/s|X|His...
+  port: 10810
+  server: 146.235.19.84
+  skip-cert-verify: true
+  type: socks5
 - alterId: 0
   cipher: auto
   name: 新加坡-003 |1.8MB/s|GPT⁺|YT-SG|NF...
@@ -34,9 +21,27 @@ proxies:
   tls: true
   type: vmess
   uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
-- name: 新加坡-004
-  password: '!!str 1'
-  port: 8081
-  server: 116.251.216.100
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm6ydf2mGmnxe0iKKMG3k6JqoXw609MC0WdYefYZbCn32A==
+- name: 新加坡-004 |5.0MB/s|GPT⁺|YT-SG|NF...
+  network: ws
+  port: 4096
+  server: 54.255.217.120
+  servername: mot.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+- name: 新加坡-005 |7.8MB/s|GPT⁺|YT-SG|NF...
+  network: ws
+  port: 10101
+  server: 175.41.167.160
+  servername: mot.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.saghv.filegear-sg.me
+    path: /@Marisa_kristi

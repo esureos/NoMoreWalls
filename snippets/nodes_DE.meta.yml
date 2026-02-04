@@ -1,47 +1,41 @@
 proxies:
-- name: 德国-001 |2.6MB/s|GPT⁺|YT-DE|NF|...
-  network: ws
-  port: 12345
-  server: 91.107.167.127
-  servername: mot.saghv.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.saghv.filegear-sg.me
-    path: /@Marisa_kristi
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 德国-002 |3.2MB/s
+- alterId: '0'
+  cipher: auto
+  name: 德国-001 |1.0MB/s|[广播|机房]|3.6MB/...
   network: tcp
-  port: 443
-  server: 57.129.64.102
-  servername: nasnet-5712964102-direct.sharghdaily.co
-  tls: true
-  type: vless
+  port: 180
+  server: 82.198.246.97
+  servername: 4120-BE04-13ef56096989.457.PP.ua
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
+- name: 德国-002
+  password: '!!str 1'
+  port: 8081
+  server: 89.249.73.26
+  type: http
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBkSAXxqtjAIu1cgMKnnTv7oXw609MC0WdYefYZbCn32A==
 - name: 德国-003
   password: '!!str 1'
   port: 8081
-  server: 51.38.122.100
+  server: 5.199.130.48
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm6saA9XfVubqOgVstib2-gSxsnp5o63PElOVpFduiCmYA==
-- name: 德国-004
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBpLrkFZEm5mNG-3SA87YdXxsnp5o63PElOVpFduiCmYA==
+- name: 德国-005
   password: '!!str 1'
   port: 8081
-  server: 51.38.117.70
+  server: 51.38.116.150
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm7b8MGE-1ARzQFFF14iivhexsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAipLHR_Bolz5oIu4wns0tfxsnp5o63PElOVpFduiCmYA==
+- name: 德国-006
+  password: '!!str 1'
+  port: 8081
+  server: 57.129.88.76
+  type: http
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDLkD6pgjrDXSKD1qEM1estxsnp5o63PElOVpFduiCmYA==
 - alpn:
   - h2
   client-fingerprint: chrome
@@ -49,7 +43,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: 德国-005 |4.1MB/s|GPT⁺|YT-DE|NF|...
+  name: 德国-007 |4.1MB/s|GPT⁺|YT-DE|NF|...
   network: tcp
   port: 443
   reality-opts:
@@ -61,45 +55,15 @@ proxies:
   udp: true
   uuid: 278cdc8a-1c0c-4710-bc48-b8c6e5f36c24
   xudp: true
-- name: 德国-006
-  password: '!!str 1'
-  port: 8081
-  server: 89.249.73.26
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm7tEs7dkR4uvUX2T0fV4MbvoXw609MC0WdYefYZbCn32A==
-- name: 德国-007
-  password: '!!str 1'
-  port: 8081
-  server: 23.160.72.197
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm6-KJ-z0jmHYnc50uucZhzRxsnp5o63PElOVpFduiCmYA==
 - name: 德国-008
   password: '!!str 1'
   port: 8081
-  server: 23.160.72.55
+  server: 5.104.107.251
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm5a-XC8FChSWDBL49Ut2WXKxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDNBD2YhmXUX3or7mDuWH-soXw609MC0WdYefYZbCn32A==
 - name: 德国-009
   password: '!!str 1'
   port: 8081
-  server: 193.108.116.249
+  server: 23.160.72.215
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm5M5SNAtBLEAaXHEnS98GHlxsnp5o63PElOVpFduiCmYA==
-- name: 德国-010
-  password: '!!str 1'
-  port: 8081
-  server: 193.108.116.234
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm6a11qlOkvhpMzjyNFsP_Rdxsnp5o63PElOVpFduiCmYA==
-- name: 德国-011
-  password: '!!str 1'
-  port: 8081
-  server: 23.160.72.216
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm4T-b4Tz-QYBZJJktAQcpzHxsnp5o63PElOVpFduiCmYA==
-- name: 德国-012
-  password: '!!str 1'
-  port: 8081
-  server: 89.163.221.14
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm6hsYPxHsxRO19lepL-t7_1xsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDItUi5TQMg6c7WlJuJPYJSxsnp5o63PElOVpFduiCmYA==

@@ -4,10 +4,4 @@ proxies:
   port: 8081
   server: 104.245.146.82
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm4IlfyNQ81iRsGo1HPI-scToXw609MC0WdYefYZbCn32A==
-- name: 加拿大-002
-  password: '!!str 1'
-  port: 8081
-  server: 173.209.51.250
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm4NdjcV_OV5V3allpnnS36VoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDm1Gp8-lnf3tKTAIxpGDZGoXw609MC0WdYefYZbCn32A==

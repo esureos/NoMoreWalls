@@ -1,70 +1,115 @@
 proxies:
-- name: 美国-001 |1.7MB/s|GPT⁺|YT-US|NF|...
+- client-fingerprint: chrome
+  name: 马绍尔群岛-001 |4.4MB/s|GPT⁺|YT-US|...
   network: ws
-  port: 18521
-  server: 173.249.201.109
-  servername: mot.saghv.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.saghv.filegear-sg.me
-    path: /@Marisa_kristi
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 拉脱维亚-001 |3.5MB/s|GPT⁺|YT-US|N...
-  network: ws
-  port: 443
-  server: 212.52.1.143
-  servername: snippet.fgfw.cc.cd
+  port: 2096
+  server: 185.207.197.138
+  servername: sni.111000.indevs.in
   tls: true
   type: vless
   udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: snippet.fgfw.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /danfeng?ed=2560
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
   xudp: true
 - cipher: aes-256-cfb
-  name: 越南-001 |3.4MB/s|GPT⁺|YT-US|GM
+  name: 越南-001 |1.8MB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.226
+  server: 103.186.154.51
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-002 |1.1MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.227
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-003 |1.1MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.224
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-004 |1.4MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.46
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 越南-002 |1.3MB/s|GPT⁺|YT-US|NF|...
+  name: 越南-005 |1.1MB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.153
+  server: 103.186.154.246
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-003 |1.3MB/s|GPT⁺|YT-US|NF|...
+  name: 越南-006 |530KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.9
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-007 |1.5MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.42
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-008 |1.2MB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.213
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-004 |715KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-009 |647KB/s|GPT⁺|YT-US|NF
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.227
+  server: 103.186.154.153
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-011 |1.2MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.68
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-013 |1.6MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.52
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-014 |1.2MB/s|GPT⁺|YT-US|NF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.142
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-015 |821KB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.143
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-016 |1.1MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.62
+  type: ss
+- cipher: aes-256-cfb
+  name: 美国-001 |3.8MB/s|GPT|YT-US|NF|G...
+  password: amazonskr05
+  port: 443
+  server: 3.94.168.57
   type: ss
   udp: true
-- name: 美国-002
-  password: '!!str 1'
-  port: 8081
-  server: 38.128.66.22
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm4Kf2BUphMixTTe-SglxiZJxsnp5o63PElOVpFduiCmYA==
 - cipher: aes-256-cfb
-  name: 越南-006 |966KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-017 |635KB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.62
@@ -73,7 +118,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 美国-003 |1.5MB/s|GPT|6%
+  name: 美国-002 |1.5MB/s|GPT|6%
   network: ws
   port: 443
   server: 198.62.62.127
@@ -91,7 +136,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 美国-004 |2.8MB/s
+  name: 美国-003 |2.8MB/s
   network: ws
   port: 443
   server: 69.84.182.20
@@ -108,55 +153,8 @@ proxies:
     path: /ws
   xudp: true
 - cipher: aes-256-cfb
-  name: 越南-010 |644KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-023 |644KB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.44
   type: ss
-- name: 美国-005
-  password: '!!str 1'
-  port: 8081
-  server: 167.17.66.82
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm6LLST3ig85ZM84GyserX_sxsnp5o63PElOVpFduiCmYA==
-- name: 美国-006 |812KB/s
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  skip-cert-verify: false
-  tls: false
-  type: http
-  username: fQ67Dpe5dU
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 美国-007 |3.8MB/s
-  network: http
-  port: 32301
-  server: 104.168.94.41
-  skip-cert-verify: true
-  type: vmess
-  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
-- cipher: aes-256-cfb
-  name: 越南-017 |574KB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.172
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 菲律宾-001 |4.2MB/s|GPT⁺|YT-US|NF...
-  network: ws
-  port: 2086
-  server: 154.83.2.156
-  tls: false
-  type: vmess
-  uuid: 92373ed1-78a8-4cbe-aa06-54af1edd0471
-  ws-opts:
-    headers:
-      Host: v205.19740822.xyz
-    path: /

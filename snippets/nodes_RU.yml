@@ -1,8 +1,1 @@
-proxies:
-- cipher: aes-256-gcm
-  name: 俄罗斯联邦-001 |5.3MB/s|GPT|YT-RU|N...
-  password: 8563411f-f04c-4a38-8753-11c34e599365
-  port: 8443
-  server: 45.89.53.115
-  type: ss
-  udp: true
+proxies: []

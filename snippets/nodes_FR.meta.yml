@@ -1,55 +1,77 @@
 proxies:
-- name: 法国-001
+- name: 法国-002 |5.8MB/s|YT-FR|NF|D+
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 141.94.68.216
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- name: 法国-003
   password: '!!str 1'
   port: 8081
   server: 51.77.190.29
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm5qFRbDHXrPn1kKZcSU3uAnxsnp5o63PElOVpFduiCmYA==
-- name: 法国-002
-  password: '!!str 1'
-  port: 8081
-  server: 51.77.190.60
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm5-xGpDb6GIeTed0xY7Aq_Hxsnp5o63PElOVpFduiCmYA==
-- name: 法国-003
-  password: '!!str 1'
-  port: 8081
-  server: 51.68.100.204
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm5rrZFc2usdqmxo6HeybMMLxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAx8ewvqIv-I56deDaWv_U3xsnp5o63PElOVpFduiCmYA==
 - name: 法国-004
-  password: '!!str 1'
-  port: 8081
-  server: 79.137.101.250
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm6l21iIVCHfRMDHdFt8XbGrxsnp5o63PElOVpFduiCmYA==
-- name: 法国-005
-  password: '!!str 1'
-  port: 8081
-  server: 51.68.240.51
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm7Yi0g6a5nGaZ2QArGxG6Izxsnp5o63PElOVpFduiCmYA==
-- name: 法国-007
   password: '!!str 1'
   port: 8081
   server: 51.77.190.70
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm5LSPmANWz4t-mHqZHeOtwHxsnp5o63PElOVpFduiCmYA==
-- name: 法国-008
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuD3W90LGPGer6puRhBxXxX-xsnp5o63PElOVpFduiCmYA==
+- name: 法国-005
+  password: '!!str 1'
+  port: 8081
+  server: 79.137.101.250
+  type: http
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCtbjTflSNpHtcOJSRAcHFgxsnp5o63PElOVpFduiCmYA==
+- name: 法国-006
+  password: '!!str 1'
+  port: 8081
+  server: 51.68.100.204
+  type: http
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAB3d69SwDvXqp1_uFx-yApxsnp5o63PElOVpFduiCmYA==
+- name: 法国-007
   password: '!!str 1'
   port: 8081
   server: 37.187.194.214
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm7Hrov9uY5FRj7LDETDNiB0xsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCcy74OjNmXU1Z1tAuSAAN5xsnp5o63PElOVpFduiCmYA==
+- name: 法国-008
+  password: '!!str 1'
+  port: 8081
+  server: 51.77.190.60
+  type: http
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBoBjgcebwaDmkj2rj8u003xsnp5o63PElOVpFduiCmYA==
 - name: 法国-009
   password: '!!str 1'
   port: 8081
   server: 139.64.167.210
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm4_5s_RD97ooyDE_8Np_iHrxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCgZzKejzjTwy6KcovSeYpnxsnp5o63PElOVpFduiCmYA==
 - name: 法国-010
   password: '!!str 1'
   port: 8081
-  server: 139.64.167.194
+  server: 51.68.240.51
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm4FEOw-I4MAGXncqy3839sfxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCZAAHVKy-UHFka2s3WE_83xsnp5o63PElOVpFduiCmYA==
+- client-fingerprint: chrome
+  encryption: none
+  name: 哈萨克斯坦-001 |3.3MB/s|GPT⁺|YT-FR|...
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: /ws
+  xudp: true

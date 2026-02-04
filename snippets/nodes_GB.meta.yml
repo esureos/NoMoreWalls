@@ -2,21 +2,21 @@ proxies:
 - name: 英国-001
   password: '!!str 1'
   port: 8081
-  server: 78.129.229.29
+  server: 139.28.176.106
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm5XBm_-laRhIkPIW0cVcb8pxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBFuC1s7MB8eCBZeqRboB40oXw609MC0WdYefYZbCn32A==
 - name: 英国-002
   password: '!!str 1'
   port: 8081
   server: 51.89.153.211
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm4IJL0apkslrWFJ-WeRPiffxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuA7XEl38sD17pMiwDoxxK1ixsnp5o63PElOVpFduiCmYA==
 - name: 英国-003
   password: '!!str 1'
   port: 8081
-  server: 139.28.176.106
+  server: 145.239.6.2
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm4jozQwjh9VkttDJwuEK-tsoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDxxF75LOiq_MHvoXqTpmeaoXw609MC0WdYefYZbCn32A==
 - http-opts:
     headers:
       Host:
@@ -24,7 +24,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 伊朗-001 |3.6MB/s|GPT|YT-GB|NF|7...
+  name: 伊朗-001 |3.2MB/s|GPT|YT-GB|NF|7...
   network: http
   port: 10468
   server: 185.113.10.198
@@ -37,24 +37,12 @@ proxies:
 - name: 英国-004
   password: '!!str 1'
   port: 8081
-  server: 57.129.140.187
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm5VTwyk4vaQhd8R5IU5e_oZxsnp5o63PElOVpFduiCmYA==
-- name: 英国-005
-  password: '!!str 1'
-  port: 8081
   server: 51.89.173.123
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm4bVnGjcD597QF8n3POcvOPxsnp5o63PElOVpFduiCmYA==
-- name: 英国-006
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDhDou_Aau6VauQKGtmIgcJxsnp5o63PElOVpFduiCmYA==
+- name: 英国-005
   password: '!!str 1'
   port: 8081
   server: 38.114.120.157
   type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm4PjJ79YrTPE8N9s-woxKUYxsnp5o63PElOVpFduiCmYA==
-- name: 英国-007
-  password: '!!str 1'
-  port: 8081
-  server: 145.239.6.2
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm5TPVzy_cmnkY6PY3OT8ydaoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuD2FduwJx_2NP-Pst-aNX2fxsnp5o63PElOVpFduiCmYA==

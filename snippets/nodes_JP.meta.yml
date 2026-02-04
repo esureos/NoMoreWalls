@@ -1,5 +1,50 @@
 proxies:
-- name: 日本-001 |1.9MB/s|GPT⁺|YT-JP|NF|...
+- name: 日本-001 |559KB/s|GPT⁺|YT-CN|NF|...
+  password: a2d12dc9-c111-45ac-b803-87e48f3484d8
+  port: 443
+  server: 160.16.75.254
+  skip-cert-verify: true
+  sni: gw.alicdn.com
+  type: anytls
+  udp: true
+  username: a2d12dc9-c111-45ac-b803-87e48f3484d8
+- name: 日本-002
+  password: '!!str 1'
+  port: 8081
+  server: 103.108.230.31
+  type: http
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBSNhfd46sYv9tksPXUOpmroXw609MC0WdYefYZbCn32A==
+- name: 日本-003
+  password: '!!str 1'
+  port: 8081
+  server: 180.149.230.169
+  type: http
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAbP2X7BpUHfiOUI-U-wkRaoXw609MC0WdYefYZbCn32A==
+- name: 日本-004
+  password: '!!str 1'
+  port: 8081
+  server: 103.108.230.50
+  type: http
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCBqw04pOAw9EkGx6czifnNoXw609MC0WdYefYZbCn32A==
+- name: 日本-005 |7.8MB/s|YT-JP|NF|GM
+  network: ws
+  port: 42841
+  server: 43.165.190.11
+  servername: mot.morisi.ggff.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.morisi.ggff.net
+    path: /@Marisa_kristi
+- name: 尼日利亚-001
+  password: '!!str 1'
+  port: 8081
+  server: 169.255.57.58
+  type: http
+  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBGc6UgY5l_oM4D_DJWwg7hoXw609MC0WdYefYZbCn32A==
+- name: 日本-006 |1.9MB/s|GPT⁺|YT-JP|NF|...
   network: ws
   port: 11867
   server: 8.211.137.100
@@ -11,47 +56,3 @@ proxies:
     headers:
       Host: mot.saghv.filegear-sg.me
     path: /@Marisa_kristi
-- name: 日本-002
-  password: '!!str 1'
-  port: 8081
-  server: 180.149.230.169
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm7NadY0lAw40bIv6oBg5XmToXw609MC0WdYefYZbCn32A==
-- name: 日本-003
-  password: '!!str 1'
-  port: 8081
-  server: 103.108.230.50
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm4x4Sh-tRpnvT1HsDvl5YWvoXw609MC0WdYefYZbCn32A==
-- name: 日本-004
-  password: '!!str 1'
-  port: 8081
-  server: 103.108.230.31
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm5AkW33PzuTLDfHiIn-c1E_oXw609MC0WdYefYZbCn32A==
-- name: 日本-005 |1.6MB/s|GPT⁺|YT-JP|NF|...
-  network: ws
-  port: 42841
-  server: 43.165.190.11
-  servername: mot.luyuju.dpdns.org
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.luyuju.dpdns.org
-    path: /@Marisa_kristi
-- name: 日本-006 |5.0MB/s|GPT⁺|YT-CN|NF|...
-  password: a2d12dc9-c111-45ac-b803-87e48f3484d8
-  port: 443
-  server: 160.16.75.254
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-  username: a2d12dc9-c111-45ac-b803-87e48f3484d8
-- name: 尼日利亚-001
-  password: '!!str 1'
-  port: 8081
-  server: 169.255.57.58
-  type: http
-  username: afY491o7YfK00koaXQD9kWnjvteMMJR_EwcRIqg7Bm6SkzZIV3s9jy9iR5vDGyiVoXw609MC0WdYefYZbCn32A==
