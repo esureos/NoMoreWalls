@@ -2,47 +2,42 @@ proxies:
 - name: 英国-001
   password: '!!str 1'
   port: 8081
-  server: 139.28.176.106
-  type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBFuC1s7MB8eCBZeqRboB40oXw609MC0WdYefYZbCn32A==
-- name: 英国-002
-  password: '!!str 1'
-  port: 8081
   server: 51.89.153.211
   type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuA7XEl38sD17pMiwDoxxK1ixsnp5o63PElOVpFduiCmYA==
-- name: 英国-003
-  password: '!!str 1'
-  port: 8081
-  server: 145.239.6.2
-  type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDxxF75LOiq_MHvoXqTpmeaoXw609MC0WdYefYZbCn32A==
-- http-opts:
-    headers:
-      Host:
-      - Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
-    method: GET
-    path:
-    - /
-  name: 伊朗-001 |3.2MB/s|GPT|YT-GB|NF|7...
-  network: http
-  port: 10468
-  server: 185.113.10.198
-  servername: Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
-- name: 英国-004
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF0kE6YKoBn3JMQPyYx-3CMxsnp5o63PElOVpFduiCmYA==
+- name: 英国-002
   password: '!!str 1'
   port: 8081
   server: 51.89.173.123
   type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDhDou_Aau6VauQKGtmIgcJxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGhy9p8IQhzHd7JbrgzvSPMxsnp5o63PElOVpFduiCmYA==
+- name: 英国-003
+  password: '!!str 1'
+  port: 8081
+  server: 212.84.160.58
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFRqSwlipCUW2MKErJenqGCoXw609MC0WdYefYZbCn32A==
+- name: 英国-004
+  password: '!!str 1'
+  port: 8081
+  server: 145.239.6.2
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHxGeX9QZ5--ll0uR8nGglWoXw609MC0WdYefYZbCn32A==
 - name: 英国-005
+  password: '!!str 1'
+  port: 8081
+  server: 88.150.230.5
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHcmz8sonUlCSXy_siPgqLZoXw609MC0WdYefYZbCn32A==
+- name: 英国-006
+  password: '!!str 1'
+  port: 8081
+  server: 139.28.176.106
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHGvlWT3JbO2lor3qE5deKhoXw609MC0WdYefYZbCn32A==
+- name: 英国-007
   password: '!!str 1'
   port: 8081
   server: 38.114.120.157
   type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuD2FduwJx_2NP-Pst-aNX2fxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHblVBPp_qWGsf1I6LfiefHxsnp5o63PElOVpFduiCmYA==

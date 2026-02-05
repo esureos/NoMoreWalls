@@ -1,12 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 新加坡-003 |1.8MB/s|GPT⁺|YT-SG|NF...
-  network: none
-  port: 17310
-  server: 82.21.80.224
-  servername: viffes.shortanimedrama.space
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
+proxies: []

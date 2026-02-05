@@ -1,69 +1,210 @@
 proxies:
-- alterId: '0'
-  cipher: auto
-  name: 德国-001 |1.0MB/s|[广播|机房]|3.6MB/...
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: 4120-BE04-13ef56096989.457.PP.ua
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - name: 德国-002
   password: '!!str 1'
   port: 8081
-  server: 89.249.73.26
+  server: 51.38.121.169
   type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBkSAXxqtjAIu1cgMKnnTv7oXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH-ekb4-OK4ihpdgjebv3gOxsnp5o63PElOVpFduiCmYA==
 - name: 德国-003
   password: '!!str 1'
   port: 8081
-  server: 5.199.130.48
+  server: 5.104.107.104
   type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBpLrkFZEm5mNG-3SA87YdXxsnp5o63PElOVpFduiCmYA==
-- name: 德国-005
-  password: '!!str 1'
-  port: 8081
-  server: 51.38.116.150
-  type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAipLHR_Bolz5oIu4wns0tfxsnp5o63PElOVpFduiCmYA==
-- name: 德国-006
-  password: '!!str 1'
-  port: 8081
-  server: 57.129.88.76
-  type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDLkD6pgjrDXSKD1qEM1estxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFHdA1d1uL4hk0jm9hJngrXxsnp5o63PElOVpFduiCmYA==
+- encryption: none
+  name: 芬兰-001 |5.1MB/s|GPT⁺|YT-DE|NF|...
+  network: tcp
+  port: 26261
+  server: 65.109.179.221
+  type: vless
+  udp: true
+  uuid: ee603510-52e4-29f9-00b0-9a051ad424fb
+  xudp: true
 - alpn:
   - h2
+  - http/1.1
   client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 德国-007 |4.1MB/s|GPT⁺|YT-DE|NF|...
+  name: 德国-004 |1.6MB/s|GPT|X|History
   network: tcp
   port: 443
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-  server: 217.154.254.198
-  servername: azure.com
+  server: 57.129.64.102
+  servername: nasnet-5712964102-direct.sharghdaily.co
   tls: true
   type: vless
   udp: true
-  uuid: 278cdc8a-1c0c-4710-bc48-b8c6e5f36c24
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- name: 德国-005 |1.1MB/s|GPT⁺|YT-DE|NF|...
+  network: ws
+  port: 8443
+  server: 82.117.245.9
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-006
+  password: '!!str 1'
+  port: 8081
+  server: 51.38.116.134
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGUu5Gkl6fTb88P1F0Fx2BYxsnp5o63PElOVpFduiCmYA==
+- client-fingerprint: chrome
+  name: 德国-007 |1.3MB/s|GPT⁺|YT-DE|NF|...
+  network: ws
+  port: 2053
+  server: 5.178.110.39
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
   xudp: true
 - name: 德国-008
   password: '!!str 1'
   port: 8081
-  server: 5.104.107.251
+  server: 89.163.214.214
   type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDNBD2YhmXUX3or7mDuWH-soXw609MC0WdYefYZbCn32A==
-- name: 德国-009
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF2dlvj5W5vc8RSmWafTIAuxsnp5o63PElOVpFduiCmYA==
+- client-fingerprint: chrome
+  name: 德国-010 |1018KB/s
+  password: '@193.233.254.7:'
+  port: 1080
+  server: 193.233.254.7
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: Og@193.233.254.7
+- name: 罗马尼亚-001 |5.3MB/s|GPT⁺|YT-DE|N...
+  network: ws
+  port: 2053
+  server: 188.241.241.33
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-011 |633KB/s
+  password: '@193.233.254.9:'
+  port: 1080
+  server: 193.233.254.9
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  username: Og@193.233.254.9
+- name: 德国-012
   password: '!!str 1'
   port: 8081
-  server: 23.160.72.215
+  server: 89.249.73.26
   type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuDItUi5TQMg6c7WlJuJPYJSxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFcNxQPvkJQ5mK3yZuxZ4z1oXw609MC0WdYefYZbCn32A==
+- name: 德国-013
+  password: '!!str 1'
+  port: 8081
+  server: 193.108.116.248
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH00ZsIvLLHj3F78j5R9LZfxsnp5o63PElOVpFduiCmYA==
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 德国-014 |3.1MB/s|GPT⁺|YT-DE|NF|...
+  network: tcp
+  port: 444
+  reality-opts:
+    public-key: FguUYp-QbjkcMYcNeNxEJ_IVqd5y4NZjokAkae4IyXw
+    short-id: '!!str bbbf95fa'
+  server: 64.188.67.193
+  servername: sun6-22.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40b1e510-6017-48f4-b3db-2486805a2395
+  xudp: true
+- name: 德国-015
+  password: '!!str 1'
+  port: 8081
+  server: 23.160.72.218
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGzPakD4GiKG9-PrKIrsUhTxsnp5o63PElOVpFduiCmYA==
+- name: 德国-016
+  password: '!!str 1'
+  port: 8081
+  server: 23.160.72.50
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFbgZbNBxXXpQkYwnF1FBt3xsnp5o63PElOVpFduiCmYA==
+- name: 德国-017 |1.4MB/s
+  password: Og@193.233.254.8
+  port: 1080
+  server: 193.233.254.8
+  skip-cert-verify: true
+  type: socks5
+  username: Og@193.233.254.8
+- name: 德国-018
+  password: '!!str 1'
+  port: 8081
+  server: 23.158.56.244
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHwdQlTjTpFjXyqemVO9ZS8xsnp5o63PElOVpFduiCmYA==
+- name: 德国-019
+  password: '!!str 1'
+  port: 8081
+  server: 23.160.72.45
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGojnfnwadhUU8yiu1gAqGmxsnp5o63PElOVpFduiCmYA==
+- name: 德国-020
+  password: '!!str 1'
+  port: 8081
+  server: 193.108.116.232
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH9Mtx3eKxmSbSqBt__nI8Bxsnp5o63PElOVpFduiCmYA==
+- name: 德国-021 |1.3MB/s|GPT|YT-DE|NF|D...
+  network: ws
+  port: 443
+  server: 194.9.6.3
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 德国-022
+  password: '!!str 1'
+  port: 8081
+  server: 23.160.72.205
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFQJ6ptlotpvcwfQRZyDT02xsnp5o63PElOVpFduiCmYA==
+- name: 德国-023 |853KB/s|YT-DE|NF|D+|5%
+  network: ws
+  port: 8443
+  server: 45.132.1.208
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2

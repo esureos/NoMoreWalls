@@ -1,43 +1,10 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 韩国-002 |8.9MB/s|GPT|X
-  password: qwerREWQ@@
-  port: 51537
-  server: 211.201.169.70
-  type: ss
-- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 韩国-004 |1.8MB/s|GPT⁺|YT-KR|NF|...
+  name: 韩国-002 |0.8MB/s|0%|GPT|X|Histo...
   password: qwerREWQ@@
   port: 19203
   server: 121.170.203.147
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 韩国-005 |1.0MB/s|GPT⁺|YT-KR|NF|...
-  password: qwerREWQ@@
-  port: 48720
-  server: 27.255.82.135
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 韩国-008 |6.6MB/s|GPT⁺|YT-KR|NF|...
-  password: qwerREWQ@@
-  port: 24986
-  server: 221.150.109.89
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 韩国-009 |1.1MB/s|GPT⁺|YT-KR|NF|...
-  password: qwerREWQ@@
-  port: 6373
-  server: 121.170.203.136
   tfo: true
   type: ss
   udp: true

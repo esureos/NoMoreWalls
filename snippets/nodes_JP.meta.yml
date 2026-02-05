@@ -8,51 +8,38 @@ proxies:
   type: anytls
   udp: true
   username: a2d12dc9-c111-45ac-b803-87e48f3484d8
-- name: 日本-002
-  password: '!!str 1'
-  port: 8081
-  server: 103.108.230.31
-  type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBSNhfd46sYv9tksPXUOpmroXw609MC0WdYefYZbCn32A==
-- name: 日本-003
-  password: '!!str 1'
-  port: 8081
-  server: 180.149.230.169
-  type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAbP2X7BpUHfiOUI-U-wkRaoXw609MC0WdYefYZbCn32A==
-- name: 日本-004
-  password: '!!str 1'
-  port: 8081
-  server: 103.108.230.50
-  type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCBqw04pOAw9EkGx6czifnNoXw609MC0WdYefYZbCn32A==
-- name: 日本-005 |7.8MB/s|YT-JP|NF|GM
-  network: ws
-  port: 42841
-  server: 43.165.190.11
-  servername: mot.morisi.ggff.net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  fp: chrome
+  name: 日本-002 |7.5MB/s|GPT⁺|YT-RU|NF|...
+  network: tcp
+  pbk: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+  port: 27724
+  reality-opts:
+    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+  security: reality
+  server: 116.80.44.144
+  servername: www.yahoo.co.jp
+  sni: www.yahoo.co.jp
   tls: true
   type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.morisi.ggff.net
-    path: /@Marisa_kristi
+  udp: false
+  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
 - name: 尼日利亚-001
   password: '!!str 1'
   port: 8081
   server: 169.255.57.58
   type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuBGc6UgY5l_oM4D_DJWwg7hoXw609MC0WdYefYZbCn32A==
-- name: 日本-006 |1.9MB/s|GPT⁺|YT-JP|NF|...
-  network: ws
-  port: 11867
-  server: 8.211.137.100
-  servername: mot.saghv.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.saghv.filegear-sg.me
-    path: /@Marisa_kristi
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFWPB1B5wLdfP-kJrnr6fzGoXw609MC0WdYefYZbCn32A==
+- name: 日本-003
+  password: '!!str 1'
+  port: 8081
+  server: 5.180.44.194
+  type: http
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsG-ZPCv9m3aAynNuM8_VHX3oXw609MC0WdYefYZbCn32A==
+- name: 日本-004
+  password: '!!str 1'
+  port: 8081
+  server: 103.108.230.31
+  type: http
+  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWQbpILnq29dqqIXz3SD4GfooXw609MC0WdYefYZbCn32A==

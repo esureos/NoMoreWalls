@@ -2,12 +2,12 @@ proxies:
 - name: 爱沙尼亚-001
   password: '!!str 1'
   port: 8081
-  server: 95.153.32.34
+  server: 95.153.31.102
   type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuCjpQpQ4fMhheMX0q-aTIbzoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFls60-UcBCrek7aSYmv6FhoXw609MC0WdYefYZbCn32A==
 - name: 爱沙尼亚-002
   password: '!!str 1'
   port: 8081
-  server: 95.153.31.102
+  server: 95.153.32.34
   type: http
-  username: afY491o7YfK00koaXQD9kTVlDfsoyfZE12yhieBGFuAewByYb2pMfVD7V6v8Ox8AoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFHyOSZMo79Y93JT5DEYtcVoXw609MC0WdYefYZbCn32A==
