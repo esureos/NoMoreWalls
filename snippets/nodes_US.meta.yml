@@ -1,58 +1,522 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: 美国-001 |3.7MB/s|GPT⁺|YT-CN|NF
-  port: 38845
-  protocol: udp
-  server: 208.87.243.151
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria
+- name: 美国-001 |859KB/s
+  password: gs4BXwT6SW
+  port: 10988
+  server: 154.26.192.123
+  skip-cert-verify: false
+  tls: false
+  type: http
+  username: fQ67Dpe5dU
+- client-fingerprint: random
+  encryption: none
+  name: 新加坡-001 |4.2MB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 443
+  server: 27.50.48.8
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
   udp: true
-  up: 11 Mbps
-- name: 美国-002 |5.6MB/s|GPT|X|History
-  port: 1080
-  server: 174.138.61.184
-  skip-cert-verify: true
-  type: socks5
-- name: 美国-003
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  name: 新加坡-002 |5.2MB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 443
+  server: 27.50.48.6
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 英国-001 |4.4MB/s|YT-US|NF|D+|GM
+  network: ws
+  port: 2096
+  server: 25.129.198.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- name: 英国-002 |3.1MB/s|YT-US|NF|D+|GM
+  network: ws
+  port: 2096
+  server: 25.129.199.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 美国-002 |2.2MB/s|YT-US|NF|D+|GM
+  network: ws
+  port: 2096
+  server: 162.120.94.138
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 英国-003 |3.0MB/s|YT-US|NF|D+|GM
+  network: ws
+  port: 2096
+  server: 25.26.27.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 法国-003 |2.2MB/s|GPT|YT-US|NF|D...
+  network: ws
+  port: 2096
+  server: 141.11.203.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 美国-003 |4.7MB/s|GPT⁺|YT-US|NF|...
+  network: ws
+  port: 443
+  server: 198.62.62.241
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  name: 西班牙-001 |2.1MB/s|YT-US|NF|D+|G...
+  network: ws
+  port: 2096
+  server: 185.251.81.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560
+- name: 罗马尼亚-001 |5.5MB/s|YT-US|NF|D+|...
+  network: ws
+  port: 2096
+  server: 45.12.30.138
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 美国-004 |3.8MB/s|GPT⁺|YT-US|NF|...
+  network: ws
+  port: 80
+  server: 54.176.205.20
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 德国-001 |3.0MB/s|YT-US|NF|D+|GM
+  network: ws
+  port: 2096
+  server: 5.10.214.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 英国-004 |2.6MB/s|GPT⁺|YT-US|NF|...
+  network: ws
+  port: 2096
+  server: 185.170.166.138
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: 罗马尼亚-002 |1.7MB/s|YT-US|NF|D+|...
+  network: ws
+  port: 2096
+  server: 45.12.30.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 美国-005 |2.5MB/s|YT-US|NF|D+|GM...
+  network: ws
+  port: 2096
+  server: 103.116.7.138
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: 瑞士-001 |5.7MB/s|GPT⁺|YT-US|NF
+  network: ws
+  port: 443
+  server: 185.18.250.245
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /x-aniu/?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 美国-006 |1.5MB/s|GPT|YT-US|NF|D...
+  network: ws
+  port: 2096
+  server: 167.68.42.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 罗马尼亚-003 |2.3MB/s|YT-US|NF|D+|...
+  network: ws
+  port: 2096
+  server: 45.85.119.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  fp: chrome
+  name: 美国-007 |3.8MB/s|GPT⁺|YT-US|NF|...
+  network: tcp
+  pbk: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+  port: 443
+  reality-opts:
+    public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8
+  security: reality
+  server: 47.251.25.74
+  servername: www.amazon.com
+  skip-cert-verify: false
+  sni: www.amazon.com
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 18805ff3-b420-45de-af18-93be14024ae8
+- name: 美国-008
+  password: '!!str 1'
+  port: 8081
+  server: 169.197.142.119
+  type: http
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU038LX9N4Vd6_azr6bLDiixsnp5o63PElOVpFduiCmYA==
+- name: 美国-009
   password: '!!str 1'
   port: 8081
   server: 38.128.66.22
   type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFQ5fj6PSXXYmI25kmyWcQAxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUvQLAhXee2DzPRzXuXTXHwxsnp5o63PElOVpFduiCmYA==
+- client-fingerprint: chrome
+  encryption: none
+  name: 荷兰-007 |4.6MB/s|YT-US|NF|D+|GM
+  network: ws
+  port: 2096
+  server: 45.131.5.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- name: 美国-010 |3.1MB/s|YT-US|NF|D+
+  network: ws
+  port: 8443
+  server: 45.82.161.175
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 美国-011 |3.8MB/s|YT-US|NF|D+|GM
+  network: ws
+  port: 8443
+  server: 159.203.144.233
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: random
+  encryption: none
+  name: 美国-012 |4.0MB/s|GPT⁺|YT-US|NF|...
+  network: ws
+  port: 443
+  server: 154.211.8.18
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 美国-013 |3.1MB/s|YT-US|NF|D+|GM
+  network: ws
+  port: 2053
+  server: 199.119.137.95
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 美国-014 |4.9MB/s|GPT⁺|X|History
+  port: 1080
+  server: 192.241.156.17
+  skip-cert-verify: true
+  type: socks5
+- name: 美国-015 |5.3MB/s|GPT⁺|X|Succeed
+  port: 1080
+  server: 174.138.61.184
+  skip-cert-verify: true
+  type: socks5
+- client-fingerprint: chrome
+  encryption: none
+  name: 美国-016 |1.7MB/s|YT-US|NF|D+|GM
+  network: ws
+  port: 443
+  server: 129.153.74.179
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- name: 美国-017 |3.8MB/s|YT-US|NF|D+|GM
+  network: ws
+  port: 443
+  server: 143.42.4.6
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: random
+  encryption: none
+  name: 新加坡-003 |4.6MB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 443
+  server: 27.50.48.13
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 美国-018 |4.0MB/s|YT-DE|NF|D+
+  network: ws
+  port: 8443
+  server: 143.20.213.235
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: random
+  encryption: none
+  name: 新加坡-004 |3.7MB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 443
+  server: 27.50.49.104
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  name: 新加坡-005 |3.9MB/s|GPT⁺|YT-US|NF...
+  network: ws
+  port: 443
+  server: 27.50.48.2
+  servername: snip.ere.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+  ws-opts:
+    headers:
+      Host: snip.ere.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /?ed=2560
+  xudp: true
 - cipher: aes-256-cfb
-  name: 越南-001 |647KB/s|GPT⁺|YT-US|NF
+  name: 越南-001 |899KB/s|GPT⁺|YT-US|NF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.193
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-002 |647KB/s|GPT⁺|YT-US|NF
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.153
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: 美国-004 |1.0MB/s|GPT⁺|YT-CN|4%
-  network: ws
-  port: 443
-  server: 69.84.182.13
-  servername: fr-1-fr-1.aiopen.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
-  ws-opts:
-    headers:
-      Host: fr-1-fr-1.aiopen.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /kbjc/fr1
-  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 美国-005 |1.5MB/s|GPT|6%
+  name: 美国-019 |1.5MB/s|GPT|6%
   network: ws
   port: 443
   server: 198.62.62.127
@@ -69,21 +533,39 @@ proxies:
     path: /O1w0n3vYgFKYs7EzNAvLPvOp
   xudp: true
 - cipher: aes-256-cfb
-  name: 越南-002 |554KB/s|YT-US|NF|GPT⁺|...
+  name: 越南-005 |554KB/s|YT-US|NF|GPT⁺|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.83
   type: ss
-- cipher: aes-256-cfb
-  name: 越南-003 |1.2MB/s|YT-US|NF|GPT⁺|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.48
-  type: ss
-- name: 罗马尼亚-003 |3.9MB/s|GPT⁺|YT-US|N...
+- name: 美国-020 |2.8MB/s|YT-US|NF|D+|GM
   network: ws
   port: 2096
-  server: 45.12.30.138
+  server: 14.102.228.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 英国-012 |3.0MB/s|YT-US|NF|D+|GM
+  network: ws
+  port: 2096
+  server: 25.25.25.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 美国-021 |3.0MB/s|GPT|YT-DE|NF|D...
+  network: ws
+  port: 8443
+  server: 143.20.213.128
   servername: sni.111000.indevs.in
   tls: true
   type: vless
@@ -92,9 +574,43 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳@WangCai2
+- cipher: aes-256-cfb
+  name: 越南-006 |1.2MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.54
+  type: ss
+- client-fingerprint: chrome
+  name: 美国-022 |2.2MB/s|GPT|YT-US|NF|D...
+  network: ws
+  port: 2096
+  server: 162.251.82.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 美国-023 |3.7MB/s|GPT⁺|YT-CN|NF
+  port: 38845
+  protocol: udp
+  server: 208.87.243.151
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 美国-006
+  name: 美国-024
   network: tcp
   port: 42356
   reality-opts:
@@ -107,19 +623,3 @@ proxies:
   type: vless
   udp: true
   uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe
-- client-fingerprint: chrome
-  name: 美国-007 |2.6MB/s
-  port: 443
-  server: 178.130.47.143
-  servername: uscdn3.suio.me
-  tls: true
-  type: vless
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-- name: 美国-008 |859KB/s
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  skip-cert-verify: false
-  tls: false
-  type: http
-  username: fQ67Dpe5dU

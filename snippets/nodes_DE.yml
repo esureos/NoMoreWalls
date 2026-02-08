@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 德国-009 |564KB/s|GPT⁺|YT-DE|NF|...
+  password: 420946afc5918c49
+  port: 11201
+  server: 57.129.95.232
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 德国-015 |2.6MB/s|GPT⁺|YT-DE|NF|...
+  password: 78c2e39121c820fb
+  port: 11201
+  server: 51.89.10.72
+  type: ss
+  udp: true

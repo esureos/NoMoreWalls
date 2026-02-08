@@ -1,7 +1,7 @@
 proxies:
-- name: 新加坡-001
+- name: 新加坡-006
   password: '!!str 1'
   port: 8081
   server: 116.251.216.100
   type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGiauv6oJTsSAeLbkcHd8F9oXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfV1y1DUInLEpK2lZcbs5Rw7oXw609MC0WdYefYZbCn32A==

@@ -1,7 +1,7 @@
 proxies:
-- name: 瑞士-001
+- name: 瑞士-002
   password: '!!str 1'
   port: 8081
   server: 179.43.152.90
   type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH0yL1rc_lAAPfKha-Vpc8joXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWglxvldF-o-tPx24dT-D-foXw609MC0WdYefYZbCn32A==

@@ -1,43 +1,55 @@
 proxies:
-- name: 英国-001
-  password: '!!str 1'
-  port: 8081
-  server: 51.89.153.211
-  type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsF0kE6YKoBn3JMQPyYx-3CMxsnp5o63PElOVpFduiCmYA==
-- name: 英国-002
-  password: '!!str 1'
-  port: 8081
-  server: 51.89.173.123
-  type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGhy9p8IQhzHd7JbrgzvSPMxsnp5o63PElOVpFduiCmYA==
-- name: 英国-003
-  password: '!!str 1'
-  port: 8081
-  server: 212.84.160.58
-  type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFRqSwlipCUW2MKErJenqGCoXw609MC0WdYefYZbCn32A==
-- name: 英国-004
-  password: '!!str 1'
-  port: 8081
-  server: 145.239.6.2
-  type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHxGeX9QZ5--ll0uR8nGglWoXw609MC0WdYefYZbCn32A==
 - name: 英国-005
-  password: '!!str 1'
-  port: 8081
-  server: 88.150.230.5
-  type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHcmz8sonUlCSXy_siPgqLZoXw609MC0WdYefYZbCn32A==
-- name: 英国-006
   password: '!!str 1'
   port: 8081
   server: 139.28.176.106
   type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHGvlWT3JbO2lor3qE5deKhoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX46qFCUllazfnGgyoUbiZKoXw609MC0WdYefYZbCn32A==
+- name: 英国-006
+  password: '!!str 1'
+  port: 8081
+  server: 51.89.153.211
+  type: http
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUnvE2-pkm1_jJIfXYDP2D9xsnp5o63PElOVpFduiCmYA==
 - name: 英国-007
+  password: '!!str 1'
+  port: 8081
+  server: 88.150.230.5
+  type: http
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUnmWJdZBUFacvNlhWcR3BaoXw609MC0WdYefYZbCn32A==
+- name: 英国-008
+  password: '!!str 1'
+  port: 8081
+  server: 51.89.173.123
+  type: http
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVvqphIfBaJkf9plABXp_D1xsnp5o63PElOVpFduiCmYA==
+- name: 英国-009
+  password: '!!str 1'
+  port: 8081
+  server: 145.239.6.2
+  type: http
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX66Lr804vdZjAkdX0aEIRIoXw609MC0WdYefYZbCn32A==
+- name: 英国-010
   password: '!!str 1'
   port: 8081
   server: 38.114.120.157
   type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHblVBPp_qWGsf1I6LfiefHxsnp5o63PElOVpFduiCmYA==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVTyDpGoikUDt4ujVR_g3OOxsnp5o63PElOVpFduiCmYA==
+- name: 英国-011
+  password: '!!str 1'
+  port: 8081
+  server: 212.84.160.58
+  type: http
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXj2b0AZj9PM4REcKTZT6mgoXw609MC0WdYefYZbCn32A==
+- name: 英国-013 |2.0MB/s|GPT|YT-GB|NF|D...
+  network: ws
+  port: 8443
+  server: 141.147.85.167
+  servername: 5465765525.ccfly.tech
+  tls: true
+  type: vless
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  ws-opts:
+    headers:
+      Host: 5465765525.ccfly.tech
+    path: /?ed=2560&Telegram🇨🇳@WangCai2

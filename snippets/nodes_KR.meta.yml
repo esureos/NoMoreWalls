@@ -1,31 +1,80 @@
 proxies:
-- name: 韩国-001
-  password: '!!str 1'
-  port: 8081
-  server: 61.255.174.11
-  type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGAs2FPK-OgQcY04IpJYPqJoXw609MC0WdYefYZbCn32A==
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 韩国-002 |0.8MB/s|0%|GPT|X|Histo...
+  name: 韩国-001 |0.8MB/s|0%|GPT|X|Histo...
   password: qwerREWQ@@
   port: 19203
   server: 121.170.203.147
   tfo: true
   type: ss
   udp: true
+- name: 韩国-002
+  password: '!!str 1'
+  port: 8081
+  server: 61.255.174.11
+  type: http
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWaDpeQUBCtzF0ZBOi57t3RoXw609MC0WdYefYZbCn32A==
 - client-fingerprint: chrome
-  name: 韩国-003 |1.7MB/s|GPT|X|History
+  name: 韩国-003 |597KB/s|GPT|YT-KR|D+
+  network: ws
+  port: 12433
+  server: 221.158.139.181
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- name: 韩国-004 |2.1MB/s|YT-KR|NF|D+|GM
+  network: ws
+  port: 50001
+  server: 112.185.223.152
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: 韩国-005 |1.2MB/s|GPT|D+|GM
+  network: ws
+  port: 10180
+  server: 220.118.97.223
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 韩国-006 |1.4MB/s|0.8MB/s|X|Hist...
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
   tls: false
   type: socks5
   udp: true
-  username: Og%3D%3D
-- name: 韩国-005
-  password: '!!str 1'
-  port: 8081
-  server: 140.174.179.129
-  type: http
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWTT9Pz_ijZq0YyUu25OhgEuoXw609MC0WdYefYZbCn32A==
+- name: 韩国-007 |3.8MB/s|GPT⁺|YT-KR|NF|...
+  network: ws
+  port: 31337
+  server: 211.219.241.28
+  servername: 5465765525.ccfly.tech
+  tls: true
+  type: vless
+  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  ws-opts:
+    headers:
+      Host: 5465765525.ccfly.tech
+    path: /?ed=2560&Telegram🇨🇳@WangCai2

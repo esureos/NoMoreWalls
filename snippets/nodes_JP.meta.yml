@@ -1,5 +1,29 @@
 proxies:
-- name: 日本-001 |559KB/s|GPT⁺|YT-CN|NF|...
+- name: 日本-001 |1.1MB/s|YT-JP|NF|D+|GM
+  network: ws
+  port: 443
+  server: 136.0.11.62
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 日本-002 |1.3MB/s|YT-JP|NF|D+|GM
+  network: ws
+  port: 33405
+  server: 43.133.10.236
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 日本-003 |559KB/s|GPT⁺|YT-CN|NF|...
   password: a2d12dc9-c111-45ac-b803-87e48f3484d8
   port: 443
   server: 160.16.75.254
@@ -8,38 +32,63 @@ proxies:
   type: anytls
   udp: true
   username: a2d12dc9-c111-45ac-b803-87e48f3484d8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  fp: chrome
-  name: 日本-002 |7.5MB/s|GPT⁺|YT-RU|NF|...
+- name: 日本-004 |2.6MB/s|GPT⁺|YT-RU|NF|...
   network: tcp
-  pbk: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-  port: 27724
-  reality-opts:
-    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-  security: reality
-  server: 116.80.44.144
-  servername: www.yahoo.co.jp
-  sni: www.yahoo.co.jp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 3423
+  server: 160.16.124.55
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 日本-005 |1.1MB/s|GPT⁺|YT-RU|NF|...
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 3423
+  server: 160.16.116.227
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 日本-006 |0.6MB/s|GPT⁺|YT|X
+  network: tcp
+  password: 5fb072e0ddd631cf66cf752b09210480
+  port: 3901
+  server: 160.16.236.32
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 日本-007 |3.3MB/s|YT-JP|NF|D+|GM
+  network: ws
+  port: 443
+  server: 109.123.231.212
+  servername: sni.jpmj.dev
   tls: true
   type: vless
-  udp: false
-  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: 日本-008 |1.9MB/s|GPT⁺|YT-CN|NF|...
+  network: tcp
+  password: BxceQaOe
+  port: 26378
+  server: 52.194.222.6
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - name: 尼日利亚-001
   password: '!!str 1'
   port: 8081
   server: 169.255.57.58
   type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFWPB1B5wLdfP-kJrnr6fzGoXw609MC0WdYefYZbCn32A==
-- name: 日本-003
-  password: '!!str 1'
-  port: 8081
-  server: 5.180.44.194
-  type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsG-ZPCv9m3aAynNuM8_VHX3oXw609MC0WdYefYZbCn32A==
-- name: 日本-004
-  password: '!!str 1'
-  port: 8081
-  server: 103.108.230.31
-  type: http
-  username: afY491o7YfK00koaXQD9kddPWIgG2vg6fgzryXdlMWQbpILnq29dqqIXz3SD4GfooXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXRPahU1jy-rAJo_gnXKC6ToXw609MC0WdYefYZbCn32A==
+- name: 日本-009 |10.3MB/s|33%|GPT⁺|X|Su...
+  port: 18791
+  server: 141.98.197.133
+  skip-cert-verify: true
+  type: socks5

@@ -1,99 +1,110 @@
 proxies:
-- name: 俄罗斯联邦-001
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-001 |2.6MB/s
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str f79448a30d'
+  server: 185.234.59.174
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-002 |3.5MB/s|YT-RU|NF|D+
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
+    short-id: '!!str 82c8140feb118043'
+  server: 213.165.54.4
+  servername: cdnjs.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2d09c1c-7d4d-46c4-838f-ad263b93c4e1
+  xudp: true
+- name: 俄罗斯联邦-003
   password: '!!str 1'
   port: 8081
   server: 146.70.52.54
   type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGxeTrQiChr_HWFyC1wS39doXw609MC0WdYefYZbCn32A==
-- client-fingerprint: chrome
-  encryption: none
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfWdSNsmFHmky8Gj6HqVUvfkoXw609MC0WdYefYZbCn32A==
+- client-fingerprint: random
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 荷兰-005 |1.0MB/s|GPT⁺|YT-RU|NF
+  name: 俄罗斯联邦-004 |2.3MB/s
   network: tcp
-  port: 443
+  port: 7443
   reality-opts:
-    public-key: 3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ
-  server: 77.239.124.88
-  servername: mskhost.outlinekeys.net
+    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
+    short-id: '!!str fd88bd27db4cc661'
+  server: 45.139.26.152
+  servername: eh.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: ce7f5e28-d72d-4006-8d70-f428a4721910
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 立陶宛-001 |4.0MB/s|GPT⁺|YT-RU|NF...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: eH6HWGKJUtp4VmC9KxtdcyxtLI0O52vhAmZx1ybOtUs
-    short-id: '!!str ffffffffff'
-  server: 2.59.162.100
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1004c163-26ea-5662-b5b2-40df01176f8b
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-002 |4.4MB/s|GPT|YT-RU|N...
-  network: tcp
-  port: 443
-  server: 213.176.19.149
-  servername: ru5.fastlanehosting.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 296df966-1e6c-4a42-b089-7bec1ef3a820
+  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
   xudp: true
 - name: 白俄罗斯-001
   password: '!!str 1'
   port: 8081
   server: 178.172.217.19
   type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsECCP1WlKQeq2PR1583FscloXw609MC0WdYefYZbCn32A==
-- name: 俄罗斯联邦-003
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXHXesFlfRHUrmOFuveszuloXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-005
+  password: '!!str 1'
+  port: 8081
+  server: 146.70.52.62
+  type: http
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfU4VTI7iTpeNUnZ3hSz62zGoXw609MC0WdYefYZbCn32A==
+- name: 俄罗斯联邦-006
   password: '!!str 1'
   port: 8081
   server: 146.70.231.130
   type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHvyj1mIMBgiIJDZBBWoYMhoXw609MC0WdYefYZbCn32A==
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-004 |1.4MB/s|GPT⁺|YT-RU|...
-  port: 443
-  reality-opts:
-    public-key: gUDEXo3UPF5WlJdIvpKMZbcLfKxMkiDyWgXjleD0aA4
-    short-id: '!!str aa5d376d9d56'
-  server: 94.131.113.228
-  servername: fast.strelkavpn.ru
-  tls: true
-  type: vless
-  uuid: 82bf8df9-300f-4d65-a8b9-b300ccaeb930
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUehLRxv00KoBN_ZE25C4ZooXw609MC0WdYefYZbCn32A==
 - name: 白俄罗斯-002
   password: '!!str 1'
   port: 8081
   server: 178.172.217.13
   type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsH-qX9Z3_eSij1iE1eVa8QBoXw609MC0WdYefYZbCn32A==
-- client-fingerprint: random
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUDxdxYoCA6FBkuk7Aa_Gi-oXw609MC0WdYefYZbCn32A==
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦-005 |2.7MB/s|GPT|YT-RU|N...
+  http-opts:
+    path:
+    - /
+  name: 波兰-003 |2.3MB/s|GPT⁺|YT-RU|NF|...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw
+    short-id: '!!str 0aca3ba84615eda9'
+  server: 195.3.223.143
+  servername: pl.jojack.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6416708c-eaa5-4ec5-b652-a2db2feab875
+  xudp: true
+- name: 俄罗斯联邦-007 |1.7MB/s|X
+  port: 1080
+  server: 94.230.127.180
+  skip-cert-verify: true
+  type: socks5
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-008 |1.4MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -106,23 +117,34 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
-- name: 俄罗斯联邦-006
-  password: '!!str 1'
-  port: 8081
-  server: 146.70.52.62
-  type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHdlrVvl57QeO17PuhYy1bIoXw609MC0WdYefYZbCn32A==
-- client-fingerprint: firefox
-  name: 俄罗斯联邦-007 |3.6MB/s|GPT⁺|YT-RU|...
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-009 |2.0MB/s
   port: 443
   reality-opts:
-    public-key: RHUQAGJ_MYNKsZt2XO_DATEm1cQh0Rdpz83DTCGSKl0
-    short-id: '!!str 740d6f2e'
-  server: 217.198.12.6
-  servername: 0ru84.tcpdoor.net
-  skip-cert-verify: true
-  tfo: true
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str f79448a30d'
+  server: 185.234.59.173
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  uuid: 45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 立陶宛-003 |2.1MB/s|GPT⁺|YT-RU|NF...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: eH6HWGKJUtp4VmC9KxtdcyxtLI0O52vhAmZx1ybOtUs
+    short-id: '!!str ffffffffff'
+  server: 2.59.162.100
+  servername: apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
+  uuid: 1004c163-26ea-5662-b5b2-40df01176f8b
+  xudp: true

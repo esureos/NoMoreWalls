@@ -1,25 +1,24 @@
 proxies:
-- name: 加拿大-001
-  password: '!!str 1'
-  port: 8081
-  server: 173.209.51.250
-  type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsFwdP3w88h34T0qBOPJs4oxoXw609MC0WdYefYZbCn32A==
+- name: 加拿大-001 |4.7MB/s|GPT⁺|X|Succee...
+  port: 1080
+  server: 143.110.217.153
+  skip-cert-verify: true
+  type: socks5
 - name: 加拿大-002
-  password: '!!str 1'
-  port: 8081
-  server: 173.209.49.50
-  type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsHGslWwkuHrXaRVAQLXuTOEoXw609MC0WdYefYZbCn32A==
-- name: 加拿大-003
-  password: '!!str 1'
-  port: 8081
-  server: 148.113.221.150
-  type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsExE5D4wzFHMAVCtqCS3lQcxsnp5o63PElOVpFduiCmYA==
-- name: 加拿大-004
   password: '!!str 1'
   port: 8081
   server: 104.245.146.82
   type: http
-  username: afY491o7YfK00koaXQD9kVRWfBjNKxP3M-4ZDUOqZsGA5LXMZTY8Eh2Kxd-_mWhxoXw609MC0WdYefYZbCn32A==
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXOzd-AXw3nsbLYFL2tu58coXw609MC0WdYefYZbCn32A==
+- name: 加拿大-003
+  password: '!!str 1'
+  port: 8081
+  server: 173.209.49.50
+  type: http
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVbYvMZdO4Phnt4JhS3gn6XoXw609MC0WdYefYZbCn32A==
+- name: 加拿大-004
+  password: '!!str 1'
+  port: 8081
+  server: 148.113.221.150
+  type: http
+  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVh9MzTC50NKRa9QCF77ohsxsnp5o63PElOVpFduiCmYA==
