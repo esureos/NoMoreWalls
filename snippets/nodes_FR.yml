@@ -1,5 +1,5 @@
 proxies:
-- name: 法国-025 |1.7MB/s|YT-FR|NF|D+
+- name: 法国-015 |1.7MB/s|YT-FR|NF|D+
   network: ws
   password: iwangjie
   port: 2053

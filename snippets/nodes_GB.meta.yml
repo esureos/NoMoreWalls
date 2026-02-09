@@ -1,55 +1,35 @@
 proxies:
-- name: 英国-005
-  password: '!!str 1'
-  port: 8081
-  server: 139.28.176.106
-  type: http
-  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX46qFCUllazfnGgyoUbiZKoXw609MC0WdYefYZbCn32A==
-- name: 英国-006
-  password: '!!str 1'
-  port: 8081
-  server: 51.89.153.211
-  type: http
-  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUnvE2-pkm1_jJIfXYDP2D9xsnp5o63PElOVpFduiCmYA==
-- name: 英国-007
-  password: '!!str 1'
-  port: 8081
-  server: 88.150.230.5
-  type: http
-  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfUnmWJdZBUFacvNlhWcR3BaoXw609MC0WdYefYZbCn32A==
-- name: 英国-008
-  password: '!!str 1'
-  port: 8081
-  server: 51.89.173.123
-  type: http
-  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVvqphIfBaJkf9plABXp_D1xsnp5o63PElOVpFduiCmYA==
-- name: 英国-009
-  password: '!!str 1'
-  port: 8081
-  server: 145.239.6.2
-  type: http
-  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX66Lr804vdZjAkdX0aEIRIoXw609MC0WdYefYZbCn32A==
-- name: 英国-010
-  password: '!!str 1'
-  port: 8081
-  server: 38.114.120.157
-  type: http
-  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfVTyDpGoikUDt4ujVR_g3OOxsnp5o63PElOVpFduiCmYA==
-- name: 英国-011
-  password: '!!str 1'
-  port: 8081
-  server: 212.84.160.58
-  type: http
-  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXj2b0AZj9PM4REcKTZT6mgoXw609MC0WdYefYZbCn32A==
-- name: 英国-013 |2.0MB/s|GPT|YT-GB|NF|D...
+- client-fingerprint: chrome
+  name: 英国-004 |3.1MB/s|GPT⁺|YT-GB|NF|...
   network: ws
-  port: 8443
-  server: 141.147.85.167
-  servername: 5465765525.ccfly.tech
+  port: 2096
+  server: 109.176.239.138
   tls: true
   type: vless
-  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: 5465765525.ccfly.tech
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 保加利亚-002 |1.6MB/s|GPT⁺|YT-GB|N...
+  network: ws
+  port: 8443
+  server: 95.164.18.202
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+  xudp: true

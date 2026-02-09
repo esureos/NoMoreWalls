@@ -1,48 +1,24 @@
 proxies:
-- name: 德国-002
-  password: '!!str 1'
-  port: 8081
-  server: 89.249.73.26
-  type: http
-  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfX4KLwbYKuLtZMaxsQESl4moXw609MC0WdYefYZbCn32A==
-- name: 德国-003 |4.1MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 89.19.44.122
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-004 |4.0MB/s|YT-DE|NF|D+
-  network: ws
-  port: 8443
-  server: 57.129.47.14
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-005 |5.6MB/s|YT-DE|NF|D+
-  network: ws
-  port: 443
-  server: 91.107.250.40
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
-  name: 德国-006 |6.4MB/s|YT-DE|NF|D+
+  encryption: none
+  name: 德国-001 |4.4MB/s|GPT|GM|YT|NF|D...
+  network: ws
+  port: 2096
+  server: 5.10.214.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 德国-002 |5.1MB/s|D+|X|History|[...
   network: ws
   port: 2053
   server: 5.178.110.39
@@ -54,263 +30,117 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /?ed=2560&Telegram🇨🇳@WangCai2
   xudp: true
-- name: 德国-007 |4.2MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 5.178.110.124
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-008 |6.6MB/s|YT-DE|NF|D+
+- client-fingerprint: chrome
+  name: 德国-003 |6.0MB/s|GPT⁺|YT-DE|NF|...
   network: ws
   port: 443
-  server: 116.203.58.165
+  server: 217.154.213.217
   servername: sni.111000.indevs.in
   tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 德国-009 |564KB/s|GPT⁺|YT-DE|NF|...
-  password: 420946afc5918c49
-  port: 11201
-  server: 57.129.95.232
-  type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 德国-010 |1.6MB/s|GPT|X|History
-  network: tcp
-  port: 443
-  server: 57.129.64.102
-  servername: nasnet-5712964102-direct.sharghdaily.co
+  name: 德国-004 |2.7MB/s|GPT⁺|YT-DE|NF|...
+  network: ws
+  port: 2053
+  server: 82.117.245.53
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-005 |5.5MB/s|GPT|YT-DE|NF|D...
+  network: ws
+  port: 8443
+  server: 194.164.205.110
+  servername: sni.111000.indevs.in
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
   xudp: true
-- name: 德国-011 |7.1MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2006
-  server: 89.58.43.93
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-012 |3.9MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 89.19.44.239
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-013 |2.0MB/s|YT-DE|NF|D+
-  network: ws
-  port: 443
-  server: 194.87.25.176
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-014 |5.2MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 5.178.106.158
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 德国-015 |2.6MB/s|GPT⁺|YT-DE|NF|...
-  password: 78c2e39121c820fb
-  port: 11201
-  server: 51.89.10.72
-  type: ss
-  udp: true
-- name: 德国-016 |536KB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 57.129.47.11
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-017 |3.8MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 89.19.44.24
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-018 |4.7MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 51.75.77.148
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-019 |514KB/s|YT-DE|NF|D+
-  network: ws
-  port: 8443
-  server: 57.129.47.67
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-020 |6.5MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2083
-  server: 213.202.218.198
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-021 |7.5MB/s|YT-DE|NF|D+
-  network: ws
-  port: 8443
-  server: 57.129.63.149
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-022 |6.0MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 188.245.108.104
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-023 |3.4MB/s|YT-DE|NF|D+
-  network: ws
-  port: 443
-  server: 45.153.230.220
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-024 |790KB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 57.129.47.58
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
-  name: 奥地利-003 |5.5MB/s|YT-DE|NF|D+
-  network: ws
-  port: 8443
-  server: 152.53.131.209
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  name: 德国-025 |3.6MB/s|YT-DE|NF|D+
+  encryption: none
+  name: 德国-006 |1.9MB/s|GPT⁺|YT-DE|NF|...
   network: ws
   port: 443
   server: 194.164.192.16
   servername: sni.111000.indevs.in
   tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-026 |5.3MB/s|YT-DE|NF|D+
+  xudp: true
+- name: 黑山-001 |3.3MB/s|GPT|YT-DE|NF|D...
   network: ws
-  port: 8443
-  server: 57.129.14.56
+  port: 443
+  server: 92.42.96.223
   servername: sni.111000.indevs.in
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
+    path: /?ed=2560
+- name: 罗马尼亚-004 |2.1MB/s|GPT⁺|YT-DE|N...
+  network: ws
+  port: 2053
+  server: 188.241.241.123
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- name: 德国-007 |1.1MB/s|GPT⁺|YT-DE|NF|...
+  network: ws
+  port: 8443
+  server: 82.117.245.9
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
 - client-fingerprint: chrome
-  name: 德国-027 |2.1MB/s|2.6MB/s|X|Hist...
+  name: 德国-008 |2.3MB/s|2.6MB/s|X|Hist...
   password: '@193.233.254.7:'
   port: 1080
   server: 193.233.254.7
@@ -318,90 +148,16 @@ proxies:
   tls: false
   type: socks5
   udp: true
-  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
-- name: 德国-028 |6.9MB/s|YT-DE|NF|D+
-  network: ws
-  port: 8443
-  server: 82.117.245.9
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 罗马尼亚-004 |3.4MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 188.241.241.28
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-029 |6.2MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 57.129.63.60
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-030 |6.3MB/s|YT-DE|NF|D+
-  network: ws
-  port: 443
-  server: 139.144.77.176
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-031 |1.4MB/s
-  password: Og@193.233.254.8
+  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
+- name: 德国-009 |3.2MB/s|Succeed|3.1MB/...
   port: 1080
   server: 193.233.254.8
   skip-cert-verify: true
   type: socks5
-  username: Og@193.233.254.8
-- name: 德国-032 |2.8MB/s|YT-DE|NF|D+
-  network: ws
-  port: 443
-  server: 185.218.137.83
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-033 |3.6MB/s|YT-DE|NF|D+
-  network: ws
-  port: 443
-  server: 94.159.104.1
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-034 |3.5MB/s|YT-DE|NF|D+
+- name: 德国-010 |3.8MB/s|YT-DE|NF|D+
   network: ws
   port: 8443
-  server: 87.120.92.150
+  server: 80.66.85.115
   servername: sni.111000.indevs.in
   tls: true
   type: vless
@@ -410,42 +166,48 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  name: 德国-035 |5.6MB/s|GPT|D+|X|[广播|机...
-  network: ws
-  port: 8443
-  server: 45.132.1.208
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-036 |2.5MB/s|3.0MB/s|X|Hist...
+- name: 德国-011 |2.0MB/s|2.5MB/s|X|Hist...
   port: 1080
   server: 193.233.254.9
   skip-cert-verify: true
   tls: false
   type: socks5
-- name: 德国-037 |5.9MB/s|YT-DE|NF|D+
+  username: T2dAMTkzLjIzMy4yNTQuOTo%3D
+- name: 德国-012 |3.9MB/s|5%|D+|X|Succee...
   network: ws
-  port: 443
-  server: 139.144.77.58
+  port: 2053
+  server: 45.144.233.205
   servername: sni.111000.indevs.in
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 罗马尼亚-005 |5.2MB/s|YT-DE|NF|D+
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 荷兰-018 |1.6MB/s|GPT⁺|YT-DE|NF|...
   network: ws
-  port: 2053
-  server: 188.241.241.33
+  port: 8443
+  server: 85.192.60.51
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-013 |2.0MB/s|GPT|YT-DE|NF|D...
+  network: ws
+  port: 443
+  server: 178.20.209.70
   servername: sni.111000.indevs.in
   tls: true
   type: vless
@@ -454,23 +216,47 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-038 |5.4MB/s|YT-DE|NF|D+
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-014 |3.3MB/s|GPT|YT-DE|NF|D...
   network: ws
   port: 443
-  server: 139.144.77.170
+  server: 46.203.233.242
   servername: sni.111000.indevs.in
   tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/51.0.2704.103 Safari/537.36
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-039 |2.2MB/s|YT-DE|NF|D+
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-015 |4.0MB/s|GPT⁺|YT-DE|D+|...
+  network: tcp
+  port: 35982
+  reality-opts:
+    public-key: H8Vw-W8rsLPuwvk6UjBXrwOZACFhbiWm8_z7AQFvXFk
+    short-id: '!!str 641dac0bbac7'
+  server: 82.22.174.203
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f7e23839-7e62-4e38-adfb-e33ec29e6475
+  xudp: true
+- name: 荷兰-019 |3.1MB/s|YT-DE|NF|D+
   network: ws
   port: 443
-  server: 194.9.6.3
+  server: 185.170.153.53
   servername: sni.111000.indevs.in
   tls: true
   type: vless
@@ -479,154 +265,91 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-040 |4.0MB/s|YT-DE|NF|D+
+- name: 德国-016 |3.2MB/s|GPT⁺|YT-DE|NF|...
   network: ws
   port: 443
-  server: 94.159.100.124
+  server: 5.253.188.151
   servername: sni.111000.indevs.in
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-041 |1.0MB/s|YT-NL|NF|D+
-  network: ws
-  port: 8443
-  server: 81.200.154.2
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-042 |3.2MB/s|YT-DE|NF|D+
+    path: /?ed=2560
+- name: 德国-017 |3.3MB/s|YT-DE|NF|D+
   network: ws
   port: 443
   server: 5.253.188.238
   servername: sni.111000.indevs.in
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-043 |3.2MB/s|YT-DE|NF|D+
-  network: ws
-  port: 443
-  server: 77.239.104.36
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-045 |1.3MB/s|GPT⁺|YT-DE|NF|...
-  network: ws
-  port: 12345
-  server: 91.107.167.127
-  servername: mot.saghv.filegear-sg.me
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: mot.saghv.filegear-sg.me
-    path: /@Marisa_kristi
-- name: 德国-046 |7.3MB/s|YT-DE|NF|D+
-  network: ws
-  port: 443
-  server: 194.195.240.210
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-047 |3.8MB/s|YT-DE|NF|D+
-  network: ws
-  port: 8443
-  server: 192.124.178.227
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-048 |636KB/s|YT-DE|NF|D+
-  network: ws
-  port: 8443
-  server: 57.129.63.145
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 德国-050 |1.0MB/s|GPT|YT-DE|NF|D...
-  network: ws
-  port: 2053
-  server: 57.129.47.12
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 荷兰-016 |769KB/s|YT-DE|NF|D+
-  network: ws
-  port: 8443
-  server: 185.170.153.186
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 荷兰-017 |3.5MB/s|GPT⁺|YT-DE|NF|...
-  network: ws
-  port: 443
-  server: 45.149.235.148
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 荷兰-018 |3.8MB/s|YT-DE|NF|D+
+    path: /?ed=2560
+- name: 荷兰-021 |3.3MB/s|GPT|YT-DE|NF|D...
   network: ws
   port: 443
   server: 89.169.13.207
   servername: sni.111000.indevs.in
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 罗马尼亚-007 |5.5MB/s|YT-DE|NF|D+
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-018 |3.8MB/s|GPT|YT-DE|NF|D...
   network: ws
-  port: 2053
-  server: 188.241.241.123
+  port: 443
+  server: 165.22.28.162
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  name: 荷兰-022 |1.5MB/s|GPT|YT-DE|NF|D...
+  network: ws
+  port: 443
+  server: 89.169.13.12
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- name: 德国-019
+  password: '!!str 1'
+  port: 8081
+  server: 23.158.56.86
+  type: http
+  username: afY491o7YfK00koaXQD9kWkrc_jisCEPtjewIAW-5VLDgVIk_VA3PIOyZ8LOqjWPxsnp5o63PElOVpFduiCmYA==
+- name: 德国-020 |1.0MB/s|YT-NL|NF|D+
+  network: ws
+  port: 8443
+  server: 81.200.154.2
   servername: sni.111000.indevs.in
   tls: true
   type: vless

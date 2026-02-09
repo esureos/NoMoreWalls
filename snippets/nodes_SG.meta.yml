@@ -1,7 +1,89 @@
 proxies:
-- name: 新加坡-006
-  password: '!!str 1'
-  port: 8081
-  server: 116.251.216.100
-  type: http
-  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfV1y1DUInLEpK2lZcbs5Rw7oXw609MC0WdYefYZbCn32A==
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 新加坡-001 |1.1MB/s|GPT⁺|YT-SG|NF...
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+  xudp: true
+- name: 新加坡-002 |1.7MB/s|GPT⁺|YT-SG|NF...
+  network: ws
+  port: 35051
+  server: 129.226.95.29
+  servername: mot.saghv.filegear-sg.me
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.saghv.filegear-sg.me
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  encryption: none
+  name: 新加坡-004 |3.9MB/s|GPT⁺|YT-SG|NF...
+  network: ws
+  port: 443
+  server: 164.52.2.99
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- name: 新加坡-005 |5.5MB/s|X|History
+  port: 10872
+  server: 213.35.110.67
+  skip-cert-verify: true
+  type: socks5
+- client-fingerprint: chrome
+  name: 新加坡-006 |4.8MB/s|YT-SG|NF|D+|5...
+  network: ws
+  port: 443
+  server: 168.138.189.91
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- cipher: chacha20-ietf
+  name: 新加坡-007 |3.5MB/s|YT-SG|NF|D+|G...
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- name: 新加坡-008 |7.0MB/s|GPT⁺|YT-SG|NF...
+  network: ws
+  port: 443
+  server: 103.136.68.86
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳@WangCai2

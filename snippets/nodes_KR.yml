@@ -1,10 +1,1 @@
-proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 韩国-001 |0.8MB/s|0%|GPT|X|Histo...
-  password: qwerREWQ@@
-  port: 19203
-  server: 121.170.203.147
-  tfo: true
-  type: ss
-  udp: true
+proxies: []

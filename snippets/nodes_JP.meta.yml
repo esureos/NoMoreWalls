@@ -1,94 +1,37 @@
 proxies:
-- name: 日本-001 |1.1MB/s|YT-JP|NF|D+|GM
+- client-fingerprint: chrome
+  encryption: none
+  name: 日本-001 |3.4MB/s|GPT|YT-JP|NF|D...
   network: ws
   port: 443
-  server: 136.0.11.62
+  server: 43.165.183.43
   servername: sni.111000.indevs.in
   tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 日本-002 |1.3MB/s|YT-JP|NF|D+|GM
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 日本-002 |3.2MB/s|GPT|YT-JP|NF|D...
   network: ws
-  port: 33405
-  server: 43.133.10.236
-  servername: sni.jpmj.dev
+  port: 443
+  server: 158.101.145.82
+  servername: sni.111000.indevs.in
   tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 日本-003 |559KB/s|GPT⁺|YT-CN|NF|...
-  password: a2d12dc9-c111-45ac-b803-87e48f3484d8
-  port: 443
-  server: 160.16.75.254
-  skip-cert-verify: true
-  sni: gw.alicdn.com
-  type: anytls
-  udp: true
-  username: a2d12dc9-c111-45ac-b803-87e48f3484d8
-- name: 日本-004 |2.6MB/s|GPT⁺|YT-RU|NF|...
-  network: tcp
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 3423
-  server: 160.16.124.55
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本-005 |1.1MB/s|GPT⁺|YT-RU|NF|...
-  network: tcp
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 3423
-  server: 160.16.116.227
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: 日本-006 |0.6MB/s|GPT⁺|YT|X
-  network: tcp
-  password: 5fb072e0ddd631cf66cf752b09210480
-  port: 3901
-  server: 160.16.236.32
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- name: 日本-007 |3.3MB/s|YT-JP|NF|D+|GM
-  network: ws
-  port: 443
-  server: 109.123.231.212
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  name: 日本-008 |1.9MB/s|GPT⁺|YT-CN|NF|...
-  network: tcp
-  password: BxceQaOe
-  port: 26378
-  server: 52.194.222.6
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 尼日利亚-001
-  password: '!!str 1'
-  port: 8081
-  server: 169.255.57.58
-  type: http
-  username: afY491o7YfK00koaXQD9kVPHfcPMSxe4LOEMcjOOPfXRPahU1jy-rAJo_gnXKC6ToXw609MC0WdYefYZbCn32A==
-- name: 日本-009 |10.3MB/s|33%|GPT⁺|X|Su...
-  port: 18791
-  server: 141.98.197.133
-  skip-cert-verify: true
-  type: socks5
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
