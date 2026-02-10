@@ -1,5 +1,14 @@
 proxies:
-- name: 法国-015 |1.7MB/s|YT-FR|NF|D+
+- name: 法国-001 |5.4MB/s|GPT⁺|YT-FR|NF|...
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.224.3.139
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- name: 法国-003 |6.9MB/s|YT-FR|NF|D+
   network: ws
   password: iwangjie
   port: 2053
