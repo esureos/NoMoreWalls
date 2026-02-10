@@ -3,7 +3,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: 德国-002 |6.5MB/s|GPT⁺|YT-DE|NF|...
+  name: 德国-001 |7.4MB/s|GPT⁺|YT-DE|NF|...
   network: tcp
   port: 4655
   server: 91.99.127.122
@@ -11,20 +11,46 @@ proxies:
   udp: true
   uuid: ef594e2f-1a55-468c-8a0f-b0887d06f6e5
   xudp: true
-- name: 德国-003 |2.0MB/s|2.5MB/s|X|Hist...
+- client-fingerprint: chrome
+  name: 德国-002 |4.0MB/s|3.2MB/s|X|Hist...
+  password: '@193.233.254.7:'
   port: 1080
-  server: 193.233.254.9
+  server: 193.233.254.7
   skip-cert-verify: true
   tls: false
   type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuOTo%3D
+  udp: true
+  username: T2dAMTkzLjIzMy4yNTQuNzo%3D
+- name: 德国-003 |3.1MB/s|X|History
+  port: 1080
+  server: 193.233.254.8
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 德国-004 |1.1MB/s|GPT⁺|YT-DE|NF|...
+  network: tcp
+  port: 443
+  server: 20.79.160.49
+  servername: jina-207916049-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 德国-004 |3.8MB/s|GPT⁺|YT-DE|NF|...
+  name: 德国-005 |3.8MB/s|GPT⁺|YT-DE|NF|...
   network: tcp
   port: 443
   server: 20.79.162.37
@@ -34,34 +60,14 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
-- client-fingerprint: chrome
-  name: 德国-005 |4.0MB/s|2.8MB/s|X|Hist...
-  password: '@193.233.254.7:'
+- name: 德国-006 |633KB/s
+  password: '@193.233.254.9:'
   port: 1080
-  server: 193.233.254.7
+  server: 193.233.254.9
   skip-cert-verify: true
   tls: false
   type: socks5
-  udp: true
-  username: T2dAMTkzLjIzMy4yNTQuNzo%3D
-- client-fingerprint: chrome
-  encryption: none
-  name: 德国-006 |657KB/s|GPT⁺|YT-DE|NF|...
-  network: ws
-  port: 8443
-  server: 57.129.63.144
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /?ed=2560
-  xudp: true
+  username: Og@193.233.254.9
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -77,22 +83,9 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
-- name: 德国-008
-  password: '!!str 1'
-  port: 8081
-  server: 193.108.116.72
-  type: http
-  username: afY491o7YfK00koaXQD9kblFn_dWDfPY4tKXRnmKMiZS1jTadLNU_v_BdekRkaK7xsnp5o63PElOVpFduiCmYA==
-- name: 德国-009 |1.4MB/s|2.8MB/s|X|Succ...
-  port: 1080
-  server: 193.233.254.8
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVPRHBBTVRrekxqSXpNeTR5TlRRdU9EbyUzRDo%3D
 - client-fingerprint: chrome
   encryption: none
-  name: 德国-010 |7.8MB/s|GPT⁺|D+|X|[广播|...
+  name: 德国-008 |7.2MB/s|5%|GPT⁺|TK|D+|...
   network: ws
   port: 443
   server: 192.46.239.191
@@ -107,21 +100,4 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /?ed=2560
-  xudp: true
-- client-fingerprint: chrome
-  name: 德国-011 |6.4MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 5.178.110.39
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
   xudp: true

@@ -1,20 +1,5 @@
 proxies:
-- name: 法国-001 |5.4MB/s|GPT⁺|YT-FR|NF|...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 15.224.3.139
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
-  udp: true
-- name: 法国-002
-  password: '!!str 1'
-  port: 8081
-  server: 37.187.194.214
-  type: http
-  username: afY491o7YfK00koaXQD9kblFn_dWDfPY4tKXRnmKMiaDuIfN3NToLQx2z1lUBLCTxsnp5o63PElOVpFduiCmYA==
-- name: 法国-003 |6.9MB/s|YT-FR|NF|D+
+- name: 法国-001 |6.9MB/s|YT-FR|NF|D+
   network: ws
   password: iwangjie
   port: 2053
@@ -26,6 +11,24 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: '%2F%3Fed%3D2560'
+- name: 法国-002 |1.9MB/s|1%|GPT⁺|X|Hist...
+  password: telegram-id-directvpn
+  port: 22223
+  server: 15.224.3.139
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- name: 法国-003 |5.8MB/s|1%|GPT⁺|X|[广播|...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.224.3.139
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   name: 法国-004 |1.0MB/s|GPT⁺|D+|5%
@@ -44,3 +47,14 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
   xudp: true
+- name: 法国-005 |1.7MB/s|GPT|X|Succeed
+  port: 1080
+  server: 194.163.167.32
+  skip-cert-verify: true
+  type: socks5
+- name: 法国-006
+  password: '!!str 1'
+  port: 8081
+  server: 37.187.194.214
+  type: http
+  username: afY491o7YfK00koaXQD9kblFn_dWDfPY4tKXRnmKMiaDuIfN3NToLQx2z1lUBLCTxsnp5o63PElOVpFduiCmYA==

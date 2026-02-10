@@ -1,1 +1,6 @@
-proxies: []
+proxies:
+- name: 加拿大-001 |4.7MB/s|GPT⁺|X|Succee...
+  port: 1080
+  server: 143.110.217.153
+  skip-cert-verify: true
+  type: socks5
