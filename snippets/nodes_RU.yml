@@ -1,7 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰-003 |2.0MB/s|GPT⁺|YT-RU|NF|...
-  password: 7kJQs2RYHhViTYWaf1RobB
-  port: 7749
-  server: 77.246.97.187
+- cipher: aes-256-cfb
+  name: 越南-003 |1.6MB/s|GPT⁺|YT-RU|NF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.215
   type: ss
+  udp: true

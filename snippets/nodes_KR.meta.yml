@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 韩国-001 |1.4MB/s|4%|GPT⁺|X|Hist...
+  name: 韩国-001 |515KB/s|GPT⁺
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
