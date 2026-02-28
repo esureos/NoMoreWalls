@@ -1,74 +1,57 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 越南-001 |851KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-008 |1.4MB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.166
+  server: 103.186.154.210
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-002 |618KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-009 |1.3MB/s|GPT⁺|YT-US|NF
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.216
+  server: 103.186.154.209
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-004 |846KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-010 |1.1MB/s|TK-VN|YT-US|NF...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.47
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-005 |516KB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.19
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-006 |526KB/s|GPT⁺|YT-US|NF|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.223
-  tfo: true
+  server: 103.186.155.36
+  sub_tag: (AzadNet.t.me)
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 越南-007 |1.6MB/s|GPT⁺|YT-US|NF|...
+  name: 越南-011 |665KB/s|YT-US|NF|GPT⁺|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.13
+  server: 103.186.154.34
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-008 |714KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-014 |1.6MB/s|GPT⁺|YT-US|NF
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.176
+  server: 103.186.154.249
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: 越南-009 |746KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-015 |517KB/s|GPT⁺|YT-US|NF
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.120
+  server: 103.186.155.148
   type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 美国-018 |1.8MB/s|GPT⁺|YT-US|NF|...
-  network: ws
-  port: 2053
-  server: 192.200.160.173
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-  ws-opts:
-    headers:
-      Host: app.hajmyab.ir
-    path: /
 - cipher: aes-256-cfb
-  name: 越南-012 |1.1MB/s|YT-US|NF|GPT⁺
+  name: 越南-016 |958KB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.66
+  server: 103.186.154.30
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-017 |935KB/s|GPT⁺|YT-US|NF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.42
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-019 |823KB/s|GPT⁺|YT-US|NF
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.57
   type: ss

@@ -1,1 +1,61 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 瑞典-001 |1.3MB/s|YT-SE|NF|D+
+  network: ws
+  port: 443
+  server: 62.182.192.49
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /sg-lnd
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 瑞典-002 |4.9MB/s|YT-SE|NF|D+
+  network: ws
+  port: 8443
+  server: 206.168.213.248
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /sg-lnd
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 瑞典-003 |3.7MB/s|YT-SE|NF|D+
+  network: ws
+  port: 8443
+  server: 193.53.40.219
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /sg-lnd
+  xudp: true
+- name: 瑞典-004
+  password: '!!str 1'
+  port: 8081
+  server: 84.32.49.221
+  type: http
+  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZglAKrqKenz06iPnoAFNBVLWoXw609MC0WdYefYZbCn32A==

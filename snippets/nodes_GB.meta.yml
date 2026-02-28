@@ -1,1 +1,43 @@
-proxies: []
+proxies:
+- name: 英国-001
+  password: '!!str 1'
+  port: 8081
+  server: 57.129.140.187
+  type: http
+  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZgn4EnvncNL3SB4BqysxnwFHxsnp5o63PElOVpFduiCmYA==
+- name: 英国-002
+  password: '!!str 1'
+  port: 8081
+  server: 198.244.253.161
+  type: http
+  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZglv2aYwC0e7lr_vBfPStMqaxsnp5o63PElOVpFduiCmYA==
+- name: 英国-003
+  password: '!!str 1'
+  port: 8081
+  server: 5.180.211.94
+  type: http
+  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZglnr5TlJ8gDkSDt-c8QNE9zoXw609MC0WdYefYZbCn32A==
+- name: 英国-004
+  password: '!!str 1'
+  port: 8081
+  server: 185.164.139.44
+  type: http
+  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZgn2eG5J4QoGLZ-kFmvHaDqwxsnp5o63PElOVpFduiCmYA==
+- name: 英国-006
+  password: '!!str 1'
+  port: 8081
+  server: 172.99.190.183
+  type: http
+  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZgmoXaWPlc8f_I7jFWFR83H-oXw609MC0WdYefYZbCn32A==
+- name: 英国-007
+  password: '!!str 1'
+  port: 8081
+  server: 185.145.201.31
+  type: http
+  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZgkJqjSQTE1-WDAfm2Pv2gxBxsnp5o63PElOVpFduiCmYA==
+- name: 英国-008
+  password: '!!str 1'
+  port: 8081
+  server: 172.99.190.215
+  type: http
+  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZgmz1gTYCEAo2mOhSTbSRawEoXw609MC0WdYefYZbCn32A==

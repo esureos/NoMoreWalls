@@ -1,6 +1,18 @@
 proxies:
+- name: 韩国-001
+  password: '!!str 1'
+  port: 8081
+  server: 79.110.55.34
+  type: http
+  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZgllfjLufmSe5eagb6OaZbqGoXw609MC0WdYefYZbCn32A==
+- name: 韩国-002
+  password: '!!str 1'
+  port: 8081
+  server: 140.174.179.129
+  type: http
+  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZgk3ODVeXCROGBnWOcq8oKsHoXw609MC0WdYefYZbCn32A==
 - client-fingerprint: chrome
-  name: 韩国-001 |515KB/s|GPT⁺
+  name: 韩国-003 |1.3MB/s|GM
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
