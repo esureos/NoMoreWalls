@@ -1,7 +1,1 @@
-proxies:
-- name: 瑞士-001
-  password: '!!str 1'
-  port: 8081
-  server: 208.69.78.7
-  type: http
-  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZgnV2qpfkoBPjRSvL-7xiGznoXw609MC0WdYefYZbCn32A==
+proxies: []

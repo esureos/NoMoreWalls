@@ -1,18 +1,18 @@
 proxies:
-- name: 韩国-001
-  password: '!!str 1'
-  port: 8081
-  server: 79.110.55.34
-  type: http
-  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZgllfjLufmSe5eagb6OaZbqGoXw609MC0WdYefYZbCn32A==
-- name: 韩国-002
-  password: '!!str 1'
-  port: 8081
-  server: 140.174.179.129
-  type: http
-  username: afY491o7YfK00koaXQD9kTyxuVt5a84P0RM9B4KoZgk3ODVeXCROGBnWOcq8oKsHoXw609MC0WdYefYZbCn32A==
+- name: 韩国-001 |4.7MB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 12488
+  server: 175.213.181.45
+  servername: sni.edusg.loc.cc
+  tls: true
+  type: vless
+  uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+  ws-opts:
+    headers:
+      Host: sni.edusg.loc.cc
+    path: /
 - client-fingerprint: chrome
-  name: 韩国-003 |1.3MB/s|GM
+  name: 韩国-002 |1.3MB/s|GM
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
@@ -20,3 +20,9 @@ proxies:
   type: socks5
   udp: true
   username: Og%3D%3D
+- name: 韩国-003
+  password: '!!str 1'
+  port: 8081
+  server: 79.110.55.34
+  type: http
+  username: afY491o7YfK00koaXQD9kTlG8f2NG2IvZc7U16EaGVbSETexjIU9U7d_So9W2pWqoXw609MC0WdYefYZbCn32A==

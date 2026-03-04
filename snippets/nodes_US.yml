@@ -1,57 +1,44 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 越南-008 |1.4MB/s|GPT⁺|YT-US|NF|...
+  name: 越南-002 |1.1MB/s|YT-US|NF|GPT⁺
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.210
+  server: 103.186.155.154
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-009 |1.3MB/s|GPT⁺|YT-US|NF
+  name: 越南-004 |1.2MB/s|YT-US|NF|GPT⁺
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.209
+  server: 103.186.154.157
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-010 |1.1MB/s|TK-VN|YT-US|NF...
+  name: 越南-007 |1.7MB/s|GPT⁺|YT-US|NF
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.36
-  sub_tag: (AzadNet.t.me)
+  server: 103.186.154.56
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 越南-011 |665KB/s|YT-US|NF|GPT⁺|...
+  name: 越南-008 |609KB/s|YT-US|NF|GPT⁺
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.34
+  server: 103.186.155.80
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-014 |1.6MB/s|GPT⁺|YT-US|NF
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.249
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-015 |517KB/s|GPT⁺|YT-US|NF
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.148
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-016 |958KB/s|GPT⁺|YT-US|NF|...
+  name: 越南-009 |958KB/s|GPT⁺|YT-US|NF|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.30
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-017 |935KB/s|GPT⁺|YT-US|NF
+  name: 越南-010 |935KB/s|GPT⁺|YT-US|NF
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.42
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-019 |823KB/s|GPT⁺|YT-US|NF
+  name: 越南-014 |2.5MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.57
+  server: 103.186.154.78
   type: ss
