@@ -1,28 +1,70 @@
 proxies:
-- name: 韩国-001 |4.7MB/s|5%|YT-KR|NF|D+...
+- name: 韩国-001 |3.2MB/s|5%|YT-KR|NF|D+...
   network: ws
-  port: 12488
-  server: 175.213.181.45
-  servername: sni.edusg.loc.cc
+  port: 12312
+  server: 211.48.77.114
+  servername: sni.111000.dynv6.net
   tls: true
   type: vless
-  uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.edusg.loc.cc
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 韩国-002 |4.5MB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 18091
+  server: 59.187.250.47
+  servername: dyj0.q78.eduin.indevs.in
+  tls: true
+  type: vless
+  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+  ws-opts:
+    headers:
+      Host: dyj0.q78.eduin.indevs.in
+    path: /
+- name: 韩国-003 |5.2MB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 20256
+  server: 112.168.144.172
+  servername: sb9e.9kx.edueu.dpdns.org
+  tls: true
+  type: vless
+  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+  ws-opts:
+    headers:
+      Host: sb9e.9kx.edueu.dpdns.org
+    path: /
+- name: 韩国-004 |4.4MB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 10256
+  server: 125.130.209.159
+  servername: n518.kqa.eduin.indevs.in
+  tls: true
+  type: vless
+  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+  ws-opts:
+    headers:
+      Host: n518.kqa.eduin.indevs.in
+    path: /
+- name: 韩国-005 |4.0MB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 14873
+  server: 125.142.163.239
+  servername: fvso.9zz.snl.cc.cd
+  tls: true
+  type: vless
+  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+  ws-opts:
+    headers:
+      Host: fvso.9zz.snl.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 韩国-002 |1.3MB/s|GM
+  name: 韩国-006 |1.3MB/s|GM
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
   tls: false
   type: socks5
   udp: true
-  username: Og%3D%3D
-- name: 韩国-003
-  password: '!!str 1'
-  port: 8081
-  server: 79.110.55.34
-  type: http
-  username: afY491o7YfK00koaXQD9kTlG8f2NG2IvZc7U16EaGVbSETexjIU9U7d_So9W2pWqoXw609MC0WdYefYZbCn32A==
+  username: T2clM0QlM0Q6

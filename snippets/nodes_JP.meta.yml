@@ -1,7 +1,10 @@
 proxies:
-- name: 日本-001
-  password: '!!str 1'
-  port: 8081
-  server: 180.149.230.241
-  type: http
-  username: afY491o7YfK00koaXQD9kTlG8f2NG2IvZc7U16EaGVZwPin1OrttRWpPwzBZdlenoXw609MC0WdYefYZbCn32A==
+- alpn:
+  - h3
+  name: 日本-001 |962KB/s|5%|YT-JP|NF|D+...
+  password: be0ff4db-134c-4178-8dac-48ead0c4a432
+  port: 2000
+  server: 156.246.91.11
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2

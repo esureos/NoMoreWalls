@@ -1,31 +1,7 @@
 proxies:
-- name: 英国-001
-  password: '!!str 1'
-  port: 8081
-  server: 172.99.190.183
-  type: http
-  username: afY491o7YfK00koaXQD9kTlG8f2NG2IvZc7U16EaGVZMrdrvigjMiRBCZ-VQ8DqmoXw609MC0WdYefYZbCn32A==
-- name: 英国-002
-  password: '!!str 1'
-  port: 8081
-  server: 5.180.211.94
-  type: http
-  username: afY491o7YfK00koaXQD9kTlG8f2NG2IvZc7U16EaGVaJBrNiH6JmBRGghnF9_AJWoXw609MC0WdYefYZbCn32A==
-- name: 英国-003
-  password: '!!str 1'
-  port: 8081
-  server: 172.99.190.215
-  type: http
-  username: afY491o7YfK00koaXQD9kTlG8f2NG2IvZc7U16EaGVYK8WOP8vn1ox7nEgIj6SEwoXw609MC0WdYefYZbCn32A==
-- name: 英国-004
-  password: '!!str 1'
-  port: 8081
-  server: 198.244.253.161
-  type: http
-  username: afY491o7YfK00koaXQD9kTlG8f2NG2IvZc7U16EaGVZwN4RVkCy5qM8sO_UBotgnxsnp5o63PElOVpFduiCmYA==
-- name: 英国-005
-  password: '!!str 1'
-  port: 8081
-  server: 57.129.140.187
-  type: http
-  username: afY491o7YfK00koaXQD9kTlG8f2NG2IvZc7U16EaGVZjZUbl_rVUl7L4KoFiss25xsnp5o63PElOVpFduiCmYA==
+- cipher: chacha20-ietf-poly1305
+  name: 英国-001 |🇬🇧 GB_52
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.35
+  type: ss
