@@ -1,5 +1,176 @@
 proxies:
-- name: 韩国-001 |3.2MB/s|5%|YT-KR|NF|D+...
+- client-fingerprint: chrome
+  encryption: none
+  name: 韩国-001 |1.1MB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 14873
+  server: 125.142.163.239
+  servername: fvso.9zz.snl.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+  ws-opts:
+    headers:
+      Host: fvso.9zz.snl.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: random
+  name: 韩国-002 |4.0MB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 21237
+  server: 121.171.227.106
+  servername: 6f221d78.mfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a6c1d3-9637-2e38-8f5c-4e75cd624317
+  ws-opts:
+    headers:
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
+- client-fingerprint: random
+  name: 韩国-003 |4.1MB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 12323
+  server: 125.139.184.199
+  servername: 6f221d78.mfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a6c1d3-9637-2e38-8f5c-4e75cd624317
+  ws-opts:
+    headers:
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
+- client-fingerprint: random
+  name: 韩国-004 |4.5MB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 28015
+  server: 218.148.41.211
+  servername: 6f221d78.mfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a6c1d3-9637-2e38-8f5c-4e75cd624317
+  ws-opts:
+    headers:
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
+- client-fingerprint: random
+  name: 韩国-005 |5.1MB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 18063
+  server: 112.185.79.74
+  servername: 6f221d78.mfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a6c1d3-9637-2e38-8f5c-4e75cd624317
+  ws-opts:
+    headers:
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
+- client-fingerprint: random
+  name: 韩国-006 |5.3MB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 20050
+  server: 59.10.176.213
+  servername: 6f221d78.mfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a6c1d3-9637-2e38-8f5c-4e75cd624317
+  ws-opts:
+    headers:
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
+- client-fingerprint: random
+  name: 韩国-007 |750KB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 50001
+  server: 222.114.57.191
+  servername: fqrf5tlc.chinav.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: fqrf5tlc.chinav.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /danfeng
+  xudp: true
+- client-fingerprint: chrome
+  name: 韩国-008 |4.1MB/s|YT-KR|NF|D+|GP...
+  network: ws
+  port: 8443
+  server: 168.107.29.97
+  servername: 002.ljk-clouflare.dns.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3713ba4-a8fc-44ec-b401-3b736e67718d
+  ws-opts:
+    headers:
+      Host: 002.ljk-clouflare.dns.army
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 韩国-009 |5.7MB/s|5%|YT-KR|NF|D+...
+  network: ws
+  port: 36355
+  server: 129.154.48.176
+  servername: k7ryegiaeu.chinam.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: k7ryegiaeu.chinam.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /danfeng
+  xudp: true
+- client-fingerprint: chrome
+  name: 韩国-010 |555KB/s|YT-KR|NF|D+|GP...
+  network: ws
+  port: 443
+  server: 45.93.30.168
+  servername: 002.ljk-clouflare.dns.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3713ba4-a8fc-44ec-b401-3b736e67718d
+  ws-opts:
+    headers:
+      Host: 002.ljk-clouflare.dns.army
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- name: 韩国-011 |3.2MB/s|5%|YT-KR|NF|D+...
   network: ws
   port: 12312
   server: 211.48.77.114
@@ -11,7 +182,7 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
     path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: 韩国-002 |4.5MB/s|5%|YT-KR|NF|D+...
+- name: 韩国-012 |4.5MB/s|5%|YT-KR|NF|D+...
   network: ws
   port: 18091
   server: 59.187.250.47
@@ -23,7 +194,7 @@ proxies:
     headers:
       Host: dyj0.q78.eduin.indevs.in
     path: /
-- name: 韩国-003 |5.2MB/s|5%|YT-KR|NF|D+...
+- name: 韩国-013 |5.2MB/s|5%|YT-KR|NF|D+...
   network: ws
   port: 20256
   server: 112.168.144.172
@@ -35,7 +206,7 @@ proxies:
     headers:
       Host: sb9e.9kx.edueu.dpdns.org
     path: /
-- name: 韩国-004 |4.4MB/s|5%|YT-KR|NF|D+...
+- name: 韩国-014 |4.4MB/s|5%|YT-KR|NF|D+...
   network: ws
   port: 10256
   server: 125.130.209.159
@@ -47,20 +218,8 @@ proxies:
     headers:
       Host: n518.kqa.eduin.indevs.in
     path: /
-- name: 韩国-005 |4.0MB/s|5%|YT-KR|NF|D+...
-  network: ws
-  port: 14873
-  server: 125.142.163.239
-  servername: fvso.9zz.snl.cc.cd
-  tls: true
-  type: vless
-  uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
-  ws-opts:
-    headers:
-      Host: fvso.9zz.snl.cc.cd
-    path: /
 - client-fingerprint: chrome
-  name: 韩国-006 |1.3MB/s|GM
+  name: 韩国-015 |1.3MB/s|GM
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true

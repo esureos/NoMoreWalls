@@ -1,6 +1,126 @@
 proxies:
-- name: 新加坡-001 |4.6MB/s
+- name: 新加坡-001 |8.3MB/s|YT-SG|NF|D+|G...
+  network: ws
+  port: 8443
+  server: 43.160.248.66
+  servername: 002.ljk-clouflare.dns.army
+  tls: true
+  type: vless
+  uuid: e3713ba4-a8fc-44ec-b401-3b736e67718d
+  ws-opts:
+    headers:
+      Host: 002.ljk-clouflare.dns.army
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- client-fingerprint: chrome
+  name: 新加坡-002 |2.4MB/s|YT-SG|NF|D+|G...
+  network: ws
+  port: 443
+  server: 103.241.62.245
+  servername: 002.ljk-clouflare.dns.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3713ba4-a8fc-44ec-b401-3b736e67718d
+  ws-opts:
+    headers:
+      Host: 002.ljk-clouflare.dns.army
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: random
+  name: 新加坡-004 |6.3MB/s|5%|YT-SG|NF|D...
+  network: ws
+  port: 443
+  server: 77.93.91.159
+  servername: 6f221d78.mfree.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 69a6c1d3-9637-2e38-8f5c-4e75cd624317
+  ws-opts:
+    headers:
+      Host: 6f221d78.mfree.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433
+  xudp: true
+- name: 新加坡-005 |6.2MB/s
   port: 1080
   server: 159.223.53.194
   skip-cert-verify: true
   type: socks5
+- client-fingerprint: chrome
+  name: 新加坡-006 |522KB/s|YT-SG|NF
+  network: ws
+  port: 443
+  server: 159.89.207.154
+  servername: 002.ljk-clouflare.dns.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3713ba4-a8fc-44ec-b401-3b736e67718d
+  ws-opts:
+    headers:
+      Host: 002.ljk-clouflare.dns.army
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 新加坡-007 |4.2MB/s|YT-SG|NF|D+|G...
+  network: ws
+  port: 443
+  server: 194.87.10.241
+  servername: 002.ljk-clouflare.dns.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3713ba4-a8fc-44ec-b401-3b736e67718d
+  ws-opts:
+    headers:
+      Host: 002.ljk-clouflare.dns.army
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  name: 新加坡-008 |7.1MB/s|YT-SG|NF|D+|G...
+  network: ws
+  port: 443
+  server: 194.87.10.77
+  servername: 002.ljk-clouflare.dns.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3713ba4-a8fc-44ec-b401-3b736e67718d
+  ws-opts:
+    headers:
+      Host: 002.ljk-clouflare.dns.army
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true
+- name: 新加坡-009
+  password: '!!str 1'
+  port: 8081
+  server: 103.200.209.250
+  type: http
+  username: afY491o7YfK00koaXQD9kTVbPLCS60JjGF6XFCJWve0OmSCjhCbb243dPhjaJ9jEoXw609MC0WdYefYZbCn32A==
+- client-fingerprint: chrome
+  name: 新加坡-010 |543KB/s|YT-SG|NF|D+|G...
+  network: ws
+  port: 8443
+  server: 77.93.89.176
+  servername: 002.ljk-clouflare.dns.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3713ba4-a8fc-44ec-b401-3b736e67718d
+  ws-opts:
+    headers:
+      Host: 002.ljk-clouflare.dns.army
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+  xudp: true

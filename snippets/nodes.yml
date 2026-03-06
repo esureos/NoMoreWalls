@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国-009 |6.3MB/s|GPT|X|History
+  name: 美国-032 |6.4MB/s|4%|GPT⁺|X|Hist...
   network: ws
   port: 443
   server: 45.40.146.199
@@ -14,46 +14,99 @@ proxies:
     headers:
       HOST: ous3.dean52.top
     path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alterId: 0
+  cipher: auto
+  name: 美国-034 |7.7MB/s|4%|GPT⁺|X|Hist...
+  network: ws
+  port: 443
+  server: 147.185.161.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯联邦-001 |6.7MB/s|GPT|X|Histo...
+  network: ws
+  port: 443
+  server: 45.67.215.199
+  servername: ous3.dean52.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-opts:
+    headers:
+      HOST: ous3.dean52.top
+    path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡-003 |12.0MB/s|0%|GPT|GM|YT...
+  password: PYEU2YIb0XkFGakKZ04OnP
+  port: 18571
+  server: 209.74.82.156
+  type: ss
 - cipher: aes-256-cfb
-  name: 越南-001 |3.1MB/s|GPT⁺|X|History...
+  name: 俄罗斯联邦-005 |0.7MB/s|X|History
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.60.223.8
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-001 |2.9MB/s|GPT|GM|X|Histo...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.31
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-002 |1.0MB/s|X|History
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.116
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-003 |944KB/s|YT-RU|NF|GPT⁺
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.62
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-004 |2.1MB/s|GPT⁺|YT-US|X|S...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.253
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-002 |1.3MB/s|YT-US|NF|GPT⁺
+  name: 越南-005 |1.9MB/s|GPT|YT-US|X|Hi...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.235
+  server: 103.186.155.84
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-003 |544KB/s|YT-VN|GPT⁺|GM-...
+  name: 越南-006 |600KB/s|YT-US|NF|GPT⁺
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.15
+  server: 103.186.154.161
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-004 |822KB/s|YT-US|NF|GPT⁺
+  name: 越南-007 |1.1MB/s|YT-US|NF|GPT⁺|...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.170
+  server: 103.186.154.50
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-005 |667KB/s|YT-US|NF|GPT⁺
+  name: 越南-008 |667KB/s|YT-US|NF|GPT⁺
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.248
   type: ss
-- cipher: aes-256-cfb
-  name: 越南-006 |2.7MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.54
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 德国-009 |GB英国(mibei77.com 米贝节点分...
+  name: 德国-030 |GB英国(mibei77.com 米贝节点分...
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -64,14 +117,21 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 英国-001 |🇬🇧 GB_52
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.35
+- cipher: aes-256-cfb
+  name: 越南-009 |1.4MB/s|GPT⁺|GM|YT|X|H...
+  password: qwerREWQ@@
+  port: 41632
+  server: 103.238.214.82
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-010 |544KB/s|YT-VN|GPT⁺|GM-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.15
   type: ss
 - cipher: aes-256-gcm
-  name: 俄罗斯联邦-007 |2.5MB/s|YT-RU
+  name: 俄罗斯联邦-008 |2.5MB/s|YT-RU
   password: c5fcdf7829112cb4
   port: 60129
   server: 45.140.169.225
