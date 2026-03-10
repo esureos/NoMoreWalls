@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- client-fingerprint: random
+  encryption: none
+  name: 瑞士-001 |3.3MB/s|5%|TK-CH|YT-CH...
+  network: ws
+  port: 81
+  server: 45.90.58.58
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng

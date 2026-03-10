@@ -1,56 +1,59 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: random
   encryption: none
-  name: 法国-002 |6.1MB/s|5%|TK-FR|YT-FR...
+  name: 法国-001 |6.1MB/s|5%|TK-FR|YT-FR...
+  network: ws
+  port: 2053
+  server: 31.59.121.150
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: 法国-003 |3.4MB/s|5%|TK-FR|YT-FR...
   network: ws
   port: 8443
-  server: 95.182.97.125
-  servername: sni.111000.dynv6.net
+  server: 188.130.207.30
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.101 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-  xudp: true
-- name: 法国-003
-  password: '!!str 1'
-  port: 8081
-  server: 139.64.167.194
-  type: http
-  username: afY491o7YfK00koaXQD9kTVbPLCS60JjGF6XFCJWve3AfO4yCfHgsp0JdlLCTWARxsnp5o63PElOVpFduiCmYA==
-- name: 法国-004
-  password: dongtaiwang.com
-  port: 22000
-  server: 62.210.124.146
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: random
   encryption: none
-  name: 法国-006 |4.5MB/s|5%|TK-FR|NF|D+...
+  name: 法国-004 |3.8MB/s|5%|TK-FR|YT-FR...
   network: ws
-  port: 443
-  server: 217.60.39.10
-  servername: sni.111000.dynv6.net
+  port: 8443
+  server: 51.159.6.227
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-        Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-  xudp: true
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- name: 法国-005 |5.5MB/s|1%|TK-FR|YT-FR...
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.37.140.33
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
