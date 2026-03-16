@@ -1,14 +1,8 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 越南-008 |2.3MB/s|YT-RU|NF|GPT⁺
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.31
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 土耳其-002 |646KB/s|YT-RU|NF|D+|G...
-  password: TdBvUPMddyYWKhadaXf1dHNmJbHZCAoY
-  port: 1080
-  server: 185.39.204.27
+  name: 芬兰-001 |586KB/s|7%|TK-FI|YT-RU...
+  password: yKVMoB3AwiTEznpnoq2FYR
+  port: 28687
+  server: 193.47.60.186
   type: ss
   udp: true

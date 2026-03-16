@@ -1,24 +1,25 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  fp: chrome
-  name: 日本-002 |7.4MB/s|0%|YT-RU|NF|GP...
-  network: tcp
-  pbk: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-  port: 27724
-  reality-opts:
-    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-  security: reality
-  server: 116.80.44.144
-  servername: www.yahoo.co.jp
-  sni: www.yahoo.co.jp
+  encryption: none
+  name: 日本-001 |7.0MB/s|YT-JP|NF|D+|GM...
+  network: ws
+  port: 20524
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
   tls: true
   type: vless
-  udp: false
-  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /Telegram🇨🇳@WangCai2
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 日本-003 |8.4MB/s|5%|YT-JP|NF|D+...
+  name: 日本-002 |8.4MB/s|5%|YT-JP|NF|D+...
   network: ws
   port: 8443
   server: 43.165.180.71
@@ -34,55 +35,17 @@ proxies:
         Chrome/65.0.3325.181 Safari/537.36
     path: /Telegram🇨🇳@WangCai2
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-004 |1.1MB/s|YT-JP|NF|D+|GM...
-  network: ws
-  port: 14772
-  server: 125.192.35.51
-  servername: ylnhh.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /Telegram🇨🇳@WangCai2
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  name: 日本-005 |5.0MB/s|5%|YT-JP
-  network: ws
-  port: 2052
-  server: 154.19.187.81
-  servername: snippet.sheilabelinda.ndjp.net
+- name: 日本-003 |7.3MB/s|YT-RU|NF|GPT⁺
+  password: f389ed926e512e15f382dc3804029474
+  port: 3419
+  server: 54.238.113.186
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.sheilabelinda.ndjp.net
-    path: /danfeng
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  name: 新加坡-002 |3.1MB/s|5%|YT-JP|NF|D...
-  network: ws
-  port: 3389
-  server: 203.168.131.108
-  servername: snippet.sheilabelinda.ndjp.net
+  sni: www.nintendogames.net
+  type: trojan
+- name: 日本-004 |4.0MB/s|2%|YT-HK|NF|D+
+  password: f389ed926e512e15f382dc3804029474
+  port: 921
+  server: 18.182.10.16
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.sheilabelinda.ndjp.net
-    path: /danfeng
+  sni: www.nintendogames.net
+  type: trojan

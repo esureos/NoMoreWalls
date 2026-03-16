@@ -1,9 +1,1 @@
-proxies:
-- name: 法国-005 |5.5MB/s|1%|TK-FR|YT-FR...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 13.37.140.33
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
+proxies: []

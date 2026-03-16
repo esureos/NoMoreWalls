@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 德国-001 |DE8｜机房｜高风险 (黑名单)
+  name: 德国-001 |2.4MB/s
   network: tcp
   port: 180
   server: 82.198.246.97
+  servername: cdnfire.xiaomispeed.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-path: /
   xudp: true

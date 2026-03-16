@@ -1,68 +1,78 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 德国-001 |DE8｜机房｜高风险 (黑名单)
+  name: 德国-001 |2.4MB/s
   network: tcp
   port: 180
   server: 82.198.246.97
+  servername: cdnfire.xiaomispeed.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-002 |6.8MB/s|TK-DE|YT-DE|NF...
+  network: ws
+  port: 8003
+  server: 89.163.213.199
+  servername: qle9crwh4e2t4rtrw43k0bnyx1.luyuju.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: qle9crwh4e2t4rtrw43k0bnyx1.luyuju.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- client-fingerprint: chrome
+  name: 德国-003 |6.4MB/s|YT-DE|NF|D+
+  network: ws
+  port: 2053
+  server: 5.178.110.39
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
   xudp: true
 - alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  name: 德国-002 |1.9MB/s|0%|TK-DE|YT-DE...
-  network: ws
-  port: 3023
-  server: 95.179.252.192
-  servername: snippet.gfw.nn.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.gfw.nn.kg
-    path: /danfeng
-- client-fingerprint: random
-  encryption: none
-  name: 德国-003 |3.4MB/s|5%|TK-DE|YT-DE...
-  network: ws
-  port: 443
-  server: 5.252.22.46
-  servername: snippet.fgfw.ye.gs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.ye.gs
-    path: /danfeng
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 德国-004
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
 - alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  name: 奥地利-005 |4.8MB/s|5%|TK-DE|YT-D...
-  network: ws
-  port: 8443
-  server: 152.53.144.103
-  servername: snippet.fgfw.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.ndjp.net
-    path: /danfeng
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 德国-005
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
 - client-fingerprint: random
-  name: 德国-004 |5.4MB/s|5%|TK-DE|YT-DE...
+  name: 德国-006 |5.4MB/s|5%|TK-DE|YT-DE...
   network: ws
   port: 1006
   server: 89.58.43.93
@@ -79,7 +89,7 @@ proxies:
     path: /danfeng?ed=2560
   xudp: true
 - auth: dongtaiwang.com
-  name: 德国-005
+  name: 德国-007
   password: dongtaiwang.com
   port: 43608
   server: 89.144.35.34
@@ -88,114 +98,3 @@ proxies:
   tfo: false
   type: hysteria2
   udp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 德国-007
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 德国-008
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- client-fingerprint: chrome
-  name: 德国-011 |6.4MB/s|YT-DE|NF|D+
-  network: ws
-  port: 2053
-  server: 5.178.110.39
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 德国-012 |4.1MB/s|5%|TK-DE|YT-DE...
-  network: ws
-  port: 2053
-  server: 207.244.199.59
-  servername: tn1rr.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /sg-lnd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 德国-013 |3.7MB/s|0%|TK-DE|YT-DE...
-  network: ws
-  port: 8443
-  server: 85.208.139.98
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 德国-014 |3.7MB/s|TK-DE|YT-DE|NF...
-  network: ws
-  port: 2014
-  server: 185.254.96.191
-  servername: tn1rr.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tn1rr.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /sg-lnd
-  xudp: true
-- client-fingerprint: chrome
-  name: 德国-016 |2.1MB/s|2.7MB/s|X|Hist...
-  port: 1080
-  server: 193.233.254.7
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: VDJkQU1Ua3pMakl6TXk0eU5UUXVOenBBTVRrekxqSXpNeTR5TlRRdU56b0AxOTMuMjMzLjI1NC43OkAxOTMuMjMzLjI1NC43Og%3D%3D
-- name: 德国-017 |2.9MB/s|2.6MB/s|X|Hist...
-  port: 1080
-  server: 193.233.254.9
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  username: Og@193.233.254.9
