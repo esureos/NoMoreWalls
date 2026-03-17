@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 德国-001 |2.4MB/s
+  name: 德国-006 |2.4MB/s
   network: tcp
   port: 180
   server: 82.198.246.97

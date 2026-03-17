@@ -1,37 +1,68 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 德国-001 |2.4MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: cdnfire.xiaomispeed.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 德国-002 |6.8MB/s|TK-DE|YT-DE|NF...
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 德国-001 |3.0MB/s|7%|TK-DE|YT-DE...
   network: ws
-  port: 8003
-  server: 89.163.213.199
-  servername: qle9crwh4e2t4rtrw43k0bnyx1.luyuju.dpdns.org
+  port: 389
+  server: 143.20.175.56
+  servername: snippet.danfeng.casacam.net
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: qle9crwh4e2t4rtrw43k0bnyx1.luyuju.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /@Marisa_kristi
+      Host: snippet.danfeng.casacam.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /danfeng
   xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 德国-002 |4.4MB/s|7%|TK-DE|YT-DE...
+  network: ws
+  port: 2053
+  server: 64.226.95.244
+  servername: snippet.danfeng.casacam.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.casacam.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /danfeng
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 德国-003
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 德国-004
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
 - client-fingerprint: chrome
-  name: 德国-003 |6.4MB/s|YT-DE|NF|D+
+  name: 德国-005 |6.4MB/s|YT-DE|NF|D+
   network: ws
   port: 2053
   server: 5.178.110.39
@@ -47,54 +78,34 @@ proxies:
         (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /?ed=2560&Telegram🇨🇳@WangCai2
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 德国-004
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 德国-005
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- client-fingerprint: random
-  name: 德国-006 |5.4MB/s|5%|TK-DE|YT-DE...
+- alterId: 0
+  cipher: auto
+  name: 德国-006 |2.4MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: cdnfire.xiaomispeed.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-007 |6.8MB/s|TK-DE|YT-DE|NF...
   network: ws
-  port: 1006
-  server: 89.58.43.93
-  servername: bt5hpm5jf6.chinam.eu.org
+  port: 8003
+  server: 89.163.213.199
+  servername: qle9crwh4e2t4rtrw43k0bnyx1.luyuju.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: bt5hpm5jf6.chinam.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /danfeng?ed=2560
+      Host: qle9crwh4e2t4rtrw43k0bnyx1.luyuju.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /@Marisa_kristi
   xudp: true
-- auth: dongtaiwang.com
-  name: 德国-007
-  password: dongtaiwang.com
-  port: 43608
-  server: 89.144.35.34
-  skip-cert-verify: true
-  sni: apple.com
-  tfo: false
-  type: hysteria2
-  udp: true

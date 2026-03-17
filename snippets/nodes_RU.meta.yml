@@ -1,4 +1,77 @@
 proxies:
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 沙特阿拉伯-001 |4.1MB/s|YT-RU|NF|D+
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
+    short-id: '!!str 82c8140feb118043'
+  server: 213.165.54.4
+  servername: cdnjs.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2d09c1c-7d4d-46c4-838f-ad263b93c4e1
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-002 |3.8MB/s|TK-FI|YT-RU...
+  network: tcp
+  port: 52006
+  reality-opts:
+    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
+    short-id: '!!str d8c6b58bcbb0c323'
+  server: 83.166.235.245
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29aab552-bfbb-07d0-b22a-9a9c58c84811
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-004 |4.5MB/s|TK-MD|YT-RU...
+  network: tcp
+  port: 52006
+  reality-opts:
+    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
+    short-id: '!!str d8c6b58bcbb0c323'
+  server: 83.166.249.47
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29aab552-bfbb-04b0-b22a-9a9c58c84811
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 俄罗斯联邦-005 |6.1MB/s|TK-MD|YT-RU...
+  network: tcp
+  port: 52006
+  reality-opts:
+    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
+    short-id: '!!str d8c6b58bcbb0c323'
+  server: 83.166.249.42
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29aab552-bfbb-04b0-b22a-9a9c58c84811
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -56,28 +129,12 @@ proxies:
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   xudp: true
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 沙特阿拉伯-001 |4.1MB/s|YT-RU|NF|D+
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
-    short-id: '!!str 82c8140feb118043'
-  server: 213.165.54.4
-  servername: cdnjs.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c2d09c1c-7d4d-46c4-838f-ad263b93c4e1
-  xudp: true
 - client-fingerprint: qq
   encryption: none
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-001 |3.1MB/s|YT-RU
+  name: 俄罗斯联邦-006 |3.1MB/s|YT-RU
   network: tcp
   port: 443
   reality-opts:
@@ -96,7 +153,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-002 |5.4MB/s|0%|TK-FI|YT...
+  name: 俄罗斯联邦-007 |5.4MB/s|0%|TK-FI|YT...
   network: tcp
   port: 443
   reality-opts:
@@ -115,7 +172,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-003 |4.5MB/s|0%|TK-NL|YT...
+  name: 俄罗斯联邦-008 |4.5MB/s|0%|TK-NL|YT...
   network: tcp
   port: 7445
   reality-opts:
@@ -133,26 +190,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: 拉脱维亚-004 |3.5MB/s|22%|TK-RU|YT...
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 7HejPU15kdTl9QG_8AygEM3w0ythsbhG6q_SwUumyR0
-    short-id: '!!str f1071c148a5aefc4'
-  server: 194.36.39.92
-  servername: rbc.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: cadadce7-0daa-44c1-9f7a-05fe4ebcbb30
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-005 |5.2MB/s|0%|TK-NL|YT...
+  name: 俄罗斯联邦-010 |5.2MB/s|0%|TK-NL|YT...
   network: tcp
   port: 7445
   reality-opts:
@@ -170,7 +208,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-006 |4.0MB/s|YT-RU|NF|GP...
+  name: 俄罗斯联邦-011 |4.0MB/s|YT-RU|NF|GP...
   network: tcp
   port: 8443
   reality-opts:
@@ -189,7 +227,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-007 |3.8MB/s|0%|TK-IT|YT...
+  name: 俄罗斯联邦-012 |3.8MB/s|0%|TK-IT|YT...
   network: tcp
   port: 443
   reality-opts:
@@ -201,48 +239,4 @@ proxies:
   type: vless
   udp: true
   uuid: 5729df32-b2f2-4a10-932c-fe37dfd5b6b4
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 芬兰-001 |586KB/s|7%|TK-FI|YT-RU...
-  password: yKVMoB3AwiTEznpnoq2FYR
-  port: 28687
-  server: 193.47.60.186
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 拉脱维亚-005 |2.0MB/s|21%|TK-MD|YT...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6r6uq4tZym5wRhJ5uti-h-UvN6uatQodMcG8rBU79Q4
-  server: 176.120.67.200
-  servername: booking.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0509acee-63e3-4364-95cc-21c601f059be
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-010 |2.7MB/s|YT-RU
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 66kZLshj9fxAIQA7NsABohNwgiOcY71enc6as_Frqw0
-    short-id: '!!str 3c1523da43287ec4'
-  server: 51.250.103.84
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0f44079e-f740-4c28-aac7-7898abdb3252
   xudp: true

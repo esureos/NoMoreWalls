@@ -1,15 +1,1 @@
-proxies:
-- name: 日本-003 |7.3MB/s|YT-RU|NF|GPT⁺
-  password: f389ed926e512e15f382dc3804029474
-  port: 3419
-  server: 54.238.113.186
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本-004 |4.0MB/s|2%|YT-HK|NF|D+
-  password: f389ed926e512e15f382dc3804029474
-  port: 921
-  server: 18.182.10.16
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
+proxies: []

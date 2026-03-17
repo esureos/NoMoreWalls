@@ -1,5 +1,24 @@
 proxies:
-- name: 新加坡-001 |6.2MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 马来西亚-001 |3.0MB/s|7%|YT-SG|NF|...
+  network: ws
+  port: 587
+  server: 166.88.7.8
+  servername: snippet.danfeng.gv.uy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.gv.uy
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /danfeng
+  xudp: true
+- name: 新加坡-002 |6.2MB/s
   port: 1080
   server: 159.223.53.194
   skip-cert-verify: true
