@@ -1,4 +1,32 @@
 proxies:
+- name: 俄罗斯联邦-002 |6.1MB/s
+  port: 1080
+  server: 94.103.92.224
+  skip-cert-verify: true
+  type: socks5
+- client-fingerprint: chrome
+  name: 俄罗斯联邦-003
+  network: ws
+  port: 443
+  server: 94.242.51.174
+  tls: false
+  type: vless
+  udp: false
+  uuid: f2a806c6-f36b-4cd9-8bb6-7addb218ad2d
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: 越南-009 |874KB/s|YT-RU|NF|GPT⁺|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.245
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-017 |700KB/s|YT-RU|NF|GPT⁺|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.127
+  type: ss
 - client-fingerprint: safari
   encryption: none
   flow: xtls-rprx-vision
@@ -14,34 +42,4 @@ proxies:
   type: vless
   udp: true
   uuid: c2d09c1c-7d4d-46c4-838f-ad263b93c4e1
-  xudp: true
-- cipher: aes-256-cfb
-  name: 越南-002 |1.5MB/s|YT-RU|NF|GPT⁺|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.183
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-004 |522KB/s|YT-RU|NF|GPT⁺
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.24
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 波兰-003 |3.1MB/s|0%|TK-PL|YT-RU...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-  server: 144.31.112.100
-  servername: pl.rexten.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 418a67d1-e7fc-4832-bc5d-980c77c1f7de
   xudp: true

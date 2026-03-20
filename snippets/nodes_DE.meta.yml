@@ -1,18 +1,22 @@
 proxies:
 - client-fingerprint: chrome
-  name: 德国-002
+  encryption: none
+  name: 德国-002 |3.5MB/s|GPT⁺|YT-DE|NF|...
   network: ws
-  port: 81
-  server: 212.52.1.202
-  servername: jmc9f8ao6n5xq.saghv.filegear-sg.me
+  port: 8005
+  server: 45.145.42.170
+  servername: sub.mot.ip-ddns.com
   tls: true
   type: vless
-  udp: false
+  udp: true
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      host: jmc9f8ao6n5xq.saghv.filegear-sg.me
-    path: /@Marisa_kristi
+      Host: sub.mot.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   name: 德国-003 |6.4MB/s|YT-DE|NF|D+
   network: ws

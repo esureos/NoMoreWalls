@@ -1,21 +1,5 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 新加坡-002 |620KB/s|7%
-  network: ws
-  port: 443
-  server: 217.116.173.221
-  servername: snippet.danfeng.gv.uy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.gv.uy
-    path: /danfeng
-- name: 新加坡-003 |6.2MB/s
+- name: 新加坡-001 |6.2MB/s
   port: 1080
   server: 159.223.53.194
   skip-cert-verify: true
