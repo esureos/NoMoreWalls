@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 韩国-008 |2.9MB/s|YT-KR|NF|D+|GM...
+  name: 韩国-004 |2.9MB/s|YT-KR|NF|D+|GM...
   network: ws
   password: trojan
   port: 10003

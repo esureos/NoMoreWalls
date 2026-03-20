@@ -1,32 +1,18 @@
 proxies:
-- name: 韩国-001 |1.2MB/s|100%
+- client-fingerprint: chrome
+  name: 韩国-001 |1.3MB/s|GM
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
+  tls: false
   type: socks5
   udp: true
-  username: Og%3D%3D
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 韩国-002 |3.2MB/s|YT-KR|NF
-  network: ws
-  port: 29999
-  server: 121.155.79.99
-  servername: snippet.danfeng.casacam.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.casacam.net
-    path: /danfeng
+  username: T2clM0QlM0Q6
 - client-fingerprint: chrome
-  name: 韩国-003 |2.5MB/s|7%
+  name: 韩国-002 |3.8MB/s|7%
   network: ws
-  port: 13214
-  server: 121.131.86.236
+  port: 16001
+  server: 14.42.206.205
   servername: snippet.danfeng.kozow.com
   tls: true
   type: vless
@@ -35,60 +21,13 @@ proxies:
   ws-opts:
     headers:
       Host: snippet.danfeng.kozow.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /danfeng?ed=2560
-  xudp: true
-- name: 韩国-004 |3.4MB/s|YT-KR|NF|D+
-  network: ws
-  port: 8443
-  server: 59.3.3.161
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳+@WangCai2
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 韩国-005 |3.1MB/s|7%|YT-KR|NF|D+...
-  network: ws
-  port: 18979
-  server: 14.52.191.85
-  servername: snippet.danfeng.gv.uy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.gv.uy
-    path: /danfeng
-- client-fingerprint: chrome
-  name: 韩国-006 |3.9MB/s
-  network: ws
-  port: 16030
-  server: 220.85.70.7
-  servername: snippet.danfeng.kozow.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.101 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /danfeng?ed=2560
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 韩国-007 |1.2MB/s|YT-KR|NF|D+
+  name: 韩国-003 |1.2MB/s|YT-KR|NF|D+
   network: ws
   port: 11176
   server: 118.42.204.220
@@ -105,7 +44,7 @@ proxies:
     path: /Telegram🇨🇳@WangCai2
   xudp: true
 - client-fingerprint: chrome
-  name: 韩国-008 |2.9MB/s|YT-KR|NF|D+|GM...
+  name: 韩国-004 |2.9MB/s|YT-KR|NF|D+|GM...
   network: ws
   password: trojan
   port: 10003
@@ -120,51 +59,26 @@ proxies:
         like Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /
 - client-fingerprint: chrome
-  name: 韩国-009 |2.6MB/s
+  encryption: none
+  name: 韩国-005 |2.1MB/s|YT-KR|NF|D+|GM...
   network: ws
-  port: 16001
-  server: 14.42.206.205
-  servername: snippet.danfeng.kozow.com
+  port: 30023
+  server: 211.243.73.135
+  servername: ylnhh.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   ws-opts:
     headers:
-      Host: snippet.danfeng.kozow.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /danfeng?ed=2560
+      Host: ylnhh.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /Telegram🇨🇳@WangCai2
   xudp: true
-- name: 韩国-010 |5.4MB/s|YT-KR|NF|D+
-  network: ws
-  port: 10840
-  server: 210.105.224.42
-  servername: ylnhh.cc.cd
-  tls: true
-  type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
-- name: 韩国-011 |1015KB/s|YT-KR|NF|D+
-  network: ws
-  port: 12053
-  server: 175.212.45.195
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳@WangCai2
 - client-fingerprint: chrome
   encryption: none
-  name: 韩国-012 |1.2MB/s|YT-KR|NF|D+|GM...
+  name: 韩国-006 |1.2MB/s|YT-KR|NF|D+|GM...
   network: ws
   port: 22410
   server: 211.48.77.114
@@ -179,7 +93,21 @@ proxies:
       Host: ylnhh.cc.cd
     path: /
   xudp: true
-- name: 韩国-013 |4.1MB/s|YT-KR|NF|D+
+- name: 韩国-007 |3.4MB/s|YT-KR|NF|D+
+  network: ws
+  port: 8443
+  server: 59.3.3.161
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳+@WangCai2
+- name: 韩国-008 |4.1MB/s|YT-KR|NF|D+
   network: ws
   port: 11265
   server: 211.48.77.114
@@ -191,21 +119,3 @@ proxies:
     headers:
       Host: ylnhh.cc.cd
     path: /Telegram🇨🇳@WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: 韩国-014 |2.7MB/s|YT-KR|NF|D+|GM...
-  network: ws
-  port: 15916
-  server: 220.92.158.117
-  servername: ylnhh.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /Telegram🇨🇳@WangCai2
-  xudp: true
