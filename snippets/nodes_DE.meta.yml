@@ -1,22 +1,31 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  name: 德国-002 |3.5MB/s|GPT⁺|YT-DE|NF|...
+  name: 德国-001 |2.3MB/s
   network: ws
-  port: 8005
-  server: 45.145.42.170
+  port: 4001
+  server: 185.94.29.156
   servername: sub.mot.ip-ddns.com
   tls: true
   type: vless
-  udp: true
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
       Host: sub.mot.ip-ddns.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36
     path: /
-  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 德国-002 |2.4MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
 - client-fingerprint: chrome
   name: 德国-003 |6.4MB/s|YT-DE|NF|D+
   network: ws
@@ -34,18 +43,22 @@ proxies:
         (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /?ed=2560&Telegram🇨🇳@WangCai2
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 德国-004
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-004 |3.4MB/s
+  network: ws
+  port: 8005
+  server: 45.145.42.170
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+  xudp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -58,41 +71,3 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '500'
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 德国-006 |4.4MB/s|7%|TK-DE|YT-DE...
-  network: ws
-  port: 2053
-  server: 64.226.95.244
-  servername: snippet.danfeng.casacam.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.casacam.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /danfeng
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 德国-007 |3.0MB/s|7%|TK-DE|YT-DE...
-  network: ws
-  port: 389
-  server: 143.20.175.56
-  servername: snippet.danfeng.casacam.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.casacam.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /danfeng
-  xudp: true

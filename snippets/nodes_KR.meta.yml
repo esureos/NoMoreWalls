@@ -1,38 +1,6 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 韩国-001 |4.6MB/s
-  network: ws
-  port: 10005
-  server: 121.147.157.249
-  servername: snippet.chinav.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.chinav.eu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /danfeng
-  xudp: true
-- name: 韩国-002 |1.0MB/s|YT-KR|NF|D+
-  network: ws
-  password: trojan
-  port: 11000
-  server: 220.92.22.170
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jflsjlaf.pages.dev
-    path: /
 - client-fingerprint: chrome
-  name: 韩国-003 |1.3MB/s|GM
+  name: 韩国-001 |1.3MB/s|GM
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
@@ -41,7 +9,7 @@ proxies:
   udp: true
   username: T2clM0QlM0Q6
 - client-fingerprint: chrome
-  name: 韩国-004 |3.8MB/s|7%
+  name: 韩国-002 |3.8MB/s|7%
   network: ws
   port: 16001
   server: 14.42.206.205
@@ -59,40 +27,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 韩国-005 |1.2MB/s|YT-KR|NF|D+
-  network: ws
-  port: 11176
-  server: 118.42.204.220
-  servername: ylnhh.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
-    path: /Telegram🇨🇳@WangCai2
-  xudp: true
-- client-fingerprint: chrome
-  name: 韩国-006 |2.9MB/s|YT-KR|NF|D+|GM...
-  network: ws
-  password: trojan
-  port: 10003
-  server: 118.34.36.61
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 韩国-007 |1.2MB/s|YT-KR|NF|D+|GM...
+  name: 韩国-003 |1.2MB/s|YT-KR|NF|D+|GM...
   network: ws
   port: 22410
   server: 211.48.77.114
@@ -107,7 +42,7 @@ proxies:
       Host: ylnhh.cc.cd
     path: /
   xudp: true
-- name: 韩国-008 |3.4MB/s|YT-KR|NF|D+
+- name: 韩国-004 |3.4MB/s|YT-KR|NF|D+
   network: ws
   port: 8443
   server: 59.3.3.161
