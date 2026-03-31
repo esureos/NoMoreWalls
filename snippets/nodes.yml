@@ -1,75 +1,148 @@
 proxies:
-- name: 日本-001 |4.2MB/s|2%|YT-CN|NF|D+
-  network: tcp
-  password: BxceQaOe
-  port: 6313
-  server: 54.178.248.68
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 日本-002 |1.0MB/s|2%|YT-HK|NF|D+
-  network: tcp
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 921
-  server: 3.112.44.25
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 日本-003 | ⬇️ 1.3MB/s|Netflix|Yo...
-  network: tcp
-  password: BxceQaOe
-  port: 29666
-  server: 13.192.204.27
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: 日本-004 |3.8MB/s|TK-US|YT-US|NF...
-  network: tcp
-  password: BxceQaOe
-  port: 23255
-  server: 13.192.204.27
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 日本-005 |5.0MB/s|37%|TK-US|YT-R...
-  network: tcp
-  password: 6d29eb2f74293cb01a19b32cf08ad2e9
-  port: 4019
-  server: 13.231.152.178
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- cipher: aes-256-cfb
-  name: 越南-001 |953KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.56
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-002 | ⬇️ 1.5MB/s|Netflix|Op...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.168
+- cipher: chacha20-ietf-poly1305
+  name: 美国-006 |2.1MB/s|0%|TK-US|YT-US...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.125
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 越南-003 |851KB/s|YT-US|NF|GPT⁺|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.252
+- cipher: chacha20-ietf-poly1305
+  name: 美国-007 |1.9MB/s|0%|TK-US|YT-US...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.115
   type: ss
-- cipher: aes-256-cfb
-  name: 越南-004 | ⬇️ 1.1MB/s|Netflix|Op...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.70
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-009 |2.1MB/s|0%|TK-US|YT-US...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.127
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-012 |2.1MB/s|0%|TK-US|YT-US...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.117
+  type: ss
+  udp: true
+- name: 摩尔多瓦-001 |5b4a|puddincat07@Tel...
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-015 |1.9MB/s|0%|TK-US|YT-US...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.118
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 德国-006 |2.1MB/s|25%|TK-US|YT-C...
+  name: 德国-003 |5.4MB/s|0%|TK-US|YT-CN...
+  port: 180
+  server: 82.198.246.46
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 奥地利-001 |1.0MB/s
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.98
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 德国-004 |3.0MB/s|0%|TK-US|YT-CN...
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- cipher: aes-256-cfb
+  name: 西班牙-001 |1.5MB/s|100%|TK-ES|YT...
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  server: 5.188.181.201
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 法国-003 |5.4MB/s|5%|TK-FR|NF|GP...
+  password: amazonskr05
+  port: 443
+  server: 13.38.70.87
+  type: ss
+- alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - 57.129.130.23
+    path:
+    - /
+  name: 英国-001 |756KB/s
+  network: http
+  port: 443
+  server: 57.129.130.23
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 34faa20a-7597-444c-81a3-a92042e3cd95
+  xudp: true
+- name: 奥地利-002 |1.3MB/s
+  network: ws
+  password: trojan
+  port: 8888
+  server: 152.53.45.251
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-010 |2.1MB/s|25%|TK-US|YT-C...
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -80,38 +153,173 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
+- alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - 51.68.240.35
+    path:
+    - /
+  name: 法国-004 |665KB/s
+  network: http
+  port: 443
+  server: 51.68.240.35
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 491ce522-7923-41ad-869f-df74539af6e0
+  xudp: true
 - cipher: aes-256-cfb
-  name: 越南-005 |1.3MB/s|YT-US|NF|GPT⁺|...
+  name: 越南-001 |2.4MB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.236
+  server: 103.186.154.78
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 美国-014 |4.6MB/s|28%|TK-US|YT-U...
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 88.210.36.108
+- cipher: aes-256-cfb
+  name: 越南-002 |1.9MB/s|YT-RU|NF|GPT⁺
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.173
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-003 |813KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.230
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-004 |1.2MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.21
+  type: ss
+  udp: true
+- name: 瑞士-001 |4.4MB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.18.250.252
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+    path: /assignment
+- alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - 146.59.118.182
+    path:
+    - /
+  name: 波兰-001 |653KB/s|49%|TK-PL|YT-P...
+  network: http
+  port: 443
+  server: 146.59.118.182
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0b72f4f7-55f3-4d83-92ae-e391f6523f44
+  xudp: true
+- cipher: aes-256-cfb
+  name: 越南-005 |1.3MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.77
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-006 |1.2MB/s|GPT⁺|YT-US|GM
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.5
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 美国-015 |4.7MB/s|28%|TK-US|YT-U...
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
+  name: 南非-003 |2.5MB/s
+  password: aduB9HGxQHjA2SBMRjkHX6
+  port: 443
+  server: 102.37.156.224
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 拉脱维亚-001 |5.3MB/s|0%|TK-LV|YT-...
-  password: MholStyHL7DhrewKbpQa20
-  port: 24637
-  server: 185.176.221.72
+- cipher: aes-256-cfb
+  name: 西班牙-002 |1.3MB/s
+  password: GA9KzeEgvfxNrgmM
+  port: 9019
+  server: 5.188.181.201
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-007 |1.1MB/s|YT-US|NF|GPT⁺|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.42
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-008 |2.9MB/s|GPT⁺|YT-US|X|H...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.251
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-009 |1.8MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.200
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-010 |1.5MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.190
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-011 |525KB/s|TK-VN|YT-US|NF...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.220
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-012 |1.0MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.154
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-013 |1.2MB/s|YT-RU|NF|GPT⁺
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.72
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-014 |1.1MB/s|YT-US|NF|GPT⁺
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.58
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-015 |567KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.121
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 越南-016 |855KB/s|YT-US|NF|GPT⁺|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.237
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-017 |2.1MB/s|GPT⁺|GM|X|Succ...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.172
+  type: ss

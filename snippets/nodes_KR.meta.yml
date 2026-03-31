@@ -1,6 +1,24 @@
 proxies:
 - client-fingerprint: chrome
-  name: 韩国-001 |1.3MB/s|GM
+  encryption: none
+  name: 韩国-002 |3.9MB/s|8%
+  network: ws
+  port: 11371
+  server: 121.152.61.147
+  servername: snippet.fgfw.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /danfeng
+  xudp: true
+- client-fingerprint: chrome
+  name: 韩国-003 |841KB/s|100%|YT-KR|NF|...
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
@@ -8,51 +26,118 @@ proxies:
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
-- client-fingerprint: chrome
-  name: 韩国-002 |3.8MB/s|7%
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 韩国-004 |2.2MB/s|7%|YT-KR|NF|D+...
   network: ws
-  port: 16001
-  server: 14.42.206.205
-  servername: snippet.danfeng.kozow.com
+  port: 37810
+  server: 211.193.169.223
+  servername: snippet.fgfw.de5.net
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: snippet.danfeng.kozow.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      Host: snippet.fgfw.de5.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 韩国-005 |635KB/s|7%|YT-KR|NF|D+...
+  network: ws
+  port: 50006
+  server: 175.199.169.221
+  servername: snippet.fgfw.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.de5.net
+    path: /danfeng
+- alpn:
+  - http%2f1.1
+  client-fingerprint: random
+  name: 韩国-006 |2.2MB/s|8%|YT-KR|NF|D+...
+  network: ws
+  port: 50000
+  server: 106.242.64.238
+  servername: snippet.fgfw.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- name: 韩国-007 |3.3MB/s
+  network: ws
+  port: 50011
+  server: 119.194.117.229
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 韩国-008 |1.8MB/s|8%|YT-KR|NF|D+...
+  network: ws
+  port: 12345
+  server: 124.59.181.7
+  servername: snippet.fgfw.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /danfeng
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 韩国-009 |4.6MB/s
+  network: ws
+  port: 18081
+  server: 222.104.182.54
+  servername: snippet.chinav.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.chinav.eu.cc
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 韩国-010 |2.3MB/s
+  network: ws
+  port: 18791
+  server: 221.145.26.198
+  servername: snippet.danfeng.theworkpc.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /danfeng?ed=2560
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 韩国-003 |1.2MB/s|YT-KR|NF|D+|GM...
-  network: ws
-  port: 22410
-  server: 211.48.77.114
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /
-  xudp: true
-- name: 韩国-004 |3.4MB/s|YT-KR|NF|D+
-  network: ws
-  port: 8443
-  server: 59.3.3.161
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: /Telegram🇨🇳+@WangCai2

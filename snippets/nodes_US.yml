@@ -1,13 +1,82 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 越南-003 |851KB/s|YT-US|NF|GPT⁺|...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.252
+- cipher: chacha20-ietf-poly1305
+  name: 美国-006 |2.1MB/s|0%|TK-US|YT-US...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.125
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-007 |1.9MB/s|0%|TK-US|YT-US...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.115
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-009 |2.1MB/s|0%|TK-US|YT-US...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.127
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-012 |2.1MB/s|0%|TK-US|YT-US...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.117
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-015 |1.9MB/s|0%|TK-US|YT-US...
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 134.195.101.118
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 德国-006 |2.1MB/s|25%|TK-US|YT-C...
+  name: 德国-003 |5.4MB/s|0%|TK-US|YT-CN...
+  port: 180
+  server: 82.198.246.46
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: '0'
+  cipher: auto
+  name: 德国-004 |3.0MB/s|0%|TK-US|YT-CN...
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 德国-010 |2.1MB/s|25%|TK-US|YT-C...
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -19,30 +88,39 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
 - cipher: aes-256-cfb
-  name: 越南-005 |1.3MB/s|YT-US|NF|GPT⁺|...
+  name: 越南-006 |1.2MB/s|GPT⁺|YT-US|GM
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.236
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 美国-014 |4.6MB/s|28%|TK-US|YT-U...
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 88.210.36.108
+  server: 103.186.155.5
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国-015 |4.7MB/s|28%|TK-US|YT-U...
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 817aa69.default.nintendo.com:112719
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
+- cipher: aes-256-cfb
+  name: 越南-007 |1.1MB/s|YT-US|NF|GPT⁺|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.42
   type: ss
-  udp: true
+- cipher: aes-256-cfb
+  name: 越南-008 |2.9MB/s|GPT⁺|YT-US|X|H...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.251
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-011 |525KB/s|TK-VN|YT-US|NF...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.220
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-014 |1.1MB/s|YT-US|NF|GPT⁺
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.58
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-016 |855KB/s|YT-US|NF|GPT⁺|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.237
+  type: ss
