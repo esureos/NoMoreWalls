@@ -1,7 +1,25 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  name: 芬兰-003 |1.9MB/s|TK-SE|YT-SE|NF...
+  name: 拉脱维亚-001 |3.1MB/s|9%|TK-SE|YT-...
+  network: ws
+  port: 443
+  server: 31.128.32.98
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 芬兰-002 |1.9MB/s|TK-SE|YT-SE|NF...
   network: ws
   port: 443
   server: 38.244.139.135

@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 瑞士-002 |4.4MB/s
+  name: 瑞士-001 |4.4MB/s
   network: ws
   password: humanity
   port: 443

@@ -1,8 +1,16 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 越南-001 |1.2MB/s|YT-CN|NF|GPT⁺
-  password: qwerREWQ@@
-  port: 41632
-  server: 103.238.214.82
-  type: ss
+- allowInsecure: '1'
+  alpn:
+  - h2
+  client-fingerprint: chrome
+  disable-sni: true
+  fp: chrome
+  name: 南非-001 |3.0MB/s|0%|YT-CN|NF|D+...
+  password: dongtaiwang.com
+  port: 59901
+  security: tls
+  server: 45.221.98.14
+  skip-cert-verify: true
+  sni: 45.221.98.14
+  type: anytls
   udp: true
