@@ -1,24 +1,67 @@
 proxies:
-- encryption: none
-  name: 法国-001 |4.8MB/s|TK-FR|YT-FR|NF...
+- client-fingerprint: chrome
+  encryption: none
+  name: 法国-001 |3.8MB/s
   network: ws
   port: 8443
-  server: 146.59.228.27
+  server: 188.130.207.92
   servername: sni.111000.v6.navy
-  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    max-early-data: 2560
+    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2=
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '100'
+  name: 法国-002 |2.5MB/s|TK-FR|YT-FR|GP...
+  port: 15010
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: '100'
+- name: 法国-005 |3.2MB/s
+  network: ws
+  port: 443
+  server: 94.183.186.27
+  servername: sni.111000.v6.navy
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.v6.navy
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    path: /?ed=2560&telegram🇨🇳@wangcai2
+- client-fingerprint: firefox
+  name: 法国-006 |5.9MB/s|9%|TK-FR|YT-FR...
+  port: 443
+  reality-opts:
+    public-key: fXdtB8vImCUJMQBLcCNK7p1v3rVzx6HllaDLk8Vc4EU
+    short-id: '!!str 239dcd11'
+  server: 57.128.81.193
+  servername: www.samsung.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53821f3c-5b03-456a-89f3-f8379f130752
 - client-fingerprint: chrome
-  encryption: none
-  name: 法国-003 |3.8MB/s|9%|TK-FR|YT-FR...
+  name: 法国-008 |4.0MB/s
   network: ws
-  port: 2053
-  server: 51.210.151.193
+  port: 443
+  server: 77.221.152.21
   servername: sni.111000.v6.navy
   tls: true
   type: vless
@@ -28,43 +71,42 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=2560fp=chrome
   xudp: true
-- name: 法国-004 |692KB/s
-  network: ws
-  port: 8443
-  server: 188.130.207.92
-  servername: sni.111000.v6.navy
+- alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - 51.68.240.35
+    path:
+    - /
+  name: 法国-009 |665KB/s
+  network: http
+  port: 443
+  server: 51.68.240.35
   skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 491ce522-7923-41ad-869f-df74539af6e0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 法国-010 |2.1MB/s
+  network: ws
+  port: 443
+  server: 185.16.110.0
+  servername: sni.111000.indevs.in
   tls: true
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /?ed=2560
-- name: 法国-005 |1.3MB/s
-  port: 1080
-  server: 173.249.5.133
-  skip-cert-verify: true
-  type: socks5
-- name: 法国-007 |922KB/s
-  port: 1080
-  server: 194.163.167.32
-  skip-cert-verify: true
-  type: socks5
-- name: 法国-008 |674KB/s
-  network: ws
-  port: 2053
-  server: 188.130.207.158
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560
+  xudp: true

@@ -1,15 +1,60 @@
 proxies:
 - client-fingerprint: chrome
-  name: 韩国-001 |1.3MB/s
+  name: 韩国-001 |0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
   tls: false
   type: socks5
   udp: true
-  username: Og%3D%3D
-- name: 韩国-002 |637KB/s|GM-KR
-  port: 6881
-  server: 123.214.62.25
-  skip-cert-verify: true
-  type: socks5
+  username: T2clM0QlM0Q6
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 韩国-004 |2.2MB/s|7%|YT-KR|NF|D+...
+  network: ws
+  port: 37810
+  server: 211.193.169.223
+  servername: snippet.fgfw.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.de5.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 韩国-005 |635KB/s|7%|YT-KR|NF|D+...
+  network: ws
+  port: 50006
+  server: 175.199.169.221
+  servername: snippet.fgfw.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.de5.net
+    path: /danfeng
+- alpn:
+  - http%2f1.1
+  client-fingerprint: random
+  name: 韩国-006 |2.2MB/s|8%|YT-KR|NF|D+...
+  network: ws
+  port: 50000
+  server: 106.242.64.238
+  servername: snippet.fgfw.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng

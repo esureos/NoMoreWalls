@@ -1,5 +1,5 @@
 proxies:
-- name: 新加坡-001 |4.1MB/s
+- name: 新加坡-002 |4.1MB/s
   port: 1080
   server: 159.223.53.194
   skip-cert-verify: true

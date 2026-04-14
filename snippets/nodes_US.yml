@@ -1,19 +1,25 @@
 proxies:
+- name: 美国-014 |519KB/s|TK-US|YT-US|NF...
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: '%2F%3Fed%3D2560%26proxyip%3Dts.hpc.tw'
 - cipher: aes-256-cfb
-  name: 越南-001 |618KB/s|YT-US|NF|GPT⁺|...
+  name: 越南-014 |2.9MB/s|GPT⁺|YT-US|X|H...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.38
+  server: 103.186.154.251
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-003 |997KB/s|YT-US|NF|GPT⁺
+  name: 越南-031 |1009KB/s|YT-US|NF|GPT⁺...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.43
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-004 |529KB/s|YT-US|NF|GPT⁺
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.29
+  server: 103.186.154.38
   type: ss

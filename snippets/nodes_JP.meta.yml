@@ -1,1 +1,60 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 日本-001 |4.2MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 8.209.224.201
+  servername: www.autodesk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 日本-002 |6.0MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 47.74.44.99
+  servername: images-na.ssl-images-amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 日本-003 |2.5MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 8.211.150.180
+  servername: images-na.ssl-images-amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  xudp: true
+- name: 日本-004 |1.3MB/s|YT-CN|NF|GPT⁺
+  network: tcp
+  password: 1a98450e6f743b1b66a8bebfe3ea93e9
+  port: 4674
+  server: 13.193.221.106
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- auth: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  name: 日本-005 |2.0MB/s
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  port: 35000
+  server: 103.62.49.76
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true

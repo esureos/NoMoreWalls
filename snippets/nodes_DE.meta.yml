@@ -1,41 +1,7 @@
 proxies:
-- encryption: none
-  name: 德国-001 |3.4MB/s|9%|TK-DE|YT-DE...
-  network: ws
-  port: 2053
-  server: 82.117.245.125
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: 罗马尼亚-001 |5.0MB/s|9%|TK-DE|YT-...
-  network: ws
-  port: 2053
-  server: 188.241.241.29
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.111000.v6.navy
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    max-early-data: 2560
-    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: 德国-002 |753KB/s
+  name: 德国-001 |753KB/s
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -45,37 +11,12 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 德国-003 |5.0MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- encryption: none
-  name: 德国-004 |5.1MB/s|9%|TK-DE|YT-DE...
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-002 |2.5MB/s
   network: ws
   port: 2053
-  server: 88.99.60.34
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560&telegram🇨🇳@wangcai2
-- client-fingerprint: chrome
-  name: 德国-005 |5.1MB/s|9%|TK-DE|YT-DE...
-  network: ws
-  port: 443
-  server: 94.159.101.93
+  server: 82.117.245.125
   servername: sni.111000.v6.navy
   tls: true
   type: vless
@@ -85,8 +26,38 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-003 |528KB/s|9%|TK-DE|YT-DE...
+  network: ws
+  port: 12001
+  server: 89.58.32.115
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 德国-004 |4.9MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
 - alpn:
   - h3
@@ -102,81 +73,7 @@ proxies:
   up: '500'
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 德国-007 |3.1MB/s|13%|TK-DE|YT-D...
-  network: tcp
-  port: 42428
-  reality-opts:
-    public-key: ccICtTNR2BXmdCzazGcyci16c7O1kJIv6ugDM6xY2XY
-    short-id: '!!str 24adcebe'
-  server: 144.31.94.4
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 27d0c642-693c-4070-83b4-0e9803ba71b3
-  xudp: true
-- encryption: none
-  name: 德国-008 |564KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  port: 12001
-  server: 89.58.32.115
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- encryption: none
-  name: 德国-009 |3.0MB/s|9%|TK-DE|YT-DE...
-  network: ws
-  port: 443
-  server: 167.235.149.67
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- encryption: none
-  name: 德国-010 |3.5MB/s|9%|TK-DE|YT-DE...
-  network: ws
-  port: 8443
-  server: 91.99.9.125
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-- name: 德国-011 |3.0MB/s|9%|TK-DE|YT-DE...
-  network: ws
-  port: 443
-  server: 134.209.246.179
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /?ed=2560&telegram🇨🇳+@wangcai2
-- client-fingerprint: chrome
-  encryption: none
-  name: 德国-012 |1.4MB/s
+  name: 德国-008 |1.4MB/s
   network: ws
   port: 4002
   server: 37.114.50.157
@@ -193,39 +90,26 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 德国-013 |5.0MB/s|9%|TK-DE|YT-DE...
-  network: ws
-  port: 443
-  server: 194.195.240.213
-  servername: sni.111000.v6.navy
+  encryption: none
+  http-opts:
+    path:
+    - /
+  name: 德国-009 |1000KB/s
+  network: tcp
+  port: 59851
+  reality-opts:
+    public-key: DRYYaJ_Ne7bp2CZgJrYMuBy3o835I0s6p-H_HjTsWRc
+    short-id: '!!str a211'
+  server: 64.188.106.203
+  servername: www.icloud.com
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2
+  uuid: 60c63b41-63f3-4602-b9f3-9ee2e1369447
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 德国-014 |2.1MB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 德国-015 |4.0MB/s
+  name: 德国-010 |625KB/s
   network: tcp
   port: 180
   server: 82.198.246.46
@@ -236,31 +120,26 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
 - client-fingerprint: chrome
-  name: 德国-016 |3.1MB/s
-  network: ws
-  port: 4001
-  server: 185.94.29.156
-  servername: sub.mot.ip-ddns.com
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 德国-011 |2.4MB/s|6%|TK-DE|YT-DE...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lV5fIH2s_069wG5vNewgNziNzg8z02nxe2wNaADlkB4
+    short-id: '!!str 8aed6925'
+  server: 87.120.165.70
+  servername: www.microsoft.com
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sub.mot.ip-ddns.com
-    path: /
+  uuid: ce540111-fd82-4459-b974-06d83beb01d5
   xudp: true
-- auth: 9fc87b20-8bd2-4b6e-aa29-dbb581a27262
-  name: 德国-018 |2.6MB/s|7%|TK-DE|YT-DE...
-  password: 9fc87b20-8bd2-4b6e-aa29-dbb581a27262
-  port: 50000
-  server: 138.2.182.211
-  skip-cert-verify: true
-  sni: fastcdn.hoyoverse.com
-  type: hysteria2
-  udp: true
 - client-fingerprint: chrome
-  name: 德国-020 |6.4MB/s|YT-DE|NF|D+
+  name: 德国-013 |6.4MB/s|YT-DE|NF|D+
   network: ws
   port: 2053
   server: 5.178.110.39
@@ -275,4 +154,70 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
         (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /?ed=2560&Telegram🇨🇳@WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 德国-014 |739KB/s
+  network: tcp
+  port: 42428
+  reality-opts:
+    public-key: ccICtTNR2BXmdCzazGcyci16c7O1kJIv6ugDM6xY2XY
+    short-id: '!!str 24adcebe'
+  server: 144.31.94.4
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 27d0c642-693c-4070-83b4-0e9803ba71b3
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-015 |728KB/s|7%|TK-DE|YT-DE...
+  network: ws
+  port: 8080
+  server: 202.61.200.220
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /danfeng?ed=2560
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 德国-016
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: '500'
+- client-fingerprint: chrome
+  name: 德国-017 |3.1MB/s
+  network: ws
+  port: 4001
+  server: 185.94.29.156
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
   xudp: true

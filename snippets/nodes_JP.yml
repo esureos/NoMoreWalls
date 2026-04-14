@@ -1,1 +1,9 @@
-proxies: []
+proxies:
+- name: 日本-004 |1.3MB/s|YT-CN|NF|GPT⁺
+  network: tcp
+  password: 1a98450e6f743b1b66a8bebfe3ea93e9
+  port: 4674
+  server: 13.193.221.106
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
