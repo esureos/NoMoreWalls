@@ -1,7 +1,1 @@
-proxies:
-- cipher: aes-256-cfb
-  name: 越南-025 |1.2MB/s|YT-RU|NF|GPT⁺
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.72
-  type: ss
+proxies: []

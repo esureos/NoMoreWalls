@@ -1,37 +1,29 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  name: 拉脱维亚-001 |2.3MB/s|9%|TK-SE|YT-...
+  name: 芬兰-001 |1.7MB/s|TK-FI|YT-SE|NF...
   network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  server: 185.82.126.185
-  servername: sni.111000.v6.navy
+  server: 185.17.2.103
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  type: trojan
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /?ed=2560&telegram🇨🇳@wangcai2
-  xudp: true
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  encryption: none
-  name: 芬兰-002 |1.9MB/s|TK-SE|YT-SE|NF...
+  name: 芬兰-002 |650KB/s|TK-SE|YT-SE|NF...
   network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 38.244.139.135
-  servername: cf.afrcloudnet1.dpdns.org
+  server: 95.81.113.144
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  type: trojan
   ws-opts:
     headers:
-      Host: cf.afrcloudnet1.dpdns.org
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-  xudp: true
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2

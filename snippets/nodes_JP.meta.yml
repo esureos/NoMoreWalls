@@ -1,60 +1,52 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-001 |4.2MB/s
+- name: 日本-001 |8.1MB/s|0%|YT-CN|NF|GP...
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  server: 8.209.224.201
-  servername: www.autodesk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-002 |6.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  server: 47.74.44.99
-  servername: images-na.ssl-images-amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-003 |2.5MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  server: 8.211.150.180
-  servername: images-na.ssl-images-amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  xudp: true
-- name: 日本-004 |1.3MB/s|YT-CN|NF|GPT⁺
-  network: tcp
-  password: 1a98450e6f743b1b66a8bebfe3ea93e9
-  port: 4674
-  server: 13.193.221.106
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- auth: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  name: 日本-005 |2.0MB/s
-  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  port: 35000
-  server: 103.62.49.76
+  password: BxceQaOe
+  port: 1951
+  server: 18.177.137.225
   skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 日本-002 |607KB/s|0%|YT-JP|NF|D+...
+  network: http
+  port: 53229
+  server: 103.127.243.54
+  type: vmess
+  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
+- client-fingerprint: chrome
+  name: 日本-003 |743KB/s
+  network: ws
+  port: 443
+  server: 140.238.51.35
+  servername: edtunnel-eiz.pages.dev
+  tls: true
+  type: vless
   udp: true
+  uuid: 42add63b-deda-4e71-aa48-ddd288181858
+  ws-opts:
+    headers:
+      Host: edtunnel-eiz.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  xudp: true
+- client-fingerprint: chrome
+  name: 日本-005 |674KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 141.147.174.243
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
