@@ -1,89 +1,94 @@
 proxies:
-- alterId: 0
+- client-fingerprint: chrome
+  name: 德国-006 |678KB/s
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 195.133.94.19
+  skip-cert-verify: true
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- alterId: '0'
   cipher: auto
-  name: 德国-001 |4.1MB/s
+  name: 德国-007 |1.1MB/s
   network: tcp
   port: 180
   server: 82.198.246.250
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 德国-002 |561KB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.214
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 德国-004 |683KB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.9
+- client-fingerprint: chrome
+  name: 德国-008 |1021KB/s|9%|TK-DE|YT-D...
+  network: ws
+  password: '!!str 1234567890'
+  port: 8443
+  server: 91.107.155.13
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 德国-005 |1.6MB/s
-  network: http
-  port: 17662
-  server: 77.90.11.178
-  tls: false
-  type: vmess
-  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
-- client-fingerprint: chrome
-  name: 德国-007 |578KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 178.104.13.91
-  skip-cert-verify: true
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/68.0.3440.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-008 |681KB/s
+  name: 德国-009 |569KB/s|9%|TK-DE|YT-DE...
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 88.198.82.146
-  skip-cert-verify: true
+  server: 159.195.5.181
+  skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-009 |726KB/s
+  name: 奥地利-001 |1.4MB/s|0%|TK-DE|YT-D...
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 152.53.228.86
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 德国-010 |2.3MB/s|9%|TK-DE|YT-DE...
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 178.104.15.200
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 德国-011 |726KB/s
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -99,60 +104,19 @@ proxies:
         (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-010 |1.0MB/s
+  name: 德国-016 |3.0MB/s|9%|TK-DE|YT-DE...
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 195.201.137.164
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-011 |3.3MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 57.129.43.125
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- alterId: '0'
-  cipher: auto
-  name: 德国-013 |837KB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.46
+  server: 178.128.201.202
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- client-fingerprint: chrome
-  name: 德国-014 |595KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 195.133.94.19
-  skip-cert-verify: true
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
   name: 德国-017 |665KB/s
@@ -171,23 +135,7 @@ proxies:
         like Gecko) Chrome/62.0.3202.89 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-018 |574KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 207.154.234.18
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-019 |637KB/s
+  name: 德国-020 |637KB/s
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -203,23 +151,67 @@ proxies:
         (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-020 |533KB/s
+  name: 德国-021 |1.3MB/s|TK-DE|YT-DE|NF...
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 46.101.117.15
+  server: 144.31.118.170
   skip-cert-verify: true
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /?https://t.me/WangCai2🇨🇳=
+- client-fingerprint: chrome
+  name: 德国-022 |583KB/s|9%|TK-DE|YT-DE...
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 94.125.101.103
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-021 |864KB/s
+  name: 德国-024 |803KB/s|TK-DE|YT-DE|NF...
+  network: ws
+  password: '!!str 1234567890'
+  port: 8443
+  server: 85.192.63.171
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 伊拉克-001 |729KB/s|9%|TK-DE|YT-D...
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 178.17.48.78
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 德国-026 |864KB/s
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -235,11 +227,11 @@ proxies:
         Gecko) Chrome/34.0.1847.131 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-023 |549KB/s
+  name: 德国-027 |574KB/s
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 144.31.68.90
+  server: 207.154.234.18
   skip-cert-verify: true
   sni: kfm-bn0.pages.dev
   type: trojan
@@ -247,27 +239,11 @@ proxies:
   ws-opts:
     headers:
       Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-024 |636KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 178.128.199.136
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-025 |1.3MB/s|TK-DE|YT-DE|NF...
+  name: 德国-030 |701KB/s
   network: ws
   password: trojan
   port: 8444
@@ -279,23 +255,37 @@ proxies:
       Host: jflsjlaf.pages.dev
     path: /
 - client-fingerprint: chrome
-  name: 德国-026 |573KB/s
+  name: 荷兰-015 |557KB/s|9%|TK-DE|YT-DE...
   network: ws
   password: '!!str 1234567890'
-  port: 443
-  server: 46.101.123.11
-  skip-cert-verify: true
+  port: 2083
+  server: 213.165.38.108
+  skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-028 |611KB/s
+  name: 德国-031 |595KB/s|9%|TK-DE|YT-DE...
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 144.31.116.8
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 德国-032 |611KB/s
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -311,118 +301,51 @@ proxies:
         Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-029 |714KB/s|9%|TK-DE|YT-DE...
+  name: 德国-033 |2.5MB/s|TK-DE|YT-DE|NF...
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 31.172.71.23
+  server: 144.31.138.127
   skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-031 |542KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 164.90.235.19
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-032 |689KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 161.35.64.81
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-033 |607KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 104.248.20.250
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-035 |1.1MB/s
+  name: 德国-036 |522KB/s|9%|TK-DE|YT-DE...
   network: ws
   password: '!!str 1234567890'
   port: 443
   server: 185.219.84.221
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 德国-039 |1.6MB/s
+  network: http
+  port: 17662
+  server: 77.90.11.178
+  tls: false
+  type: vmess
+  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
 - client-fingerprint: chrome
-  name: 德国-036 |578KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 185.125.102.33
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-037 |581KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 104.248.23.44
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-040 |618KB/s
+  name: 德国-041 |618KB/s
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -438,34 +361,59 @@ proxies:
         like Gecko) Chrome/47.0.2526.106 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-041 |630KB/s
+  name: 德国-042 |683KB/s|9%|TK-DE|YT-DE...
   network: ws
   password: '!!str 1234567890'
   port: 443
-  server: 46.101.174.78
-  skip-cert-verify: true
+  server: 148.253.208.19
+  skip-cert-verify: false
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 德国-042 |709KB/s|YT-DE|NF|D+|GP...
+  name: 德国-043 |1.4MB/s|TK-DE|YT-DE|NF...
   network: ws
   password: '!!str 1234567890'
   port: 443
   server: 94.156.114.13
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.75 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 德国-045 |3.7MB/s|TK-DE|YT-DE|NF...
+  network: ws
+  password: '!!str 1234567890'
+  port: 443
+  server: 64.188.70.233
   skip-cert-verify: true
   sni: kfm-bn0.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /?https://t.me/WangCai2🇨🇳=
+- alterId: '0'
+  cipher: auto
+  name: 德国-050 |837KB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.46
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true

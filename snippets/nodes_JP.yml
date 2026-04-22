@@ -1,26 +1,6 @@
 proxies:
-- name: 日本-001 |8.1MB/s|0%|YT-CN|NF|GP...
-  network: tcp
-  password: BxceQaOe
-  port: 1951
-  server: 18.177.137.225
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 日本-002 |607KB/s|0%|YT-JP|NF|D+...
-  network: http
-  port: 53229
-  server: 103.127.243.54
-  type: vmess
-  uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
 - client-fingerprint: chrome
-  name: 日本-005 |674KB/s
+  name: 日本-002 |674KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
