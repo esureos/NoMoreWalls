@@ -1,6 +1,20 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 日本-002 |7.1MB/s|9%|YT-JP|NF|D+...
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    tls: true
+  port: 2083
+  server: 54.199.22.197
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 日本-002 |674KB/s
+  name: 日本-003 |566KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443

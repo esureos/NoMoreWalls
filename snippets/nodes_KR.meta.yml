@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 韩国-001 |691KB/s
+  name: 韩国-001 |707KB/s
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
@@ -12,10 +12,43 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 韩国-002 |4.1MB/s|9%|YT-KR|D+|GP...
+  name: 韩国-003 |4.1MB/s|9%|YT-KR|D+|GP...
   network: ws
   port: 10912
   server: 175.197.237.36
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- name: 韩国-004 |3.8MB/s|9%|TK-KR|YT-KR...
+  network: ws
+  port: 10035
+  server: 14.32.205.160
+  servername: sni.111000.dns.army
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dns.army
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 韩国-005 |4.4MB/s|9%|YT-KR|GPT|G...
+  network: ws
+  port: 20202
+  server: 61.85.6.38
   servername: s3vz.user-service.chinav.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -33,7 +66,43 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 韩国-006 |4.2MB/s
+  name: 韩国-006 |5.0MB/s
+  network: ws
+  port: 11434
+  server: 112.162.177.241
+  servername: s3vz.user-service.chinav.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: s3vz.user-service.chinav.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: 韩国-008 |600KB/s|9%|TK-KR|YT-KR...
+  network: ws
+  password: '!!str 1234567890'
+  port: 18001
+  server: 220.78.7.17
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 韩国-009 |4.2MB/s
   network: ws
   port: 25448
   server: 221.147.173.70
@@ -51,53 +120,32 @@ proxies:
     max-early-data: 2560
     path: /danfeng
 - client-fingerprint: chrome
-  name: 韩国-008 |1.3MB/s
+  name: 韩国-010 |666KB/s|9%|TK-KR|YT-KR...
   network: ws
-  port: 29287
-  server: 221.157.0.159
-  servername: 8a005khup3.mesa.ip-ddns.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
+  password: '!!str 1234567890'
+  port: 16992
+  server: 14.58.60.153
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: 8a005khup3.mesa.ip-ddns.com
-    path: /@Marisa_kristi
-- alpn:
-  - http%2f1.1
-  client-fingerprint: random
-  name: 韩国-009 |2.2MB/s|8%|YT-KR|NF|D+...
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- client-fingerprint: chrome
+  name: 韩国-011 |1.4MB/s|9%|YT-KR|NF|D+...
   network: ws
-  port: 50000
-  server: 106.242.64.238
-  servername: snippet.fgfw.ndjp.net
-  tls: true
-  type: vless
+  password: '!!str 1234567890'
+  port: 22105
+  server: 59.26.177.217
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
   udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: snippet.fgfw.ndjp.net
-    path: /danfeng
-- alpn:
-  - 'http/1.1
-
-    '
-  client-fingerprint: chrome
-  ech: encryptedsni.com+https://doh.443888.xyz/danfeng
-  encryption: none
-  name: 韩国-010 |3.6MB/s
-  network: ws
-  port: 36398
-  security: tls
-  server: 14.42.199.13
-  servername: snzeys.edge-node-a1.fgfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snzeys.edge-node-a1.fgfw.qzz.io
-    path: /danfeng?ed=2560
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
