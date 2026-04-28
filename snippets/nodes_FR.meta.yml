@@ -1,6 +1,6 @@
 proxies:
 - auth: dongtaiwang.com
-  name: 法国-001 |983KB/s
+  name: 法国-001 |4.2MB/s|TK-FR|YT-FR|NF...
   password: dongtaiwang.com
   port: 41283
   ports: 40022,41000-42000
@@ -11,7 +11,7 @@ proxies:
   type: hysteria2
   udp: true
 - auth: dongtaiwang.com
-  name: 法国-002 |3.1MB/s|TK-FR|YT-FR|NF...
+  name: 法国-002 |3.9MB/s|TK-FR|YT-FR|NF...
   password: dongtaiwang.com
   port: 40022
   ports: 41000-42000

@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
-  name: 越南-001 |1007KB/s|0%|YT-HK|NF|D...
+  name: 越南-011 |1007KB/s|0%|YT-HK|NF|D...
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:
@@ -14,7 +14,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: 越南-002 |4.1MB/s|0%|YT-HK|NF|D+...
+  name: 越南-012 |4.1MB/s|0%|YT-HK|NF|D+...
   password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
   plugin: v2ray-plugin
   plugin-opts:

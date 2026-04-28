@@ -12,12 +12,12 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 德国-008 |5.0MB/s|0%|YT-CN|NF|GP...
+  name: 德国-002 |6.6MB/s|0%|TK-US|YT-CN...
   network: tcp
   port: 180
-  server: 82.198.246.37
+  server: 82.198.246.9
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -25,55 +25,60 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
 - cipher: aes-256-cfb
+  name: 越南-003 |687KB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.49
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-004 |1.2MB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.137
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-006 |945KB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.30
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-007 |616KB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.203
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-008 |768KB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.52
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-010 |629KB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.133
+  type: ss
+- cipher: aes-256-cfb
   name: 加拿大-001 |880KB/s|18%|YT-US|NF-...
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 79.127.200.162
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-004 |564KB/s|YT-US|NF|GPT⁺-...
+  name: 越南-014 |564KB/s|YT-US|NF|GPT⁺-...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.206
   type: ss
 - cipher: aes-128-gcm
-  name: 美国-009 |4.2MB/s|100%|TK-US|YT-...
+  name: 美国-016 |4.2MB/s|100%|TK-US|YT-...
   password: shadowsocks
   port: 443
   server: 37.19.198.244
   type: ss
-- client-fingerprint: chrome
-  name: 美国-010 |585KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 64.188.115.82
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 美国-011 |629KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 131.143.125.183
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 美国-012 |719KB/s
+- name: 美国-017 |719KB/s
   network: ws
   password: '!!str 1234567890'
   port: 8443
@@ -86,57 +91,3 @@ proxies:
     headers:
       Host: kfm-bn0.pages.dev
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 美国-013 |642KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 2.27.35.199
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 瑞典-002 |963KB/s|9%|TK-FI|YT-FI...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 77.110.96.220
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 瑞典-005 |861KB/s|9%|TK-FI|NF|D+...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 138.124.24.229
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-029 |1009KB/s|YT-US|NF|GPT⁺...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.38
-  type: ss

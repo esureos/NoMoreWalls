@@ -1,25 +1,5 @@
 proxies:
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 台湾-004 |4.5MB/s|0%|TK-TW|YT-TW...
-  network: ws
-  port: 8443
-  server: 140.235.39.161
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- name: 台湾-005 |692KB/s
+- name: 台湾-004 |692KB/s
   network: ws
   port: 6235
   server: 125.227.219.98
@@ -37,7 +17,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 台湾-006 |1.2MB/s|0%|TK-SG|YT-SG...
+  name: 台湾-005 |1.2MB/s|0%|TK-SG|YT-SG...
   network: ws
   port: 2087
   server: 125.227.233.197

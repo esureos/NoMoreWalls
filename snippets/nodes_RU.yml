@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: 越南-001 |769KB/s|YT-RU|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.32
+  type: ss
+- cipher: aes-256-gcm
+  name: 俄罗斯联邦-002 |635KB/s
+  password: 1a87017d0bf57f34
+  port: 40120
+  server: 194.87.68.6
+  type: ss
+  udp: true

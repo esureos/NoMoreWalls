@@ -1,20 +1,35 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 日本-002 |7.1MB/s|9%|YT-JP|NF|D+...
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 2083
-  server: 54.199.22.197
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 日本-003 |566KB/s
+  name: 日本-002 |595KB/s|YT-JP|NF|D+
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 17081
+  server: 176.119.148.212
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 日本-003 |8.1MB/s|YT-JP|NF|D+|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 4196
+  server: 185.184.223.138
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 日本-004 |957KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -27,3 +42,17 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-128-gcm
+  name: 日本-005 |7.1MB/s|9%|YT-JP|NF|D+...
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: false
+    path: /?enc\=aes-128-gcm
+    tls: true
+  port: 2083
+  server: 54.199.22.197
+  type: ss
+  udp: true
