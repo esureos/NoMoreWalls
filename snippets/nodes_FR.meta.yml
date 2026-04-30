@@ -1,6 +1,22 @@
 proxies:
-- auth: dongtaiwang.com
-  name: 法国-001 |4.2MB/s|TK-FR|YT-FR|NF...
+- name: 法国-001 |4.2MB/s|TK-FR|YT-FR|GP...
+  password: dongtaiwang.com
+  port: 41211
+  ports: 41283,40022,41000-42000
+  server: 163.172.113.118
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+- name: 法国-002 |776KB/s
+  password: dongtaiwang.com
+  port: 40022
+  server: 163.172.113.118
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+- name: 法国-003 |873KB/s
   password: dongtaiwang.com
   port: 41283
   ports: 40022,41000-42000
@@ -9,32 +25,3 @@ proxies:
   sni: www.microsoft.com
   tfo: false
   type: hysteria2
-  udp: true
-- auth: dongtaiwang.com
-  name: 法国-002 |3.9MB/s|TK-FR|YT-FR|NF...
-  password: dongtaiwang.com
-  port: 40022
-  ports: 41000-42000
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-  udp: true
-- client-fingerprint: chrome
-  name: 法国-003 |4.0MB/s
-  network: ws
-  port: 443
-  server: 77.221.152.21
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /?ed=2560fp=chrome
-  xudp: true

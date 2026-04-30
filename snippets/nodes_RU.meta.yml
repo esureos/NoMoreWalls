@@ -1,20 +1,23 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 越南-001 |769KB/s|YT-RU|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.32
-  type: ss
-- cipher: aes-256-gcm
-  name: 俄罗斯联邦-002 |635KB/s
-  password: 1a87017d0bf57f34
-  port: 40120
-  server: 194.87.68.6
-  type: ss
+- alpn:
+  - http/1.1
+  - h2
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 荷兰-001 |2.5MB/s|TK-AE|YT-RU|GP...
+  network: tcp
+  port: 443
+  server: 31.59.39.125
+  servername: nlety.ksnodes.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 俄罗斯联邦-003 |973KB/s
+  name: 俄罗斯联邦-002 |973KB/s
   network: ws
   port: 443
   server: 85.92.108.39
@@ -31,70 +34,20 @@ proxies:
         Safari/537.36
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯联邦-003 |1.6MB/s|YT-RU|GPT-A...
+  password: PpGD0XXaQtfnPXhnor5U0UsqeU8CgbXh
+  port: 8080
+  server: 130.49.189.40
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-004 |539KB/s
-  network: tcp
-  port: 52006
-  server: 178.72.181.98
-  servername: cluster-de-2.firstvideocdn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75807638-6f19-2710-ae08-38492ee85c88
-  xudp: true
-- client-fingerprint: chrome
-  name: 俄罗斯联邦-006 |3.5MB/s|YT-RU
-  network: ws
-  port: 8443
-  server: 31.130.149.85
-  servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /
-  xudp: true
-- name: 拉脱维亚-004 |3.9MB/s|10%|YT-RU|GP...
-  network: ws
-  port: 443
-  server: 5.34.211.137
-  servername: e.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: e.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/LV?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 拉脱维亚-006 |3.9MB/s|10%|YT-RU|GP...
-  network: ws
-  port: 443
-  server: 5.34.215.68
-  servername: e.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: e.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/LV?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-008 |725KB/s|27%|TK-NL|Y...
+  name: 俄罗斯联邦-005 |613KB/s
   network: tcp
   port: 52000
   reality-opts:
@@ -107,36 +60,9 @@ proxies:
   udp: true
   uuid: fd2bfdd2-68eb-49b0-98ad-ed82f901edde
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-010 |2.2MB/s|YT-RU
-  network: tcp
-  port: 48444
-  reality-opts:
-    public-key: FApUbcJurXfV5Y3PG2xRycl1R7y0CxwmUU7FRgUpzG0
-    short-id: '!!str 6ba85179'
-  server: 185.147.27.67
-  servername: eh.vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 93c6d2ce-0a01-4ac9-a1df-0ad6f6d84dea
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 拉脱维亚-007 |3.3MB/s|9%|YT-RU|GPT...
-  network: ws
-  port: 443
-  server: 5.34.212.114
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-  xudp: true
+- cipher: aes-256-cfb
+  name: 越南-012 |769KB/s|YT-RU|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.32
+  type: ss

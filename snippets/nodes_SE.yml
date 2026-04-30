@@ -1,19 +1,19 @@
 proxies:
-- name: 芬兰-005 |698KB/s|TK-FI|YT-FI|NF...
+- name: 荷兰-003 |2.6MB/s|TK-SE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 45.144.234.149
+  port: 8443
+  server: 87.239.250.244
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram @WangCai2
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 芬兰-013 |2.5MB/s|TK-SE|YT-FI|NF...
+  name: 芬兰-012 |2.5MB/s|TK-SE|YT-FI|NF...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053

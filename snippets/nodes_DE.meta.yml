@@ -1,7 +1,51 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 德国-002 |1.3MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.214
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-003 |1.7MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.37
+  ws-path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 德国-004 |ce3d|puddincat07@Teleg...
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.233
+  ws-path: /
+  xudp: true
 - alterId: '0'
   cipher: auto
-  name: 德国-003 |984KB/s
+  name: 德国-005 |984KB/s
   network: tcp
   port: 180
   server: 82.198.246.250
@@ -11,215 +55,10 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- name: 荷兰-001 |3.5MB/s|10%|TK-NL|YT-N...
-  network: ws
-  port: 443
-  server: 194.58.68.4
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-004 |4.9MB/s|10%|TK-DE|YT-B...
-  network: ws
-  port: 8443
-  server: 94.130.132.132
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-005 |2.5MB/s|0%|TK-DE|YT-DE...
-  network: ws
-  port: 2053
-  server: 94.159.96.182
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷兰-002 |3.3MB/s|10%|TK-NL|YT-N...
-  network: ws
-  port: 443
-  server: 212.193.1.234
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷兰-003 |3.9MB/s|0%|TK-NL|YT-NL...
-  network: ws
-  port: 443
-  server: 185.196.41.56
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 德国-007 |3.6MB/s|0%|TK-DE|YT-DE...
-  network: http
-  port: 17662
-  server: 77.90.11.178
-  tls: false
-  type: vmess
-  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
-- name: 荷兰-005 |1.5MB/s|10%|TK-NL|YT-N...
-  network: ws
-  port: 2053
-  server: 193.56.3.47
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷兰-007 |4.0MB/s|10%|TK-NL|YT-N...
-  network: ws
-  port: 443
-  server: 194.87.82.149
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷兰-008 |3.8MB/s|0%|TK-NL|NF|D+...
-  network: ws
-  port: 8443
-  server: 193.56.3.47
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-009 |3.8MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 2053
-  server: 95.181.161.163
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷兰-009 |4.0MB/s|0%|TK-NL|YT-NL...
-  network: ws
-  port: 8443
-  server: 188.166.73.154
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷兰-010 |2.9MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 8443
-  server: 77.110.103.243
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-010 |3.9MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 8443
-  server: 45.145.43.205
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷兰-011 |3.3MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 443
-  server: 64.188.97.205
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-012 |3.7MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 443
-  server: 193.23.219.213
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷兰-012 |3.8MB/s|0%|TK-NL|YT-NL...
-  network: ws
-  port: 2053
-  server: 209.38.34.177
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷兰-013 |3.9MB/s|0%|TK-DE|YT-DE...
-  network: ws
-  port: 443
-  server: 5.129.230.231
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 德国-013 |2.8MB/s|22%|TK-DE|YT-D...
+  name: 德国-006 |4.6MB/s
+  network: tcp
   port: 9443
   reality-opts:
     public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
@@ -231,558 +70,11 @@ proxies:
   type: vless
   udp: true
   uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-- name: 荷兰-014 |3.8MB/s|0%|TK-DE|YT-DE...
-  network: ws
-  port: 8443
-  server: 5.129.208.147
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 德国-014 |2.1MB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- name: 希腊-001 |3.2MB/s|0%|TK-IT|YT-IT...
-  network: ws
-  port: 443
-  server: 91.186.212.246
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-015 |2.7MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 8443
-  server: 95.85.252.170
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 德国-016 |1.3MB/s
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 荷兰-015 |3.7MB/s|10%|TK-NL|YT-N...
-  network: ws
-  port: 443
-  server: 194.116.215.29
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 德国-017 |1.7MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-018 |1.1MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- client-fingerprint: chrome
-  name: 德国-019 |5.9MB/s|100%|TK-DE|YT-...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 152.53.118.28
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-020 |678KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 195.133.94.19
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-021 |711KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 143.20.160.200
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-023 |589KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 188.245.161.141
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-024 |618KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 159.195.5.181
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 奥地利-001 |528KB/s|9%|TK-DE|YT-D...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 152.53.228.86
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 奥地利-002 |5.3MB/s|9%|TK-DE|YT-D...
-  network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 152.53.227.239
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-025 |1.2MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 202.61.195.167
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 奥地利-003 |3.9MB/s|9%|TK-DE|YT-D...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 152.53.236.205
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-026 |835KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 77.239.127.77
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 德国-027 |3.3MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 94.125.101.103
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 德国-028 |618KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 138.124.240.36
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-029 |1.0MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.118.170
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-030 |862KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 95.164.123.131
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 德国-031 |4.7MB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 138.124.229.34
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/56.0.2924.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-032 |809KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 103.109.234.41
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-033 |1016KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.85.72
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-034 |981KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.116.8
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-035 |611KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 148.253.215.61
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 德国-036 |559KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 164.90.209.5
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 伊朗-001 |537KB/s|TK-DE|YT-DE|NF...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 213.176.77.231
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 德国-037 |682KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 80.253.249.66
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 德国-040 |606KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 2.27.120.108
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-041 |864KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.139.103
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 伊拉克-002 |1.1MB/s|TK-DE|YT-DE|N...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 178.17.48.170
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-042 |2.0MB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.218.10
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 德国-043 |833KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 195.245.239.124
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-044 |2.5MB/s|TK-DE|YT-DE|NF...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 144.31.138.127
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-045 |614KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 193.23.218.192
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 德国-046 |3.8MB/s|0%|TK-IT|NF|D+...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 167.17.182.98
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /?ed=2560
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   down: '1000'
-  name: 德国-047
+  name: 德国-007
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -790,24 +82,64 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '500'
-- client-fingerprint: chrome
-  name: 德国-048 |563KB/s|9%|TK-DE|YT-DE...
+- name: 德国-011 |697KB/s|TK-DE|GPT⁺|GM-...
   network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 185.219.84.221
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 204.168.173.148
   skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
+  sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 德国-012
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: '500'
 - client-fingerprint: chrome
-  name: 德国-049 |515KB/s|9%|TK-DE|YT-DE...
+  name: 德国-016 |3.1MB/s
+  network: ws
+  port: 4001
+  server: 185.94.29.156
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 德国-017 |3.6MB/s|0%|TK-DE|YT-DE...
+  network: http
+  port: 17662
+  server: 77.90.11.178
+  tls: false
+  type: vmess
+  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
+- client-fingerprint: chrome
+  name: 德国-019 |515KB/s|9%|TK-DE|YT-DE...
   network: ws
   password: '!!str 1234567890'
   port: 443
@@ -821,55 +153,4 @@ proxies:
       Host: kfm-bn0.pages.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-050 |1.1MB/s|TK-DE|YT-DE|NF...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 93.123.84.194
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 捷克-003 |3.9MB/s|100%|TK-DE|YT-...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 95.85.234.43
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 阿联酋-003 |624KB/s|TK-DE|YT-DE|N...
-  network: ws
-  password: '!!str 1234567890'
-  port: 443
-  server: 104.128.139.68
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 荷兰-019 |3.3MB/s|0%|TK-DE|YT-DE...
-  network: ws
-  port: 443
-  server: 213.165.37.101
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
     path: /?ed=2560&https://t.me/WangCai2🇨🇳

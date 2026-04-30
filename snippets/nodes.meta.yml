@@ -1,36 +1,656 @@
 proxies:
-- name: 韩国-001 |671KB/s
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: T2clM0QlM0Q6
-- encryption: none
-  name: 日本-001 |7.3MB/s|10%|YT-JP|NF|D...
+- name: 新加坡-001 |6.7MB/s|YT-HK
   network: ws
-  port: 30011
-  server: 191.96.29.122
-  servername: s5ezgc5n1x5qcfl7ugi7w9afeb.ovtc.qzz.io
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.168.16.112
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-001 |2.0MB/s|YT-HK
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 39792
+  server: 38.55.125.175
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 美国-002 |6.6MB/s|0%|TK-US|YT-HK...
+  network: tcp
+  port: 8081
+  reality-opts:
+    public-key: bilDohzULHmvZE7BP9ym6URVT6R1DM06v2LLqNo7lh0
+    short-id: 'a1b2c3d4'
+  server: 207.57.128.27
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f2185502-80e6-41e8-8949-509b74b65f9c
+- name: 韩国-001 |893KB/s|YT-KR|GPT-KR|G...
+  network: ws
+  port: 443
+  server: 114.110.181.49
+  servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
+    path: /
+- name: 韩国-002 |1.3MB/s
+  network: ws
+  port: 12566
+  server: 125.141.32.222
+  servername: 8a005khup3.mesa.ip-ddns.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: s5ezgc5n1x5qcfl7ugi7w9afeb.ovtc.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
+      Host: 8a005khup3.mesa.ip-ddns.com
     path: /@Marisa_kristi
+- alterId: 0
+  cipher: auto
+  name: 德国-001 |895KB/s|60%|TK-US|YT-C...
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: vc.fly.dev
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 德国-002 |1.3MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.214
+  ws-path: /
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 美国-003 |2.9MB/s|YT-US|GPT⁺-SG|...
+  network: ws
+  port: 2087
+  server: 45.32.128.51
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- flow: xtls-rprx-vision
+  name: 塞舌尔-001 |2.0MB/s|YT-US|GPT⁺-US...
+  network: tcp
+  port: 23221
+  reality-opts:
+    public-key: Nr-tT4UQ1CQ5k0uczjKUCKlLRPHa9EHWx3JyFADFZB0
+  server: 156.238.251.254
+  servername: tesla.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 499bd253-e87a-4013-b7f8-ed95ae228508
+- alterId: 0
+  cipher: auto
+  name: 德国-003 |1.7MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.37
+  ws-path: /
   xudp: true
 - ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 韩国-002 |5.4MB/s|10%|YT-KR|NF|D...
+  name: 越南-001 |2.7MB/s|YT-HK|GPT⁺-SG
   network: ws
-  port: 27017
-  server: 119.196.39.18
+  port: 443
+  server: 160.22.17.48
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- encryption: none
+  name: 美国-004 |517KB/s|TK-US|YT-US|GP...
+  network: ws
+  port: 52573
+  server: 154.64.238.106
+  type: vless
+  udp: true
+  uuid: 47875ae5-09bb-4d6c-c212-4ced5fa8d1ee
+  ws-opts:
+    headers:
+      Host: 154.64.238.106
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /
+  xudp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: 南非-001
+  password: dongtaiwang.com
+  port: 28866
+  server: 45.221.98.11
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 美国-005 |1.9MB/s|TK-US|YT-US|GP...
+  network: ws
+  port: 443
+  server: 92.118.228.153
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- alterId: 0
+  cipher: auto
+  name: 德国-004 |ce3d|puddincat07@Teleg...
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.233
+  ws-path: /
+  xudp: true
+- name: 加拿大-001 |3.3MB/s
+  network: ws
+  port: 2053
+  server: 142.248.219.218
+  servername: subsources.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
+  ws-opts:
+    headers:
+      Host: subsources.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+    path: /?ed=2560fp=random
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 德国-005 |984KB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  encryption: none
+  name: 美国-006 |4.7MB/s|TK-DE|YT-DE|GP...
+  network: ws
+  port: 443
+  server: 18.245.54.3
+  servername: d24f6c9l7fxvak.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
+  ws-opts:
+    headers:
+      Host: d24f6c9l7fxvak.cloudfront.net
+    path: /
+- name: 加拿大-002 |4.3MB/s
+  network: ws
+  port: 2053
+  server: 142.248.219.48
+  servername: subsources.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
+  ws-opts:
+    headers:
+      Host: subsources.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560fp=random
+  xudp: true
+- alpn:
+  - http/1.1
+  - h2
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 荷兰-001 |2.5MB/s|TK-AE|YT-RU|GP...
+  network: tcp
+  port: 443
+  server: 31.59.39.125
+  servername: nlety.ksnodes.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 荷兰-002 |575KB/s|TK-NL|YT-NL|GP...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.188
+  type: ss
+  udp: true
+- encryption: none
+  fp: chrome
+  name: 拉脱维亚-001 |666KB/s|GPT⁺-LV
+  network: tcp
+  pbk: lcJ0LSh015XRfz5-7wB_hln3-bq5ZatFgPugSUCrdR0
+  port: 40478
+  reality-opts:
+    public-key: lcJ0LSh015XRfz5-7wB_hln3-bq5ZatFgPugSUCrdR0
+    short-id: '3c'
+  security: reality
+  server: 37.233.82.140
+  servername: yahoo.com
+  sid: 3c
+  sni: yahoo.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: e977d854-33f3-4345-abee-bf3fa9a6d880
+  xudp: true
+- flow: xtls-rprx-vision
+  name: 德国-006 |4.6MB/s
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: '2344766a270a6298'
+  server: 159.195.82.187
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+- name: 罗马尼亚-001 |580KB/s
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-001 |2.4MB/s|YT-RU|GPT-D...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do
+    short-id: '3c6fc84d'
+  server: 80.92.204.114
+  servername: stats.vk-portal.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
+  xudp: true
+- name: 罗马尼亚-002 |3.5MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.185
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-003 |514KB/s
+  port: 9002
+  server: 84.239.49.247
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-004 |618KB/s
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-005 |565KB/s
+  port: 9002
+  server: 84.239.49.220
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-006 |801KB/s
+  port: 9002
+  server: 84.239.49.204
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-007 |1.1MB/s
+  port: 9002
+  server: 84.239.49.42
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- cipher: aes-256-cfb
+  name: 越南-002 |782KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.211
+  type: ss
+- name: 罗马尼亚-008 |3.3MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.38
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 德国-007
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- name: 芬兰-001 |cad2|puddincat07@Teleg...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 95.81.113.186
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 罗马尼亚-009 |3.1MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-010 |1.2MB/s
+  port: 9002
+  server: 84.239.49.173
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-011 |1.1MB/s
+  port: 9002
+  server: 84.239.49.231
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-012 |906KB/s
+  port: 9002
+  server: 84.239.49.242
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-013 |517KB/s
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-014 |733KB/s
+  port: 9002
+  server: 84.239.14.146
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-015 |620KB/s
+  port: 9002
+  server: 84.239.49.163
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-016 |598KB/s
+  port: 9002
+  server: 84.239.49.241
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 法国-001 |4.2MB/s|TK-FR|YT-FR|GP...
+  password: dongtaiwang.com
+  port: 41211
+  ports: 41283,40022,41000-42000
+  server: 163.172.113.118
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+- name: 罗马尼亚-017 |686KB/s
+  port: 9002
+  server: 84.239.49.156
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- cipher: aes-256-cfb
+  name: 美国-007 |3.4MB/s|TK-US|YT-US|GP...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
+  type: ss
+- name: 罗马尼亚-018 |849KB/s|GPT⁺-RO
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- cipher: aes-256-cfb
+  name: 越南-003 |783KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.129
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 德国-008 |2.1MB/s|TK-US|GPT-US
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.9
+  ws-path: /
+  xudp: true
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 日本-001 |1.9MB/s|YT-JP|GPT⁺-SG|...
+  network: ws
+  port: 53506
+  server: 156.246.91.187
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- name: 罗马尼亚-019 |2.4MB/s|GPT⁺-RO|GM-R...
+  port: 9002
+  server: 84.239.49.202
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-020 |1.1MB/s
+  port: 9002
+  server: 84.239.14.158
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-021 |1.1MB/s|GPT⁺-RO
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-022 |562KB/s
+  port: 9002
+  server: 84.239.49.155
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-023 |709KB/s
+  port: 9002
+  server: 84.239.49.178
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-024 |3.1MB/s|GPT⁺-RO
+  port: 9002
+  server: 84.239.49.55
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 芬兰-002 |3.8MB/s|TK-FI|GM-FI
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 45.144.234.149
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 罗马尼亚-025 |1.2MB/s
+  port: 9002
+  server: 84.239.49.254
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-026 |866KB/s
+  port: 9002
+  server: 84.239.49.191
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-027 |1.9MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.164
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 德国-009 |2.0MB/s|TK-DE|GPT⁺-SG|...
+  network: ws
+  port: 443
+  server: 165.22.80.143
   servername: mug.support.gfw.hidns.co
   skip-cert-verify: false
   tfo: false
@@ -45,412 +665,130 @@ proxies:
     max-early-data: 2560
     path: /danfeng
 - cipher: aes-256-cfb
-  name: 韩国-003 |4e6b|puddincat07@Teleg...
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-001 |1.1MB/s
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 23212
-  server: 43.160.249.52
-  type: ss
-  udp: true
-- name: 韩国-004 |7.4MB/s|10%|YT-KR|NF|D...
-  network: ws
-  port: 443
-  server: 114.110.181.49
-  servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-001 |895KB/s|60%|TK-US|YT-C...
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: vc.fly.dev
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- encryption: none
-  name: 韩国-005 |1.4MB/s|10%|YT-KR|NF|D...
-  network: ws
-  port: 30016
-  security: tls
-  server: 175.199.174.127
-  servername: 1n9fo0l9hl.gike.dpdns.org
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 1n9fo0l9hl.gike.dpdns.org
-    path: /@Marisa_kristi
-- name: 日本-002 |595KB/s|YT-JP|NF|D+
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 17081
-  server: 176.119.148.212
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-002 |954KB/s|YT-SG|NF-SG|D...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.160.207.33
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 阿联酋-001 |649KB/s
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 25891
-  server: 77.74.201.171
-  type: ss
-  udp: true
-- encryption: none
-  name: 美国-001 |1.0MB/s
-  network: ws
-  port: 443
-  server: 135.84.73.9
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-  xudp: true
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 美国-002 |3.6MB/s|10%|TK-US|YT-U...
-  network: ws
-  port: 443
-  server: 128.14.65.32
-  servername: mug.support.gfw.hidns.co
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: mug.support.gfw.hidns.co
-    path: /danfeng?ed=2560
-- encryption: none
-  name: 美国-003 |1.0MB/s
-  network: ws
-  port: 443
-  server: 135.84.74.90
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 阿联酋-002 |4.4MB/s|0%|TK-AE|YT-A...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 15987
-  server: 188.208.110.205
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-002 |6.6MB/s|0%|TK-US|YT-CN...
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- name: 日本-003 |8.1MB/s|YT-JP|NF|D+|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 4196
-  server: 185.184.223.138
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: '0'
-  cipher: auto
-  name: 德国-003 |984KB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-003 |4.0MB/s|0%|YT-SG|NF-S...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 17891
-  server: 43.160.241.31
-  type: ss
-  udp: true
-- name: 荷兰-001 |3.5MB/s|10%|TK-NL|YT-N...
-  network: ws
-  port: 443
-  server: 194.58.68.4
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-004 |4.9MB/s|10%|TK-DE|YT-B...
-  network: ws
-  port: 8443
-  server: 94.130.132.132
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-005 |2.5MB/s|0%|TK-DE|YT-DE...
-  network: ws
-  port: 2053
-  server: 94.159.96.182
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 罗马尼亚-001 |1.1MB/s
-  port: 9002
-  server: 84.239.49.42
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- encryption: none
-  name: 拉脱维亚-001 |3.0MB/s|0%|TK-LV|YT-...
-  network: tcp
-  port: 40478
-  reality-opts:
-    public-key: lcJ0LSh015XRfz5-7wB_hln3-bq5ZatFgPugSUCrdR0
-    short-id: '3c'
-  server: 37.233.82.140
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e977d854-33f3-4345-abee-bf3fa9a6d880
-  xudp: true
-- name: 罗马尼亚-002 |517KB/s
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 芬兰-001 |706KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 95.81.112.201
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-256-cfb
-  name: 越南-001 |769KB/s|YT-RU|NF|GPT⁺-...
+  name: 越南-004 |1009KB/s|YT-US|NF|GPT⁺...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.32
+  server: 103.186.154.38
   type: ss
-- name: 荷兰-002 |3.3MB/s|10%|TK-NL|YT-N...
-  network: ws
-  port: 443
-  server: 212.193.1.234
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  name: 美国-004 |5.3MB/s|TK-DE|YT-US|NF...
-  network: ws
-  port: 443
-  server: 18.245.54.3
-  servername: d24f6c9l7fxvak.cloudfront.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
-  ws-opts:
-    headers:
-      Host: d24f6c9l7fxvak.cloudfront.net
-    path: /
-- name: 罗马尼亚-003 |861KB/s
+- name: 罗马尼亚-028 |536KB/s
   port: 9002
-  server: 84.239.49.202
+  server: 84.239.49.212
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-004 |832KB/s
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- encryption: none
-  name: 俄罗斯联邦-001 |3.7MB/s|TK-RU|YT-CH...
-  network: tcp
-  port: 45886
-  reality-opts:
-    public-key: zJeLZDPHoHMcAzBJh38tSavofNlkBrpADFx9jVVPil0
-    short-id: '94f9'
-  server: 5.182.36.56
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8338171d-2ea7-4015-bdea-492f3d5d4e60
-  xudp: true
-- cipher: aes-256-cfb
-  name: 越南-002 |1.1MB/s|YT-VN|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.71
-  type: ss
-- name: 芬兰-002 |a9de|puddincat07@Teleg...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.239.142.215
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-005 |694KB/s
-  port: 9002
-  server: 193.176.84.40
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-006 |598KB/s
-  port: 9002
-  server: 84.239.49.241
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- cipher: aes-256-cfb
-  name: 越南-003 |687KB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.49
-  type: ss
-- auth: github.com/Alvin9999-newpac/fanqiang
-  insecure: '1'
-  name: 德国-006 |3.6MB/s|0%|TK-DE|YT-RU...
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 29900
-  server: 178.18.147.66
+- name: 法国-002 |776KB/s
+  password: dongtaiwang.com
+  port: 40022
+  server: 163.172.113.118
   skip-cert-verify: true
   sni: www.microsoft.com
+  tfo: false
   type: hysteria2
-  udp: true
-- name: 罗马尼亚-007 |580KB/s
+- name: 法国-003 |873KB/s
+  password: dongtaiwang.com
+  port: 41283
+  ports: 40022,41000-42000
+  server: 163.172.113.118
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 越南-005 |1019KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.185
+  type: ss
+- name: 罗马尼亚-029 |831KB/s
   port: 9002
-  server: 193.176.84.34
+  server: 84.239.49.62
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-008 |1.4MB/s|25%|TK-RO|YT...
+- cipher: aes-256-cfb
+  name: 越南-006 |521KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.214
+  type: ss
+- name: 罗马尼亚-030 |1.0MB/s
   port: 9002
-  server: 84.239.49.231
+  server: 84.239.49.227
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-009 |559KB/s
+- cipher: aes-256-cfb
+  name: 越南-007 |1.7MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.239
+  type: ss
+- name: 芬兰-003 |0a4b|puddincat07@Teleg...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 84.19.3.83
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 罗马尼亚-031 |2.8MB/s|GPT⁺-RO|GM-R...
   port: 9002
-  server: 84.239.49.181
+  server: 84.239.49.162
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-010 |1.0MB/s
+- name: 罗马尼亚-032 |1.4MB/s|GPT⁺-RO
   port: 9002
-  server: 193.176.84.24
+  server: 193.176.84.20
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 芬兰-003 |1.0MB/s
+- name: 罗马尼亚-033 |3.5MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.170
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-034 |2.3MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.214
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-035 |912KB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.176
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-036 |2.5MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.211
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-037 |2.5MB/s|GPT⁺-RO
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 芬兰-004 |1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -463,413 +801,99 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- auth: dongtaiwang.com
-  name: 法国-001 |4.2MB/s|TK-FR|YT-FR|NF...
-  password: dongtaiwang.com
-  port: 41283
-  ports: 40022,41000-42000
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-  udp: true
-- name: 罗马尼亚-011 |674KB/s
+- name: 罗马尼亚-038 |603KB/s
   port: 9002
-  server: 84.239.49.185
+  server: 84.239.49.58
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 荷兰-003 |3.9MB/s|0%|TK-NL|YT-NL...
-  network: ws
-  port: 443
-  server: 185.196.41.56
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 罗马尼亚-012 |523KB/s
+- name: 罗马尼亚-039 |3.1MB/s|GPT⁺-RO
   port: 9002
-  server: 84.239.14.149
+  server: 193.176.84.40
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-013 |5.5MB/s|25%|TK-RO|YT...
+- name: 罗马尼亚-040 |578KB/s
+  port: 9002
+  server: 84.239.49.182
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-041 |2.1MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.159
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-042 |840KB/s
+  port: 9002
+  server: 84.239.49.184
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-043 |3.0MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.37
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-044 |703KB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.157
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-045 |2.8MB/s|GPT⁺-RO
+  port: 9002
+  server: 84.239.49.53
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-046 |2.6MB/s|GPT⁺-RO
+  port: 9002
+  server: 193.176.84.38
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-047 |2.8MB/s|GPT⁺-RO
   port: 9002
   server: 84.239.49.223
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-014 |2.0MB/s|TK-RO|YT-RO|...
+- name: 罗马尼亚-048 |643KB/s
   port: 9002
-  server: 193.176.84.21
+  server: 84.239.49.235
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- cipher: aes-256-cfb
-  name: 越南-004 |1.2MB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.137
-  type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 德国-007 |3.6MB/s|0%|TK-DE|YT-DE...
-  network: http
-  port: 17662
-  server: 77.90.11.178
-  tls: false
-  type: vmess
-  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
-- name: 罗马尼亚-015 |3.5MB/s|0%|TK-RO|YT-...
+- name: 罗马尼亚-049 |547KB/s
   port: 9002
-  server: 84.239.14.146
+  server: 193.176.84.39
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- multiplexing: MULTIPLEXING_LOW
-  name: 南非-001
-  password: dongtaiwang.com
-  port: 28866
-  server: 45.221.98.11
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: 罗马尼亚-016 |3.1MB/s|25%|TK-RO|YT...
+- name: 罗马尼亚-050 |632KB/s
   port: 9002
-  server: 84.239.49.189
+  server: 84.239.14.160
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-017 |4.8MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.173
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-018 |535KB/s
-  port: 9002
-  server: 84.239.49.170
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 美国-005 |549KB/s|10%|TK-US|YT-U...
-  network: ws
-  port: 443
-  server: 69.164.245.25
-  servername: babayaga-6i7.pages.dev
-  tls: true
-  type: vless
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  ws-opts:
-    headers:
-      Host: babayaga-6i7.pages.dev
-    path: /?ed=2560&Telegram+@WangCai2
-- auth: dongtaiwang.com
-  name: 法国-002 |3.9MB/s|TK-FR|YT-FR|NF...
-  password: dongtaiwang.com
-  port: 40022
-  ports: 41000-42000
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-  udp: true
-- cipher: aes-256-gcm
-  name: 俄罗斯联邦-002 |635KB/s
-  password: 1a87017d0bf57f34
-  port: 40120
-  server: 194.87.68.6
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-005 |691KB/s|YT-VN|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.16
-  type: ss
-- name: 罗马尼亚-019 |514KB/s
-  port: 9002
-  server: 84.239.49.247
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- cipher: aes-256-cfb
-  name: 越南-006 |945KB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.30
-  type: ss
-- cipher: aes-256-cfb
-  name: 荷兰-004 |4.6MB/s|TK-NL|YT-NL|NF...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.17.169
-  type: ss
-  udp: true
-- name: 罗马尼亚-020 |686KB/s
-  port: 9002
-  server: 84.239.49.156
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 德国-008 |3.6MB/s|10%|TK-FR|YT-F...
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 38563
-  server: 83.243.86.103
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-- name: 罗马尼亚-021 |3.3MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.248
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- cipher: aes-256-cfb
-  name: 越南-007 |616KB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.203
-  type: ss
-- name: 罗马尼亚-022 |4.2MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.204
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 瑞士-001 |3.6MB/s|7%|TK-CH|YT-DE...
-  network: ws
-  port: 30047
-  server: 138.124.32.188
-  type: vless
-  udp: true
-  uuid: 595ae3f9-5a91-4eaa-82a3-28a221cf8f7f
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: 罗马尼亚-023 |906KB/s
-  port: 9002
-  server: 84.239.49.242
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-024 |3.4MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.41
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 荷兰-005 |1.5MB/s|10%|TK-NL|YT-N...
-  network: ws
-  port: 2053
-  server: 193.56.3.47
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 罗马尼亚-025 |3.7MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.60
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-026 |1.2MB/s
-  port: 9002
-  server: 84.239.49.54
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-027 |735KB/s
-  port: 9002
-  server: 84.239.49.224
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-028 |4.6MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.164
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- cipher: aes-256-cfb
-  name: 越南-008 |768KB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.52
-  type: ss
 - encryption: none
-  flow: xtls-rprx-vision
-  name: 荷兰-006 |3.4MB/s|0%|TK-NL|YT-NL...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
-    short-id: 'c6118398'
-  server: 77.239.108.36
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
-  xudp: true
-- name: 罗马尼亚-029 |1.1MB/s|TK-RO|YT-RO|...
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-030 |1.0MB/s
-  port: 9002
-  server: 84.239.49.209
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-031 |810KB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.220
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-032 |3.9MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.253
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- cipher: aes-256-cfb
-  name: 越南-009 |1.6MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.58
-  type: ss
-  udp: true
-- name: 罗马尼亚-033 |2.3MB/s|TK-RO|YT-RO|...
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-034 |1.5MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.48
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-035 |4.5MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.155
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-036 |3.8MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.165
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-037 |3.8MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.211
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-038 |3.9MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.249
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 英国-001 |3.9MB/s|10%|TK-GB|YT-G...
-  network: ws
-  port: 8443
-  server: 193.219.99.172
-  servername: santong.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: santong.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 罗马尼亚-039 |3.0MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.200
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 荷兰-007 |4.0MB/s|10%|TK-NL|YT-N...
-  network: ws
-  port: 443
-  server: 194.87.82.149
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷兰-008 |3.8MB/s|0%|TK-NL|NF|D+...
-  network: ws
-  port: 8443
-  server: 193.56.3.47
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- encryption: none
-  name: 俄罗斯联邦-003 |973KB/s
+  name: 俄罗斯联邦-002 |973KB/s
   network: ws
   port: 443
   server: 85.92.108.39
@@ -886,32 +910,84 @@ proxies:
         Safari/537.36
     path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
   xudp: true
-- name: 罗马尼亚-040 |980KB/s
-  port: 9002
-  server: 84.239.49.55
-  skip-cert-verify: true
-  sni: www.bing.com
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 德国-010 |2.2MB/s|TK-DE|GPT⁺-SG|...
+  network: ws
+  port: 2053
+  server: 185.221.198.253
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
   tls: true
-  type: http
-- name: 罗马尼亚-041 |536KB/s
-  port: 9002
-  server: 84.239.49.212
-  skip-cert-verify: true
-  sni: www.bing.com
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- cipher: aes-256-cfb
+  name: 越南-008 |821KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.65
+  type: ss
+  udp: true
+- encryption: none
+  name: 英国-001 |1.9MB/s|YT-RU|GPT⁺-GB
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: uaEkEXSQRlY5bI3NzvoYWtkjQ0Xd_Qhpgl3Pgf4pIFM
+    short-id: '3b0498c3'
+  server: 87.120.219.56
+  servername: amazon.com
+  skip-cert-verify: false
   tls: true
-  type: http
-- name: 罗马尼亚-042 |1.0MB/s
-  port: 9002
-  server: 84.239.49.227
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 芬兰-004 |0475|puddincat07@Teleg...
+  type: vless
+  udp: true
+  uuid: d007de67-c0e9-5ab8-b706-5c94069655aa
+  xhttp-opts:
+    headers:
+      Host: amazon.com
+    mode: auto
+    path: /zQLurjYmCcfzs6k4e7Sz
+  xudp: true
+- name: 芬兰-005 |706KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 185.102.136.201
+  server: 95.81.112.201
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 德国-011 |697KB/s|TK-DE|GPT⁺|GM-...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 204.168.173.148
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 芬兰-006 |92ab|puddincat07@Teleg...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 193.23.201.26
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -920,101 +996,761 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-043 |613KB/s
-  port: 9002
-  server: 84.239.49.154
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-044 |5.1MB/s|0%|TK-RO|YT-...
-  port: 9002
-  server: 84.239.14.160
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-045 |1.5MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.191
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 德国-009 |3.8MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 2053
-  server: 95.181.161.163
-  servername: jamuur.joss.jak.biz.id
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 芬兰-007 |2.4MB/s|GPT⁺-FI
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
+    short-id: 'c6118398'
+  server: 144.31.153.92
+  servername: gateway.icloud.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷兰-009 |4.0MB/s|0%|TK-NL|YT-NL...
-  network: ws
-  port: 8443
-  server: 188.166.73.154
-  servername: support.zoom.us.joss.jak.biz.id
+  udp: true
+  uuid: 322ffd77-9adc-4e10-8302-a8bcc14555a0
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯联邦-003 |1.6MB/s|YT-RU|GPT-A...
+  password: PpGD0XXaQtfnPXhnor5U0UsqeU8CgbXh
+  port: 8080
+  server: 130.49.189.40
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-009 |1.6MB/s|GPT|X|History
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.80
+  type: ss
+- encryption: none
+  name: 俄罗斯联邦-004 |2.4MB/s|YT-RU|GPT-C...
+  network: tcp
+  port: 45886
+  reality-opts:
+    public-key: zJeLZDPHoHMcAzBJh38tSavofNlkBrpADFx9jVVPil0
+    short-id: '94f9'
+  server: 5.182.36.56
+  servername: yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  uuid: 8338171d-2ea7-4015-bdea-492f3d5d4e60
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 德国-012
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: '500'
+- auth: github.com/Alvin9999-newpac/fanqiang
+  insecure: '1'
+  name: 德国-013 |1.6MB/s|TK-DE|YT-RU|GP...
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 29900
+  server: 178.18.147.66
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true
+- name: 新加坡-002 |1.7MB/s|YT-SG|GM-SG
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 194.87.10.241
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 罗马尼亚-046 |1.6MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.178
-  skip-cert-verify: true
-  sni: www.bing.com
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- flow: xtls-rprx-vision
+  name: 波兰-001 |2.3MB/s|TK-PL|GPT⁺-PL
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: VM2nI0r9lXd6rKDA-_5sZc28qcDPTvZaJMOnxDDYUmc
+    short-id: 'a1ab5a56bc42'
+  server: 144.31.3.143
+  servername: p0land.gxcore.net
   tls: true
-  type: http
-- name: 罗马尼亚-047 |3.7MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.184
+  type: vless
+  udp: true
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  xudp: true
+- name: 新加坡-003 |703KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 22000
+  server: 47.79.237.236
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: http
-- name: 罗马尼亚-048 |1.9MB/s|25%|TK-RO|YT...
-  port: 9002
-  server: 84.239.49.176
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-049 |648KB/s
-  port: 9002
-  server: 84.239.49.229
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - encryption: none
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 俄罗斯联邦-004 |539KB/s
+  name: 俄罗斯联邦-005 |613KB/s
   network: tcp
-  port: 52006
-  server: 178.72.181.98
-  servername: cluster-de-2.firstvideocdn.ru
+  port: 52000
+  reality-opts:
+    public-key: QxNM7Wad1AT-erPr2JpacYeluAAASMT5yHU_ANpWD1Q
+    short-id: '9bcf6f2c'
+  server: 159.194.213.95
+  servername: ozon.ru
   tls: true
   type: vless
   udp: true
-  uuid: 75807638-6f19-2710-ae08-38492ee85c88
+  uuid: fd2bfdd2-68eb-49b0-98ad-ed82f901edde
   xudp: true
-- name: 罗马尼亚-050 |760KB/s
-  port: 9002
-  server: 84.239.49.160
+- name: 德国-014 |3.6MB/s|10%|TK-FR|YT-F...
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 38563
+  server: 83.243.86.103
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 韩国-003 |4.9MB/s|YT-KR|GPT⁺-SG|...
+  network: ws
+  port: 15000
+  server: 175.213.239.203
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
   tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    path: /danfeng?ed=2560
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 德国-015 |3.2MB/s|TK-DE|YT-RU|GP...
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 12855
+  server: 83.243.86.103
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-010 |687KB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.49
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-011 |1.1MB/s|YT-VN|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.71
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-012 |769KB/s|YT-RU|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.32
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-013 |629KB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.133
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-014 |1.1MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.50
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-015 |945KB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.30
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-016 |768KB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.52
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-017 |691KB/s|YT-VN|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.16
+  type: ss
+- name: 意大利-001 |3.2MB/s|20%|TK-IT|YT-...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 172.232.194.233
+  servername: github.githubassets.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+  xudp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: /sequre/grpc/
+  name: 波兰-002 |1.0MB/s
+  network: grpc
+  port: 443
+  server: 193.34.212.80
+  servername: 193.34.212.80.vhub.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c1d17f5-4f43-4f78-9505-d50c38efc40b
+  xudp: true
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 日本-002 |4.7MB/s|YT-JP|GPT⁺-SG|...
+  network: ws
+  port: 443
+  server: 38.47.126.48
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- encryption: none
+  name: 芬兰-008 |2.2MB/s
+  network: ws
+  port: 443
+  server: 138.124.59.215
+  servername: sni.111000.v6.rocks
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.rocks
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  xudp: true
+- flow: xtls-rprx-vision
+  name: 瑞典-001 |2.7MB/s|YT-RU|GPT⁺-FI
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
+    short-id: 'd1f93724859d75ac'
+  server: 193.23.200.15
+  servername: pl2-gws4.onnstreaming.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+  xudp: true
+- name: 巴基斯坦-001 |1.5MB/s
+  port: 3128
+  server: 103.157.200.126
+  skip-cert-verify: true
+  tls: false
   type: http
+- name: 美国-008 |3.2MB/s
+  network: ws
+  port: 443
+  server: 199.107.164.217
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&Telegram🇨🇳@WangCai2
+- name: 台湾-001 |692KB/s
+  network: ws
+  port: 6235
+  server: 125.227.219.98
+  servername: baidu.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
+  ws-opts:
+    headers:
+      host: baidu.com
+    path: /xxxxhttp
+- cipher: aes-256-cfb
+  name: 越南-018 |828KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.84
+  type: ss
+  udp: true
+- name: 日本-003 |1d67|puddincat07@Teleg...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 4196
+  server: 185.184.223.138
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 韩国-004 |3.2MB/s|YT-KR|GPT⁺-SG|...
+  network: ws
+  port: 13722
+  server: 175.201.34.127
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- name: 塞浦路斯-001 |936KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 45.12.151.185
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 新加坡-004 |1.0MB/s|YT-SG|GM-SG
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.160.207.33
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 英国-002 |3.8MB/s|TK-NL|GPT⁺-NL
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.187
+  type: ss
+- encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 波兰-003 |4.2MB/s|3%|TK-PL|YT-PL...
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
+    short-id: '0123456789abcdef'
+  server: 144.31.4.166
+  servername: www.deepl.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b1c5027-5bc6-4ee2-b287-001b05fba219
+  xudp: true
+- name: 芬兰-009 |a9de|puddincat07@Teleg...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.239.142.215
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 韩国-005 |671KB/s
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: T2clM0QlM0Q6
+- cipher: aes-256-cfb
+  name: 韩国-006 |ea88|puddincat07@Teleg...
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- name: 芬兰-010 |1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 95.81.113.144
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 荷兰-003 |2.6MB/s|TK-SE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 87.239.250.244
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 台湾-002 |4.7MB/s|GM-TW
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 114.33.57.170
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 韩国-007 |4.5MB/s|YT-KR|GPT⁺-SG|...
+  network: ws
+  port: 10001
+  server: 218.155.125.99
+  servername: ynwta9.api-edge.fgfw.qzz.io
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: ynwta9.api-edge.fgfw.qzz.io
+    max-early-data: 2560
+    path: /danfeng
+- name: 韩国-008 |3.8MB/s|YT-KR|GPT-JP|G...
+  network: ws
+  port: 6143
+  server: 152.69.225.118
+  servername: kt58ndxywnrrgg.majusti.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: kt58ndxywnrrgg.majusti.dpdns.org
+    path: /@Marisa_kristi
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 韩国-009 |2.2MB/s|YT-KR|GPT⁺-SG|...
+  network: ws
+  port: 12152
+  server: 121.133.224.69
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- alpn:
+  - 'http/1.1
+
+    '
+  encryption: none
+  name: 美国-009 |3.2MB/s|TK-US|YT-US|GP...
+  network: ws
+  port: 443
+  server: 67.230.161.2
+  servername: k598psis.auth.sh21.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: k598psis.auth.sh21.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /danfeng?ed=2560
+  xudp: true
+- name: 美国-010 |4.4MB/s|YT-US|GPT-JP
+  network: ws
+  port: 10101
+  server: 69.63.218.168
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+    path: /@Marisa_kristi
+- client-fingerprint: random
+  name: 日本-004 |2.6MB/s|YT-JP|GPT⁺-US|...
+  network: ws
+  port: 443
+  server: 142.91.108.54
+  servername: subsources.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
+  ws-opts:
+    headers:
+      Host: subsources.pages.dev
+    path: /?ed=2560
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 美国-011 |1.8MB/s|YT-US|GPT⁺-SG|...
+  network: ws
+  port: 443
+  server: 174.136.204.87
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- encryption: none
+  name: 瑞典-002 |2.2MB/s|GPT⁺-DE
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GFe2pwkZh7WJbyZuFpFH68G4AOjvfl_xZANcXU2zZio
+  server: 138.124.26.159
+  servername: yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aed996ff-eca0-4d4a-b2f3-01362ec4d48d
+  xudp: true
+- cipher: aes-256-cfb
+  name: 越南-019 |0.5MB/s|GPT|YT|X|Histo...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.173
+  type: ss
+- ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: 韩国-010 |4.2MB/s|YT-KR|GPT⁺-SG|...
+  network: ws
+  port: 443
+  server: 158.247.224.175
+  servername: mug.support.gfw.hidns.co
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: mug.support.gfw.hidns.co
+    max-early-data: 2560
+    path: /danfeng
+- encryption: none
+  name: 美国-012 |3.2MB/s
+  network: ws
+  port: 443
+  server: 192.0.63.134
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+  xudp: true
+- encryption: none
+  name: 美国-013 |1.9MB/s|7%|TK-GB|YT-GB...
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.kozow.com
+    path: /danfeng?ed=2560
+  xudp: true
+- encryption: none
+  http-opts:
+    path:
+    - /
+  name: 芬兰-011 |854KB/s
+  network: tcp
+  port: 47539
+  reality-opts:
+    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
+    short-id: '82a55f31981ea6be'
+  server: 178.17.53.28
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
+  xudp: true
+- name: 荷兰-004 |2.5MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 4433
+  server: 138.226.240.199
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+- name: 德国-016 |3.1MB/s
+  network: ws
+  port: 4001
+  server: 185.94.29.156
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: /
+  xudp: true
+- name: 芬兰-012 |2.5MB/s|TK-SE|YT-FI|NF...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 185.17.2.103
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 印度-001 |2.6MB/s
+  port: 1080
+  server: 64.227.131.240
+  skip-cert-verify: true
+  type: socks5
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 德国-017 |3.6MB/s|0%|TK-DE|YT-DE...
+  network: http
+  port: 17662
+  server: 77.90.11.178
+  tls: false
+  type: vmess
+  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
+- cipher: aes-256-cfb
+  name: 越南-020 |1.6MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.58
+  type: ss
+  udp: true
 - encryption: none
   flow: xtls-rprx-vision
   name: 爱沙尼亚-001 |1.7MB/s
@@ -1032,792 +1768,7 @@ proxies:
   udp: true
   uuid: 9037fde7-debb-4fe7-8c73-09f520f3f821
   xudp: true
-- name: 荷兰-010 |2.9MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 8443
-  server: 77.110.103.243
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 美国-006 |2.1MB/s|10%|TK-US|YT-U...
-  network: ws
-  port: 8443
-  server: 69.143.174.201
-  servername: babayaga-6i7.pages.dev
-  tls: true
-  type: vless
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
-  ws-opts:
-    headers:
-      Host: babayaga-6i7.pages.dev
-    path: /?ed=2560&Telegram+@WangCai2
-- name: 德国-010 |3.9MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 8443
-  server: 45.145.43.205
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: 德国-011 |3.4MB/s|0%|TK-DE|YT-RU...
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 12855
-  server: 83.243.86.103
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-  udp: true
-- name: 荷兰-011 |3.3MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 443
-  server: 64.188.97.205
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 波兰-001 |4.2MB/s|3%|TK-PL|YT-PL...
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
-    short-id: '0123456789abcdef'
-  server: 144.31.4.166
-  servername: www.deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5b1c5027-5bc6-4ee2-b287-001b05fba219
-  xudp: true
-- name: 新加坡-004 |1.2MB/s|YT-SG|NF-SG|D...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.160.195.223
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: rc4-md5
-  name: 英国-002 |4.3MB/s|TK-GB|NF-GB|GP...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
-  type: ss
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 波兰-002 |3.1MB/s|3%|TK-PL|YT-PL...
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-    short-id: '2344766a270a6298'
-  server: 144.31.5.23
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-  xudp: true
-- name: 德国-012 |3.7MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 443
-  server: 193.23.219.213
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: aes-256-cfb
-  name: 越南-010 |629KB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.133
-  type: ss
-- name: 荷兰-012 |3.8MB/s|0%|TK-NL|YT-NL...
-  network: ws
-  port: 2053
-  server: 209.38.34.177
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 芬兰-005 |698KB/s|TK-FI|YT-FI|NF...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 45.144.234.149
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram @WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 韩国-006 |4.2MB/s|0%|YT-KR|NF|GP...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 22386
-  server: 43.164.128.196
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国-007 |5.2MB/s|0%|YT-KR|NF|GP...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 28412
-  server: 43.164.133.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国-008 |5.8MB/s|0%|YT-CN|NF|GP...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 25755
-  server: 43.164.135.98
-  type: ss
-  udp: true
-- name: 俄罗斯联邦-005 |3.9MB/s|10%|TK-NL|Y...
-  network: ws
-  port: 2053
-  server: 92.51.36.219
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2
-- name: 芬兰-006 |5a11|puddincat07@Teleg...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 217.11.167.62
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-007 |3.7MB/s|100%|TK-GB|YT-...
-  network: ws
-  port: 443
-  server: 67.207.80.155
-  servername: santong.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: santong.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 芬兰-007 |f223|puddincat07@Teleg...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 46.17.106.121
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 瑞典-001 |2.3MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 8443
-  server: 62.60.151.252
-  servername: santong.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: santong.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 芬兰-008 |3.2MB/s|10%|TK-SE|YT-S...
-  network: ws
-  port: 8443
-  server: 84.22.150.156
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 美国-008 |6.6MB/s|0%|TK-US|YT-HK...
-  network: tcp
-  port: 8081
-  reality-opts:
-    public-key: bilDohzULHmvZE7BP9ym6URVT6R1DM06v2LLqNo7lh0
-    short-id: 'a1b2c3d4'
-  server: 207.57.128.27
-  servername: aws.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f2185502-80e6-41e8-8949-509b74b65f9c
-- name: 意大利-001 |3.2MB/s|20%|TK-IT|YT-...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  server: 172.232.194.233
-  servername: github.githubassets.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国-009 |4.9MB/s|0%|YT-KR|NF|GP...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 29875
-  server: 43.164.190.85
-  type: ss
-  udp: true
-- name: 荷兰-013 |3.9MB/s|0%|TK-DE|YT-DE...
-  network: ws
-  port: 443
-  server: 5.129.230.231
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 芬兰-009 |3.2MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 443
-  server: 77.110.98.16
-  servername: santong.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: santong.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞典-002 |3.2MB/s|10%|TK-SE|YT-S...
-  network: ws
-  port: 8443
-  server: 193.232.178.149
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 俄罗斯联邦-006 |3.5MB/s|YT-RU
-  network: ws
-  port: 8443
-  server: 31.130.149.85
-  servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /
-  xudp: true
-- name: 芬兰-010 |1.0MB/s|TK-NL|YT-NL|NF...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.188.93.200
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 拉脱维亚-002 |6.5MB/s|10%|TK-LT|YT...
-  network: ws
-  port: 443
-  server: 5.34.208.208
-  servername: e.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: e.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/LV?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 拉脱维亚-003 |6.1MB/s|10%|TK-LT|YT...
-  network: ws
-  port: 8443
-  server: 5.34.213.168
-  servername: e.joss.jak.biz.id
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: e.joss.jak.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /Free-VPN-CF-Geo-Project/LV?ed=2560
-  xudp: true
-- flow: xtls-rprx-vision
-  name: 德国-013 |2.8MB/s|22%|TK-DE|YT-D...
-  port: 9443
-  reality-opts:
-    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-    short-id: '2344766a270a6298'
-  server: 159.195.82.187
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-- name: 荷兰-014 |3.8MB/s|0%|TK-DE|YT-DE...
-  network: ws
-  port: 8443
-  server: 5.129.208.147
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 芬兰-011 |3.2MB/s|0%|TK-DE|YT-DE...
-  network: ws
-  port: 443
-  server: 85.192.31.252
-  servername: santong.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: santong.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 新加坡-005 |1018KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 128.199.128.117
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 瑞典-003 |3.2MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 443
-  server: 212.113.103.4
-  servername: santong.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: santong.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: chacha20-ietf-poly1305
-  name: 韩国-010 |5.2MB/s|0%|YT-KR|NF|GP...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 1885
-  server: 43.164.134.82
-  type: ss
-  udp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 德国-014 |2.1MB/s
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- name: 新加坡-006 |663KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 139.59.239.116
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 希腊-001 |3.2MB/s|0%|TK-IT|YT-IT...
-  network: ws
-  port: 443
-  server: 91.186.212.246
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 拉脱维亚-004 |3.9MB/s|10%|YT-RU|GP...
-  network: ws
-  port: 443
-  server: 5.34.211.137
-  servername: e.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: e.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/LV?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 芬兰-012 |3.2MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 443
-  server: 82.117.84.70
-  servername: santong.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: santong.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞典-004 |3.2MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 443
-  server: 77.232.143.96
-  servername: santong.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: santong.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞典-005 |2.3MB/s|10%|TK-IT|YT-I...
-  network: ws
-  port: 443
-  server: 213.21.251.234
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞典-006 |3.8MB/s|0%|TK-DE|YT-DE...
-  network: ws
-  port: 443
-  server: 89.22.232.232
-  servername: santong.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: santong.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 新加坡-007 |d56a|puddincat07@Tele...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 178.128.209.190
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 拉脱维亚-005 |4.8MB/s|10%|TK-LT|YT...
-  network: ws
-  port: 443
-  server: 5.34.208.18
-  servername: e.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: e.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/LV?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞典-007 |3.0MB/s|10%|TK-SE|YT-S...
-  network: ws
-  port: 8443
-  server: 213.21.246.228
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞典-008 |3.2MB/s|10%|TK-SE|YT-S...
-  network: ws
-  port: 2053
-  server: 212.113.100.10
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞典-009 |3.3MB/s|10%|TK-IT|YT-I...
-  network: ws
-  port: 8443
-  server: 77.110.97.17
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 塞浦路斯-001 |936KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.12.151.185
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: UpdateService
-  name: 俄罗斯联邦-007 |2.6MB/s|TK-DE|YT-RU...
-  network: grpc
-  port: 2083
-  reality-opts:
-    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-    short-id: '6da16b1335651b38'
-  server: 5.188.224.135
-  servername: ir.ozone.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2433762-ba4f-4f50-b963-32cbc430ca36
-- name: 新加坡-008 |1.7MB/s|YT-SG|NF-SG|D...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 22000
-  server: 47.79.237.236
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 芬兰-013 |2.5MB/s|TK-SE|YT-FI|NF...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 185.17.2.103
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 拉脱维亚-006 |3.9MB/s|10%|YT-RU|GP...
-  network: ws
-  port: 443
-  server: 5.34.215.68
-  servername: e.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: e.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/LV?ed=2560&https://t.me/WangCai2🇨🇳
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 俄罗斯联邦-008 |725KB/s|27%|TK-NL|Y...
-  network: tcp
-  port: 52000
-  reality-opts:
-    public-key: QxNM7Wad1AT-erPr2JpacYeluAAASMT5yHU_ANpWD1Q
-    short-id: '9bcf6f2c'
-  server: 159.194.213.95
-  servername: ozon.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd2bfdd2-68eb-49b0-98ad-ed82f901edde
-  xudp: true
-- name: 德国-015 |2.7MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 8443
-  server: 95.85.252.170
-  servername: jamuur.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: jamuur.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/DE?ed=2560&https://t.me/WangCai2🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 德国-016 |1.3MB/s
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-009 |1.3MB/s
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 19871
-  server: 43.160.244.10
-  type: ss
-  udp: true
-- name: 荷兰-015 |3.7MB/s|10%|TK-NL|YT-N...
-  network: ws
-  port: 443
-  server: 194.116.215.29
-  servername: support.zoom.us.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: support.zoom.us.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/NL?ed=2560&https://t.me/WangCai2🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 德国-017 |1.7MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- name: 芬兰-014 |3.6MB/s|10%|TK-DE|YT-D...
-  network: ws
-  port: 443
-  server: 217.144.186.133
-  servername: santong.joss.jak.biz.id
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: santong.joss.jak.biz.id
-    path: /Free-VPN-CF-Geo-Project/GB?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 芬兰-015 |1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 95.81.113.144
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: /sequre/grpc/
-  name: 波兰-003 |2.7MB/s|0%|TK-PL|YT-PL...
-  network: grpc
-  port: 443
-  server: 193.34.212.80
-  servername: 193.34.212.80.vhub.pro
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c1d17f5-4f43-4f78-9505-d50c38efc40b
-  xudp: true
-- name: 日本-004 |957KB/s
+- name: 日本-005 |957KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1830,14 +1781,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-128-gcm
-  name: 俄罗斯联邦-009 |1.6MB/s|YT-CN
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 13393
-  server: 193.53.127.251
-  type: ss
-  udp: true
-- name: 美国-009 |819KB/s
+- name: 美国-014 |819KB/s
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123
@@ -1845,32 +1789,6 @@ proxies:
   tls: false
   type: http
   username: fQ67Dpe5dU
-- alterId: 0
-  cipher: auto
-  name: 新加坡-010 |949KB/s|0%|YT-SG|NF-S...
-  network: raw
-  port: 443
-  server: 43.128.70.62
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7eb64dc1-5b5c-4795-8383-e1964c45477b
-  xudp: true
-- cipher: aes-128-gcm
-  name: 日本-005 |7.1MB/s|9%|YT-JP|NF|D+...
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 2083
-  server: 54.199.22.197
-  type: ss
-  udp: true
 - ech-opts:
     enable: true
     query-server-name: encryptedsni.com
@@ -1894,27 +1812,7 @@ proxies:
 - ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 韩国-012 |4.4MB/s|9%|YT-KR|GPT|G...
-  network: ws
-  port: 20202
-  server: 61.85.6.38
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 韩国-013 |5.0MB/s
+  name: 韩国-012 |5.0MB/s
   network: ws
   port: 11434
   server: 112.162.177.241
@@ -1934,7 +1832,7 @@ proxies:
 - ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 韩国-015 |4.2MB/s
+  name: 韩国-014 |4.2MB/s
   network: ws
   port: 25448
   server: 221.147.173.70
@@ -1951,124 +1849,18 @@ proxies:
       Host: s3vz.user-service.chinav.indevs.in
     max-early-data: 2560
     path: /danfeng
-- cipher: aes-128-gcm
-  name: 越南-011 |1007KB/s|0%|YT-HK|NF|D...
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: 163.61.75.21
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-018 |1.1MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: 美国-011
+  name: 美国-016
   password: dongtaiwang.com
   port: 33990
   server: 157.254.223.48
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: 德国-019 |5.9MB/s|100%|TK-DE|YT-...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 152.53.118.28
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- encryption: none
-  name: 美国-013 |5.6MB/s
-  network: ws
-  port: 443
-  server: 135.84.73.239
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-  xudp: true
-- name: 德国-020 |678KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 195.133.94.19
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: aes-256-cfb
-  name: 比利时-001 |a313|puddincat07@Tele...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.249.78
-  type: ss
-- cipher: aes-128-gcm
-  name: 越南-012 |4.1MB/s|0%|YT-HK|NF|D+...
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: 161.248.31.35
-  type: ss
-  udp: true
-- name: 德国-021 |711KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 143.20.160.200
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
 - ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: 韩国-016 |5.7MB/s|9%|YT-KR|NF|D+...
+  name: 韩国-015 |5.7MB/s|9%|YT-KR|NF|D+...
   network: ws
   port: 11434
   server: 121.140.206.109
@@ -2085,715 +1877,17 @@ proxies:
       Host: s3vz.user-service.chinav.indevs.in
     max-early-data: 2560
     path: /danfeng
-- name: 美国-015 |2.0MB/s|63%|TK-US|YT-U...
-  obfs: salamander
-  obfs-password: ODczNTFlNmQ0YWVlZGUzOQ==
-  password: a50a83bd-1fe8-4dd4-ba55-48f80190f527
-  port: 36002
-  server: 81.31.232.60
-  skip-cert-verify: true
-  sni: hk1.zongyunti.site
-  tfo: false
-  type: hysteria2
 - name: 意大利-002 |3.1MB/s|3.0MB/s
   port: 1080
   server: 149.62.186.244
   skip-cert-verify: true
   type: socks5
-- cipher: aes-256-cfb
-  name: 加拿大-001 |880KB/s|18%|YT-US|NF-...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 79.127.200.162
-  type: ss
-- name: 德国-023 |589KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 188.245.161.141
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: aes-256-cfb
-  name: 越南-013 |1.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.189
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-014 |564KB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.206
-  type: ss
-- name: 德国-024 |618KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 159.195.5.181
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 新加坡-011 |1.3MB/s|YT-SG|NF-SG|D...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 14706
-  server: 8.222.195.24
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-256-cfb
-  name: 越南-015 |562KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.11
-  type: ss
-- name: 奥地利-001 |528KB/s|9%|TK-DE|YT-D...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 152.53.228.86
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 奥地利-002 |5.3MB/s|9%|TK-DE|YT-D...
-  network: ws
-  password: '1234567890'
-  port: 8443
-  server: 152.53.227.239
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-025 |1.2MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 202.61.195.167
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-016 |555KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.179
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-017 |972KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.191
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-018 |1.1MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.207
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-019 |893KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.31
-  type: ss
-- name: 荷兰-016 |3.6MB/s
+- name: 荷兰-005 |3.6MB/s
   port: 1080
   server: 104.248.203.234
   skip-cert-verify: true
   type: socks5
-- name: 奥地利-003 |3.9MB/s|9%|TK-DE|YT-D...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 152.53.236.205
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: aes-256-cfb
-  name: 越南-020 |605KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.42
-  type: ss
-  udp: true
-- name: 德国-026 |835KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 77.239.127.77
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-021 |873KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.36
-  type: ss
-- cipher: aes-128-gcm
-  name: 美国-016 |4.2MB/s|100%|TK-US|YT-...
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.244
-  type: ss
-- auth: a50a83bd-1fe8-4dd4-ba55-48f80190f527
-  name: 奥地利-004 |1.9MB/s|27%|TK-AT|YT-...
-  password: a50a83bd-1fe8-4dd4-ba55-48f80190f527
-  port: 36002
-  server: 152.53.54.139
-  skip-cert-verify: true
-  sni: hk1.zongyunti.site
-  tfo: false
-  type: hysteria2
-  udp: true
-- name: 德国-027 |3.3MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 94.125.101.103
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-022 |703KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 荷兰-017 |4.2MB/s|TK-NL|YT-NL|NF...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.23.166
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-023 |1.8MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.232
-  type: ss
-  udp: true
-- name: 德国-028 |618KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.240.36
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-029 |1.0MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.118.170
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-030 |862KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 8443
-  server: 95.164.123.131
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-024 |896KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.60
-  type: ss
-- name: 德国-031 |4.7MB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.229.34
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/56.0.2924.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-032 |809KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 103.109.234.41
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-033 |1016KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.85.72
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-034 |981KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.116.8
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 伊拉克-001 |735KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 178.17.48.78
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-035 |611KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 148.253.215.61
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 德国-036 |559KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 164.90.209.5
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 伊朗-001 |537KB/s|TK-DE|YT-DE|NF...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 213.176.77.231
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 德国-037 |682KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 80.253.249.66
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 瑞士-002 |2.8MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.32.121
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 捷克-001 |583KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 194.87.77.2
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞士-003 |1011KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.32.0
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- encryption: none
-  name: 德国-039 |1.2MB/s|0%|TK-DE|YT-RU...
-  network: xhttp
-  port: 15530
-  reality-opts:
-    public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
-    short-id: 'aa45df0f'
-  server: 178.18.147.163
-  servername: www.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac121f97-544b-47b3-bf91-eca9c45db548
-  xhttp-opts:
-    mode: auto
-    path: /github.com/Alvin9999-newpac/fanqiang
-  xudp: true
-- name: 瑞士-004 |2.3MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.28.173
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 伊朗-002 |519KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 213.176.78.192
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-040 |606KB/s
-  network: ws
-  password: '1234567890'
-  port: 8443
-  server: 2.27.120.108
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-041 |864KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.139.103
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞士-005 |760KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.28.78
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 伊拉克-002 |1.1MB/s|TK-DE|YT-DE|N...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 178.17.48.170
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- auth: afb8220c-4b91-423c-b53c-b04ad8fa0ff6
-  name: 英国-003 |3.0MB/s|0%|TK-GB|YT-GB...
-  password: afb8220c-4b91-423c-b53c-b04ad8fa0ff6
-  port: 8444
-  server: 82.152.18.94
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- name: 德国-042 |2.0MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.218.10
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 德国-043 |833KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 195.245.239.124
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞士-006 |2.4MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.32.120
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-025 |1.5MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.123
-  type: ss
-- name: 德国-044 |2.5MB/s|TK-DE|YT-DE|NF...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.138.127
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-045 |614KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 193.23.218.192
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-046 |3.8MB/s|0%|TK-IT|NF|D+...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 167.17.182.98
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /?ed=2560
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 德国-047
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- name: 捷克-002 |907KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 95.85.233.224
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-048 |563KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 185.219.84.221
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-049 |515KB/s|9%|TK-DE|YT-DE...
+- name: 德国-019 |515KB/s|9%|TK-DE|YT-DE...
   network: ws
   password: '1234567890'
   port: 443
@@ -2808,566 +1902,15 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/40.0.2214.115 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-050 |1.1MB/s|TK-DE|YT-DE|NF...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 93.123.84.194
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 捷克-003 |3.9MB/s|100%|TK-DE|YT-...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 95.85.234.43
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 荷兰-018 |578KB/s
-  network: ws
-  password: '1234567890'
-  port: 2053
-  server: 213.165.39.142
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 捷克-004 |821KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 194.87.77.91
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 阿联酋-003 |624KB/s|TK-DE|YT-DE|N...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 104.128.139.68
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 美国-017 |719KB/s
-  network: ws
-  password: '1234567890'
-  port: 8443
-  server: 185.170.153.115
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 阿联酋-004 |558KB/s
-  network: ws
-  password: '1234567890'
-  port: 8443
-  server: 104.128.139.249
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 捷克-005 |2.5MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 95.85.233.44
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-010 |2.2MB/s|YT-RU
-  network: tcp
-  port: 48444
-  reality-opts:
-    public-key: FApUbcJurXfV5Y3PG2xRycl1R7y0CxwmUU7FRgUpzG0
-    short-id: '6ba85179'
-  server: 185.147.27.67
-  servername: eh.vk.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 93c6d2ce-0a01-4ac9-a1df-0ad6f6d84dea
-  xudp: true
-- name: 捷克-006 |2.8MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 95.85.232.148
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 瑞典-010 |2.2MB/s
-  network: ws
-  port: 443
-  server: 77.110.97.237
-  servername: sni.111000.v6.rocks
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: 伊朗-003 |663KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 213.176.77.30
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 新加坡-012 |786KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 165.22.248.134
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 巴基斯坦-001 |1.5MB/s
-  port: 3128
-  server: 103.157.200.126
-  skip-cert-verify: true
-  tls: false
-  type: http
-- name: 印度-001 |1.0MB/s
+- name: 印度-002 |1.0MB/s
   port: 1080
   server: 139.59.24.173
   skip-cert-verify: true
   type: socks5
 - cipher: aes-256-cfb
-  name: 越南-026 |542KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.34
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-027 |1.2MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.70
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-028 |1.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-029 |956KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.41
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-030 |1.1MB/s
+  name: 越南-021 |1.1MB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.145
   type: ss
   udp: true
-- name: 荷兰-019 |3.3MB/s|0%|TK-DE|YT-DE...
-  network: ws
-  port: 443
-  server: 213.165.37.101
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 芬兰-016 |4.0MB/s|9%|TK-NL|YT-NL...
-  network: ws
-  port: 443
-  server: 144.31.132.91
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: aes-256-cfb
-  name: 越南-031 |1.2MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.23
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-032 |1.1MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.134
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-033 |1.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.240
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 英国-004 |4.2MB/s|100%|TK-NL|YT-...
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.82
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰-020 |855d|puddincat07@Teleg...
-  password: VpKABcOpNNA0l5G2AVOmw8
-  port: 62685
-  server: 213.109.147.242
-  type: ss
-- name: 台湾-004 |692KB/s
-  network: ws
-  port: 6235
-  server: 125.227.219.98
-  servername: baidu.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f6ddddaf-dfd6-4134-9dae-03b93b03d146
-  ws-opts:
-    headers:
-      host: baidu.com
-    path: /xxxxhttp
-- name: 荷兰-021 |3.3MB/s
-  port: 1080
-  server: 5.255.117.250
-  skip-cert-verify: true
-  type: socks5
-- name: 印度-002 |2.6MB/s
-  port: 1080
-  server: 64.227.131.240
-  skip-cert-verify: true
-  type: socks5
-- cipher: aes-256-cfb
-  name: 越南-034 |923KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.54
-  type: ss
-- name: 瑞典-011 |3.7MB/s
-  network: ws
-  port: 443
-  server: 176.97.77.161
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 芬兰-017 |2.0MB/s
-  network: ws
-  port: 443
-  server: 109.107.190.141
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 台湾-005 |1.2MB/s|0%|TK-SG|YT-SG...
-  network: ws
-  port: 2087
-  server: 125.227.233.197
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
-- ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 韩国-017 |2.0MB/s|9%|YT-KR|NF|D+...
-  network: ws
-  port: 18889
-  server: 14.40.27.140
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- name: 芬兰-018 |2.8MB/s
-  network: ws
-  port: 443
-  server: 103.71.22.186
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷兰-022 |3.2MB/s|0%|TK-NL|YT-NL...
-  network: ws
-  port: 2053
-  server: 46.8.229.218
-  servername: sni.111000.v6.army
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: aes-256-cfb
-  name: 越南-035 |828KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.84
-  type: ss
-  udp: true
-- encryption: none
-  name: 拉脱维亚-007 |3.3MB/s|9%|YT-RU|GPT...
-  network: ws
-  port: 443
-  server: 5.34.212.114
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-  xudp: true
-- name: 法国-003 |4.0MB/s
-  network: ws
-  port: 443
-  server: 77.221.152.21
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /?ed=2560fp=chrome
-  xudp: true
-- cipher: aes-256-cfb
-  name: 越南-036 |0.5MB/s|GPT|YT|X|Histo...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.173
-  type: ss
-- encryption: none
-  name: 美国-018 |3.2MB/s
-  network: ws
-  port: 443
-  server: 192.0.63.134
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: /danfeng?ed=2560
-  xudp: true
-- encryption: none
-  name: 美国-019 |1.8MB/s|7%|TK-GB|YT-GB...
-  network: ws
-  port: 443
-  server: 192.0.54.225
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: /danfeng?ed=2560
-  xudp: true
-- encryption: none
-  name: 美国-020 |1.9MB/s|7%|TK-GB|YT-GB...
-  network: ws
-  port: 443
-  server: 192.0.63.230
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.kozow.com
-    path: /danfeng?ed=2560
-  xudp: true
-- cipher: aes-256-cfb
-  name: 越南-037 |1.7MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.5
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-038 |845KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.116
-  type: ss
-  udp: true
-- encryption: none
-  http-opts:
-    path:
-    - /
-  name: 芬兰-019 |854KB/s
-  network: tcp
-  port: 47539
-  reality-opts:
-    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
-    short-id: '82a55f31981ea6be'
-  server: 178.17.53.28
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
-  xudp: true
-- encryption: none
-  name: 美国-021 |1.5MB/s
-  network: ws
-  port: 443
-  server: 209.102.207.120
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /
-  xudp: true
-- name: 荷兰-023 |2.5MB/s
-  network: ws
-  packet-encoding: xudp
-  port: 4433
-  server: 138.226.240.199
-  servername: sub.mot.ip-ddns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: sub.mot.ip-ddns.com
-    path: /
-- name: 奥地利-005 |668KB/s|TK-NL|YT-NL|N...
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.98
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: //

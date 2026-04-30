@@ -1,4 +1,19 @@
 proxies:
+- client-fingerprint: chrome
+  name: 美国-001 |2.0MB/s|YT-HK
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 39792
+  server: 38.55.125.175
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: 德国-001 |895KB/s|60%|TK-US|YT-C...
@@ -12,9 +27,15 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
+- cipher: aes-256-cfb
+  name: 美国-007 |3.4MB/s|TK-US|YT-US|GP...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 德国-002 |6.6MB/s|0%|TK-US|YT-CN...
+  name: 德国-008 |2.1MB/s|TK-US|GPT-US
   network: tcp
   port: 180
   server: 82.198.246.9
@@ -23,71 +44,37 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.9
+  ws-path: /
   xudp: true
 - cipher: aes-256-cfb
-  name: 越南-003 |687KB/s|YT-US|NF|GPT⁺-...
+  name: 越南-004 |1009KB/s|YT-US|NF|GPT⁺...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.38
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-010 |687KB/s|YT-US|NF|GPT⁺-...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.49
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-004 |1.2MB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.137
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-006 |945KB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.30
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-007 |616KB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.203
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-008 |768KB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.52
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-010 |629KB/s|YT-US|NF|GPT⁺-...
+  name: 越南-013 |629KB/s|YT-US|NF|GPT⁺-...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.133
   type: ss
 - cipher: aes-256-cfb
-  name: 加拿大-001 |880KB/s|18%|YT-US|NF-...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 79.127.200.162
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-014 |564KB/s|YT-US|NF|GPT⁺-...
+  name: 越南-015 |945KB/s|YT-US|NF|GPT⁺-...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.206
+  server: 103.186.154.30
   type: ss
-- cipher: aes-128-gcm
-  name: 美国-016 |4.2MB/s|100%|TK-US|YT-...
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.244
+- cipher: aes-256-cfb
+  name: 越南-016 |768KB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.52
   type: ss
-- name: 美国-017 |719KB/s
-  network: ws
-  password: '!!str 1234567890'
-  port: 8443
-  server: 185.170.153.115
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560

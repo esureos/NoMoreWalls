@@ -1,5 +1,5 @@
 proxies:
-- name: 台湾-004 |692KB/s
+- name: 台湾-001 |692KB/s
   network: ws
   port: 6235
   server: 125.227.219.98
@@ -14,21 +14,17 @@ proxies:
       host: baidu.com
     path: /xxxxhttp
 - client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: 台湾-005 |1.2MB/s|0%|TK-SG|YT-SG...
+  name: 台湾-002 |4.7MB/s|GM-TW
   network: ws
-  port: 2087
-  server: 125.227.233.197
-  servername: s3vz.user-service.chinav.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 114.33.57.170
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: s3vz.user-service.chinav.indevs.in
-    path: /danfeng?ed=2560
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2

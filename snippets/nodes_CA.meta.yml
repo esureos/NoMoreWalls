@@ -1,1 +1,35 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 加拿大-001 |3.3MB/s
+  network: ws
+  port: 2053
+  server: 142.248.219.218
+  servername: subsources.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
+  ws-opts:
+    headers:
+      Host: subsources.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.101 Safari/537.36
+    path: /?ed=2560fp=random
+  xudp: true
+- client-fingerprint: chrome
+  name: 加拿大-002 |4.3MB/s
+  network: ws
+  port: 2053
+  server: 142.248.219.48
+  servername: subsources.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6d1dfcdf-f221-4765-b104-30216a977914
+  ws-opts:
+    headers:
+      Host: subsources.pages.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560fp=random
+  xudp: true

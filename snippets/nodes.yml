@@ -1,17 +1,33 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 韩国-003 |4e6b|puddincat07@Teleg...
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-001 |1.1MB/s
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 23212
-  server: 43.160.249.52
-  type: ss
+- name: 新加坡-001 |6.7MB/s|YT-HK
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.168.16.112
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-001 |2.0MB/s|YT-HK
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 39792
+  server: 38.55.125.175
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: 德国-001 |895KB/s|60%|TK-US|YT-C...
@@ -25,75 +41,53 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- name: 日本-002 |595KB/s|YT-JP|NF|D+
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 17081
-  server: 176.119.148.212
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-002 |954KB/s|YT-SG|NF-SG|D...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.160.207.33
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 阿联酋-001 |649KB/s
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 25891
-  server: 77.74.201.171
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 阿联酋-002 |4.4MB/s|0%|TK-AE|YT-A...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 15987
-  server: 188.208.110.205
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 德国-002 |6.6MB/s|0%|TK-US|YT-CN...
+  name: 德国-002 |1.3MB/s
   network: tcp
   port: 180
-  server: 82.198.246.9
+  server: 82.198.246.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.214
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-003 |1.7MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.37
+  ws-path: /
   xudp: true
-- name: 日本-003 |8.1MB/s|YT-JP|NF|D+|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 4196
-  server: 185.184.223.138
+- alterId: 0
+  cipher: auto
+  name: 德国-004 |ce3d|puddincat07@Teleg...
+  network: tcp
+  port: 180
+  server: 82.198.246.233
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.233
+  ws-path: /
+  xudp: true
 - alterId: '0'
   cipher: auto
-  name: 德国-003 |984KB/s
+  name: 德国-005 |984KB/s
   network: tcp
   port: 180
   server: 82.198.246.250
@@ -104,42 +98,23 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 新加坡-003 |4.0MB/s|0%|YT-SG|NF-S...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 17891
-  server: 43.160.241.31
+  name: 荷兰-002 |575KB/s|TK-NL|YT-NL|GP...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.188
   type: ss
   udp: true
-- name: 芬兰-001 |706KB/s
+- cipher: aes-256-cfb
+  name: 越南-002 |782KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.211
+  type: ss
+- name: 芬兰-001 |cad2|puddincat07@Teleg...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 95.81.112.201
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-256-cfb
-  name: 越南-001 |769KB/s|YT-RU|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.32
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-002 |1.1MB/s|YT-VN|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.71
-  type: ss
-- name: 芬兰-002 |a9de|puddincat07@Teleg...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.239.142.215
+  server: 95.81.113.186
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -149,12 +124,86 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-256-cfb
-  name: 越南-003 |687KB/s|YT-US|NF|GPT⁺-...
+  name: 美国-007 |3.4MB/s|TK-US|YT-US|GP...
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-003 |783KB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.49
+  server: 103.186.155.129
   type: ss
-- name: 芬兰-003 |1.0MB/s
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 德国-008 |2.1MB/s|TK-US|GPT-US
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.9
+  ws-path: /
+  xudp: true
+- name: 芬兰-002 |3.8MB/s|TK-FI|GM-FI
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 45.144.234.149
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-256-cfb
+  name: 越南-004 |1009KB/s|YT-US|NF|GPT⁺...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.38
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-005 |1019KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.185
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-006 |521KB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.214
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-007 |1.7MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.239
+  type: ss
+- name: 芬兰-003 |0a4b|puddincat07@Teleg...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 84.19.3.83
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 芬兰-004 |1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -168,113 +217,150 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-256-cfb
-  name: 越南-004 |1.2MB/s|YT-US|NF|GPT⁺-...
+  name: 越南-008 |821KB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.137
+  server: 103.186.155.65
   type: ss
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 德国-007 |3.6MB/s|0%|TK-DE|YT-DE...
-  network: http
-  port: 17662
-  server: 77.90.11.178
-  tls: false
-  type: vmess
-  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
-- cipher: aes-256-gcm
-  name: 俄罗斯联邦-002 |635KB/s
-  password: 1a87017d0bf57f34
-  port: 40120
-  server: 194.87.68.6
+  udp: true
+- name: 芬兰-005 |706KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 95.81.112.201
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 德国-011 |697KB/s|TK-DE|GPT⁺|GM-...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 204.168.173.148
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 芬兰-006 |92ab|puddincat07@Teleg...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 193.23.201.26
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯联邦-003 |1.6MB/s|YT-RU|GPT-A...
+  password: PpGD0XXaQtfnPXhnor5U0UsqeU8CgbXh
+  port: 8080
+  server: 130.49.189.40
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 越南-005 |691KB/s|YT-VN|NF|GPT⁺-...
+  name: 越南-009 |1.6MB/s|GPT|X|History
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.16
+  server: 103.186.155.80
+  type: ss
+- name: 新加坡-002 |1.7MB/s|YT-SG|GM-SG
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 194.87.10.241
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 新加坡-003 |703KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 22000
+  server: 47.79.237.236
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-256-cfb
+  name: 越南-010 |687KB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.49
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-006 |945KB/s|YT-US|NF|GPT⁺-...
+  name: 越南-011 |1.1MB/s|YT-VN|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.71
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-012 |769KB/s|YT-RU|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.32
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-013 |629KB/s|YT-US|NF|GPT⁺-...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.133
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-014 |1.1MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.50
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-015 |945KB/s|YT-US|NF|GPT⁺-...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.30
   type: ss
 - cipher: aes-256-cfb
-  name: 荷兰-004 |4.6MB/s|TK-NL|YT-NL|NF...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.17.169
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-007 |616KB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.203
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-008 |768KB/s|YT-US|NF|GPT⁺-...
+  name: 越南-016 |768KB/s|YT-US|NF|GPT⁺-...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.52
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-009 |1.6MB/s
+  name: 越南-017 |691KB/s|YT-VN|NF|GPT⁺-...
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.58
-  type: ss
-  udp: true
-- name: 芬兰-004 |0475|puddincat07@Teleg...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.102.136.201
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-004 |1.2MB/s|YT-SG|NF-SG|D...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.160.195.223
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: rc4-md5
-  name: 英国-002 |4.3MB/s|TK-GB|NF-GB|GP...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
+  server: 103.186.154.16
   type: ss
 - cipher: aes-256-cfb
-  name: 越南-010 |629KB/s|YT-US|NF|GPT⁺-...
+  name: 越南-018 |828KB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.155.133
+  server: 103.186.155.84
   type: ss
-- name: 芬兰-005 |698KB/s|TK-FI|YT-FI|NF...
+  udp: true
+- name: 日本-003 |1d67|puddincat07@Teleg...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 45.144.234.149
+  port: 4196
+  server: 185.184.223.138
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -282,121 +368,6 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram @WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 韩国-006 |4.2MB/s|0%|YT-KR|NF|GP...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 22386
-  server: 43.164.128.196
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国-007 |5.2MB/s|0%|YT-KR|NF|GP...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 28412
-  server: 43.164.133.249
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 韩国-008 |5.8MB/s|0%|YT-CN|NF|GP...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 25755
-  server: 43.164.135.98
-  type: ss
-  udp: true
-- name: 芬兰-006 |5a11|puddincat07@Teleg...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 217.11.167.62
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 芬兰-007 |f223|puddincat07@Teleg...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 46.17.106.121
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 韩国-009 |4.9MB/s|0%|YT-KR|NF|GP...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 29875
-  server: 43.164.190.85
-  type: ss
-  udp: true
-- name: 芬兰-010 |1.0MB/s|TK-NL|YT-NL|NF...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.188.93.200
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-005 |1018KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 128.199.128.117
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 韩国-010 |5.2MB/s|0%|YT-KR|NF|GP...
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 1885
-  server: 43.164.134.82
-  type: ss
-  udp: true
-- name: 新加坡-006 |663KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 139.59.239.116
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-007 |d56a|puddincat07@Tele...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 178.128.209.190
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - name: 塞浦路斯-001 |936KB/s
   network: ws
@@ -411,11 +382,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-008 |1.7MB/s|YT-SG|NF-SG|D...
+- name: 新加坡-004 |1.0MB/s|YT-SG|GM-SG
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 22000
-  server: 47.79.237.236
+  port: 443
+  server: 43.160.207.33
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -424,7 +395,78 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 芬兰-013 |2.5MB/s|TK-SE|YT-FI|NF...
+- cipher: chacha20-ietf-poly1305
+  name: 英国-002 |3.8MB/s|TK-NL|GPT⁺-NL
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.187
+  type: ss
+- name: 芬兰-009 |a9de|puddincat07@Teleg...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.239.142.215
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-256-cfb
+  name: 韩国-006 |ea88|puddincat07@Teleg...
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- name: 芬兰-010 |1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 95.81.113.144
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 荷兰-003 |2.6MB/s|TK-SE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 87.239.250.244
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 台湾-002 |4.7MB/s|GM-TW
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 114.33.57.170
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-256-cfb
+  name: 越南-019 |0.5MB/s|GPT|YT|X|Histo...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.173
+  type: ss
+- name: 芬兰-012 |2.5MB/s|TK-SE|YT-FI|NF...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -439,47 +481,25 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 德国-016 |1.3MB/s
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: true
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 德国-017 |3.6MB/s|0%|TK-DE|YT-DE...
+  network: http
+  port: 17662
+  server: 77.90.11.178
   tls: false
   type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-009 |1.3MB/s
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 19871
-  server: 43.160.244.10
+  uuid: eafa523f-3472-4efc-f1c5-6ce25b3910a9
+- cipher: aes-256-cfb
+  name: 越南-020 |1.6MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.58
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-017 |1.7MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- name: 芬兰-015 |1.1MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 95.81.113.144
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 日本-004 |957KB/s
+- name: 日本-005 |957KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -492,770 +512,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-128-gcm
-  name: 俄罗斯联邦-009 |1.6MB/s|YT-CN
-  password: a9d727cd-330b-4edd-8911-7c224df6afd5
-  port: 13393
-  server: 193.53.127.251
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 新加坡-010 |949KB/s|0%|YT-SG|NF-S...
-  network: raw
-  port: 443
-  server: 43.128.70.62
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7eb64dc1-5b5c-4795-8383-e1964c45477b
-  xudp: true
-- cipher: aes-128-gcm
-  name: 日本-005 |7.1MB/s|9%|YT-JP|NF|D+...
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 2083
-  server: 54.199.22.197
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 越南-011 |1007KB/s|0%|YT-HK|NF|D...
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: 163.61.75.21
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-018 |1.1MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- name: 德国-019 |5.9MB/s|100%|TK-DE|YT-...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 152.53.118.28
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-020 |678KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 195.133.94.19
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: aes-256-cfb
-  name: 比利时-001 |a313|puddincat07@Tele...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 192.71.249.78
-  type: ss
-- cipher: aes-128-gcm
-  name: 越南-012 |4.1MB/s|0%|YT-HK|NF|D+...
-  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: aoe.o.eoa.ccwu.cc
-    mode: websocket
-    mux: false
-    path: /?enc\=aes-128-gcm
-    tls: true
-  port: 443
-  server: 161.248.31.35
-  type: ss
-  udp: true
-- name: 德国-021 |711KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 143.20.160.200
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: aes-256-cfb
-  name: 加拿大-001 |880KB/s|18%|YT-US|NF-...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 79.127.200.162
-  type: ss
-- name: 德国-023 |589KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 188.245.161.141
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: aes-256-cfb
-  name: 越南-013 |1.4MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.189
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-014 |564KB/s|YT-US|NF|GPT⁺-...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.206
-  type: ss
-- name: 德国-024 |618KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 159.195.5.181
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 新加坡-011 |1.3MB/s|YT-SG|NF-SG|D...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 14706
-  server: 8.222.195.24
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: aes-256-cfb
-  name: 越南-015 |562KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.11
-  type: ss
-- name: 奥地利-001 |528KB/s|9%|TK-DE|YT-D...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 152.53.228.86
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 奥地利-002 |5.3MB/s|9%|TK-DE|YT-D...
-  network: ws
-  password: '1234567890'
-  port: 8443
-  server: 152.53.227.239
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-025 |1.2MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 202.61.195.167
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-016 |555KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.179
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-017 |972KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.191
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-018 |1.1MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.207
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-019 |893KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.31
-  type: ss
-- name: 奥地利-003 |3.9MB/s|9%|TK-DE|YT-D...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 152.53.236.205
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- cipher: aes-256-cfb
-  name: 越南-020 |605KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.42
-  type: ss
-  udp: true
-- name: 德国-026 |835KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 77.239.127.77
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-021 |873KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.36
-  type: ss
-- cipher: aes-128-gcm
-  name: 美国-016 |4.2MB/s|100%|TK-US|YT-...
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.244
-  type: ss
-- name: 德国-027 |3.3MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 94.125.101.103
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-022 |703KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.65
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 荷兰-017 |4.2MB/s|TK-NL|YT-NL|NF...
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.23.166
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-023 |1.8MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.232
-  type: ss
-  udp: true
-- name: 德国-028 |618KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.240.36
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-029 |1.0MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.118.170
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-030 |862KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 8443
-  server: 95.164.123.131
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-024 |896KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.60
-  type: ss
-- name: 德国-031 |4.7MB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.229.34
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/56.0.2924.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-032 |809KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 103.109.234.41
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-033 |1016KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.85.72
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-034 |981KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.116.8
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 伊拉克-001 |735KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 178.17.48.78
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-035 |611KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 148.253.215.61
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 德国-036 |559KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 164.90.209.5
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 伊朗-001 |537KB/s|TK-DE|YT-DE|NF...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 213.176.77.231
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 德国-037 |682KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 80.253.249.66
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 瑞士-002 |2.8MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.32.121
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 捷克-001 |583KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 194.87.77.2
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞士-003 |1011KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.32.0
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞士-004 |2.3MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.28.173
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 伊朗-002 |519KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 213.176.78.192
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-040 |606KB/s
-  network: ws
-  password: '1234567890'
-  port: 8443
-  server: 2.27.120.108
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-041 |864KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.139.103
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞士-005 |760KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.28.78
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 伊拉克-002 |1.1MB/s|TK-DE|YT-DE|N...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 178.17.48.170
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-042 |2.0MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.218.10
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 德国-043 |833KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 195.245.239.124
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞士-006 |2.4MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 138.124.32.120
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 越南-025 |1.5MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.123
-  type: ss
-- name: 德国-044 |2.5MB/s|TK-DE|YT-DE|NF...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 144.31.138.127
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-045 |614KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 193.23.218.192
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-046 |3.8MB/s|0%|TK-IT|NF|D+...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 167.17.182.98
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /?ed=2560
-- name: 捷克-002 |907KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 95.85.233.224
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-048 |563KB/s|9%|TK-DE|YT-DE...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 185.219.84.221
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-049 |515KB/s|9%|TK-DE|YT-DE...
+- name: 德国-019 |515KB/s|9%|TK-DE|YT-DE...
   network: ws
   password: '1234567890'
   port: 443
@@ -1270,264 +527,10 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/40.0.2214.115 Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 德国-050 |1.1MB/s|TK-DE|YT-DE|NF...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 93.123.84.194
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 捷克-003 |3.9MB/s|100%|TK-DE|YT-...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 95.85.234.43
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 荷兰-018 |578KB/s
-  network: ws
-  password: '1234567890'
-  port: 2053
-  server: 213.165.39.142
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 捷克-004 |821KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 194.87.77.91
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 阿联酋-003 |624KB/s|TK-DE|YT-DE|N...
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 104.128.139.68
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 美国-017 |719KB/s
-  network: ws
-  password: '1234567890'
-  port: 8443
-  server: 185.170.153.115
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 阿联酋-004 |558KB/s
-  network: ws
-  password: '1234567890'
-  port: 8443
-  server: 104.128.139.249
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 捷克-005 |2.5MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 95.85.233.44
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 捷克-006 |2.8MB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 95.85.232.148
-  skip-cert-verify: false
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-    path: /?ed=2560
-- name: 伊朗-003 |663KB/s
-  network: ws
-  password: '1234567890'
-  port: 443
-  server: 213.176.77.30
-  skip-cert-verify: true
-  sni: kfm-bn0.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: kfm-bn0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 新加坡-012 |786KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 165.22.248.134
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-256-cfb
-  name: 越南-026 |542KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.34
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-027 |1.2MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.70
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-028 |1.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-029 |956KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.41
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-030 |1.1MB/s
+  name: 越南-021 |1.1MB/s
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.145
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 越南-031 |1.2MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.23
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-032 |1.1MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.134
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-033 |1.0MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.240
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 英国-004 |4.2MB/s|100%|TK-NL|YT-...
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.82
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰-020 |855d|puddincat07@Teleg...
-  password: VpKABcOpNNA0l5G2AVOmw8
-  port: 62685
-  server: 213.109.147.242
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-034 |923KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.54
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-035 |828KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.84
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-036 |0.5MB/s|GPT|YT|X|Histo...
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.173
-  type: ss
-- cipher: aes-256-cfb
-  name: 越南-037 |1.7MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.5
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 越南-038 |845KB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.116
-  type: ss
-  udp: true
-- name: 奥地利-005 |668KB/s|TK-NL|YT-NL|N...
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.98
-  skip-cert-verify: false
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: //
