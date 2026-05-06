@@ -1,5 +1,5 @@
 proxies:
-- name: 加拿大-001 |550KB/s|YT-CA|GM-CA
+- name: 加拿大-001 |2.5MB/s|YT-CA|GM-CA
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -9,4 +9,4 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
+    path: /trTelegram+@WangCai2

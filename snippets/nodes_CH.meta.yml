@@ -1,20 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 瑞士-001 |1.3MB/s|GPT-CH
-  port: 443
-  reality-opts:
-    public-key: Z--Ieq3GtHx_Qtqj3NUyK5wY2foVBtlOkyzXqESeswU
-    short-id: '!!str 0c80cc39'
-  server: 45.12.111.151
-  servername: store.steampowered.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7ba57bf-0418-4b66-89bb-d320b5cdd8e5
-- client-fingerprint: chrome
-  name: 瑞士-002 |970KB/s
+  name: 瑞士-001 |3.0MB/s|GM-CH
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -26,11 +12,11 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 瑞士-003 |4.7MB/s
+  name: 瑞士-002 |4.7MB/s
   network: ws
   password: humanity
   port: 443

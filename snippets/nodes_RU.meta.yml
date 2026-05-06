@@ -1,5 +1,21 @@
 proxies:
-- name: 俄罗斯联邦-001 |2.6MB/s|TK-NL|GPT⁺-...
+- client-fingerprint: chrome
+  name: 俄罗斯联邦-001 |609KB/s|YT-RU
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 95.213.226.60
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 俄罗斯联邦-002 |4.0MB/s|TK-NL|YT-NL...
   network: ws
   port: 443
   server: 185.171.83.147
@@ -14,7 +30,7 @@ proxies:
       Host: sni.111000.v6.army
     path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
 - client-fingerprint: chrome
-  name: 俄罗斯联邦-002 |805KB/s
+  name: 俄罗斯联邦-003 |805KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -28,22 +44,6 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 俄罗斯联邦-003 |609KB/s|YT-RU
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 95.213.226.60
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
   name: 俄罗斯联邦-004 |694KB/s
