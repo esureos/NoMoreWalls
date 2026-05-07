@@ -17,63 +17,78 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 德国-002 |1.1MB/s
+  name: 德国-002 |4d74|puddincat07@Teleg...
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.214
+  ws-path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 德国-003 |1.6MB/s
   network: tcp
   port: 180
   server: 82.198.246.233
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.233
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 德国-003 |1.2MB/s
+  name: 德国-004 |2231|puddincat07@Teleg...
   network: tcp
   port: 180
   server: 82.198.246.37
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.37
+  ws-path: /
   xudp: true
-- name: 德国-004 |521KB/s|TK-DE|YT-DE|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 92.119.90.67
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 德国-005 |1.1MB/s
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: '!!str 2344766a270a6298'
+  server: 159.195.82.187
+  servername: yahoo.com
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: 德国-005 |1.9MB/s
+  name: 德国-006 |a359|puddincat07@Teleg...
   network: tcp
   port: 180
   server: 82.198.246.250
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.250
+  ws-path: /
   xudp: true
-- name: 德国-006 |789KB/s|TK-DE|YT-DE|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 167.235.60.23
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -86,23 +101,9 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '500'
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: 德国-008
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '500'
 - client-fingerprint: chrome
   encryption: none
-  name: 德国-009 |872KB/s
+  name: 德国-008 |4.1MB/s
   network: ws
   port: 443
   server: 31.56.7.90
@@ -114,26 +115,75 @@ proxies:
   ws-opts:
     headers:
       Host: sni.latonyamadeline.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
   xudp: true
-- alterId: '0'
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 德国-009
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: '500'
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 德国-010
+  password: dongtaiwang.com
+  port: 30006
+  server: 5.178.101.117
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
+  version: 5
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-011 |718KB/s
+  network: ws
+  port: 443
+  server: 148.253.210.141
+  servername: sni.latonyamadeline.ndjp.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+    path: /
+  xudp: true
+- alterId: 0
   cipher: auto
-  name: 德国-010 |3.7MB/s
+  name: 德国-013 |1.6MB/s
   network: tcp
   port: 180
-  server: 82.198.246.214
+  server: 82.198.246.9
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.9
+  ws-path: /
   xudp: true
-- name: 德国-012 |697KB/s|TK-DE|GPT⁺|GM-...
+- name: 德国-015 |841KB/s|TK-DE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 204.168.173.148
+  port: 2083
+  server: 77.221.157.251
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -141,8 +191,8 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 德国-013 |1.9MB/s|GM-DE
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 德国-016 |572KB/s|TK-DE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
@@ -154,12 +204,13 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram+@WangCai2
-- name: 德国-014 |834KB/s
+    path: /trTelegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  name: 奥地利-002 |1008KB/s|GM-DE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2087
-  server: 77.221.157.251
+  port: 2053
+  server: 38.180.143.51
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -167,8 +218,10 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram+@WangCai2
-- name: 德国-015 |513KB/s
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 德国-018 |513KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -181,22 +234,9 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 芬兰-005 |1.9MB/s|TK-DE|YT-DE|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 65.109.186.249
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
   encryption: none
-  name: 德国-016 |3.2MB/s|TK-IT|GPT⁺-FI
+  name: 德国-019 |4.2MB/s|GPT⁺-LV|GM-IT
   network: ws
   port: 443
   server: 194.247.186.199
@@ -212,82 +252,11 @@ proxies:
         (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
   xudp: true
-- name: 德国-018 |1.5MB/s|TK-DE
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2083
-  server: 77.221.157.251
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram+@WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国-019 |673KB/s|GPT-DE
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-    short-id: '!!str 2344766a270a6298'
-  server: 159.195.82.187
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 拉脱维亚-002 |2.2MB/s|GPT⁺-DE
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU
-    short-id: '!!str 916a'
-  server: 193.163.203.47
-  servername: mirror.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d243df5-9cda-4aac-89d5-354de77d79e2
-  xudp: true
-- name: 德国-020 |2.3MB/s|TK-DE|YT-DE|GP...
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.66.80.118
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-022 |569KB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-headers:
-    Host: 82.198.246.9
-  ws-path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 意大利-002 |1.0MB/s|TK-DE
+- name: 德国-020 |697KB/s|TK-DE|GPT⁺|GM-...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  server: 38.180.194.222
+  server: 204.168.173.148
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -295,6 +264,19 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 芬兰-007 |1.4MB/s|TK-DE|GPT|GM-D...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 89.167.100.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2

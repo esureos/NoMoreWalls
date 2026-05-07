@@ -8,6 +8,12 @@ proxies:
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
+- cipher: aes-256-cfb
+  name: 韩国-002 |f978|puddincat07@Teleg...
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
 - client-fingerprint: chrome
   ech-opts:
     enable: true
@@ -27,9 +33,3 @@ proxies:
     headers:
       Host: ynwta9.api-edge.fgfw.qzz.io
     path: /danfeng?ed=2560
-- cipher: aes-256-cfb
-  name: 韩国-004 |f978|puddincat07@Teleg...
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss

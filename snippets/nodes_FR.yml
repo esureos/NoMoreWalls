@@ -1,9 +1,9 @@
 proxies:
-- name: 法国-002 |3.2MB/s|TK-FR
+- name: 法国-001 |635KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  server: 31.59.120.180
+  server: 31.59.120.217
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
@@ -11,7 +11,7 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
 - client-fingerprint: chrome
-  name: 法国-004 |3.4MB/s|TK-FR|YT-FR
+  name: 法国-005 |3.7MB/s|TK-FR|GM-FR
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -23,6 +23,17 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
+- name: 法国-006 |2.9MB/s|TK-FR|GM-FR
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 31.59.120.180
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
