@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 英国-001 |1.3MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.134
-  type: ss
-  udp: true
 - name: 英属维尔京群岛-001 |926KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -19,3 +12,10 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 英国-001 |1.3MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.134
+  type: ss
+  udp: true

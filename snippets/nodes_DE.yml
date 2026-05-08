@@ -17,22 +17,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 德国-002 |4d74|puddincat07@Teleg...
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-headers:
-    Host: 82.198.246.214
-  ws-path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-003 |1.6MB/s
+  name: 德国-002 |1.6MB/s
   network: tcp
   port: 180
   server: 82.198.246.233
@@ -44,6 +29,21 @@ proxies:
   ws-headers:
     Host: 82.198.246.233
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-003 |1.6MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.9
+  ws-path: /
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 德国-004 |2231|puddincat07@Teleg...
@@ -61,6 +61,19 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
+  name: 德国-005 |4d74|puddincat07@Teleg...
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.214
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 德国-006 |a359|puddincat07@Teleg...
   network: tcp
   port: 180
@@ -74,49 +87,8 @@ proxies:
     Host: 82.198.246.250
   ws-path: /
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-013 |1.6MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-headers:
-    Host: 82.198.246.9
-  ws-path: /
-  xudp: true
-- name: 德国-015 |841KB/s|TK-DE
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2083
-  server: 77.221.157.251
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 德国-016 |572KB/s|TK-DE
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2096
-  server: 77.221.157.251
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
 - client-fingerprint: chrome
-  name: 奥地利-002 |1008KB/s|GM-DE
+  name: 奥地利-001 |1008KB/s|GM-DE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -131,7 +103,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 德国-018 |513KB/s
+- name: 德国-010 |513KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -144,7 +116,20 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 德国-020 |697KB/s|TK-DE|GPT⁺|GM-...
+- name: 德国-014 |572KB/s|TK-DE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 77.221.157.251
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 德国-021 |697KB/s|TK-DE|GPT⁺|GM-...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -157,18 +142,16 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 芬兰-007 |1.4MB/s|TK-DE|GPT|GM-D...
+- name: 德国-022 |841KB/s|TK-DE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 89.167.100.106
+  port: 2083
+  server: 77.221.157.251
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+    path: /trTelegram🇨🇳+@WangCai2

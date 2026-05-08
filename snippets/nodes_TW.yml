@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 台湾-001 |5e9d|puddincat07@Teleg...
+  name: 台湾-001 |e776|puddincat07@Teleg...
   password: qwerREWQ@@
   port: 41632
   server: 185.189.160.105

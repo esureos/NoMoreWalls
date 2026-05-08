@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 韩国-002 |f978|puddincat07@Teleg...
+  name: 韩国-003 |f978|puddincat07@Teleg...
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
