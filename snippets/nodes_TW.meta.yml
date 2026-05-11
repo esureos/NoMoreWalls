@@ -1,14 +1,27 @@
 proxies:
+- name: 台湾-001 |2.6MB/s|TK-SG|YT-SG|GP...
+  network: ws
+  port: 2087
+  security: tls
+  server: 125.227.233.197
+  servername: igvdi.edge-node-sg.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: igvdi.edge-node-sg.fgfw.indevs.in
+    path: /danfeng?ed=2560fp=firefox
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 台湾-001 |e776|puddincat07@Teleg...
+  name: 台湾-002 |e776|puddincat07@Teleg...
   password: qwerREWQ@@
   port: 41632
   server: 185.189.160.105
   tfo: true
   type: ss
   udp: true
-- name: 台湾-002 |692KB/s
+- name: 台湾-003 |692KB/s
   network: ws
   port: 6235
   server: 125.227.219.98

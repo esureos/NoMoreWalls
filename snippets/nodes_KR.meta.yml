@@ -1,6 +1,351 @@
 proxies:
+- name: 韩国-003 |2.6MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 16923
+  server: 59.11.33.164
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-004 |3.4MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 18789
+  server: 210.123.143.214
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-005 |2.7MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 27016
+  server: 59.17.184.164
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
 - client-fingerprint: chrome
-  name: 韩国-001 |0.7MB/s|GPT|X|History
+  name: 韩国-006 |2.6MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 23023
+  server: 59.10.226.160
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 韩国-007 |3.1MB/s|YT-KR|GPT⁺-LV|...
+  network: ws
+  port: 12300
+  server: 112.184.132.12
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-008 |1.9MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 12445
+  server: 59.3.192.122
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 韩国-009 |1.4MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 16103
+  server: 121.146.123.101
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 韩国-010 |3.3MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 26257
+  server: 183.99.227.24
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-011 |3.4MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 10443
+  server: 221.156.228.221
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-013 |2.6MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 10912
+  server: 183.103.4.162
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-014 |3.4MB/s|TK-KR|GPT|GM-K...
+  network: ws
+  port: 10243
+  server: 211.193.169.223
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-015 |4.1MB/s|YT-KR|GPT⁺-LV|...
+  network: ws
+  port: 25010
+  server: 112.172.55.228
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-016 |3.0MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 18246
+  server: 61.76.179.211
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-017 |1.8MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 12121
+  server: 175.213.181.45
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-019 |3.0MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 28017
+  server: 121.179.210.184
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 韩国-020 |4.4MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 22085
+  server: 116.44.147.152
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 韩国-021 |3.4MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 37215
+  server: 222.98.185.243
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-023 |2.8MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 14430
+  server: 119.195.0.158
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-024 |2.1MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 11032
+  server: 14.33.75.54
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-025 |2.1MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 37810
+  server: 211.194.210.183
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-026 |2.6MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 28017
+  server: 222.97.71.115
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-028 |1019KB/s|TK-KR|YT-KR|G...
+  network: ws
+  port: 10554
+  server: 59.24.62.82
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 韩国-029 |5.0MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 443
+  server: 20.249.24.202
+  servername: gogo.onetap.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo.onetap.qzz.io
+    path: /
+- name: 韩国-030 |2.2MB/s|TK-KR|GM-KR
+  network: ws
+  port: 29876
+  server: 112.171.112.109
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-031 |2.0MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 34599
+  server: 222.97.254.167
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  name: 韩国-032 |f873|puddincat07@Teleg...
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- client-fingerprint: chrome
+  name: 韩国-033 |0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
@@ -8,24 +353,68 @@ proxies:
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 韩国-002 |1.2MB/s
-  network: tcp
-  port: 8899
-  reality-opts:
-    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
-    short-id: '!!str 11d27eb4'
-  server: 152.67.211.233
-  servername: www.lovelive-anime.jp
+- name: 韩国-034 |2.6MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 35342
+  server: 119.195.0.158
+  servername: sni.111000.v6.army
   tls: true
   type: vless
   udp: true
-  uuid: b69bba5e-5253-4424-ac55-68cc0da831ac
-  xudp: true
-- cipher: aes-256-cfb
-  name: 韩国-003 |f978|puddincat07@Teleg...
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-035 |2.4MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 38241
+  server: 222.117.231.32
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-037 |2.1MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 32400
+  server: 112.172.95.115
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-038 |2.6MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 10332
+  server: 119.195.242.65
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
+- name: 韩国-039 |2.9MB/s|TK-KR|YT-KR|GP...
+  network: ws
+  port: 10443
+  server: 146.56.138.33
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560

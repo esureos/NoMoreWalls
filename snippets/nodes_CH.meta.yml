@@ -1,23 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  name: 瑞士-001 |3.0MB/s|GPT⁺-LV
-  network: ws
-  port: 443
-  server: 138.124.32.78
-  servername: sni.latonyamadeline.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-  xudp: true
-- client-fingerprint: chrome
-  name: 瑞士-002 |3.1MB/s
+  name: 瑞士-003 |768KB/s
   network: ws
   password: humanity
   port: 443
@@ -29,11 +12,11 @@ proxies:
   ws-opts:
     headers:
       Host: www.gossipglove.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 瑞士-003 |970KB/s
+  name: 瑞士-004 |970KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
