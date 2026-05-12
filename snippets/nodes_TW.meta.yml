@@ -1,27 +1,46 @@
 proxies:
-- name: 台湾-001 |2.6MB/s|TK-SG|YT-SG|GP...
+- client-fingerprint: chrome
+  encryption: none
+  name: 台湾-001 |5.1MB/s|YT-TW|GM-TW
   network: ws
-  port: 2087
-  security: tls
-  server: 125.227.233.197
-  servername: igvdi.edge-node-sg.fgfw.indevs.in
+  port: 443
+  server: 1.161.58.221
+  servername: gogo.wknm.qzz.io
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: igvdi.edge-node-sg.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefox
+      Host: gogo.wknm.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /
+  xudp: true
+- encryption: none
+  name: 台湾-002 |3.2MB/s|YT-TW|GM-TW
+  network: ws
+  port: 43
+  security: tls
+  server: 220.128.110.108
+  servername: pagescm.freen6.cc.cd
+  tls: true
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen6.cc.cd
+    path: /tags/details
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 台湾-002 |e776|puddincat07@Teleg...
+  name: 台湾-003 |e776|puddincat07@Teleg...
   password: qwerREWQ@@
   port: 41632
   server: 185.189.160.105
   tfo: true
   type: ss
   udp: true
-- name: 台湾-003 |692KB/s
+- name: 台湾-004 |692KB/s
   network: ws
   port: 6235
   server: 125.227.219.98

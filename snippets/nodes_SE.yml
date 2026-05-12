@@ -1,24 +1,44 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 瑞典-001 |4.1MB/s|TK-SE|YT-SE|GP...
+  name: 瑞典-001 |5.2MB/s|TK-SE|GPT⁺|GM-...
   password: amazonskr05
   port: 443
   server: 51.20.135.154
   type: ss
+- client-fingerprint: chrome
+  name: 芬兰-001 |639KB/s|TK-SE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 31.56.196.25
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 芬兰-002 |538KB/s|TK-SE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 31.56.205.233
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
 - cipher: aes-256-cfb
-  name: 瑞典-002 |3.6MB/s|TK-SE|YT-SE|GP...
+  name: 瑞典-002 |4.4MB/s|TK-SE|YT-SE|GP...
   password: amazonskr05
   port: 443
-  server: 13.62.20.79
-  type: ss
-- cipher: aes-256-cfb
-  name: 瑞典-003 |4.7MB/s|TK-SE|GPT⁺-SE|...
-  password: amazonskr05
-  port: 443
-  server: 13.62.58.81
+  server: 13.62.228.54
   type: ss
 - client-fingerprint: chrome
-  name: 瑞典-004 |611KB/s|TK-SE|YT-SE|GM...
+  name: 瑞典-004 |1.4MB/s|TK-SE|GM-SE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -30,22 +50,47 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 芬兰-002 |1.9MB/s|TK-SE|YT-SE|GM...
+- client-fingerprint: chrome
+  name: 瑞典-005 |1.0MB/s|TK-SE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 94.183.191.189
+  port: 8443
+  server: 45.153.187.209
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 瑞典-006 |629KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 77.110.121.125
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-256-cfb
+  name: 瑞典-007 |3.6MB/s|TK-SE|YT-SE|GP...
+  password: amazonskr05
+  port: 443
+  server: 13.62.20.79
+  type: ss
 - client-fingerprint: chrome
   name: 瑞典-008 |854KB/s
   network: ws
@@ -77,4 +122,20 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 瑞典-010 |542KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 176.125.240.63
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
