@@ -1,43 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 韩国-003 |2.0MB/s|YT-KR|GPT⁺-KR|...
-  port: 8899
-  reality-opts:
-    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
-    short-id: '!!str 11d27eb4'
-  server: 152.67.211.233
-  servername: www.lovelive-anime.jp
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4a6803d-91de-4d33-b4ce-ff7f1179e5b1
-- client-fingerprint: chrome
-  name: 韩国-005 |4.7MB/s|YT-KR|GPT⁺-KR|...
-  network: ws
-  port: 443
-  server: 20.249.24.202
-  servername: gogo.onetap.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.onetap.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /
-  xudp: true
-- cipher: aes-256-cfb
-  name: 韩国-007 |f873|puddincat07@Teleg...
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
-- client-fingerprint: chrome
-  name: 韩国-010 |0.7MB/s|GPT|X|History
+  name: 韩国-001 |0.7MB/s|GPT|X|History
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
@@ -45,3 +8,109 @@ proxies:
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
+- name: 韩国-002 |2.0MB/s|YT-KR|GPT⁺-KR|...
+  network: ws
+  port: 19071
+  server: 211.197.58.203
+  servername: pagescm.freen18.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen18.cc.cd
+    path: /books/work/static
+- name: 韩国-003 |706KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 7778
+  server: 146.56.113.221
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 韩国-004 |1.2MB/s|YT-KR|GM-KR
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 18469
+  server: 59.16.228.103
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 韩国-005 |2.1MB/s|YT-KR|GM-KR
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 12345
+  server: 59.12.232.18
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 韩国-006 |594KB/s|GPT⁺-KR
+  network: ws
+  port: 35342
+  server: 220.92.53.205
+  servername: pagescm.freen27.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen27.cc.cd
+    path: /lives
+- cipher: aes-256-cfb
+  name: 韩国-007 |f873|puddincat07@Teleg...
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- client-fingerprint: chrome
+  name: 韩国-008 |557KB/s|YT-KR|GM-KR
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 10243
+  server: 14.50.59.154
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 韩国-009 |787KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 32773
+  server: 59.0.95.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2

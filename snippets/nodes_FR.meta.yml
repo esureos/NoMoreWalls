@@ -1,11 +1,38 @@
 proxies:
+- name: 法国-001 |2.9MB/s|TK-FR|GM-FR
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 31.59.120.180
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  name: 法国-002 |3.4MB/s|TK-FR|YT-FR|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 138.124.81.204
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   http-opts:
     path:
     - /
-  name: 法国-001 |990KB/s|TK-FR|GPT⁺-FR|...
+  name: 法国-003 |990KB/s|TK-FR|GPT⁺-FR|...
   network: tcp
   port: 443
   reality-opts:
@@ -19,26 +46,11 @@ proxies:
   udp: true
   uuid: 43488128-319e-f480-64ea-0acdc712e2a8
   xudp: true
-- name: 法国-002 |860KB/s|TK-FR|YT-FR|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 138.124.81.204
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
 - alpn:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: 法国-003 |725KB/s|TK-FR|GPT⁺-FR
+  name: 法国-004 |725KB/s|TK-FR|GPT⁺-FR
   password: dongtaiwang.com
   port: 33887
   reduce-rtt: false
@@ -51,7 +63,7 @@ proxies:
   udp-relay-mode: native
   uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
   version: 5
-- name: 法国-004 |635KB/s
+- name: 法国-005 |635KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -62,55 +74,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- name: 法国-005 |2.9MB/s|TK-FR|GM-FR
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 31.59.120.180
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 法国-006 |4.6MB/s|TK-FR|YT-PL|GP...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: _xzl59bcUYD9QUSKFyboqCC_9eUnaXUUKWA19oQWFHU
-    short-id: '!!str 8d17b7ebab7b99d7'
-  server: 51.68.155.153
-  servername: www.allegro.pl
-  tls: true
-  type: vless
-  udp: true
-  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-  xudp: true
-- auth: dongtaiwang.com
-  name: 法国-007 |1.6MB/s
-  password: dongtaiwang.com
-  port: 41784
-  ports: 41283,40022,41000-42000
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- name: 法国-008 |2.3MB/s|TK-FR|GPT⁺-FR
-  password: dongtaiwang.com
-  port: 41581
-  ports: 41211,41283,40022,41000-42000
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-- name: 法国-009 |4.2MB/s|TK-FR|YT-FR|GP...
+- name: 法国-006 |4.2MB/s|TK-FR|YT-FR|GP...
   password: dongtaiwang.com
   port: 41211
   ports: 41283,40022,41000-42000
@@ -119,16 +83,7 @@ proxies:
   sni: www.microsoft.com
   tfo: false
   type: hysteria2
-- name: 法国-010 |1.7MB/s|TK-FR|GPT⁺-FR|...
-  password: dongtaiwang.com
-  port: 41984
-  ports: 41211,41283,40022,41000-42000
-  server: 163.172.113.118
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-- name: 法国-011 |873KB/s
+- name: 法国-007 |873KB/s
   password: dongtaiwang.com
   port: 41283
   ports: 40022,41000-42000
@@ -137,7 +92,7 @@ proxies:
   sni: www.microsoft.com
   tfo: false
   type: hysteria2
-- name: 法国-012 |598KB/s
+- name: 法国-008 |598KB/s
   password: dongtaiwang.com
   port: 40022
   server: 163.172.113.118

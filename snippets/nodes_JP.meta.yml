@@ -1,24 +1,110 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-001 |4.2MB/s|YT-JP|GPT⁺|GM-...
+- name: 日本-001 |5.9MB/s|YT-JP|GPT⁺|GM-...
   network: ws
   port: 443
-  server: 31.57.172.63
-  servername: gogo.wknm.qzz.io
+  security: tls
+  server: 195.245.242.207
+  servername: gogo.wknm.dpdns.org
   tls: true
   type: vless
-  udp: true
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: gogo.wknm.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
+      Host: gogo.wknm.dpdns.org
+    path: /fp=chrome
+- client-fingerprint: chrome
+  encryption: none
+  name: 日本-002 |529KB/s
+  network: ws
+  port: 443
+  security: tls
+  server: 158.51.110.12
+  servername: pagescm.freen5.cc.cd
+  tls: true
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen5.cc.cd
+    path: /show
+- name: 日本-003 |1.0MB/s|YT-JP|GM-JP
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 26517
+  server: 91.200.242.118
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 日本-004 |1.9MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 168.138.46.67
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 日本-005 |1.7MB/s|YT-JP|GM-JP
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 176.97.70.51
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 日本-006 |619KB/s|YT-JP|GM-JP
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 140.83.50.165
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 日本-007 |3.3MB/s
+  network: ws
+  password: '!!str 162534'
+  port: 443
+  server: 142.91.108.54
+  skip-cert-verify: true
+  sni: cchh2.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 日本-008 |2.0MB/s|YT-JP|GPT|GM-J...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.176.36.61
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - encryption: none
-  name: 韩国-001 |2.5MB/s|YT-JP|GPT⁺-JP|...
+  name: 韩国-010 |2.5MB/s|YT-JP|GPT⁺-JP|...
   network: ws
   port: 443
   security: tls
@@ -33,75 +119,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   encryption: none
-  name: 日本-002 |7.6MB/s|YT-JP|GPT⁺-JP|...
-  network: ws
-  port: 443
-  server: 161.129.34.67
-  servername: gogo.wknm.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.wknm.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- encryption: none
-  name: 日本-003 |1.4MB/s|YT-JP|GPT⁺-JP|...
-  network: ws
-  port: 443
-  security: tls
-  server: 158.51.110.12
-  servername: pagescm.freen5.cc.cd
-  tls: true
-  type: vless
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen5.cc.cd
-    path: /show
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-004 |5.1MB/s|YT-JP|GPT⁺-JP|...
-  network: ws
-  port: 443
-  server: 142.248.137.22
-  servername: gogo.onetap.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.onetap.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-005 |9.1MB/s|YT-JP|GPT⁺-JP|...
-  network: ws
-  port: 443
-  server: 38.207.130.236
-  servername: gogo.qzzio.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.qzzio.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-006 |5.5MB/s|YT-JP|GPT⁺-JP|...
+  name: 日本-009 |5.5MB/s|YT-JP|GPT⁺-JP|...
   network: ws
   port: 443
   security: tls
@@ -118,90 +136,7 @@ proxies:
     path: /fp=chrome
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 日本-007 |8.7MB/s|YT-JP|GPT⁺-JP|...
-  network: ws
-  port: 443
-  server: 102.134.48.83
-  servername: gogo.wknm.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.wknm.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: 日本-008 |919KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.83.50.165
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-  name: 日本-009 |2.5MB/s|YT-JP|GPT⁺-JP|...
-  network: ws
-  path: /@Marisa_kristifp=chrome
-  port: 39545
-  security: tls
-  server: 156.246.91.248
-  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-  sni: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
-    path: /@Marisa_kristifp=chrome
-- client-fingerprint: chrome
-  name: 日本-010 |615KB/s|YT-JP|GM-JP
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 10563
-  server: 88.214.22.165
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-011 |1.1MB/s|YT-JP|GPT⁺-JP|...
-  network: ws
-  port: 33940
-  server: 140.238.33.0
-  servername: guslef2w8oz12wv.ymj.xx.kg
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: guslef2w8oz12wv.ymj.xx.kg
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- client-fingerprint: chrome
-  name: 日本-012 |634KB/s
+  name: 日本-010 |634KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -215,7 +150,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 日本-013 |552KB/s|TK-JP|YT-JP|GM...
+- name: 日本-011 |552KB/s|TK-JP|YT-JP|GM...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
