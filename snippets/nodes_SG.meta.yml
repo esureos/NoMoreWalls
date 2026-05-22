@@ -3,7 +3,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 新加坡-001 |4.4MB/s|YT-SG|GPT⁺-SG...
+  name: 新加坡-002 |4.4MB/s|YT-SG|GPT⁺-SG...
   network: ws
   port: 443
   server: 103.172.116.31
@@ -16,8 +16,36 @@ proxies:
     headers:
       Host: 3-85q.pages.dev
     path: /
+- name: 新加坡-004 |3.3MB/s|TK-NL|YT-NL|G...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.170.17.114
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram @WangCai2
 - client-fingerprint: chrome
-  name: 新加坡-003 |1.8MB/s|GM-SG
+  name: 新加坡-005 |2.0MB/s|YT-SG|GM-SG
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.160.207.175
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /trTelegram @WangCai2
+- client-fingerprint: chrome
+  name: 新加坡-006 |1.8MB/s|GM-SG
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -32,7 +60,7 @@ proxies:
         like Gecko) Chrome/64.0.3282.186 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 新加坡-005 |1.3MB/s
+  name: 新加坡-008 |1.3MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -46,7 +74,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-006 |1.2MB/s|YT-SG|GM-SG
+- name: 新加坡-009 |1.2MB/s|YT-SG|GM-SG
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -60,25 +88,20 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
   ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 荷兰-011 |1.1MB/s|TK-NL|GPT⁺-SG|...
+- name: 新加坡-010 |1.1MB/s
   network: ws
-  port: 443
-  security: tls
-  server: 91.84.96.186
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  password: 8r<[9'l6hAO#8ZQi
+  port: 14706
+  server: 8.222.195.24
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- name: 新加坡-007 |1.1MB/s|YT-SG
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 新加坡-011 |1.1MB/s|YT-SG
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -89,7 +112,22 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-008 |823KB/s
+- client-fingerprint: chrome
+  name: 新加坡-012 |845KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 167.71.221.62
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 新加坡-013 |823KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -102,7 +140,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-009 |795KB/s
+- name: 新加坡-014 |795KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -115,24 +153,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 新加坡-010 |735KB/s
-  network: ws
-  port: 443
-  server: 20.6.12.145
-  servername: sni.skylee4.cloudns.ch
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sni.skylee4.cloudns.ch
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /proxyip=ProxyIP.CMLiussss.net
-  xudp: true
-- name: 新加坡-011 |672KB/s
+- name: 新加坡-015 |672KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -145,8 +166,34 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- name: 新加坡-016 |617KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 178.128.90.108
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 新加坡-017 |606KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.133.61.219
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 新加坡-012 |602KB/s
+  name: 新加坡-018 |602KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -161,24 +208,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 新加坡-013 |541KB/s
-  network: ws
-  port: 443
-  server: 47.82.178.58
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-  xudp: true
-- name: 新加坡-014 |533KB/s
+- name: 新加坡-019 |533KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -189,23 +219,25 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 新加坡-015 |3.7MB/s|YT-SG|GM-SG
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 荷兰-022 |1.1MB/s|TK-NL|GPT⁺-SG|...
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 43.160.207.175
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
+  security: tls
+  server: 91.84.96.186
+  servername: t39sed.gateway-api.sh21.eu.org
+  skip-cert-verify: false
+  sni: t39sed.gateway-api.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-016
+      Host: t39sed.gateway-api.sh21.eu.org
+    path: /danfeng?ed=2560
+- name: 新加坡-020
   network: ws
   password: 8r%3C%5B9%27l6hAO%238ZQi
   port: 443
@@ -219,44 +251,3 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
   ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
-- client-fingerprint: chrome
-  name: 新加坡-017 |845KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 167.71.221.62
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-018 |617KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 178.128.90.108
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-019 |606KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.133.61.219
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2

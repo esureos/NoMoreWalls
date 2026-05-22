@@ -1,4 +1,12 @@
 proxies:
+- multiplexing: MULTIPLEXING_LOW
+  name: 美国-001
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 德国-001
@@ -14,24 +22,9 @@ proxies:
   ws-path: /
 - alpn:
   - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 德国-002
-  password: dongtaiwang.com
-  port: 30006
-  server: 5.178.101.117
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
-  version: 5
-- alpn:
-  - h3
   auth-str: dongtaiwang.com
   down: '1000'
-  name: 德国-003
+  name: 德国-002
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -39,59 +32,36 @@ proxies:
   sni: apple.com
   type: hysteria
   up: '500'
-- flow: xtls-rprx-vision
-  name: 日本-001 |7.8MB/s|YT-CN|GPT-JP
-  network: tcp
-  port: 55305
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: '4bcbc85d'
-  server: 216.23.108.4
-  servername: download.windowsupdate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-- encryption: none
-  name: 德国-004 |6.8MB/s|TK-DE|YT-DE|GP...
-  network: tcp
-  port: 443
-  server: 91.107.188.182
-  type: vless
-  udp: true
-  uuid: 57565f1e-d42a-49a0-a909-5fff0f07b146
-  xudp: true
-- name: 德国-005 |6.7MB/s|TK-DE|YT-DE|GM...
+- name: 新加坡-001 |7.7MB/s|YT-JP|GM-JP
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 23.88.97.94
+  port: 443
+  server: 43.169.18.179
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 日本-002 |5.3MB/s|YT-CN|GPT⁺-JP
-  network: tcp
-  port: 55306
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: '4bcbc85d'
-  server: 216.23.108.4
-  servername: download.windowsupdate.com
+    path: /trTelegram @WangCai2
+- name: 美国-002 |4.4MB/s|TK-NL|YT-NL|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 72.56.74.52
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  udp: true
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram @WangCai2
 - ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
-  name: 新加坡-001 |4.4MB/s|YT-SG|GPT⁺-SG...
+  name: 新加坡-002 |4.4MB/s|YT-SG|GPT⁺-SG...
   network: ws
   port: 443
   server: 103.172.116.31
@@ -104,26 +74,11 @@ proxies:
     headers:
       Host: 3-85q.pages.dev
     path: /
-- name: 荷兰-001 |4.3MB/s|TK-NL|YT-NL|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 38.180.96.40
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 德国-006 |4.2MB/s|TK-DE|GM-DE
+- name: 德国-004 |4.2MB/s|TK-DE|GM-DE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 138.201.190.15
+  server: 46.225.31.235
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -131,63 +86,45 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 荷兰-002 |4.1MB/s|TK-NL|YT-NL|GM...
+    path: /trTelegram+@WangCai2
+- name: 美国-003 |4.1MB/s|TK-NL|YT-NL|GM...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 212.34.148.210
+  server: 72.56.96.230
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-001 |4.1MB/s|TK-NL|YT-NL|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 72.56.115.44
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- encryption: none
-  name: 美国-002 |4.0MB/s
-  network: ws
-  port: 443
-  server: 135.84.64.90
-  servername: sni.111000.indevs.in
   tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- name: 瑞典-001 |3.9MB/s|TK-SE|GM-SE
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 45.153.187.209
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /trTelegram @WangCai2
+- name: 美国-004 |4.0MB/s|TK-GB|YT-GB|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 104.238.68.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram @WangCai2
+- name: 美国-005 |4.0MB/s|TK-NL|GPT-DE|G...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 72.56.69.244
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - name: 罗马尼亚-001 |3.9MB/s|TK-RO|GPT⁺-R...
   port: 9002
@@ -196,73 +133,32 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 日本-003 |3.9MB/s|TK-US|YT-US|GP...
-  port: 55315
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: '4bcbc85d'
-  server: 216.23.108.4
-  servername: download.windowsupdate.com
-  skip-cert-verify: false
+- name: 新加坡-003 |3.8MB/s|TK-US|YT-US|G...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.170.25.96
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram @WangCai2
+- name: 瑞典-001 |3.8MB/s|TK-SE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.112.127.151
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   udp: true
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-- name: 美国-003 |3.8MB/s|TK-GB|YT-GB
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.40.144.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
-- name: 美国-004 |3.8MB/s|TK-GB|YT-GB|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.40.146.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 日本-004 |3.7MB/s|YT-JP|GPT⁺-SG|...
-  network: ws
-  port: 443
-  security: tls
-  server: 103.53.80.84
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- name: 荷兰-003 |3.7MB/s|TK-NL|YT-NL
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 82.115.6.231
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - name: 罗马尼亚-002 |3.7MB/s|TK-RO|GPT⁺-R...
   port: 9002
@@ -278,18 +174,37 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
+- name: 美国-006 |3.5MB/s|TK-GB
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 192.169.222.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram @WangCai2
 - name: 罗马尼亚-004 |3.5MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.185
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-005 |3.5MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 84.239.49.207
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 德国-007 |3.5MB/s|TK-DE|YT-DE
+- name: 美国-007 |3.4MB/s|TK-GB|YT-GB|GM...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 46.225.31.235
+  port: 443
+  server: 141.193.27.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -297,14 +212,7 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 罗马尼亚-005 |3.4MB/s|YT-UA|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.157
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
+    path: /trTelegram @WangCai2
 - name: 罗马尼亚-006 |3.4MB/s|YT-RU|GPT⁺-R...
   port: 9002
   server: 84.239.49.171
@@ -312,51 +220,35 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 瑞典-002 |3.3MB/s|TK-SE
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 16.16.45.85
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-007 |3.3MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-007 |3.4MB/s|YT-UA|GPT⁺-R...
   port: 9002
-  server: 84.239.49.238
+  server: 84.239.49.157
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 荷兰-004 |3.3MB/s|TK-NL|GM-NL
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 144.124.253.182
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 罗马尼亚-008 |3.3MB/s|TK-RO|YT-UA|...
+- name: 罗马尼亚-008 |3.3MB/s|TK-RO|GPT⁺-R...
   port: 9002
-  server: 84.239.49.231
+  server: 84.239.14.159
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
+- name: 新加坡-004 |3.3MB/s|TK-NL|YT-NL|G...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.170.17.114
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram @WangCai2
 - name: 罗马尼亚-009 |3.3MB/s|TK-RO|GPT⁺-R...
   port: 9002
-  server: 84.239.14.154
+  server: 84.239.49.233
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -368,39 +260,29 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 德国-008 |3.2MB/s|TK-DE|GM-DE
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2087
-  server: 51.195.47.23
+- name: 罗马尼亚-011 |3.3MB/s|TK-RO|YT-UA|...
+  port: 9002
+  server: 84.239.49.231
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 韩国-002 |3.2MB/s|YT-KR|GPT⁺-SG|...
-  network: ws
-  port: 32250
-  security: tls
-  server: 49.142.91.156
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
+  sni: www.bing.com
   tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
+  type: http
+- name: 罗马尼亚-012 |3.3MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.238
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-013 |3.3MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.14.154
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
 - flow: xtls-rprx-vision
-  name: 美国-005 |3.2MB/s|YT-RU|GPT⁺-US
+  name: 美国-008 |3.2MB/s|YT-RU|GPT⁺-US
   port: 443
   reality-opts:
     public-key: xDFXqfhZ7-IQiFwXpXltNe2Axo5O33k4LAqDfAVtyz4
@@ -412,225 +294,148 @@ proxies:
   type: vless
   udp: true
   uuid: ec13d921-3072-4e16-b2cd-af709f7f7894
-- name: 美国-006 |3.2MB/s|TK-PL
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 216.144.231.47
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-011 |3.2MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-014 |3.2MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 84.239.49.196
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 美国-007 |3.1MB/s|TK-GB|GM-GB
+- name: 荷兰-001 |3.1MB/s|TK-NL|YT-NL|GM...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 192.0.54.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-008 |3.1MB/s|TK-GB|YT-GB|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 50.62.194.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-012 |3.1MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.212
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-013 |3.1MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.162
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-014 |3.1MB/s|TK-RO|YT-RU|...
-  port: 9002
-  server: 84.239.49.38
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 美国-009 |3.1MB/s|TK-US|YT-US|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 172.212.108.47
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 荷兰-005 |3.1MB/s|TK-NL|YT-NL|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 5.35.47.30
+  server: 38.180.96.40
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 美国-010 |3.0MB/s|TK-US|YT-CN|GP...
-  network: ws
-  port: 443
-  server: 63.141.128.158
-  servername: us1s.xn--mirrors-oj8km52txc7d.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e48cbd21-6431-468f-af52-ee183560e55b
-  ws-opts:
-    headers:
-      Host: us1s.xn--mirrors-oj8km52txc7d.com
-    path: /ym/us1
-- name: 罗马尼亚-015 |3.0MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.163
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 美国-011 |3.0MB/s|TK-NL|GM-NL
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 45.66.160.10
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-016 |3.0MB/s|TK-RO|YT-US|...
-  port: 9002
-  server: 84.239.49.55
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-017 |3.0MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.166
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 美国-012 |3.0MB/s|TK-SE
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 72.56.78.204
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-013 |2.9MB/s|TK-GB|YT-GB|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 63.141.128.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-014 |2.9MB/s|TK-US|YT-US|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 138.124.123.201
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/49.0.2623.112 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 荷兰-006 |2.9MB/s|TK-NL|GM-NL
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 85.155.98.71
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 罗马尼亚-018 |2.8MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.244
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-019 |2.8MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.154
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-020 |2.8MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.235
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-021 |2.8MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-015 |3.1MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 84.239.49.208
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
+- name: 罗马尼亚-016 |3.1MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.212
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-017 |3.1MB/s|TK-RO|YT-RU|...
+  port: 9002
+  server: 84.239.49.38
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-018 |3.1MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.162
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 荷兰-002 |3.0MB/s|TK-DE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 77.110.103.243
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/68.0.3440.106 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 罗马尼亚-019 |3.0MB/s|TK-RO|YT-US|...
+  port: 9002
+  server: 84.239.49.55
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-020 |3.0MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.163
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-021 |3.0MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.166
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-022 |2.8MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.244
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-023 |2.8MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.235
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-024 |2.8MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.154
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 德国-005 |2.7MB/s|TK-DE|GM-DE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 23.88.97.94
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram+@WangCai2
+- name: 罗马尼亚-025 |2.7MB/s|TK-RO|YT-UA|...
+  port: 9002
+  server: 84.239.49.215
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-026 |2.7MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.187
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-027 |2.7MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.211
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
 - flow: xtls-rprx-vision
-  name: 美国-015 |2.7MB/s|GPT
+  name: 美国-009 |2.7MB/s|GPT
   port: 443
   reality-opts:
     public-key: KUD5RiuqMRrhOoN6X2FcXpYZfoN_7z8BcviSBlyxOBw
@@ -641,29 +446,14 @@ proxies:
   type: vless
   udp: true
   uuid: 145adeb9-279d-4c1d-a97c-93fe28ca071e
-- name: 罗马尼亚-022 |2.7MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-028 |2.7MB/s|TK-RO|GPT⁺-R...
   port: 9002
-  server: 84.239.49.211
+  server: 84.239.49.161
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 美国-016 |2.7MB/s|TK-US|YT-US|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 77.110.127.36
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 瑞典-003 |2.7MB/s|TK-SE|GM-SE
+- name: 瑞典-002 |2.7MB/s|TK-SE|GM-SE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -678,149 +468,35 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-017 |2.7MB/s|TK-US|YT-US|GM...
+- name: 美国-010 |2.6MB/s|TK-DE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 34.58.136.79
+  server: 83.147.253.55
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram @WangCai2
+- name: 荷兰-003 |2.5MB/s|TK-NL
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 91.221.190.80
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-023 |2.7MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.187
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 美国-018 |2.7MB/s|TK-US|YT-US|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 207.246.94.121
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-024 |2.7MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.161
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-025 |2.7MB/s|TK-RO|YT-UA|...
-  port: 9002
-  server: 84.239.49.215
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 美国-019 |2.7MB/s|YT-TW|GPT⁺-SG|...
-  network: ws
-  port: 8443
-  security: tls
-  server: 140.235.39.161
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- name: 德国-009 |2.6MB/s|TK-DE|YT-DE
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 46.225.121.230
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 美国-020 |2.6MB/s|TK-US|GPT⁺-SG|...
-  network: ws
-  port: 443
-  security: tls
-  server: 45.41.207.154
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 德国-010 |2.6MB/s|TK-NL|GPT⁺-SG
-  network: ws
-  port: 10032
-  security: tls
-  server: 213.232.112.238
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- name: 罗马尼亚-026 |2.6MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.14.157
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 德国-012 |2.5MB/s|TK-DE
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 57.129.15.55
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- auth: github.com/Alvin9999-newpac/fanqiang
-  insecure: '1'
-  name: 德国-013 |2.5MB/s|TK-DE|YT-RU|GP...
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 29900
-  server: 178.18.147.66
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-  udp: true
-- name: 美国-021 |2.5MB/s|TK-FI|GM-FI
+- name: 美国-011 |2.5MB/s|TK-FI|GM-FI
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -832,51 +508,67 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-027 |2.5MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-029 |2.5MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 84.239.49.40
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-028 |2.5MB/s|GPT⁺-RO
+- name: 罗马尼亚-030 |2.5MB/s|GPT⁺-RO
   port: 9002
   server: 193.176.84.35
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 美国-022 |2.5MB/s|TK-GB|GM-GB
+- ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 韩国-003 |2.5MB/s|YT-KR|GPT⁺-KR|...
+  network: ws
+  port: 443
+  server: 130.162.132.38
+  servername: 1-gjo.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 1-gjo.pages.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-006 |2.4MB/s|TK-US|YT-CN|GP...
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.233
+  ws-path: /
+- name: 荷兰-004 |2.4MB/s|TK-NL|GM-NL
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 198.71.190.253
-  skip-cert-verify: true
+  port: 8443
+  server: 85.155.98.71
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- flow: xtls-rprx-vision
-  name: 日本-005 |2.5MB/s|YT-JP|GPT⁺-JP|...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: o2sBcv6OpeOURd_leqNKmEx8v_eEsI6GARQBHwTyJWI
-    short-id: '981becc7'
-  server: 142.91.108.122
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2543bbe1-baba-45ab-b56f-5434887c3e61
 - ech-opts:
     enable: true
     query-server-name: cloudflare-ech.com
@@ -893,207 +585,155 @@ proxies:
     headers:
       Host: 3-93f.pages.dev
     path: /
-- name: 美国-023 |2.4MB/s|TK-US|YT-US|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 205.196.83.138
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-029 |2.4MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-031 |2.4MB/s|TK-RO|YT-RU|...
   port: 9002
-  server: 84.239.49.204
+  server: 84.239.49.37
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-030 |2.4MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-032 |2.4MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 84.239.49.57
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-031 |2.4MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-033 |2.4MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 84.239.49.202
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- encryption: none
-  grpc-opts:
-    grpc-service-name: www.apple.com:443
-  name: 荷兰-007 |2.4MB/s|TK-NL|YT-RU|GP...
-  network: grpc
-  port: 9443
-  reality-opts:
-    public-key: GdCtxJAti3DA8oTu9KkFHjCz1yRGGZB_4NZIBuQxc28
-    short-id: 'abc5168218c8749c'
-  server: 62.50.146.35
-  servername: raw.githubusercontent.com
+- name: 罗马尼亚-034 |2.4MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.204
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: true
-  type: vless
+  type: http
+- name: 美国-012 |2.3MB/s|TK-US|YT-US|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 208.167.245.42
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram @WangCai2
+- name: 日本-001 |2.3MB/s|TK-SE|YT-SE|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.130.46.81
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   udp: true
-  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-  xudp: true
-- name: 罗马尼亚-032 |2.3MB/s|TK-RO|GPT⁺-R...
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram @WangCai2
+- name: 罗马尼亚-035 |2.3MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 193.176.84.34
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 美国-024 |2.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 166.62.107.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-025 |2.2MB/s|TK-US|YT-US|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 77.110.109.7
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-002 |2.1MB/s|YT-JP|GM-JP
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.169.18.179
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 韩国-006 |2.1MB/s|YT-KR|GM-KR
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 12345
-  server: 59.12.232.18
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 德国-014 |2.1MB/s|TK-DE|GPT⁺-SG|...
-  network: ws
-  port: 36284
-  security: tls
-  server: 185.39.51.124
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
+- name: 荷兰-005 |2.2MB/s|TK-NL|GPT⁺-NL|...
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: GzQr6fDhigtRAr0n2Y7Nk3snhdytYyOvaYo9zYe1Xn4
+    short-id: 'b3a1cc510a2001c6'
+  server: 64.188.77.140
+  servername: eh.vk.com
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- name: 荷兰-008 |2.1MB/s|TK-DE
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 77.110.103.243
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-026 |2.1MB/s|TK-DE
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 150.241.108.2
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-027 |2.1MB/s|TK-DE|GM-DE
+  uuid: 072baf2f-574e-4939-8b20-ccd89c17fefb
+  xudp: true
+- name: 美国-013 |2.2MB/s|TK-DE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 150.241.105.125
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-033 |2.0MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.245
+    path: /trTelegram @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 德国-007 |2.0MB/s
+  network: raw
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: 新加坡-005 |2.0MB/s|YT-SG|GM-SG
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.160.207.175
   skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-034 |2.0MB/s|TK-RO|GPT⁺-R...
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /trTelegram @WangCai2
+- name: 罗马尼亚-036 |2.0MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 193.176.84.36
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-035 |1.9MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-037 |2.0MB/s|TK-RO|GPT⁺-R...
   port: 9002
-  server: 84.239.14.149
+  server: 84.239.49.245
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-036 |1.9MB/s|TK-RO|GPT⁺-R...
+- auth: github.com/Alvin9999-newpac/fanqiang
+  insecure: '1'
+  name: 德国-008 |2.0MB/s|TK-DE|YT-RU|GP...
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 29900
+  server: 178.18.147.66
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+  udp: true
+- name: 罗马尼亚-038 |1.9MB/s|TK-RO|YT-RU|...
   port: 9002
-  server: 84.239.14.160
+  server: 84.239.49.156
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 德国-015 |1.9MB/s|TK-DE
+- name: 德国-009 |1.9MB/s|TK-DE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -1104,8 +744,37 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
+- name: 罗马尼亚-039 |1.9MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.14.160
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-040 |1.9MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.14.149
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 瑞典-003 |1.9MB/s|TK-DE|GPT⁺-FI|...
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
+    short-id: '5d'
+  server: 194.238.57.104
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
+  xudp: true
 - host: dcsrzh.ccwu.cc
-  name: 日本-006 |1.8MB/s|YT-JP|GPT⁺-JP|...
+  name: 日本-002 |1.8MB/s|YT-JP|GPT⁺-JP|...
   network: ws
   path: /?ed=2560
   port: 16090
@@ -1122,27 +791,35 @@ proxies:
       Host: dcsrzh.ccwu.cc
     path: /?ed=2560
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 德国-016 |1.8MB/s
+  cipher: auto
+  name: 德国-010
   network: tcp
   port: 180
   server: 82.198.246.214
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   ws-headers:
-    Host: 82.198.246.214
+    Host: ads.x5.ru
   ws-path: /
-- name: 罗马尼亚-037 |1.8MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.242
+- name: 荷兰-006 |1.8MB/s|TK-NL|GM-NL
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 31.15.17.129
   skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 新加坡-003 |1.8MB/s|GM-SG
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 新加坡-006 |1.8MB/s|GM-SG
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1156,29 +833,49 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/64.0.3282.186 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-038 |1.7MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-041 |1.8MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.49.242
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-042 |1.7MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 84.239.49.239
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 德国-017 |1.7MB/s|TK-DE|GPT⁺-DE
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: GzQr6fDhigtRAr0n2Y7Nk3snhdytYyOvaYo9zYe1Xn4
-    short-id: 'b3a1cc510a2001c6'
-  server: 194.58.41.60
-  servername: eh.vk.com
+- name: 美国-014 |1.7MB/s|TK-NL|GM-NL
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 72.56.110.162
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 26e4d8b5-ee98-4a8d-88c9-7f81b7be3379
-  xudp: true
-- name: 德国-018 |1.7MB/s|TK-DE
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 罗马尼亚-043 |1.7MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.14.147
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-044 |1.7MB/s|TK-RO|YT-CN|...
+  port: 9002
+  server: 84.239.49.219
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 德国-011 |1.7MB/s|TK-DE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -1204,28 +901,20 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/70.0.3538.102 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-039 |1.7MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.14.147
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 美国-028 |1.7MB/s|TK-NL|GM-NL
+- name: 新加坡-007 |1.7MB/s|YT-JP|GM-JP
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 72.56.110.162
+  server: 8.219.195.31
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-029 |1.6MB/s|TK-DE|GM-DE
+    path: /trTelegram @WangCai2
+- name: 美国-015 |1.6MB/s|TK-DE|GM-DE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -1238,12 +927,29 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 德国-012 |1.6MB/s|TK-DE|GPT⁺-DE|...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  server: 138.124.186.100
+  servername: www.fh-aachen.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: e346f220-4ca4-4f69-a66b-52e992b3b625
+  xudp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: '1000'
-  name: 德国-019
+  name: 德国-013
   port: 54177
   protocol: udp
   server: 5.83.129.90
@@ -1252,26 +958,11 @@ proxies:
   type: hysteria
   udp: true
   up: '500'
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 瑞典-005 |1.5MB/s
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
-    short-id: '5d'
-  server: 194.238.57.104
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
-  xudp: true
-- name: 新加坡-004 |1.4MB/s|YT-JP|GM-JP
+- name: 瑞典-005 |1.6MB/s|TK-SE|GM-SE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 8.219.195.31
+  port: 8443
+  server: 16.16.45.85
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -1279,8 +970,31 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 荷兰-009 |1.3MB/s|TK-NL|GM-NL
+- name: 德国-014 |1.4MB/s|TK-DE|GM-DE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 94.156.179.217
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 罗马尼亚-045 |1.4MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.14.157
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 荷兰-007 |1.3MB/s|TK-NL|GM-NL
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2087
@@ -1291,7 +1005,14 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- name: 新加坡-005 |1.3MB/s
+- name: 罗马尼亚-046 |1.3MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 84.239.14.158
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 新加坡-008 |1.3MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1305,11 +1026,25 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-030 |1.2MB/s
+- name: 日本-003 |1.2MB/s|YT-JP|GM-JP
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 21044
+  server: 138.2.23.80
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-016 |1.2MB/s|TK-GB|YT-GB
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 162.120.94.253
+  server: 50.62.91.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -1317,21 +1052,8 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-031 |1.2MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 192.18.136.255
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-032 |1.2MB/s
+    path: /trTelegram @WangCai2
+- name: 美国-017 |1.2MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1344,21 +1066,33 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 荷兰-010 |1.2MB/s
+- name: 美国-018 |1.2MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 5.255.113.38
+  port: 443
+  server: 162.120.94.253
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 德国-020 |1.2MB/s
+- name: 美国-019 |1.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 192.18.136.255
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 德国-015 |1.2MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -1371,19 +1105,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- name: 罗马尼亚-040 |1.2MB/s
-  port: 9002
-  server: 84.239.49.247
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 瑞典-006 |1.2MB/s|TK-DE
+- name: 荷兰-008 |1.2MB/s|TK-NL|GM-NL
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 83.147.254.243
-  skip-cert-verify: true
+  port: 2053
+  server: 46.8.229.218
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
@@ -1391,25 +1117,9 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 韩国-007 |1.2MB/s|YT-KR|GPT⁺-KR
-  network: ws
-  port: 443
-  server: 130.162.132.38
-  servername: 1-gjo.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 1-gjo.pages.dev
-    path: /
-- name: 新加坡-006 |1.2MB/s|YT-SG|GM-SG
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 新加坡-009 |1.2MB/s|YT-SG|GM-SG
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1423,7 +1133,14 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
   ws-path: h=%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2
-- name: 美国-033 |1.1MB/s
+- name: 罗马尼亚-047 |1.2MB/s
+  port: 9002
+  server: 84.239.49.247
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 美国-020 |1.1MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1436,7 +1153,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-034 |1.1MB/s|TK-US|YT-US|GM...
+- name: 美国-021 |1.1MB/s|TK-US|YT-US|GM...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1448,63 +1165,22 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-035 |1.1MB/s|TK-US|YT-US|GP...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 104.234.50.215
+- alterId: 0
+  cipher: auto
+  name: 德国-016
+  network: tcp
+  port: 180
+  server: 82.198.246.37
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 荷兰-011 |1.1MB/s|TK-NL|GPT⁺-SG|...
-  network: ws
-  port: 443
-  security: tls
-  server: 91.84.96.186
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- name: 美国-036 |1.1MB/s|TK-NL|YT-NL|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 72.56.103.129
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/45.0.2454.93 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-007 |1.1MB/s|YT-SG
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 165.22.248.134
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-037 |1.1MB/s|TK-US|YT-US|GM...
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.37
+  ws-path: /
+  xudp: true
+- name: 美国-022 |1.1MB/s|TK-US|YT-US|GM...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1518,7 +1194,70 @@ proxies:
       User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/42.0.2311.135 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-038 |1.0MB/s
+- name: 新加坡-010 |1.1MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 14706
+  server: 8.222.195.24
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-023 |1.1MB/s|TK-US|YT-US|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2083
+  server: 31.172.79.138
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-024 |1.1MB/s|TK-NL|YT-NL|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 72.56.103.129
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-025 |1.1MB/s|TK-US|YT-US|GP...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 104.234.50.215
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 新加坡-011 |1.1MB/s|YT-SG
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 165.22.248.134
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-026 |1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1531,7 +1270,51 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 荷兰-012 |1.0MB/s
+- name: 美国-027 |1.0MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 83.242.100.138
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-028 |1.0MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 31.59.136.223
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-029 |1.0MB/s|TK-US|YT-US|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 159.89.91.17
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 罗马尼亚-048 |1.0MB/s|TK-RO|YT-RU|...
+  port: 9002
+  server: 84.239.49.155
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 荷兰-009 |1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -1546,51 +1329,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-039 |1.0MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 150.136.243.175
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-041 |1.0MB/s|TK-RO|YT-RU|...
-  port: 9002
-  server: 84.239.49.155
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 美国-040 |1.0MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 31.59.136.223
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-041 |1.0MB/s|TK-US|YT-US|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 159.89.91.17
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-042 |1.0MB/s
+- name: 美国-030 |1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1603,11 +1342,11 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 荷兰-013 |1.0MB/s|TK-DE|GM-DE
+- name: 德国-017 |1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 144.31.122.162
+  server: 157.230.112.161
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -1615,23 +1354,40 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-043 |1.0MB/s
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 美国-031 |1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 83.242.100.138
+  server: 150.136.243.175
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 日本-004 |1.0MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 140.83.50.165
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 德国-021 |999KB/s
+  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
+- name: 罗马尼亚-049 |1009KB/s
+  port: 9002
+  server: 84.239.49.42
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 德国-018 |999KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -1642,7 +1398,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- name: 荷兰-014 |967KB/s
+- name: 荷兰-010 |967KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -1653,7 +1409,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- name: 韩国-008 |954KB/s
+- name: 韩国-005 |954KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 60004
@@ -1667,7 +1423,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/47.0.2526.106 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-044 |945KB/s
+- name: 美国-032 |945KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1680,7 +1436,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 德国-022 |928KB/s
+- name: 德国-019 |8cd1|puddincat07@Teleg...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -1691,10 +1447,8 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 德国-023 |898KB/s
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 德国-020 |898KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -1705,279 +1459,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- name: 罗马尼亚-042 |872KB/s
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-043 |854KB/s
-  port: 9002
-  server: 84.239.49.42
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- alterId: 0
-  cipher: auto
-  name: 德国-024
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-headers:
-    Host: 82.198.246.233
-  ws-path: /
-- name: 新加坡-008 |823KB/s
+- name: 美国-033 |896KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 92.243.75.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 瑞典-007 |805KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.104.151.181
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-009 |795KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 194.87.10.77
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-010 |735KB/s
-  network: ws
-  port: 443
-  server: 20.6.12.145
-  servername: sni.skylee4.cloudns.ch
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sni.skylee4.cloudns.ch
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /proxyip=ProxyIP.CMLiussss.net
-  xudp: true
-- name: 荷兰-015 |719KB/s|TK-NL
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 91.221.190.80
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 韩国-009 |0.7MB/s|GPT|X|History
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: T2clM0QlM0Q6
-- name: 韩国-010 |706KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 7778
-  server: 146.56.113.221
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 美国-045 |704KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 38.77.187.51
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-044 |703KB/s
-  port: 9002
-  server: 84.239.49.241
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 美国-046 |701KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 83.147.255.88
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-045 |691KB/s
-  port: 9002
-  server: 193.176.84.22
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 美国-047 |688KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 107.175.232.157
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-048 |682KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 74.50.11.24
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-049 |681KB/s|TK-GB|YT-GB|GM...
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 192.169.222.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-011 |672KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 188.239.9.91
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 德国-025
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-headers:
-    Host: 82.198.246.250
-  ws-path: /
-  xudp: true
-- name: 日本-007 |634KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 103.31.77.108
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美国-050 |622KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 150.241.74.98
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
-- name: 罗马尼亚-046 |613KB/s
-  port: 9002
-  server: 84.239.49.39
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 日本-008 |604KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 149.28.21.222
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-012 |602KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 139.99.124.165
+  server: 150.241.108.49
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -1988,291 +1474,29 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 荷兰-016 |556KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 46.8.229.218
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /trTelegram🇨🇳+@WangCai2
-- name: 荷兰-017 |541KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 38.180.233.61
+- name: 罗马尼亚-050 |872KB/s
+  port: 9002
+  server: 193.176.84.25
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-013 |541KB/s
-  network: ws
-  port: 443
-  server: 47.82.178.58
-  servername: sni.111000.v6.rocks
+  sni: www.bing.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-  xudp: true
-- name: 瑞典-008 |538KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 83.147.254.168
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-014 |533KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 174.138.24.153
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 荷兰-018 |519KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 185.31.200.184
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 日本-009
-  network: tcp
-  password: BxceQaOe
-  port: 44079
-  server: 52.195.173.99
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 日本-010
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 140.83.50.165
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
-- name: 新加坡-015 |3.7MB/s|YT-SG|GM-SG
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.160.207.175
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: 德国-026 |2.2MB/s|TK-DE|YT-RU|GP...
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 12855
-  server: 83.243.86.103
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tfo: false
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-027 |1.1MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-headers:
-    Host: 82.198.246.37
-  ws-path: /
-  xudp: true
-- name: 日本-011 |1012KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 21044
-  server: 138.2.23.80
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-016
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 209.97.163.209
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
-- name: 日本-012 |718KB/s
+  type: http
+- name: 荷兰-011 |856KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 176.97.70.51
+  server: 144.31.122.162
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
     path: /trTelegram🇨🇳 @WangCai2
-- name: 荷兰-019 |625KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 95.169.192.234
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 罗马尼亚-047 |3.5MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.185
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-048 |3.4MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.156
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-049 |3.3MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.233
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-050 |3.3MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.14.159
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 德国-028 |2.7MB/s|TK-DE|GPT⁺-DE|...
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-    short-id: '2344766a270a6298'
-  server: 159.195.82.187
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-  xudp: true
-- name: 荷兰-020 |1.8MB/s|TK-NL|GM-NL
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 31.15.17.129
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 德国-029 |1.0MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 157.230.112.161
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- alterId: 0
-  cipher: auto
-  name: 德国-030
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  servername: vc.fly.dev
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-headers:
-    Host: 82.198.246.97
-  ws-path: /
-  xudp: true
-- name: 新加坡-017 |845KB/s
+- name: 新加坡-012 |845KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -2286,7 +1510,20 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 荷兰-021 |798KB/s
+- name: 新加坡-013 |823KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 92.243.75.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 荷兰-012 |798KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -2301,11 +1538,11 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-018 |617KB/s
+- name: 新加坡-014 |795KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 178.128.90.108
+  server: 194.87.10.77
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -2314,24 +1551,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-019 |606KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.133.61.219
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 荷兰-022 |563KB/s
+- name: 瑞典-006 |771KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 152.53.200.164
+  server: 45.153.187.209
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -2339,37 +1563,81 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- encryption: none
-  name: 日本-013 |529KB/s
-  network: ws
-  port: 443
-  security: tls
-  server: 158.51.110.12
-  servername: pagescm.freen5.cc.cd
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 德国-021 |770KB/s
+  port: 8443
+  reality-opts:
+    public-key: GzQr6fDhigtRAr0n2Y7Nk3snhdytYyOvaYo9zYe1Xn4
+    short-id: 'b3a1cc510a2001c6'
+  server: 194.58.41.60
+  servername: eh.vk.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  udp: true
+  uuid: 26e4d8b5-ee98-4a8d-88c9-7f81b7be3379
+- name: 日本-005 |718KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 176.97.70.51
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: pagescm.freen5.cc.cd
-    path: /show
-- name: 瑞典-009 |723KB/s|TK-SE|YT-SE|GM...
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 韩国-007 |0.7MB/s|GPT|X|History
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: T2clM0QlM0Q6
+- name: 韩国-008 |706KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 7778
+  server: 146.56.113.221
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 美国-034 |704KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 64.112.127.151
+  server: 38.77.187.51
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: 德国-031 |697KB/s|TK-DE|GPT⁺|GM-...
+- name: 美国-035 |701KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 83.147.255.88
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 德国-022 |697KB/s|TK-DE|GPT⁺|GM-...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -2382,7 +1650,180 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 德国-032 |513KB/s
+- name: 美国-036 |688KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 107.175.232.157
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 新加坡-015 |672KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 188.239.9.91
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 日本-006 |634KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 103.31.77.108
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-037 |622KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 150.241.74.98
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: 新加坡-016 |617KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 178.128.90.108
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 新加坡-017 |606KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.133.61.219
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 日本-007 |604KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 149.28.21.222
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 新加坡-018 |602KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 139.99.124.165
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 荷兰-013 |563KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 152.53.200.164
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 荷兰-014 |541KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 38.180.233.61
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 瑞典-007 |d32b|puddincat07@Teleg...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 83.147.254.168
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 新加坡-019 |533KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 174.138.24.153
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 荷兰-015 |519KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 185.31.200.184
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 德国-023 |513KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -2395,3 +1836,604 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 德国-024
+  password: dongtaiwang.com
+  port: 30006
+  server: 5.178.101.117
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 36106e0f-4d9a-470b-a3fd-535f3b7a1e92
+  version: 5
+- flow: xtls-rprx-vision
+  name: 日本-008 |7.8MB/s|YT-CN|GPT-JP
+  network: tcp
+  port: 55305
+  reality-opts:
+    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+    short-id: '4bcbc85d'
+  server: 216.23.108.4
+  servername: download.windowsupdate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+- encryption: none
+  name: 德国-025 |6.8MB/s|TK-DE|YT-DE|GP...
+  network: tcp
+  port: 443
+  server: 91.107.188.182
+  type: vless
+  udp: true
+  uuid: 57565f1e-d42a-49a0-a909-5fff0f07b146
+  xudp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 日本-009 |5.3MB/s|YT-CN|GPT⁺-JP
+  network: tcp
+  port: 55306
+  reality-opts:
+    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+    short-id: '4bcbc85d'
+  server: 216.23.108.4
+  servername: download.windowsupdate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+- name: 德国-026 |4.2MB/s|TK-DE|GM-DE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 138.201.190.15
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 荷兰-016 |4.1MB/s|TK-NL|YT-NL|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 212.34.148.210
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-038 |4.1MB/s|TK-NL|YT-NL|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 72.56.115.44
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 日本-010 |3.9MB/s|TK-US|YT-US|GP...
+  port: 55315
+  reality-opts:
+    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+    short-id: '4bcbc85d'
+  server: 216.23.108.4
+  servername: download.windowsupdate.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+- name: 美国-039 |3.8MB/s|TK-GB|YT-GB
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 45.40.144.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳
+- name: 美国-040 |3.8MB/s|TK-GB|YT-GB|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 45.40.146.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 日本-011 |3.7MB/s|YT-JP|GPT⁺-SG|...
+  network: ws
+  port: 443
+  security: tls
+  server: 103.53.80.84
+  servername: t39sed.gateway-api.sh21.eu.org
+  skip-cert-verify: false
+  sni: t39sed.gateway-api.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t39sed.gateway-api.sh21.eu.org
+    path: /danfeng?ed=2560
+- name: 荷兰-017 |3.7MB/s|TK-NL|YT-NL
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 82.115.6.231
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 荷兰-018 |3.3MB/s|TK-NL|GM-NL
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 144.124.253.182
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 德国-027 |3.2MB/s|TK-DE|GM-DE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2087
+  server: 51.195.47.23
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 韩国-011 |3.2MB/s|YT-KR|GPT⁺-SG|...
+  network: ws
+  port: 32250
+  security: tls
+  server: 49.142.91.156
+  servername: t39sed.gateway-api.sh21.eu.org
+  skip-cert-verify: false
+  sni: t39sed.gateway-api.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t39sed.gateway-api.sh21.eu.org
+    path: /danfeng?ed=2560
+- name: 美国-041 |3.2MB/s|TK-PL
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 216.144.231.47
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-042 |3.1MB/s|TK-GB|GM-GB
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 192.0.54.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-043 |3.1MB/s|TK-GB|YT-GB|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 50.62.194.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-044 |3.1MB/s|TK-US|YT-US|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 172.212.108.47
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 荷兰-019 |3.1MB/s|TK-NL|YT-NL|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 5.35.47.30
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: 美国-045 |3.0MB/s|TK-US|YT-CN|GP...
+  network: ws
+  port: 443
+  server: 63.141.128.158
+  servername: us1s.xn--mirrors-oj8km52txc7d.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e48cbd21-6431-468f-af52-ee183560e55b
+  ws-opts:
+    headers:
+      Host: us1s.xn--mirrors-oj8km52txc7d.com
+    path: /ym/us1
+- name: 美国-046 |3.0MB/s|TK-NL|GM-NL
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 45.66.160.10
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-047 |3.0MB/s|TK-SE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 72.56.78.204
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-048 |2.9MB/s|TK-GB|YT-GB|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 63.141.128.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-049 |2.9MB/s|TK-US|YT-US|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 138.124.123.201
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 美国-050 |2.7MB/s|TK-US|YT-US|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 77.110.127.36
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 德国-028 |2.6MB/s|TK-DE|YT-DE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 46.225.121.230
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 德国-029 |2.6MB/s|TK-NL|GPT⁺-SG
+  network: ws
+  port: 10032
+  security: tls
+  server: 213.232.112.238
+  servername: t39sed.gateway-api.sh21.eu.org
+  skip-cert-verify: false
+  sni: t39sed.gateway-api.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t39sed.gateway-api.sh21.eu.org
+    path: /danfeng?ed=2560
+- name: 德国-030 |2.5MB/s|TK-DE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 57.129.15.55
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- flow: xtls-rprx-vision
+  name: 日本-012 |2.5MB/s|YT-JP|GPT⁺-JP|...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: o2sBcv6OpeOURd_leqNKmEx8v_eEsI6GARQBHwTyJWI
+    short-id: '981becc7'
+  server: 142.91.108.122
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2543bbe1-baba-45ab-b56f-5434887c3e61
+- encryption: none
+  grpc-opts:
+    grpc-service-name: www.apple.com:443
+  name: 荷兰-020 |2.4MB/s|TK-NL|YT-RU|GP...
+  network: grpc
+  port: 9443
+  reality-opts:
+    public-key: GdCtxJAti3DA8oTu9KkFHjCz1yRGGZB_4NZIBuQxc28
+    short-id: 'abc5168218c8749c'
+  server: 62.50.146.35
+  servername: raw.githubusercontent.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
+  xudp: true
+- name: 韩国-012 |2.1MB/s|YT-KR|GM-KR
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 12345
+  server: 59.12.232.18
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 德国-031 |2.1MB/s|TK-DE|GPT⁺-SG|...
+  network: ws
+  port: 36284
+  security: tls
+  server: 185.39.51.124
+  servername: t39sed.gateway-api.sh21.eu.org
+  skip-cert-verify: false
+  sni: t39sed.gateway-api.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t39sed.gateway-api.sh21.eu.org
+    path: /danfeng?ed=2560
+- name: 荷兰-021 |1.2MB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 5.255.113.38
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 瑞典-008 |1.2MB/s|TK-DE
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 83.147.254.243
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: 荷兰-022 |1.1MB/s|TK-NL|GPT⁺-SG|...
+  network: ws
+  port: 443
+  security: tls
+  server: 91.84.96.186
+  servername: t39sed.gateway-api.sh21.eu.org
+  skip-cert-verify: false
+  sni: t39sed.gateway-api.sh21.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: t39sed.gateway-api.sh21.eu.org
+    path: /danfeng?ed=2560
+- name: 瑞典-009 |805KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.104.151.181
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 日本-013
+  network: tcp
+  password: BxceQaOe
+  port: 44079
+  server: 52.195.173.99
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 德国-032 |2.2MB/s|TK-DE|YT-RU|GP...
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 12855
+  server: 83.243.86.103
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+  udp: true
+- name: 新加坡-020
+  network: ws
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 443
+  server: 209.97.163.209
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
+- name: 荷兰-023 |625KB/s
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 95.169.192.234
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 德国-033 |2.7MB/s|TK-DE|GPT⁺-DE|...
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: '2344766a270a6298'
+  server: 159.195.82.187
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 德国-034
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: vc.fly.dev
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.97
+  ws-path: /
+  xudp: true
+- encryption: none
+  name: 日本-014 |529KB/s
+  network: ws
+  port: 443
+  security: tls
+  server: 158.51.110.12
+  servername: pagescm.freen5.cc.cd
+  tls: true
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen5.cc.cd
+    path: /show
