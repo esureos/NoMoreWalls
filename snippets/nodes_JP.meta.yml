@@ -1,20 +1,114 @@
 proxies:
-- name: 日本-001 |2.3MB/s|TK-SE|YT-SE|GM...
+- name: 德国-024 |3.2MB/s|TK-DE|GPT-JP|G...
+  network: ws
+  port: 4433
+  server: 89.23.108.19
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+    path: /@Marisa_kristi
+- name: 新加坡-004 |2.1MB/s|YT-SG|GPT⁺-JP...
+  network: ws
+  port: 41493
+  security: tls
+  server: 158.178.225.153
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 020g5uxcxmqlndg.luyuju.dpdns.org
+    path: /%40Marisa_kristi
+- client-fingerprint: chrome
+  encryption: none
+  name: 新加坡-007 |1.1MB/s|YT-SG|GPT⁺-JP...
+  network: ws
+  port: 20205
+  server: 152.42.217.192
+  servername: nisav2de2t0ai8p-hd0.misa.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: nisav2de2t0ai8p-hd0.misa.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- client-fingerprint: chrome
+  metadata:
+    cleanName: 新加坡3
+    flag: 🇸🇬
+    multiplier: 1
+    originalName: 新加坡3
+    region: 新加坡
+  name: 新加坡-015 |3.2MB/s|YT-SG|GPT⁺-JP...
+  network: ws
+  port: 386
+  server: 188.166.217.179
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  sni: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  encryption: none
+  name: 日本-001 |6.0MB/s|YT-JP|GPT⁺-JP|...
+  network: ws
+  port: 18836
+  server: 172.237.12.208
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- name: 日本-003 |2.2MB/s|YT-JP|GM-JP
+  network: ws
+  port: 9586
+  security: tls
+  server: 103.232.213.244
+  servername: oia8or7k8rs5.zrf.xx.kg
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: oia8or7k8rs5.zrf.xx.kg
+    path: /@Marisa_kristifp=chrome
+- name: 日本-004 |1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 185.130.46.81
+  server: 140.83.50.165
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  udp: true
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram @WangCai2
+    path: /trTelegram🇨🇳 @WangCai2
+  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
 - client-fingerprint: chrome
-  name: 日本-003 |1.2MB/s|YT-JP|GM-JP
+  name: 日本-005 |567KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 21044
@@ -25,11 +119,128 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 日本-004 |634KB/s
+  name: 日本-006 |4.5MB/s
+  network: ws
+  port: 443
+  server: 156.231.115.146
+  servername: gogo8.kmj.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo8.kmj.qzz.io
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- name: 日本-007 |3.3MB/s|YT-JP
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 149.28.21.222
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: 日本-008 |2.5MB/s
+  network: ws
+  port: 443
+  server: 140.235.37.58
+  servername: gogo.vks.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo.vks.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  name: 日本-009 |2.5MB/s
+  network: ws
+  port: 443
+  server: 54.248.143.139
+  servername: gogo.vks.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo.vks.dpdns.org
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  name: 日本-010 |2.3MB/s
+  network: ws
+  port: 443
+  server: 96.126.191.139
+  servername: gogo4.kmj.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo4.kmj.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  name: 日本-011 |2.1MB/s
+  network: ws
+  port: 443
+  server: 96.126.130.217
+  servername: gogo5.kmj.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo5.kmj.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 日本-012 |1.1MB/s|YT-JP|GPT⁺-JP|...
+  network: ws
+  port: 24443
+  server: 162.141.130.233
+  servername: guslef2w8oz12wv.ymj.xx.kg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: guslef2w8oz12wv.ymj.xx.kg
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- client-fingerprint: chrome
+  name: 日本-013 |634KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -43,148 +254,16 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 新加坡-012 |7.7MB/s|YT-JP|GM-JP
+- name: 韩国-008 |3.3MB/s|YT-KR|GPT⁺-JP|...
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.169.18.179
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram @WangCai2
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 韩国-012 |2.4MB/s|YT-JP|GPT⁺-JP|...
-  network: ws
-  port: 443
-  server: 85.155.176.129
-  servername: 3-93f.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 3-93f.pages.dev
-    path: /
-- host: dcsrzh.ccwu.cc
-  name: 日本-005 |1.8MB/s|YT-JP|GPT⁺-JP|...
-  network: ws
-  path: /?ed=2560
-  port: 16090
+  port: 11019
   security: tls
-  server: 210.156.180.102
-  servername: dcsrzh.ccwu.cc
-  sni: dcsrzh.ccwu.cc
+  server: 165.246.171.218
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
   tls: true
   type: vless
-  udp: false
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: dcsrzh.ccwu.cc
-    path: /?ed=2560
-- name: 新加坡-015 |1.7MB/s|YT-JP|GM-JP
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 8.219.195.31
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram @WangCai2
-- name: 日本-006 |1.0MB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.83.50.165
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-  ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
-- name: 日本-007 |718KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 176.97.70.51
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 日本-008 |604KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 149.28.21.222
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: 日本-010 |3.7MB/s|YT-JP|GPT⁺-SG|...
-  network: ws
-  port: 443
-  security: tls
-  server: 103.53.80.84
-  servername: t39sed.gateway-api.sh21.eu.org
-  skip-cert-verify: false
-  sni: t39sed.gateway-api.sh21.eu.org
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: t39sed.gateway-api.sh21.eu.org
-    path: /danfeng?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 日本-011 |2.5MB/s|YT-JP|GPT⁺-JP|...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: o2sBcv6OpeOURd_leqNKmEx8v_eEsI6GARQBHwTyJWI
-    short-id: '!!str 981becc7'
-  server: 142.91.108.122
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2543bbe1-baba-45ab-b56f-5434887c3e61
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-012 |529KB/s
-  network: ws
-  port: 443
-  security: tls
-  server: 158.51.110.12
-  servername: pagescm.freen5.cc.cd
-  tls: true
-  type: vless
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen5.cc.cd
-    path: /show
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+    path: /@Marisa_kristifp=chrome

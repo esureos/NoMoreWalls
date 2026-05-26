@@ -1,78 +1,162 @@
 proxies:
-- name: 法国-003 |2.9MB/s|TK-FR|YT-FR|GP...
-  password: dongtaiwang.com
-  port: 22000
-  server: 62.210.124.146
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-- name: 法国-004 |2.8MB/s|TK-FR|YT-FR|GP...
-  password: 65bc8227-48db-4993-9e9d-68394de672a1
-  port: 443
-  server: 45.67.139.157
-  skip-cert-verify: false
-  sni: holz7.api3-max.ru
-  type: hysteria2
-- name: 法国-006 |2.7MB/s|TK-FR|YT-FR|GP...
-  password: 65bc8227-48db-4993-9e9d-68394de672a1
-  port: 443
-  server: 45.92.218.150
-  sni: holz3.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: 法国-008 |2.5MB/s|TK-FR|YT-FR|GP...
-  password: 65bc8227-48db-4993-9e9d-68394de672a1
-  port: 443
-  server: 45.67.139.87
-  skip-cert-verify: false
-  sni: holz8.api3-max.ru
-  type: hysteria2
-- name: 法国-009 |2.2MB/s|TK-FR|YT-FR|GP...
-  password: 65bc8227-48db-4993-9e9d-68394de672a1
-  port: 443
-  server: 152.89.253.116
-  skip-cert-verify: false
-  sni: holz9.api3-max.ru
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 法国-011 |1.4MB/s|TK-FR|GPT⁺-FR
-  port: 443
-  reality-opts:
-    public-key: 6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do
-    short-id: '!!str 3c6fc84d'
-  server: 194.226.169.189
-  servername: stats.vk-portal.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 701bab46-9453-41e6-ad47-009aa3df47e9
-- name: 法国-012 |762KB/s
-  password: 65bc8227-48db-4993-9e9d-68394de672a1
-  port: 443
-  server: 45.92.218.132
-  skip-cert-verify: false
-  sni: holz6.api3-max.ru
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 法国-013 |2.4MB/s|TK-FR|YT-FR|GM...
+- name: 法国-001 |2.9MB/s|TK-FR|GM-FR
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 109.61.110.241
-  skip-cert-verify: true
+  port: 2053
+  server: 31.59.120.180
   sni: Koma-YT.PAGeS.Dev
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: 法国-004 |3.1MB/s
+  network: ws
+  port: 443
+  server: 57.128.178.122
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 法国-005 |2.9MB/s
+  network: ws
+  port: 443
+  server: 57.128.180.80
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
+  xudp: true
+- name: 法国-006 |2.3MB/s|TK-FR|YT-FR|GM...
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 31.57.109.126
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram+@WangCai2
+- client-fingerprint: chrome
+  encryption: none
+  name: 法国-007 |1.8MB/s
+  network: ws
+  port: 443
+  server: 37.59.96.25
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 法国-014 |598KB/s
+        like Gecko) Chrome/63.0.3239.84 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 法国-008 |1.4MB/s
+  network: ws
+  port: 443
+  server: 188.165.3.169
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 法国-009 |873KB/s
+  password: dongtaiwang.com
+  port: 41283
+  ports: 40022,41000-42000
+  server: 163.172.113.118
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 法国-010 |846KB/s
+  network: ws
+  port: 443
+  server: 173.212.207.89
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 法国-011 |789KB/s
+  network: ws
+  port: 443
+  server: 51.91.248.218
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 法国-012 |764KB/s
+  network: ws
+  port: 443
+  server: 57.128.176.149
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 法国-013 |598KB/s
   password: dongtaiwang.com
   port: 40022
   server: 163.172.113.118

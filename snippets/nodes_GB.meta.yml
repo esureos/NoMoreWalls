@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 芬兰-003 |2.4MB/s|TK-GB|GPT⁺-FI|...
+  port: 4443
+  reality-opts:
+    public-key: cPnEvtfmLBeYzbYYklKblkllFRzRzCd0KgFM-19fSDM
+    short-id: '!!str c9'
+  server: 2.26.87.101
+  servername: eh.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0537e5d5-8d2f-4f82-b660-ebf94062f67e

@@ -1,21 +1,7 @@
 proxies:
-- name: 罗马尼亚-005 |3.4MB/s|YT-RU|GPT⁺-R...
+- name: 罗马尼亚-045 |1.9MB/s|TK-RO|YT-RU|...
   port: 9002
-  server: 84.239.49.171
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-012 |3.1MB/s|TK-RO|YT-RU|...
-  port: 9002
-  server: 84.239.49.38
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-025 |2.4MB/s|TK-RO|YT-RU|...
-  port: 9002
-  server: 84.239.49.37
+  server: 84.239.49.156
   skip-cert-verify: true
   sni: www.bing.com
   tls: true

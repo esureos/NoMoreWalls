@@ -1,21 +1,89 @@
 proxies:
 - client-fingerprint: chrome
-  name: 瑞典-001 |d32b|puddincat07@Teleg...
+  flow: xtls-rprx-vision
+  http-opts:
+    path:
+    - /
+  name: 瑞典-001 |2.5MB/s|TK-SE|GPT⁺-SE
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8
+    short-id: '!!str bdac121c7debdaba'
+  server: 148.253.211.237
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
+  xudp: true
+- client-fingerprint: chrome
+  name: 瑞典-003 |4.3MB/s|TK-SE|GM-SE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 83.147.254.168
+  server: 64.112.127.151
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 瑞典-002 |2.7MB/s|TK-SE|GM-SE
+  name: 瑞典-004 |4.1MB/s
+  network: ws
+  port: 443
+  server: 77.221.140.170
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  name: 瑞典-005 |2.9MB/s
+  network: ws
+  port: 443
+  server: 185.146.173.20
+  servername: qyi.fqjd663.ggff.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8c4604ef-749c-4b56-adf1-7da405002a21
+  ws-opts:
+    headers:
+      Host: qyi.fqjd663.ggff.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 瑞典-006 |2.1MB/s
+  network: ws
+  port: 443
+  server: 91.108.242.85
+  servername: sni.latonyamadeline.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+  xudp: true
+- client-fingerprint: chrome
+  name: 瑞典-007 |2.7MB/s|TK-SE|GM-SE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -31,36 +99,22 @@ proxies:
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 瑞典-003 |2.4MB/s|TK-SE|GM-SE
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 62.182.196.202
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.112 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 瑞典-005 |3.8MB/s|TK-SE
+  name: 瑞典-008 |d32b|puddincat07@Teleg...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 64.112.127.151
+  server: 83.147.254.168
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 瑞典-007 |1.7MB/s|TK-SE|GM-SE
+  name: 瑞典-009 |1.7MB/s|TK-SE|GM-SE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -76,7 +130,7 @@ proxies:
         Chrome/70.0.3538.102 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 瑞典-008 |1.6MB/s|TK-SE|GM-SE
+  name: 瑞典-010 |1.6MB/s|TK-SE|GM-SE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -92,34 +146,32 @@ proxies:
         like Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 瑞典-009 |771KB/s
+  name: 芬兰-002 |3.0MB/s|TK-SE|YT-SE|GM...
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 45.153.187.209
-  skip-cert-verify: true
+  port: 2053
+  server: 31.57.26.194
+  skip-cert-verify: false
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/53.0.2785.143 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 瑞典-011 |805KB/s
+  name: 芬兰-010 |3.4MB/s|TK-FI|GM-SE
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.104.151.181
-  skip-cert-verify: true
+  port: 2053
+  server: 45.144.234.149
+  skip-cert-verify: false
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2

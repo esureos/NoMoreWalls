@@ -1,14 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰-014 |2.0MB/s|TK-NL|YT-CN|GP...
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.233
-  type: ss
-  udp: true
-- name: 罗马尼亚-033 |1.7MB/s|TK-RO|YT-CN|...
+- name: 罗马尼亚-001 |4.3MB/s|TK-RO|YT-CN|...
   port: 9002
-  server: 84.239.49.219
+  server: 84.239.49.164
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
