@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 芬兰-003 |2.4MB/s|TK-GB|GPT⁺-FI|...
+  name: 芬兰-005 |2.4MB/s|TK-GB|GPT⁺-FI|...
   port: 4443
   reality-opts:
     public-key: cPnEvtfmLBeYzbYYklKblkllFRzRzCd0KgFM-19fSDM
