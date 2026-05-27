@@ -1,8 +1,27 @@
 proxies:
-- name: 罗马尼亚-047 |1.9MB/s|TK-RO|YT-RU|...
-  port: 9002
-  server: 84.239.49.156
-  skip-cert-verify: true
-  sni: www.bing.com
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-003 |906KB/s
+  network: tcp
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- client-fingerprint: chrome
+  name: 荷兰-002 |3.0MB/s|TK-NL|YT-RU|GP...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zoiagJDF37YVs5uHvZ7Ldm9dFnzxjIKqh5NcX8hTZ0s
+    short-id: '!!str 7f7f'
+  server: 91.201.113.169
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 332fe014-f5ae-44c3-a184-c1a6f0a717ad
+  xudp: true

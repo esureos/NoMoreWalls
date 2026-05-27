@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- name: 罗马尼亚-041 |2.1MB/s|TK-RO|YT-CN|...
+  port: 9002
+  server: 84.239.49.223
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-045 |1.8MB/s|TK-RO|YT-CN|...
+  port: 9002
+  server: 84.239.49.156
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http

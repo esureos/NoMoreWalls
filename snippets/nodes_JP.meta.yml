@@ -1,5 +1,5 @@
 proxies:
-- name: 新加坡-005 |1.2MB/s|YT-SG|GPT⁺-JP...
+- name: 新加坡-002 |2.5MB/s|YT-SG|GPT⁺-JP...
   network: ws
   port: 41493
   security: tls
@@ -13,7 +13,7 @@ proxies:
     path: /%40Marisa_kristi
 - client-fingerprint: chrome
   encryption: none
-  name: 新加坡-008 |1.1MB/s|YT-SG|GPT⁺-JP...
+  name: 新加坡-009 |1.1MB/s|YT-SG|GPT⁺-JP...
   network: ws
   port: 20205
   server: 152.42.217.192
@@ -29,33 +29,20 @@ proxies:
         Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
-- name: 日本-002 |2.2MB/s|TK-SE|GM-SE
+- name: 日本-001 |3.3MB/s|YT-JP
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 185.130.46.81
+  server: 149.28.21.222
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram @WangCai2
-- name: 日本-003 |2.0MB/s|YT-JP|GM-JP
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 103.75.118.144
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
-- name: 日本-004 |1.0MB/s
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 日本-002 |1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -68,7 +55,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
   ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
 - client-fingerprint: chrome
-  name: 日本-005 |634KB/s
+  name: 日本-003 |634KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -83,7 +70,7 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: 日本-006 |567KB/s
+  name: 日本-004 |567KB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 21044
@@ -96,48 +83,4 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
-  name: 日本-007 |6.0MB/s|YT-JP|GPT⁺-JP|...
-  network: ws
-  port: 18836
-  server: 172.237.12.208
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- name: 日本-008 |2.2MB/s|YT-JP|GM-JP
-  network: ws
-  port: 9586
-  security: tls
-  server: 103.232.213.244
-  servername: oia8or7k8rs5.zrf.xx.kg
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: oia8or7k8rs5.zrf.xx.kg
-    path: /@Marisa_kristifp=chrome
-- name: 日本-009 |3.3MB/s|YT-JP
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 149.28.21.222
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
