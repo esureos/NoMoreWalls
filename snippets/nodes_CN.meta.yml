@@ -1,12 +1,22 @@
 proxies:
-- name: 罗马尼亚-041 |2.1MB/s|TK-RO|YT-CN|...
+- alterId: 0
+  cipher: auto
+  name: 中国-001 |709KB/s
+  network: tcp
+  port: 59003
+  server: 183.236.51.36
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 罗马尼亚-072 |2.1MB/s|TK-RO|YT-CN|...
   port: 9002
   server: 84.239.49.223
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-045 |1.8MB/s|TK-RO|YT-CN|...
+- name: 罗马尼亚-078 |1.8MB/s|TK-RO|YT-CN|...
   port: 9002
   server: 84.239.49.156
   skip-cert-verify: true

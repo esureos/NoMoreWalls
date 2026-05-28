@@ -1,6 +1,18 @@
 proxies:
+- encryption: none
+  http-opts:
+    path:
+    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+  name: 其他-057 |1.6MB/s|GPT⁺-CH|GM-CH
+  network: http
+  port: 22
+  server: 172.65.111.43
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
 - client-fingerprint: chrome
-  name: 瑞士-001 |2.4MB/s|TK-CH|GM-CH
+  name: 瑞士-004 |2.4MB/s|TK-CH|GM-CH
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -15,19 +27,3 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/36.0.1985.125 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: 瑞士-002 |1.3MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.18.250.245
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /assignment

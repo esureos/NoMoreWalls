@@ -1,1 +1,11 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 中国-001 |709KB/s
+  network: tcp
+  port: 59003
+  server: 183.236.51.36
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
