@@ -1,5 +1,5 @@
 proxies:
-- name: 俄罗斯联邦-011 |3.8MB/s|TK-GB|YT-GB...
+- name: 俄罗斯联邦-001 |3.8MB/s|TK-GB|YT-GB...
   network: ws
   port: 8880
   server: 45.67.215.30
@@ -11,42 +11,8 @@ proxies:
       Host: vms.lifetime48.workers.dev
     path: /
 - client-fingerprint: chrome
-  metadata:
-    cleanName: 新加坡3
-    flag: 🇸🇬
-    multiplier: 1
-    originalName: 新加坡3
-    region: 新加坡
-  name: 新加坡-003 |1.5MB/s|YT-SG|GPT⁺-JP...
-  network: ws
-  port: 25555
-  server: 139.162.36.81
-  servername: guslef2w8oz12wv.ymj.xx.kg
-  sni: guslef2w8oz12wv.ymj.xx.kg
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: guslef2w8oz12wv.ymj.xx.kg
-    path: /@Marisa_kristi
-- name: 新加坡-005 |2.1MB/s|YT-SG|GPT⁺-JP...
-  network: ws
-  port: 41493
-  security: tls
-  server: 158.178.225.153
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 020g5uxcxmqlndg.luyuju.dpdns.org
-    path: /%40Marisa_kristi
-- client-fingerprint: chrome
   encryption: none
-  name: 新加坡-007 |1.1MB/s|YT-SG|GPT⁺-JP...
+  name: 新加坡-003 |1.1MB/s|YT-SG|GPT⁺-JP...
   network: ws
   port: 20205
   server: 152.42.217.192
@@ -62,6 +28,18 @@ proxies:
         Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /@Marisa_kristi
   xudp: true
+- name: 新加坡-006 |2.1MB/s|YT-SG|GPT⁺-JP...
+  network: ws
+  port: 41493
+  security: tls
+  server: 158.178.225.153
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 020g5uxcxmqlndg.luyuju.dpdns.org
+    path: /%40Marisa_kristi
 - alterId: 0
   cipher: auto
   http-opts:
@@ -77,7 +55,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- name: 日本-021 |1.0MB/s
+- name: 日本-018 |1.0MB/s
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -89,18 +67,3 @@ proxies:
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
   ws-path: h=%252FtrTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2520%2540WangCai2
-- client-fingerprint: chrome
-  name: 日本-029 |567KB/s
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 21044
-  server: 138.2.23.80
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2

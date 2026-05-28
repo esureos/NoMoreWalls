@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 俄罗斯联邦-006 |1.7MB/s|TK-RU|YT-RU...
+  name: 俄罗斯联邦-004 |1.7MB/s|TK-RU|YT-RU...
   password: 7DoWqLxD5CMubpT1tzIyWX
   port: 4917
   server: 145.249.109.13

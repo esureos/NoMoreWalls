@@ -1,31 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 俄罗斯联邦-006 |1.7MB/s|TK-RU|YT-RU...
+  name: 俄罗斯联邦-004 |1.7MB/s|TK-RU|YT-RU...
   password: 7DoWqLxD5CMubpT1tzIyWX
   port: 4917
   server: 145.249.109.13
   type: ss
-- name: 俄罗斯联邦-007 |1.3MB/s
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-005 |906KB/s
+  network: tcp
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- name: 俄罗斯联邦-008 |1.3MB/s
   port: 1080
   server: 185.182.65.64
   skip-cert-verify: true
   type: http
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: /sequre/grpc
-  name: 其他-053 |2.6MB/s|GPT⁺|YT-RU|NF|...
-  network: grpc
-  port: 443
-  server: 185.215.184.109.blanesik.space
-  servername: 185.215.184.109.blanesik.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4aaac4d7-a9c3-4f5e-8112-64cca5e6a14c
-  xudp: true
 - cipher: chacha20-ietf-poly1305
   name: 芬兰-002 |1.5MB/s|TK-FI|YT-RU|GP...
   password: pMZgtJEakEyHUSpe8a16ec

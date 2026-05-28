@@ -18,7 +18,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 法国-002 |3.6MB/s|TK-FR|YT-ES|GP...
+  name: 法国-003 |3.0MB/s|TK-FR|GPT⁺-ES|...
   port: 2053
   server: 141.227.188.221
   servername: 141.227.188.221

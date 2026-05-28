@@ -3,7 +3,7 @@ proxies:
   http-opts:
     path:
     - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: 其他-057 |1.6MB/s|GPT⁺-CH|GM-CH
+  name: 其他-024 |2.7MB/s|TK-CH|GPT⁺-CH|...
   network: http
   port: 22
   server: 172.65.111.43
@@ -11,19 +11,3 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   xudp: true
-- client-fingerprint: chrome
-  name: 瑞士-004 |2.4MB/s|TK-CH|GM-CH
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.238.208.240
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
