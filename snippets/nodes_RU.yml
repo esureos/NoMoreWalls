@@ -1,14 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 俄罗斯联邦-004 |1.7MB/s|TK-RU|YT-RU...
-  password: 7DoWqLxD5CMubpT1tzIyWX
-  port: 4917
-  server: 145.249.109.13
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 芬兰-002 |1.5MB/s|TK-FI|YT-RU|GP...
-  password: pMZgtJEakEyHUSpe8a16ec
-  port: 51544
-  server: 109.107.182.229
-  type: ss
-  udp: true
+proxies: []

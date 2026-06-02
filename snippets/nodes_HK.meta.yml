@@ -1,24 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  name: 其他-033 |1.4MB/s|YT-HK
-  network: ws
-  password: 0YQjdidwRZf8WDcxYVpp
-  port: 443
-  server: 104.21.80.85
-  skip-cert-verify: false
-  sni: bb2233.xfan1986.DpDns.Org
+- name: 香港-002 |1.0MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /trGxbl3YpkbjGx8LJe/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==
-- name: 香港-002 |819KB/s
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  skip-cert-verify: false
-  tls: false
-  type: http
-  username: fQ67Dpe5dU

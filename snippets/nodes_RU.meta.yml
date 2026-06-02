@@ -1,16 +1,10 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 俄罗斯联邦-004 |1.7MB/s|TK-RU|YT-RU...
-  password: 7DoWqLxD5CMubpT1tzIyWX
-  port: 4917
-  server: 145.249.109.13
-  type: ss
-- client-fingerprint: edge
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦-005 |906KB/s
+  name: 俄罗斯联邦-002 |1.7MB/s
   network: tcp
-  port: 443
+  port: 22231
   server: 85.234.114.53
   servername: r1.mizulina.top
   tls: true
@@ -18,28 +12,36 @@ proxies:
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
-- name: 俄罗斯联邦-008 |1.3MB/s
-  port: 1080
-  server: 185.182.65.64
-  skip-cert-verify: true
-  type: http
-- cipher: chacha20-ietf-poly1305
-  name: 芬兰-002 |1.5MB/s|TK-FI|YT-RU|GP...
-  password: pMZgtJEakEyHUSpe8a16ec
-  port: 51544
-  server: 109.107.182.229
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 荷兰-001 |3.2MB/s|TK-NL|YT-RU|GP...
-  network: tcp
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: vless
+  name: 俄罗斯联邦-004 |1.2MB/s
+  network: grpc
   port: 443
-  security: tls
-  server: 37.49.225.189
-  servername: sub.sbrf-cdn342.ru
+  reality-opts:
+    public-key: QobAF8R0o6yO2clMtVMNzji7PG2VZ418T4HvjNy4Mk0
+    short-id: '!!str abcdef123456'
+  server: 194.156.101.115
+  servername: 0w7ymj.spectrum.vu
   tls: true
   type: vless
-  uuid: 01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f
+  udp: true
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 保加利亚-001 |1.6MB/s|YT-RU|GPT⁺-B...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: K3fEVntslsjyZwLldZvLm-LpCgwFnTFC_apHAwC3Ok0
+    short-id: '!!str 4c831cb36c2479d7'
+  server: 81.177.213.222
+  servername: bg.xenovpn.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6778733a-23a3-4e0b-9989-28b5c2a50f65
+  xudp: true
