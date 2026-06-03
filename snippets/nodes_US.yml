@@ -1,14 +1,1 @@
-proxies:
-- name: 美国-001
-  network: ws
-  password: 386bd471-4e29-4e79-9a3c-6bc6076ce4b6
-  port: 443
-  server: 208.103.161.170
-  skip-cert-verify: false
-  sni: edu.ruangguru.com.cyylr.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: edu.ruangguru.com.cyylr.eu.cc
-    path: /id-tksi
+proxies: []

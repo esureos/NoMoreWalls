@@ -1,10 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 韩国-001 |0.7MB/s|GPT|X|History
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: T2clM0QlM0Q6
+proxies: []

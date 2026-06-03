@@ -1,10 +1,1 @@
-proxies:
-- name: 香港-002 |1.0MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
+proxies: []
