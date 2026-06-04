@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 台湾-001 |9430|puddincat07@Teleg...
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 36.230.8.15
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 台湾-002 |b022|puddincat07@Teleg...
+  password: qwerREWQ@@
+  port: 41632
+  server: 185.189.160.105
+  type: ss
