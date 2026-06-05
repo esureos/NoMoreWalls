@@ -1,52 +1,101 @@
 proxies:
-- encryption: none
-  name: 塞舌尔-001 |2.0MB/s|TK-DE|GPT⁺-DE...
-  network: xhttp
+- cipher: chacha20-ietf-poly1305
+  name: 德国-001 |f8ae|puddincat07@Teleg...
+  password: 4a4cb575-15bd-4664-b94d-2e6a6b4ccda8
+  port: 28655
+  server: 109.120.138.95
+  type: ss
+- name: 德国-002 |3.6MB/s|TK-DE|YT-DE|GP...
   port: 443
-  server: 156.243.246.185
-  servername: cloudflare.dns.xn--q9jyb4c
+  server: 3.124.188.14
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 9a98146a-235c-40ed-9633-a67fe3bf9f18
-  xhttp-opts:
-    host: cloudflare.dns.xn--q9jyb4c
-    mode: packet-up
-    path: /xn--q9jyb4c
-    x-padding-bytes: 100-1000
-  xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 德国-001
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
+  type: http
+- name: 德国-003 |3.4MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 3.79.61.184
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- alterId: 0
-  cipher: auto
-  name: 德国-002
-  network: tcp
-  port: 180
-  server: 82.198.246.37
+  tls: true
+  type: http
+- cipher: aes-256-cfb
+  name: 德国-004 |3.4MB/s|TK-DE|GPT⁺-DE|...
+  password: amazonskr05
+  port: 443
+  server: 3.79.104.163
+  type: ss
+- name: 德国-005 |3.4MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 3.124.3.161
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-headers:
-    Host: 82.198.246.37
-  ws-path: /
+  tls: true
+  type: http
+- name: 德国-006 |3.3MB/s|TK-DE|YT-DE|GP...
+  port: 443
+  server: 18.185.37.164
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-007 |3.1MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 18.185.103.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-008 |3.1MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 3.71.18.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-009 |2.9MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 3.70.126.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-010 |2.8MB/s|TK-DE|YT-DE|GP...
+  port: 443
+  server: 18.185.95.124
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-011 |2.7MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 3.71.5.179
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-012 |2.6MB/s|TK-DE|YT-DE|GP...
+  port: 443
+  server: 3.79.186.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-013 |2.6MB/s|TK-DE|YT-DE|GP...
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: 202.61.205.86
+  skip-cert-verify: true
+  sni: de1.xiaoliyu.cyou
+  type: hysteria2
+- name: 德国-014 |2.6MB/s|TK-DE|YT-DE|GP...
+  port: 443
+  server: 3.79.166.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-015 |2.5MB/s|TK-DE|YT-DE|GP...
+  port: 443
+  server: 3.71.88.192
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: '1000'
-  name: 德国-003
+  name: 德国-016
   port: 54177
   protocol: udp
   server: 5.83.129.90
@@ -55,9 +104,30 @@ proxies:
   type: hysteria
   udp: true
   up: '500'
+- name: 德国-017 |2.1MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 3.79.180.182
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 德国-018
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.250
+  ws-path: /
+  xudp: true
 - alterId: 0
   cipher: aes-128-gcm
-  name: 德国-004 | DEU
+  name: 德国-019 |1.8MB/s
   network: tcp
   port: 180
   server: 82.198.246.214
@@ -68,4 +138,32 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   ws-headers:
     Host: 82.198.246.214
+  ws-path: /
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 德国-020 |594KB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- alterId: 0
+  cipher: auto
+  name: 德国-021
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.37
   ws-path: /

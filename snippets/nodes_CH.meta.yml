@@ -1,25 +1,22 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 瑞士-001 |2.8MB/s|TK-CH|YT-CH|GP...
+  password: phizo046s4oqsm33sfvm
+  port: 13265
+  server: 86.106.84.198
+  type: ss
+- cipher: aes-128-gcm
+  name: 瑞士-002 |1.8MB/s|TK-CH|GPT⁺-CH|...
+  password: kfuzkwdg4oynv495aywc
+  port: 13262
+  server: 86.106.84.195
+  type: ss
 - client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-  name: 其他-010 |2.5MB/s|TK-CH|YT-CH|GP...
-  network: grpc
-  port: 2096
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: ss.l00l00.vip
-  servername: id.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ba2630d8-d6c4-49ff-b5d5-2c24330dd245
-  xudp: true
-- name: 瑞士-001
+  name: 瑞士-004 |1.1MB/s
   network: ws
   password: humanity
   port: 443
-  server: 185.18.250.245
+  server: 185.18.250.252
   skip-cert-verify: true
   sni: www.calmlunch.com
   type: trojan
@@ -27,21 +24,6 @@ proxies:
   ws-opts:
     headers:
       Host: www.calmlunch.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /assignment
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 瑞士-002 |2.6MB S
-  network: ws
-  port: 2096
-  server: 185.18.250.127
-  servername: 69565ce3109804e7813f98ee.mmdbay.blog
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2ee26119-94e5-40b4-ba3a-16354021b600
-  ws-opts:
-    headers:
-      Host: 69565ce3109804e7813f98ee.mmdbay.blog
-    path: /graphql

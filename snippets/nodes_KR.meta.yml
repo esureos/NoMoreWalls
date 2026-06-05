@@ -1,6 +1,23 @@
 proxies:
+- name: 其他-070 |1.3MB/s|YT-KR|GPT⁺-KR|...
+  password: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
+  port: 31433
+  server: 4f50b462-teisg0-tg4a89-ach1.kr.oshuawei.com
+  tls: true
+  type: http
+  username: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
+- name: 其他-138 |1.0MB/s|YT-KR|GPT⁺-KR|...
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test
 - client-fingerprint: chrome
-  name: 韩国-001 |0.7MB/s|GPT|X|History
+  name: 韩国-001 |3.9MB/s
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
@@ -8,3 +25,9 @@ proxies:
   type: socks5
   udp: true
   username: T2clM0QlM0Q6
+- cipher: aes-256-cfb
+  name: 韩国-002 |528KB/s
+  password: qwerREWQ@@
+  port: 10727
+  server: 27.255.82.135
+  type: ss
