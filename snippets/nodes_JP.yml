@@ -1,12 +1,1 @@
-proxies:
-- alterId: 0
-  name: 日本-003 |4.0MB/s|YT-CN
-  network: tcp
-  password: BxceQaOe
-  port: 50712
-  server: 18.183.163.141
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
+proxies: []
