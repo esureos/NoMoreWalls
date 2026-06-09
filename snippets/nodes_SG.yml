@@ -1,8 +1,1 @@
-proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 新加坡-002 |5193|puddincat07@Tele...
-  password: vJ4LrBqkqCYgGMO08YmmsMjQ3ZMtJ7Ey6Sxfpe
-  port: 41348
-  server: 5.34.177.228
-  type: ss
-  udp: true
+proxies: []

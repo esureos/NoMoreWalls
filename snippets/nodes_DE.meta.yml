@@ -1,118 +1,192 @@
 proxies:
+- name: 其他-005 |4.6MB/s|TK-DE|YT-DE|GP...
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 其他-006 |3.9MB/s|TK-DE|GPT⁺-DE|...
+  network: tcp
+  port: 330
+  reality-opts:
+    public-key: x8U_rnyU2FP0EmB7YJ7tbpJOT5JF1f0L6pPUbTnFljg
+    short-id: '!!str f4a7307502937fdc'
+  server: 1414team.daltoonserver.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 233b0e22-aabe-4879-921d-44960bd8b6f6
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 其他-013 |3.0MB/s|TK-DE|GPT⁺-DE
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: '!!str 4c02bbbfa833b3b6'
+  server: de.jykvpn.com
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 372a64ab-298d-4b4f-abc1-9b3fbe242bc3
+  xudp: true
+- encryption: none
+  name: 其他-019 |2.2MB/s|TK-DE|GPT⁺-DE|...
+  network: ws
+  port: 2048
+  server: osre3.jykvpn.com
+  type: vless
+  udp: true
+  uuid: 372a64ab-298d-4b4f-abc1-9b3fbe242bc3
+  ws-opts:
+    headers:
+      Host: ads.x5.ru
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 德国-001 |f8ae|puddincat07@Teleg...
-  password: 4a4cb575-15bd-4664-b94d-2e6a6b4ccda8
-  port: 28655
-  server: 109.120.138.95
+  name: 德国-001 |4.9MB/s|TK-DE|YT-DE|GP...
+  password: kpopbinv0chyn3e1
+  port: 42210
+  server: 91.107.161.233
   type: ss
-- name: 德国-002 |3.6MB/s|TK-DE|YT-DE|GP...
+  udp: true
+- name: 德国-002 |4.5MB/s|TK-DE|GPT⁺-DE|...
   port: 443
-  server: 3.124.188.14
+  server: 18.185.103.229
   skip-cert-verify: true
   tls: true
   type: http
-- name: 德国-003 |3.4MB/s|TK-DE|GPT⁺-DE|...
+- name: 德国-003 |4.4MB/s|TK-DE|GPT⁺-DE|...
   port: 443
-  server: 3.79.61.184
+  server: 35.159.168.241
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: aes-256-cfb
-  name: 德国-004 |3.4MB/s|TK-DE|GPT⁺-DE|...
-  password: amazonskr05
+- name: 德国-004 |3.8MB/s|TK-DE|GPT⁺-DE|...
   port: 443
-  server: 3.79.104.163
-  type: ss
-- name: 德国-005 |3.4MB/s|TK-DE|GPT⁺-DE|...
-  port: 443
-  server: 3.124.3.161
+  server: 35.159.224.159
   skip-cert-verify: true
   tls: true
   type: http
-- name: 德国-006 |3.3MB/s|TK-DE|YT-DE|GP...
+- name: 德国-006 |3.4MB/s|TK-DE|GPT⁺-DE|...
   port: 443
-  server: 18.185.37.164
+  server: 3.76.42.79
   skip-cert-verify: true
   tls: true
   type: http
-- name: 德国-007 |3.1MB/s|TK-DE|GPT⁺-DE|...
-  port: 443
-  server: 18.185.103.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 德国-008 |3.1MB/s|TK-DE|GPT⁺-DE|...
-  port: 443
-  server: 3.71.18.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 德国-009 |2.9MB/s|TK-DE|GPT⁺-DE|...
-  port: 443
-  server: 3.70.126.49
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 德国-010 |2.8MB/s|TK-DE|YT-DE|GP...
+- name: 德国-007 |3.4MB/s|TK-DE|YT-DE|GP...
   port: 443
   server: 18.185.95.124
   skip-cert-verify: true
   tls: true
   type: http
-- name: 德国-011 |2.7MB/s|TK-DE|GPT⁺-DE|...
+- name: 德国-008 |3.0MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 18.199.146.41
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-009 |3.0MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 18.199.87.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-011 |2.9MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 35.158.60.64
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-013 |2.9MB/s|TK-DE|YT-DE|GP...
+  port: 443
+  server: 3.124.4.224
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-014 |2.8MB/s|TK-DE|YT-DE|GP...
   port: 443
   server: 3.71.5.179
   skip-cert-verify: true
   tls: true
   type: http
-- name: 德国-012 |2.6MB/s|TK-DE|YT-DE|GP...
+- name: 德国-015 |2.7MB/s|TK-DE|GPT⁺-DE|...
   port: 443
-  server: 3.79.186.20
+  server: 18.185.113.243
   skip-cert-verify: true
   tls: true
   type: http
-- name: 德国-013 |2.6MB/s|TK-DE|YT-DE|GP...
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 202.61.205.86
+- name: 德国-016 |2.6MB/s|GPT⁺-DE|GM-DE
+  port: 443
+  server: 35.159.107.229
   skip-cert-verify: true
-  sni: de1.xiaoliyu.cyou
-  type: hysteria2
-- name: 德国-014 |2.6MB/s|TK-DE|YT-DE|GP...
+  tls: true
+  type: http
+- name: 德国-017 |2.5MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 18.199.89.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-018 |2.5MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 3.76.222.82
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-019 |2.5MB/s|TK-DE|YT-DE|GP...
+  port: 443
+  server: 3.76.212.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-020 |2.4MB/s|TK-DE|GPT⁺-DE|...
   port: 443
   server: 3.79.166.199
   skip-cert-verify: true
   tls: true
   type: http
-- name: 德国-015 |2.5MB/s|TK-DE|YT-DE|GP...
+- name: 德国-021 |2.4MB/s|TK-DE|GPT⁺-DE|...
   port: 443
-  server: 3.71.88.192
+  server: 3.124.188.14
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: 德国-016
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '500'
-- name: 德国-017 |2.1MB/s|TK-DE|GPT⁺-DE|...
+- name: 德国-022 |2.1MB/s|TK-DE|GPT⁺-DE|...
   port: 443
-  server: 3.79.180.182
+  server: 18.185.37.164
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-023 |2.1MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 35.159.92.111
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-024 |2.0MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 3.76.220.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 德国-025 |2.0MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 18.193.103.143
   skip-cert-verify: true
   tls: true
   type: http
 - alterId: 0
   cipher: auto
-  name: 德国-018
+  name: 德国-026
   network: tcp
   port: 180
   server: 82.198.246.250
@@ -125,26 +199,56 @@ proxies:
     Host: 82.198.246.250
   ws-path: /
   xudp: true
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 德国-019 |1.8MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-headers:
-    Host: 82.198.246.214
-  ws-path: /
+- name: 德国-027 |1.7MB/s|TK-DE|GPT⁺-DE|...
+  port: 443
+  server: 18.157.167.116
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 德国-020 |594KB/s
+  name: 德国-028 |1.6MB/s
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
+- name: 德国-029 |1.1MB/s|GPT⁺-DE|GM-DE
+  port: 8080
+  server: 94.156.114.124
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 德国-030 |624KB/s
+  network: ws
+  port: 443
+  server: 89.116.46.68
+  servername: octopusss4.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  ws-opts:
+    headers:
+      Host: octopusss4.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /tsghdws
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 德国-031 |594KB/s
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -155,7 +259,7 @@ proxies:
   up: 500
 - alterId: 0
   cipher: auto
-  name: 德国-021
+  name: 德国-043
   network: tcp
   port: 180
   server: 82.198.246.37

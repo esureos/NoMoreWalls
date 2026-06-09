@@ -1,7 +1,1 @@
-proxies:
-- cipher: aes-256-cfb
-  name: 韩国-002 |528KB/s
-  password: qwerREWQ@@
-  port: 10727
-  server: 27.255.82.135
-  type: ss
+proxies: []

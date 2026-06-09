@@ -1,1 +1,19 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 其他-012 |3.1MB/s|TK-GB|GPT⁺-GB|...
+  network: ws
+  port: 443
+  server: virtualcommtraining.verizon.com
+  servername: cf.hulume.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: c135158e-5869-4397-8116-6695ca18cd48
+  ws-opts:
+    headers:
+      Host: cf.hulume.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /
+  xudp: true

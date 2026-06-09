@@ -1,9 +1,9 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 加拿大-001 |1023KB/s
+  name: 加拿大-001 |2.8MB/s|GPT|GM-CA
   password: amazonskr05
   port: 443
-  server: 15.223.63.40
+  server: 52.60.99.199
   skip-cert-verify: false
   type: ss
   udp: false

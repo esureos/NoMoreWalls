@@ -1,23 +1,70 @@
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: /sequre/grpc/
-  name: 其他-036 |2.0MB/s|TK-SE|YT-US|GP...
-  network: grpc
-  port: 573
-  server: 95.85.246.16.speed-storage.ru
-  servername: 95.85.246.16.speed-storage.ru
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 中国-002 |2.3MB/s|YT-RU|GPT⁺-FI|...
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: E1iFYUiUC2G4W70mwPyfa9oV3EVt26SfZoLcqd2yaUI
+  server: 122.8.44.8
+  servername: cdn.steamstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: ab268dc7-510f-4fb9-ace4-b7305a59c7bb
+  uuid: 82162b75-5d5b-f8ec-896a-813170210c26
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 中国-003 |1.5MB/s|TK-GB|YT-IL|GP...
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: E1iFYUiUC2G4W70mwPyfa9oV3EVt26SfZoLcqd2yaUI
+  server: 122.8.44.8
+  servername: cdn.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82162b75-5d5b-f8ec-896a-813170210c26
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 伊朗-001 |3.1MB/s|YT-US|GPT⁺-TR
+  password: /occGwUTF4awPt/vPZuj1QK0YXHIlV+D1iQo57aa+Ow=
+  port: 13641
+  server: 95.38.234.44
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-001 |4.6MB/s|YT-US|GPT⁺-...
+  network: tcp
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 其他-008 |3.8MB/s|TK-US|YT-US|GP...
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 其他-152 |1.3MB/s|TK-US|YT-RU|GP...
+  name: 其他-172 |1.3MB/s|TK-US|YT-RU|GP...
   network: ws
   port: 443
   security: tls
@@ -32,36 +79,44 @@ proxies:
       Host: cdn.veilvpn.fans
     path: /vpnhu
     v2ray-http-upgrade: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 南非-001 |2.8MB/s|YT-CN|GPT⁺-US
-  password: dongtaiwang.com
-  port: 28866
-  server: 45.221.98.11
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: 斯洛文尼亚-001 |1.0MB/s|GPT|GM-US
-  network: ws
-  port: 8880
-  server: 92.53.188.30
+- alterId: 0
+  cipher: auto
+  name: 德国-005 |3.8MB/s|TK-US|YT-CN|GP...
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-headers:
+    Host: 82.198.246.214
+  ws-path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 瑞典-001 |3.6MB/s|TK-US|GPT⁺-FI|...
+  network: tcp
+  packet-encoding: xudp
+  port: 47200
+  reality-opts:
+    public-key: aom9XGtg9tre2RGo8XkCaRqlE02nrZ4smmnpLpzidRE
+    short-id: '!!str b2a9bd658fc81dc6'
+  server: 144.31.230.72
+  servername: stats.vk-portal.net
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime18.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/45.0.2454.93 Safari/537.36
-    path: /
-  xudp: true
-- name: 罗马尼亚-011 |3.4MB/s|TK-RO|YT-US|...
+  uuid: ffaa8e95-74e2-4ef4-8974-69dd3651b6f9
+- name: 罗马尼亚-012 |3.5MB/s|TK-RO|YT-US|...
   port: 9002
-  server: 84.239.49.182
+  server: 84.239.49.208
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-029 |1.6MB/s|TK-RO|YT-US|...
+- name: 罗马尼亚-093 |4.5MB/s|TK-RO|YT-US|...
   port: 9002
   server: 84.239.49.154
   skip-cert-verify: true
@@ -71,64 +126,193 @@ proxies:
   udp: true
 - alpn:
   - http/1.1
-  name: 美国-001 |5075|puddincat07@Teleg...
-  network: tcp
+  name: 美国-001 |eb40|puddincat07@Teleg...
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
   server: 155.117.198.83
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
   type: trojan
-- name: 美国-002 |4.7MB/s|TK-US|YT-US|GP...
-  port: 8443
-  server: 89.208.248.187
+  udp: true
+- name: 美国-002 |b5ef|puddincat07@Teleg...
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 155.117.198.87
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-003 |4.6MB/s|TK-US|YT-US|GP...
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 美国-004 |3.2MB/s|TK-IL|YT-US|GP...
+  network: grpc
   port: 8443
-  server: 199.180.113.8
-  skip-cert-verify: true
+  reality-opts:
+    public-key: BqPcbcS0agCOmW5xem5nQldi_2oGariVJdJZ6Q57810
+  server: 140.235.169.7
+  servername: res.cdn.office.net
   tls: true
-  type: http
-- name: 美国-004 |4.3MB/s|TK-US|YT-US|GP...
-  port: 8443
-  server: 199.168.136.105
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-005 |4.2MB/s|TK-US|YT-US|GP...
-  port: 8443
-  server: 89.208.248.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-006 |3.4MB/s|TK-GB|YT-GB|GM...
-  network: ws
-  port: 8880
-  server: 166.62.108.30
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime17.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+  uuid: 82162b75-5d5b-f8ec-896a-813170210c26
+  xudp: true
+- client-fingerprint: firefox
+  name: 美国-005 |3.1MB/s|TK-PK|YT-RU|GP...
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI
+  server: 140.235.169.7
+  servername: speed.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82162b75-5d5b-f8ec-896a-813170210c26
+  xhttp-opts:
     path: /
   xudp: true
-- name: 美国-007 |3.0MB/s|TK-US|YT-US|GP...
-  port: 8443
-  server: 45.145.73.241
+- name: 美国-006 |3.1MB/s|TK-US|YT-US|GP...
+  port: 9002
+  server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
+- name: 美国-007 |3.0MB/s|TK-US|YT-US|GP...
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-010 |2.5MB/s|TK-US|YT-US|GP...
+  port: 9002
+  server: 156.146.59.46
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 美国-011 |2.4MB/s|TK-US|YT-RU|GP...
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: fp2XmT8otUDkl65Df2h1b5b0oCe0CQiAimPKEMdnwmI
+  server: 104.245.242.4
+  servername: cdn.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82162b75-5d5b-f8ec-896a-813170210c26
+  xudp: true
+- name: 美国-012 |2.4MB/s|TK-US|YT-US|GP...
+  port: 9002
+  server: 156.146.59.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-013 |2.4MB/s|TK-US|YT-US|GP...
+  port: 8443
+  server: 129.212.181.253
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-014 |2.4MB/s|TK-US|YT-US|GP...
+  port: 9002
+  server: 156.146.59.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-015 |2.3MB/s|TK-US|YT-US|GP...
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 美国-016 |2.2MB/s|GPT⁺-US
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: eJeVlxdi2YBV1YpPVCcCgTez80y8ny27SQoZZVBFGyc
+  server: 104.245.243.8
+  servername: cdn.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82162b75-5d5b-f8ec-896a-813170210c26
+  xudp: true
+- client-fingerprint: firefox
+  name: 美国-017 |1.9MB/s|TK-US|YT-RU|GP...
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: xIjbKxdcvohT7h7YKLulv287nKjzhilSCqFbphItQGI
+  server: 104.245.242.4
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82162b75-5d5b-f8ec-896a-813170210c26
+  xhttp-opts:
+    path: /
+  xudp: true
+- name: 美国-018 |1.8MB/s|TK-US|YT-US|GP...
+  port: 443
+  server: 38.28.193.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-019 |1.5MB/s|TK-US|YT-US|GP...
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-020 |1.5MB/s|TK-US|YT-US|GP...
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: TunService
+  name: 美国-021 |1.5MB/s|TK-RU|GPT-US|G...
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: SnjXP0GFBVxg3C7sbWUJ5JqKpnlg_BNMXuqoE78YhVE
+  server: 104.245.243.6
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 82162b75-5d5b-f8ec-896a-813170210c26
+  xudp: true
+- name: 美国-022 |1.4MB/s|TK-US|YT-US|GP...
+  password: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
+  port: 48653
+  server: 192.129.193.206
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 美国-024 |0351|puddincat07@Teleg...
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 155.117.198.83
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+  udp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs
-  name: 美国-008 |3.0MB/s|TK-DE|YT-DE|GP...
+  name: 美国-032 |3.0MB/s|TK-DE|YT-DE|GP...
   network: xhttp
   port: 443
   server: 66.81.247.104
@@ -141,76 +325,11 @@ proxies:
     mode: auto
     path: /c544c1d5248bf014e3a8
   xudp: true
-- name: 美国-009 |2.7MB/s|TK-US|YT-US|GP...
-  port: 8443
-  server: 45.145.72.122
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-010 |2.7MB/s|TK-US|YT-US|GP...
-  port: 8443
-  server: 45.145.73.240
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-011 |2.1MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-012 |1.6MB/s|YT-CN|GPT⁺-US
-  port: 443
-  server: 141.193.154.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 美国-013 |1.5MB/s
-  network: ws
-  port: 443
-  server: 216.24.57.1
-  servername: investors.spotify.com.cyylr.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5dbfed06-dd62-48c0-8e39-b4835defcdb0
-  ws-opts:
-    headers:
-      Host: investors.spotify.com.cyylr.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /sg-amz
-  xudp: true
-- name: 美国-014 |1.5MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
 - multiplexing: MULTIPLEXING_LOW
-  name: 美国-015 |1.3MB/s
+  name: 美国-034 |2.5MB/s|TK-US|YT-CN|GP...
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- cipher: aes-128-gcm
-  name: 美国-016 |1.3MB/s
-  password: 3px0wmx0e81145g568ga
-  port: 10880
-  server: 69.164.240.86
-  type: ss
-  udp: true
-- name: 美国-018 |1.0MB/s
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 155.117.198.83
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan

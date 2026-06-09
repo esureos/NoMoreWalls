@@ -1,29 +1,44 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 瑞士-001 |2.8MB/s|TK-CH|YT-CH|GP...
-  password: phizo046s4oqsm33sfvm
-  port: 13265
-  server: 86.106.84.198
-  type: ss
-- cipher: aes-128-gcm
-  name: 瑞士-002 |1.8MB/s|TK-CH|GPT⁺-CH|...
-  password: kfuzkwdg4oynv495aywc
-  port: 13262
-  server: 86.106.84.195
-  type: ss
+- name: 其他-030 |瑞士C01|IDC
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
-  name: 瑞士-004 |1.1MB/s
+  encryption: none
+  name: 瑞士-001 |1.0MB/s
+  network: ws
+  port: 443
+  server: 185.18.250.252
+  servername: octopusss4.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
+  ws-opts:
+    headers:
+      Host: octopusss4.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /tsghdws
+  xudp: true
+- client-fingerprint: chrome
+  name: 瑞士-002 |733KB/s
   network: ws
   password: humanity
   port: 443
   server: 185.18.250.252
   skip-cert-verify: true
-  sni: www.calmlunch.com
+  sni: www.multiplydose.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      Host: www.multiplydose.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /assignment
