@@ -1,31 +1,5 @@
 proxies:
-- fingerprint: D309034F3E1EB42A5B5D15ED06EA97B857236DBCD367815CBF4CD6702CFB6F67
-  name: 其他-028 |1.8MB/s|YT-HK
-  password: 8544f7e8-31d7-4c14-bfa5-aa1c68b1192c
-  port: 31505
-  server: 1.xinyuwang.ggff.net
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 其他-106 |1.2MB/s|YT-HK
-  network: ws
-  port: 443
-  server: 172.64.155.209
-  servername: aio.zxcore.biz.id
-  tls: true
-  type: vless
-  udp: true
-  uuid: da78f96e-01d3-4289-9d0b-fbbe3f0a5472
-  ws-opts:
-    headers:
-      Host: aio.zxcore.biz.id
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
-    path: /aioproxybot/124.153.168.248-50001
-  xudp: true
-- name: 香港-001 |819KB/s
+- name: 香港-002 |819KB/s
   password: gs4BXwT6SW
   port: 10988
   server: 154.26.192.123

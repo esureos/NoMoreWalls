@@ -1,21 +1,4 @@
 proxies:
-- name: 其他-064 |1.9MB/s|YT-SG|GPT⁺-SG|...
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 3233
-  server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
-  tls: true
-  type: http
-  udp: true
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 其他-086 |1.3MB/s|YT-SG|GPT⁺-SG|...
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 3233
-  server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision

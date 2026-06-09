@@ -1,14 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 伊朗-001 |3.1MB/s|YT-US|GPT⁺-TR
-  password: /occGwUTF4awPt/vPZuj1QK0YXHIlV+D1iQo57aa+Ow=
-  port: 13641
-  server: 95.38.234.44
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 德国-005 |3.8MB/s|TK-US|YT-CN|GP...
+  name: 德国-015 |3.8MB/s|TK-US|YT-CN|GP...
   network: tcp
   port: 180
   server: 82.198.246.214
@@ -20,17 +13,7 @@ proxies:
   ws-headers:
     Host: 82.198.246.214
   ws-path: /
-- alpn:
-  - http/1.1
-  name: 美国-001 |eb40|puddincat07@Teleg...
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 155.117.198.83
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 美国-002 |b5ef|puddincat07@Teleg...
+- name: 美国-001 |b5ef|puddincat07@Teleg...
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 48697
   server: 155.117.198.87
@@ -38,7 +21,26 @@ proxies:
   sni: gh.01.naiun.bilibili.com
   type: trojan
   udp: true
-- name: 美国-024 |0351|puddincat07@Teleg...
+- alpn:
+  - http/1.1
+  name: 美国-002 |1003|puddincat07@Teleg...
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 155.117.198.83
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 美国-003 |3b56|puddincat07@Teleg...
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 155.117.198.88
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 美国-010 |0351|puddincat07@Teleg...
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 46424
@@ -47,3 +49,10 @@ proxies:
   sni: de.01.naiun.bilibili.com
   type: trojan
   udp: true
+- name: 香港-001 |2.7MB/s|TK-US|YT-US|GP...
+  password: d02e3bb7e6b3333e818d36866d40de6e
+  port: 17005
+  server: 43.198.98.40
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
