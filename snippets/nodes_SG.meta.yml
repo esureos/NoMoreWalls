@@ -1,17 +1,28 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 新加坡-001 |8.2MB/s|YT-SG|GPT⁺-SG...
-  network: tcp
-  port: 45075
-  reality-opts:
-    public-key: l6Z-68Q2EJ8nZ5mzWSAB53lp1-_nOHwV2Z18y3DT7xQ
-    short-id: '!!str 7185b14179922a5c'
-  server: 122.248.202.201
-  servername: www.tesla.com
-  tls: true
-  type: vless
+- client-fingerprint: chrome
+  name: 新加坡-001 |1.4MB/s|GPT⁺|YT-SG|NF...
+  network: ws
+  password: 97e79a62-f686-4b91-87a7-be39c9e57658
+  port: 443
+  server: 34.143.159.175
+  skip-cert-verify: false
+  sni: page.anjue39.qzz.io
+  type: trojan
   udp: true
-  uuid: 452da0f8-3034-4e5d-9e7f-9c3f58abb8ff
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 新加坡-002 |1.7MB/s|GPT⁺|YT-SG|NF...
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 50563
+  server: 146.235.19.84
+  sni: singapore.nezhasu.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b

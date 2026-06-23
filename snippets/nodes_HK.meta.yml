@@ -1,9 +1,1 @@
-proxies:
-- name: 香港-002 |819KB/s
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
-  skip-cert-verify: false
-  tls: false
-  type: http
-  username: fQ67Dpe5dU
+proxies: []

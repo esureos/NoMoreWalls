@@ -1,15 +1,40 @@
 proxies:
-- name: 法国-002 |1.7MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 64772
-  server: 62.210.26.173
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  client-fingerprint: chrome
+  down: 55 Mbps
+  name: 法国-001 |1.6MB/s
+  port: 26691
+  protocol: udp
+  server: 62.210.196.68
   skip-cert-verify: true
-  sni: bing.com
-  tfo: false
-  type: hysteria2
-- name: 法国-003 |2.3MB/s|GPT⁺-FR
-  port: 8090
-  server: 82.96.128.175
-  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
+- cipher: chacha20-ietf-poly1305
+  name: 法国-002 |1.8MB/s
+  password: 27e645dcf11ded1f
+  port: 47000
+  server: 57.128.190.144
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 法国-003 |2.0MB/s
+  network: grpc
+  port: 43529
+  reality-opts:
+    public-key: SOqL8NC53BMPU7P0XHYtKyxwk8So11osWZUT27cqlV8
+    short-id: '!!str 80a70b'
+  server: 152.228.231.200
+  servername: sourceforge.net
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 13a28931-8818-4004-8cc4-0e8a315464de
+  xudp: true

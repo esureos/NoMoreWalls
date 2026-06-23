@@ -1,1857 +1,428 @@
 proxies:
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 中国-001 |2.5MB/s|GPT⁺-FI
-  network: tcp
-  port: 993
-  reality-opts:
-    public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
-  server: 122.8.44.3
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2703cda8-5cf4-019d-c4bd-6cf0c2261946
-  xudp: true
-- name: 丹麦-001 |2.1MB/s|TK-DK|GPT⁺-DE|...
+- name: 新加坡-001 |1.4MB/s|GPT⁺|YT-SG|NF...
   network: ws
+  password: 97e79a62-f686-4b91-87a7-be39c9e57658
   port: 443
-  server: 193.180.215.69
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /picture
-- name: 俄罗斯联邦-004 |2.1MB/s|TK-SE|GM-SE
-  network: ws
-  port: 443
-  server: 147.45.245.15
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /task
-- flow: xtls-rprx-vision
-  name: 俄罗斯联邦-005 |1.9MB/s
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-007 |1.2MB/s|TK-US|YT-RU...
-  network: tcp
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: BrGL0gTKK_Ir2VwJOa91Vd8870DswnOXhA6-F92RBGI
-    short-id: 'a987b6bd1781daa3'
-  server: 5.35.85.51
-  servername: www.kinopoisk.ru
+  server: 34.143.159.175
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 888403d1-621b-481a-b5dc-7aca518a787b
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦-008 |771KB/s
-  network: tcp
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  xudp: true
-- flow: xtls-rprx-vision
-  name: 其他-001
-  network: tcp
-  port: 12509
-  reality-opts:
-    public-key: 7ufK7AiMVv2fGO3OMeX6Oil9QJevr8ZCoXRDrbmIbT8
-    short-id: 'a614b416'
-  server: 175hgffc.needss.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ec2b947-598f-4fd7-8bea-309dd079868e
-- flow: xtls-rprx-vision
-  name: 其他-002
-  network: tcp
-  port: 20013
-  reality-opts:
-    public-key: 7ufK7AiMVv2fGO3OMeX6Oil9QJevr8ZCoXRDrbmIbT8
-    short-id: 'a614b416'
-  server: hdhss58a.needss.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 34a148e3-cff4-4b92-a733-85eeef164787
-- flow: xtls-rprx-vision
-  name: 其他-003
-  network: tcp
-  port: 20011
-  reality-opts:
-    public-key: 7ufK7AiMVv2fGO3OMeX6Oil9QJevr8ZCoXRDrbmIbT8
-    short-id: 'a614b416'
-  server: 175hgffc.needss.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ec2b947-598f-4fd7-8bea-309dd079868e
-- name: 其他-004 |fc8e|puddincat07@Teleg...
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
+  sni: page.anjue39.qzz.io
   type: trojan
   udp: true
-- flow: xtls-rprx-vision
-  name: 其他-005
-  network: tcp
-  port: 20015
-  reality-opts:
-    public-key: 7ufK7AiMVv2fGO3OMeX6Oil9QJevr8ZCoXRDrbmIbT8
-    short-id: 'a614b416'
-  server: 175hgffc.needss.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 34a148e3-cff4-4b92-a733-85eeef164787
-- flow: xtls-rprx-vision
-  name: 其他-006
-  network: tcp
-  port: 20014
-  reality-opts:
-    public-key: 7ufK7AiMVv2fGO3OMeX6Oil9QJevr8ZCoXRDrbmIbT8
-    short-id: 'a614b416'
-  server: hdhss58a.needss.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 34a148e3-cff4-4b92-a733-85eeef164787
-- flow: xtls-rprx-vision
-  name: 其他-008
-  network: tcp
-  port: 15442
-  reality-opts:
-    public-key: 7ufK7AiMVv2fGO3OMeX6Oil9QJevr8ZCoXRDrbmIbT8
-    short-id: 'a614b416'
-  server: hdhss58a.needss.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 34a148e3-cff4-4b92-a733-85eeef164787
-- flow: xtls-rprx-vision
-  name: 其他-009
-  network: tcp
-  port: 12558
-  reality-opts:
-    public-key: 7ufK7AiMVv2fGO3OMeX6Oil9QJevr8ZCoXRDrbmIbT8
-    short-id: 'a614b416'
-  server: 175hgffc.needss.top
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 34a148e3-cff4-4b92-a733-85eeef164787
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 其他-010 |2.5MB/s|TK-LT|YT-RU|GP...
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: '0d960275b7b0f9af'
-  server: lt-cherry-01.com
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 32bf7207-11dd-453a-8b72-94576ae3e9b2
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 其他-011 |2.4MB/s|TK-LV|GPT⁺-LV|...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-  server: lv01.whost-solutions.ru
-  servername: nl05.whost-solutions.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5ba2ac3f-167a-4aca-86df-7c72dc281bc0
-  xudp: true
-- name: 其他-012
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: xyz
-  name: 其他-013 |2.1MB/s|TK-GB|YT-RU|GP...
-  network: grpc
-  port: 7443
-  reality-opts:
-    public-key: F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA
-  server: l7.l-itx.info
-  servername: colorlib.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4
-  xudp: true
-- name: 其他-014
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 其他-015 |2.0MB/s|TK-PL|YT-RU|GP...
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 9Y-_jCI3Z1x6SXK2tHdZ6V1CN9IJPNPnoxSW0cbXxD8
-    short-id: '764f497dda21c4fc'
-  server: bypass.pl-dp-01.online
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: c297d5be-52e9-4478-bc58-2e2ca5662026
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 其他-016 |2.0MB/s|TK-DE|GPT⁺-DE|...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
-  server: de25.whost-solutions.ru
-  servername: nl05.whost-solutions.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: e7cb547e-5a74-4695-9019-a2c93e7593ea
-  xudp: true
-- name: 其他-017 |82b7|puddincat07@Teleg...
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  tls: false
-  type: trojan
-  udp: true
-- name: 其他-018 |2.0MB/s|TK-US|GPT⁺-TW
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 90081bb25c.node.tro.cac.cab
-  servername: gh.01.naiun.bilibili.com
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  tfo: false
-  tls: true
-  type: trojan
-  udp: false
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  name: 其他-019 |2.0MB/s|TK-NO|GPT⁺-NO|...
-  network: xhttp
-  port: 443
-  server: 172.66.0.243
-  servername: fzserver.art
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1f93fc1-b69f-44cd-a952-ed80de1a05c2
-  xhttp-opts:
-    host: fzserver.art
-    mode: packet-up
-    path: /uuid/get
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 其他-020 |1.7MB/s|TK-FI|YT-RU|GP...
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
-    short-id: 'd020b987f84eb78a'
-  server: bypass.fi-m247-01.com
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51be7e89-0c3c-4414-83c0-63c2eef13a91
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 其他-021 |1.6MB/s|TK-LT|YT-RU|GP...
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: '0d960275b7b0f9af'
-  server: bypass.lt-cherry-01.com
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 32bf7207-11dd-453a-8b72-94576ae3e9b2
-  xudp: true
-- name: 其他-022
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  name: 其他-024 |1.0MB/s
-  network: xhttp
-  port: 443
-  server: du1.gamelistak.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98f3eefe-3d49-4838-ae14-965bc93b1d74
-  xhttp-opts:
-    host: du1.gamelistak.com
-    mode: auto
-    path: /https://t.me/MrNexTV2RAY
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 其他-026 |953KB/s
-  network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  xudp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  encryption: none
-  name: 其他-027 |945KB/s
-  network: xhttp
-  port: 443
-  server: 104.18.152.233
-  servername: www.middle.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9f135709-60a1-4a9b-b31c-78d326d8752a
-  xhttp-opts:
-    host: www.middle.cc.cd
-    mode: stream-one
-    path: /assignment----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  encryption: none
-  name: 其他-029 |943KB/s
-  network: ws
-  port: 443
-  server: 162.159.95.134
-  servername: ipad.easyodin.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5f29acd7-2f62-4de3-bede-405422f731b3
   ws-opts:
     headers:
-      Host: ipad.easyodin.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /
-  xudp: true
-- name: 其他-030 |570KB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  udp: true
-  username: test
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 其他-031 |2.3MB/s|YT-RU|GPT⁺-TR|...
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: '205748bc0f24a747'
-  server: bypass.quarenty.site
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3dea6303-85e8-43de-b3c9-47b011c57ffc
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 其他-032 |2.0MB/s|YT-RU|GPT⁺-TR|...
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: '205748bc0f24a747'
-  server: quarenty.site
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3dea6303-85e8-43de-b3c9-47b011c57ffc
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 其他-033 |2.0MB/s|YT-RU
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: rZgu2lJcC2yrYnx66znee-Z75mW6m4TRfWt7_neoEVI
-    short-id: '1c74cf626ef50bb3'
-  server: ru-selectel-01.com
-  servername: sni.ru-selectel-01.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8cd00214-09da-48d9-8004-8281ff918d36
-  xudp: true
-- name: 其他-035 |1.0MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
-  type: hysteria2
-- encryption: none
-  name: 其他-038 |4.8MB/s
-  network: ws
-  port: 80
-  server: 108.162.195.200
-  type: vless
-  udp: true
-  uuid: df301b32-1152-4526-9a63-beedd93d3156
-  ws-opts:
-    headers:
-      Host: vl.dalazhi.cloudns.biz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: '%2F%3Fed%3D2048'
-  xudp: true
-- name: 其他-144 |850KB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: true
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 其他-180
-  network: tcp
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-  ws-headers:
-    Host: gtm-sg-cc54q7d1q01.365cloud0285.com
-  ws-path: /
-  xudp: true
-- encryption: none
-  http-opts:
-    path:
-    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: 其他-181 |1.3MB/s
-  network: http
-  port: 22
-  server: 172.65.111.43
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: 南非-001
-  password: dongtaiwang.com
-  port: 28866
-  server: 45.221.98.11
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alterId: '0'
-  cipher: auto
-  name: 德国-001 |1.9MB/s
+  name: 德国-001 |569KB/s
   network: tcp
   port: 180
-  server: 82.198.246.250
+  server: 82.198.246.97
+  servername: 4120-BE04-13ef56096989.457.PP.ua
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-headers:
-    Host: 82.198.246.250
-  ws-path: /
   xudp: true
-- name: 德国-002 |1.8MB/s|TK-DE|GPT⁺-DE|...
-  port: 8080
-  server: 2.27.41.192
-  skip-cert-verify: true
-  tls: true
-  type: http
-- encryption: mlkem768x25519plus.native.0rtt.YyVrNotrEWp_bh51QLFk6SO3RKktew5c1ewRnRUvB08
-  name: 德国-003 |1.7MB/s|TK-DE|GPT⁺-DE|...
+- name: 韩国-001 |2.3MB/s|YT-KR|NF|D+
   network: ws
-  port: 10443
-  server: 194.5.206.20
-  type: vless
-  udp: true
-  uuid: c08309ad-4671-43af-882b-b022f3a171a0
+  password: 5a2c16f9
+  port: 12312
+  server: 211.48.77.114
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: 韩国-002 |3.2MB/s|GPT⁺|YT-KR|NF|...
+  network: ws
+  password: 5a2c16f9
+  port: 50001
+  server: 112.185.223.152
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: 韩国-003 |1.1MB/s|GPT|YT-KR|NF|D...
+  network: ws
+  password: 5a2c16f9
+  port: 50000
+  server: 222.97.1.10
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- cipher: aes-256-cfb
+  name: 韩国-004 |1.5MB/s
+  password: qwerREWQ@@
+  port: 50411
+  server: 210.217.18.69
+  type: ss
+  udp: true
+- encryption: none
+  name: 美国-001 |3.3MB/s
+  network: tcp
+  port: 4655
+  server: 138.197.234.185
+  type: vless
+  udp: true
+  uuid: 1602a406-a38e-4211-bbdc-3f75c890303d
   xudp: true
+- name: 德国-002 |1.4MB/s|GPT|YT-US|NF|D...
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 188.244.122.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: 韩国-005 |4.8MB/s|YT-KR|NF|D+
+  network: ws
+  password: 5a2c16f9
+  port: 50001
+  server: 221.161.207.216
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: 韩国-006 |3.8MB/s|YT-KR|NF|D+
+  network: ws
+  password: 5a2c16f9
+  port: 19413
+  server: 121.165.101.69
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  down: 1000
-  name: 德国-004 |1.6MB/s
-  port: 54177
+  down: 55 Mbps
+  name: 法国-001 |1.6MB/s
+  port: 26691
   protocol: udp
-  server: 5.83.129.90
+  server: 62.210.196.68
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
   udp: true
-  up: 500
-- encryption: mlkem768x25519plus.native.0rtt.f2ycLFS9FuB_-jpHQxJAdFOC7DZHQvGUeyeTfUc9FkY5v6lfxGAtw1EYiiSKDxNTSNAOQ2JY9sKt0pV3NtdpNIRm_1p7JzfDVHaSWLN3CiwSz8mel0RpZyWPkIxwUHKx4LrO6zC3MmTBNptinvxmqJkr8NSq_OyRRGgBd0GlGdeBKufOpHkJr5lnKgBDL-Np9YcgM6QfERWA4tF-E4pHykWvAvlccuWKx1rAvhpl52RIQmkmIZar44iaSSurGtSJBDgSXKnN-3hs5wKQezpNIsVX1POc5_I12eAS0rQFGTEDluwmJSErvtTOsDmDLAOSJAZ2w9AGWFnIDKRRCSWSirxBaiyOuCdcjgMrwsg8KWOxz_heo6ht-yo4MxoBi9tlU_SDchot_OaZZnceelSzHlhS1WPG3pQPwEhWgZxaHhOOZTewhec5W5GnOLywWQe6bcx22YYajhXFCiVPQmdBgwSTXUls5-J0J3W7HAB5K5yCOPWT8VkJ0QZ4AHy44QPA0nw4CntQEbgcvFaZAnhr5kV2_IQQoERCDgMlTcELeKY0A5VguUBZktxGZcionGoyLIbIwBuN50jO8vpKDmqozSi0wgNOpil-0zSgNtmhOlfLplxQD0MJzxCVJ-IB_am-OvpaKoLOqdQ_PpZFcodbTAO18IW1orSj41QTgzMQmFi6Qvh7g8qAMLoDyhmAjTtorJVpPIui4lYd9lUn_jWRy2FutAwYePSkE0NFkkQRumwfDntVrLYZYPSG-WWEJXCC3umrBBd0ckGo_1xX09gJohpDiXaMLpa_XENaxYSFMjBlSxODQko0T3JZVAW-R5ob2Hxax6Mf03QjosoK8mkGDGl-vekrRvg511q4O_cuD4F4DLlb45Y8w0KDcIJHFZQbOlQxm6ULbwErWHFtDCYf59NcYUVEu9NlNQKIfncYRIG7YUWsdpZAsaY1oJN9qZgQBFMluQABXMqLcZkQxOtOU1p_8qoburASZVauuSBG6SycxfoEBXmA5JwXtcepjkVpbNRe6ZwDw7jAeXTKxYSAW_BpOYK0G2p9k6o5wlBOcEDPAUhZmQh7TjyztjudeFGZ7oQEPUXMikciDrQiG8gdX1MonQdCU7cm8oiIhMFsVDUip4sUEsOrGWq9X1N773kdF-W40jhnElR548RzvpUm_cKrtuAOooxdjGZl7mmW2UsKFUQmYrpKq0A2pRKQ4thDZMJgobQNbiuXaRNvWkW8u-pKvLSmanEXMyeKcINm5QzHJ1cb0xUlArwnEwZYV3kvnZB82XpTy1ad1oValRkmnVAQZ5Wnt7TGAPEM54g4PgIJ9ElEMvWzqRmtq5hGCdBBJakvv2uL2tNhmcUU1Ialh-GCzNNNBUSt9kII4AM7QCUO2iqQmdOUcqnNi0NbE4rKnScFFOCgEwaENDKqP9IkpiifLkdlMiOiQkc02Sx_mEKWjNNp8jh6v5VGIOdzhzkhALheb_liJHTC9Xo0TmuWWLHGvbU_cUlhiCNEOEvPqEC6GChVjXEbJQsTQZhkhmJcmI4bqHeqLaUaczKIElyQWGkBXrZHW8FH1NGwGpVkIyk
-  name: 德国-005 |1.6MB/s|TK-DE|GPT⁺-DE|...
-  network: xhttp
-  port: 15198
-  reality-opts:
-    public-key: 8lGfxA5t5bj7JNPYgLxmeta47c7He4M0i9gYoaTAvAo
-    short-id: 'f4ad'
-  server: 45.157.232.164
-  servername: www.varzesh3.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee493449-df40-4d17-9a50-cf28c9288923
-  xhttp-opts:
-    mode: packet-up
-    path: /MTPV2ray
-    x-padding-bytes: 100-1000
-  xudp: true
-- name: 德国-006 |1.2MB/s|TK-DE|GPT⁺-DE|...
-  network: ws
-  port: 443
-  server: 147.45.70.221
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /app
-- name: 德国-007 |1.1MB/s|GPT⁺-DE|GM-DE
-  port: 8080
-  server: 94.156.114.124
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 德国-008 |594KB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- encryption: none
-  name: 德国-010 |1.4MB/s|TK-DE|YT-RU|GP...
-  network: xhttp
-  packet-encoding: xudp
-  port: 15530
-  reality-opts:
-    public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
-    short-id: 'aa45df0f'
-  server: 178.18.147.163
-  servername: www.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac121f97-544b-47b3-bf91-eca9c45db548
-  xhttp-opts:
-    path: /github.com/Alvin9999-newpac/fanqiang
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-015 |3.8MB/s|TK-US|YT-CN|GP...
-  network: tcp
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-headers:
-    Host: 82.198.246.214
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-047
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-headers:
-    Host: 82.198.246.37
-  ws-path: /
-- name: 意大利-001 |2.2MB/s|TK-NO|GPT⁺-DE...
-  network: ws
-  port: 8443
-  server: 81.29.149.219
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /files/edu
-- name: 拉脱维亚-001 |2.0MB/s|TK-LV|GPT⁺-L...
-  port: 443
-  server: 185.219.159.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 摩尔多瓦-001 |1.4MB/s|TK-RO|GPT⁺-D...
-  network: ws
-  port: 443
-  server: 217.156.67.40
-  servername: linek.perry.us.kg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 36af4874-d6a3-4f7c-82a7-1cb724961b52
-  ws-opts:
-    headers:
-      Host: linek.perry.us.kg
-    path: /magnet/cn
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 新加坡-001 |8.2MB/s|YT-SG|GPT⁺-SG...
-  network: tcp
-  port: 45075
-  reality-opts:
-    public-key: l6Z-68Q2EJ8nZ5mzWSAB53lp1-_nOHwV2Z18y3DT7xQ
-    short-id: '7185b14179922a5c'
-  server: 122.248.202.201
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 452da0f8-3034-4e5d-9e7f-9c3f58abb8ff
-  xudp: true
-- encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: 法国-001 |2.1MB/s|TK-FR|YT-RU|GP...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Cbu6fkQiURQES7hfw916CFcfZYvRXMMgVmxnpK6CgSQ
-  server: 37.49.230.97
-  servername: s3.tehno.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7dd36ce4-97ad-41cf-a349-53bcccd8f17d
-  xudp: true
-- name: 法国-002 |1.7MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 64772
-  server: 62.210.26.173
-  skip-cert-verify: true
-  sni: bing.com
-  tfo: false
-  type: hysteria2
-- name: 法国-003 |2.3MB/s|GPT⁺-FR
-  port: 8090
-  server: 82.96.128.175
-  skip-cert-verify: true
-  tls: true
-  type: http
-- encryption: none
-  name: 法国-020 |3.2MB/s|TK-FR|GPT⁺-DE|...
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
-    short-id: 'b8aa'
-  server: 194.226.169.36
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
-  xudp: true
-- client-fingerprint: safari
-  name: 波兰-001 |1.2MB/s|TK-PL|GPT⁺-PL|...
-  network: xhttp
-  packet-encoding: xudp
-  port: 2097
-  reality-opts:
-    public-key: KE4sXLqi-C6ar7WX9dtbVyAcc1KeevWKvHfqacR5wEk
-    short-id: 'c25471687f078fbd'
-  server: 144.31.0.48
-  servername: www.nvidia.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5f230810-7270-4b03-b802-329a4ad8d0b2
-  xhttp-opts:
-    host: www.nvidia.com
-    mode: stream-up
-    path: /
-- name: 澳大利亚-001 |4.1MB/s|YT-AU|GPT⁺-A...
-  port: 443
-  server: 103.62.50.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 瑞士-001 |733KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.18.250.252
-  skip-cert-verify: true
-  sni: www.multiplydose.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /assignment
-- name: 罗马尼亚-001 |4.2MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 罗马尼亚-002 |3.4MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.232
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 罗马尼亚-004 |3.0MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.236
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 罗马尼亚-005 |2.7MB/s|GPT⁺-RO
-  port: 9002
-  server: 84.239.49.225
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 罗马尼亚-007 |2.1MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 罗马尼亚-008 |1.5MB/s
-  port: 9002
-  server: 84.239.49.53
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-009 |1.4MB/s
-  port: 9002
-  server: 84.239.49.202
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-010 |1.3MB/s
-  port: 9002
-  server: 84.239.14.146
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-011 |1.2MB/s
-  port: 9002
-  server: 84.239.49.176
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-012 |1.1MB/s
-  port: 9002
-  server: 84.239.49.159
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-013 |1.1MB/s
-  port: 9002
-  server: 84.239.49.171
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-014 |1.1MB/s
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-015 |1.1MB/s
-  port: 9002
-  server: 84.239.49.168
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-016 |1.1MB/s
-  port: 9002
-  server: 84.239.49.209
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-017 |1.1MB/s
-  port: 9002
-  server: 84.239.49.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-018 |1.1MB/s
-  port: 9002
-  server: 84.239.49.166
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-020 |1.0MB/s
-  port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-021 |1.0MB/s
-  port: 9002
-  server: 84.239.49.49
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-023 |1.0MB/s
-  port: 9002
-  server: 84.239.49.157
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-024 |1.0MB/s
-  port: 9002
-  server: 84.239.49.208
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-025 |1.0MB/s
-  port: 9002
-  server: 84.239.49.239
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-026 |1.0MB/s
-  port: 9002
-  server: 84.239.49.37
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-027 |1.0MB/s
-  port: 9002
-  server: 84.239.49.212
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-029 |1.0MB/s
-  port: 9002
-  server: 84.239.49.235
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-030 |1021KB/s
-  port: 9002
-  server: 193.176.84.34
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-032 |1016KB/s
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-033 |1003KB/s
-  port: 9002
-  server: 84.239.14.148
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-034 |992KB/s
-  port: 9002
-  server: 84.239.49.214
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-035 |983KB/s
-  port: 9002
-  server: 84.239.49.183
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-036 |981KB/s
-  port: 9002
-  server: 84.239.49.187
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-037 |980KB/s
-  port: 9002
-  server: 84.239.49.230
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-038 |973KB/s
-  port: 9002
-  server: 84.239.49.184
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-039 |971KB/s
-  port: 9002
-  server: 84.239.49.55
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-040 |968KB/s
-  port: 9002
-  server: 193.176.84.37
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-041 |962KB/s
-  port: 9002
-  server: 84.239.49.207
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-042 |962KB/s
-  port: 9002
-  server: 84.239.49.253
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-043 |957KB/s
-  port: 9002
-  server: 84.239.49.240
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-044 |946KB/s
-  port: 9002
-  server: 84.239.49.249
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-046 |930KB/s
-  port: 9002
-  server: 84.239.49.164
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-047 |927KB/s
-  port: 9002
-  server: 193.176.84.17
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-048 |922KB/s
-  port: 9002
-  server: 84.239.49.175
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-049 |917KB/s
-  port: 9002
-  server: 84.239.49.173
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-050 |916KB/s
-  port: 9002
-  server: 84.239.49.211
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-051 |895KB/s
-  port: 9002
-  server: 84.239.49.185
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-052 |891KB/s
-  port: 9002
-  server: 193.176.84.31
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-054 |881KB/s
-  port: 9002
-  server: 84.239.49.54
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-055 |880KB/s
-  port: 9002
-  server: 84.239.14.149
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-057 |856KB/s
-  port: 9002
-  server: 84.239.14.156
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-058 |851KB/s
-  port: 9002
-  server: 84.239.49.182
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-059 |849KB/s
-  port: 9002
-  server: 84.239.49.156
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-061 |844KB/s
-  port: 9002
-  server: 84.239.49.170
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-062 |832KB/s
-  port: 9002
-  server: 193.176.84.40
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-064 |819KB/s
-  port: 9002
-  server: 84.239.14.160
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-065 |808KB/s
-  port: 9002
-  server: 84.239.49.233
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-066 |805KB/s
-  port: 9002
-  server: 84.239.49.196
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-067 |799KB/s
-  port: 9002
-  server: 84.239.49.181
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-068 |799KB/s
-  port: 9002
-  server: 84.239.49.155
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-069 |791KB/s
-  port: 9002
-  server: 84.239.49.219
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-070 |791KB/s
-  port: 9002
-  server: 84.239.14.159
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-071 |781KB/s
-  port: 9002
-  server: 84.239.49.42
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-072 |768KB/s
-  port: 9002
-  server: 84.239.49.254
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-073 |762KB/s
-  port: 9002
-  server: 84.239.14.152
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-074 |760KB/s
-  port: 9002
-  server: 84.239.49.161
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-075 |759KB/s
-  port: 9002
-  server: 84.239.49.247
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-076 |750KB/s
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-077 |741KB/s
-  port: 9002
-  server: 193.176.84.38
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-078 |739KB/s
-  port: 9002
-  server: 84.239.49.238
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-079 |723KB/s
-  port: 9002
-  server: 84.239.49.224
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-080 |721KB/s
-  port: 9002
-  server: 84.239.49.244
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-081 |715KB/s
-  port: 9002
-  server: 84.239.49.192
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-082 |711KB/s
-  port: 9002
-  server: 193.176.84.36
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-083 |701KB/s
-  port: 9002
-  server: 84.239.49.227
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-084 |700KB/s
-  port: 9002
-  server: 84.239.49.231
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-085 |699KB/s
-  port: 9002
-  server: 193.176.84.32
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-086 |693KB/s
-  port: 9002
-  server: 84.239.49.165
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-087 |678KB/s
-  port: 9002
-  server: 84.239.49.204
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-088 |676KB/s
-  port: 9002
-  server: 84.239.49.199
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-089 |671KB/s
-  port: 9002
-  server: 84.239.49.178
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-091 |664KB/s
-  port: 9002
-  server: 84.239.14.154
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-092 |662KB/s
-  port: 9002
-  server: 84.239.49.58
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-093 |651KB/s
-  port: 9002
-  server: 193.176.84.35
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-094 |648KB/s
-  port: 9002
-  server: 84.239.49.154
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-095 |645KB/s
-  port: 9002
-  server: 193.176.84.21
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-096 |637KB/s
-  port: 9002
-  server: 193.176.84.27
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-097 |633KB/s
-  port: 9002
-  server: 84.239.49.245
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-098 |622KB/s
-  port: 9002
-  server: 84.239.49.40
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-099 |621KB/s
-  port: 9002
-  server: 84.239.49.242
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-100 |619KB/s
-  port: 9002
-  server: 193.176.84.20
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-101 |617KB/s
-  port: 9002
-  server: 84.239.49.38
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-102 |614KB/s
-  port: 9002
-  server: 193.176.84.22
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-103 |613KB/s
-  port: 9002
-  server: 84.239.49.162
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-104 |604KB/s
-  port: 9002
-  server: 84.239.49.223
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-105 |600KB/s
-  port: 9002
-  server: 193.176.84.24
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-106 |600KB/s
-  port: 9002
-  server: 84.239.49.57
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-107 |600KB/s
-  port: 9002
-  server: 84.239.49.186
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-108 |599KB/s
-  port: 9002
-  server: 84.239.14.147
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-110 |571KB/s
-  port: 9002
-  server: 84.239.14.158
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-111 |560KB/s
-  port: 9002
-  server: 84.239.49.39
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-112 |560KB/s
-  port: 9002
-  server: 84.239.49.213
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-114 |557KB/s
-  port: 9002
-  server: 193.176.84.39
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-116 |551KB/s
-  port: 9002
-  server: 193.176.84.19
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-117 |549KB/s
-  port: 9002
-  server: 84.239.49.215
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-118 |535KB/s
-  port: 9002
-  server: 84.239.49.241
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-119 |526KB/s
-  port: 9002
-  server: 84.239.49.191
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-121 |4.4MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.221
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 罗马尼亚-122 |3.5MB/s|TK-RO|YT-IN|...
-  port: 9002
-  server: 84.239.49.167
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 罗马尼亚-123 |2.2MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.220
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-124 |1.4MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.180
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-125 |1.1MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 84.239.49.248
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-126 |982KB/s
-  port: 9002
-  server: 84.239.49.163
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-127 |770KB/s
-  port: 9002
-  server: 84.239.14.157
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-128 |821KB/s
-  port: 9002
-  server: 84.239.49.160
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 美国-001 |b5ef|puddincat07@Teleg...
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 155.117.198.87
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: 美国-002 |1003|puddincat07@Teleg...
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 155.117.198.83
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 美国-003 |3b56|puddincat07@Teleg...
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 155.117.198.88
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- encryption: none
-  name: 美国-004 |3.5MB/s|TK-GB|YT-GB|GM...
-  network: ws
-  port: 8880
-  server: 104.238.70.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  encryption: none
-  name: 美国-007 |1.7MB/s|TK-DE|GPT⁺-DE
-  network: xhttp
-  port: 443
-  server: 192.200.160.253
-  servername: p4r34m.hendevaneh.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: p4r34m.hendevaneh.sbs
-    mode: auto
-    path: /p4r34m
-  xudp: true
-- name: 美国-008 |1.5MB/s|TK-US|YT-US|GP...
-  port: 8090
-  server: 209.148.53.153
-  skip-cert-verify: true
-  tls: true
-  type: http
-- multiplexing: MULTIPLEXING_LOW
-  name: 美国-009 |1.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: 美国-010 |0351|puddincat07@Teleg...
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 155.117.198.83
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: 美国-017 |3.1MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-018 |3.0MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-019 |2.5MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 156.146.59.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-020 |2.4MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 156.146.59.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-021 |2.4MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 156.146.59.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-022 |2.4MB/s|TK-US|YT-US|GP...
-  port: 8443
-  server: 129.212.181.253
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-023 |2.3MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 156.146.59.49
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-024 |2.0MB/s|TK-US|YT-US|GP...
-  port: 443
-  server: 38.28.193.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-025 |1.5MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h2
-  - http/1.1
-  encryption: mlkem768x25519plus.native.0rtt.bgqmvppyqaHyHPHZXMTlM49okx_O5AWML7IZkg1UZSs
-  name: 美国-043 |3.0MB/s|TK-DE|YT-DE|GP...
-  network: xhttp
-  port: 443
-  server: 66.81.247.104
-  servername: 1-cloudflare.lapis-lazuli.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: 58225ed2-9017-4204-8852-1b5cc1311fb8
-  xhttp-opts:
-    mode: auto
-    path: /c544c1d5248bf014e3a8
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 芬兰-001 |3.3MB/s|TK-FI|YT-RU|GP...
-  network: tcp
-  port: 47200
-  reality-opts:
-    public-key: aom9XGtg9tre2RGo8XkCaRqlE02nrZ4smmnpLpzidRE
-    short-id: 'b2a9bd658fc81dc6'
-  server: 78.17.134.254
-  servername: stats.vk-portal.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: ffaa8e95-74e2-4ef4-8974-69dd3651b6f9
-  xudp: true
-- name: 荷兰-001 |2.5MB/s|GPT⁺-NL
-  port: 9002
-  server: 84.17.47.123
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL|...
-  port: 443
-  server: 5.255.118.82
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 荷兰-003 |1.3MB/s|TK-NL|GPT⁺-NL
-  port: 8443
-  server: 2.59.183.62
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 荷兰-004 |1.1MB/s|TK-NL|YT-RU|GP...
-  port: 8443
-  server: 146.103.33.227
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 西班牙-001 |1.6MB/s|TK-ES|GPT⁺-ES...
-  port: 8443
-  server: 45.147.251.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 韩国-001 |2.7MB/s
+  up: 11 Mbps
+- name: 韩国-007 |821KB/s
   port: 1090
   server: 121.169.46.116
   skip-cert-verify: true
-  tls: false
   type: socks5
   udp: true
-  username: T2clM0QlM0Q6
-- cipher: aes-256-cfb
-  name: 韩国-002 |1.2MB/s
-  password: qwerREWQ@@
-  port: 43034
-  server: 218.50.149.114
-  type: ss
-- name: 香港-001 |2.7MB/s|TK-US|YT-US|GP...
-  password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 17005
-  server: 43.198.98.40
+- name: 美国-002 |1.9MB/s|GPT|YT-GB|NF|D...
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 160.153.136.238
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: snippets.kkii.eu.org
   type: trojan
-- name: 香港-002 |819KB/s
-  password: gs4BXwT6SW
-  port: 10988
-  server: 154.26.192.123
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: 日本-001 |2.2MB/s|YT-JP|NF|D+
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 158.101.80.84
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: 韩国-008 |4.2MB/s|GPT⁺|YT-KR|NF|...
+  network: ws
+  password: 5a2c16f9
+  port: 12088
+  server: 121.159.68.210
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- encryption: none
+  name: 日本-002 |3.8MB/s|GPT⁺|YT-JP|NF|...
+  network: tcp
+  port: 40721
+  reality-opts:
+    public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU
+    short-id: 'c588'
+  server: 150.230.4.210
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e0aafde7-37e2-486b-eb30-efa71166bf7e
+  xudp: true
+- name: 韩国-009 |1.6MB/s
+  network: ws
+  port: 8443
+  server: 59.3.3.161
+  servername: x.kkii.eu.org
   skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3afad5df-e056-4301-846d-665b4ef51968
+  ws-opts:
+    headers:
+      Host: x.kkii.eu.org
+    path: /59.3.3.161:8443
+- name: 日本-003 |689KB/s
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 168.138.46.67
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /Telegram🇨🇳WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 法国-002 |1.8MB/s
+  password: 27e645dcf11ded1f
+  port: 47000
+  server: 57.128.190.144
+  type: ss
+  udp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 法国-003 |2.0MB/s
+  network: grpc
+  port: 43529
+  reality-opts:
+    public-key: SOqL8NC53BMPU7P0XHYtKyxwk8So11osWZUT27cqlV8
+    short-id: '80a70b'
+  server: 152.228.231.200
+  servername: sourceforge.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13a28931-8818-4004-8cc4-0e8a315464de
+  xudp: true
+- name: 德国-003 |773KB/s|GPT|YT-DE|NF
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 202.61.254.159
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- cipher: aes-256-cfb
+  name: 越南-001 |1.4MB/s|GPT⁺|YT-VN|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.9
+  type: ss
+  udp: true
+- name: 韩国-010 |3.9MB/s|YT-KR|NF|D+|GM
+  network: ws
+  password: 5a2c16f9
+  port: 31337
+  server: 211.219.241.28
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: 韩国-011 |3.7MB/s|YT-KR|NF|D+|GM
+  network: ws
+  password: 5a2c16f9
+  port: 50000
+  server: 125.135.43.66
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- cipher: aes-256-cfb
+  name: 越南-002 |1.2MB/s|GPT⁺|YT-US|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.102
+  type: ss
+  udp: true
+- encryption: none
+  name: 韩国-012 |1.0MB/s
+  network: ws
+  port: 29090
+  server: 222.111.76.239
+  servername: x.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 3afad5df-e056-4301-846d-665b4ef51968
+  ws-opts:
+    headers:
+      Host: x.kkii.eu.org
+    path: /222.111.76.239:29090
+- cipher: aes-256-cfb
+  name: 越南-003 |1.3MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.223
+  type: ss
+- cipher: aes-256-cfb
+  name: 越南-004 |1.6MB/s|GPT⁺|YT-VN|NF|...
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.219
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 越南-005 |1.9MB/s
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.206
+  type: ss
+- name: 瑞士-001 |1.4MB/s|GPT⁺|YT-CN|NF|...
+  password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+  port: 443
+  server: 152.67.95.183
+  skip-cert-verify: true
+  sni: www.apple.com
   tls: false
-  type: http
-  username: fQ67Dpe5dU
+  type: hysteria2
+- flow: xtls-rprx-vision
+  name: 摩尔多瓦-001 |1.1MB/s
+  port: 443
+  reality-opts:
+    public-key: oXJYDXF6d8Bfx04xUNcI6SFSRyQ9SpBhU0Xf3tw4yy8
+    short-id: 'a5dc63d78eb0b1c9'
+  server: 185.234.57.169
+  servername: wikiportal.su
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7fd7017-71cf-4bfa-bc4f-bff8534c250b
+- alterId: 0
+  cipher: auto
+  name: 美国-003 |1.8MB/s
+  network: ws
+  port: 26785
+  server: 74.117.196.232
+  servername: imafake.locker
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f1a513d2-c32a-49dc-8e64-d4f8a2f1e001
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+  xudp: true
+- encryption: none
+  name: 芬兰-001 |854KB/s
+  network: tcp
+  port: 47539
+  reality-opts:
+    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
+    short-id: '82a55f31981ea6be'
+  server: 178.17.53.28
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
+  xudp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 韩国-013 |7.3MB/s|GPT⁺|YT-KR|NF|...
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 52706
+  server: 130.162.157.157
+  sni: shouer.nezhasu.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- cipher: chacha20-ietf-poly1305
+  name: 乌克兰-001 |2.0MB/s
+  password: 9VZoDGTivItaGWVRnCBbwgIFoZw02Mg390K0NiWNW5tHTjlV
+  port: 31348
+  server: 194.38.23.137
+  type: ss
+  udp: true
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-001 |1.1MB/s
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
+    short-id: 'fd88bd27db4cc661'
+  server: 45.139.26.152
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 新加坡-002 |1.7MB/s|GPT⁺|YT-SG|NF...
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 50563
+  server: 146.235.19.84
+  sni: singapore.nezhasu.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- cipher: chacha20-ietf-poly1305
+  name: 阿曼-001 |1.6MB/s
+  password: 4f53937e66f3d673
+  port: 11201
+  server: 154.205.147.105
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 尼日利亚-001 |1.0MB/s
+  network: tcp
+  port: 36334
+  server: 160.119.196.92
+  type: vmess
+  uuid: 575ac7a3-0127-4420-a9ea-5ff3f6c02ac7

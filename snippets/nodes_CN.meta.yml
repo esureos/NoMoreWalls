@@ -1,16 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 中国-001 |2.5MB/s|GPT⁺-FI
-  network: tcp
-  port: 993
-  reality-opts:
-    public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
-  server: 122.8.44.3
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2703cda8-5cf4-019d-c4bd-6cf0c2261946
-  xudp: true
+proxies: []
