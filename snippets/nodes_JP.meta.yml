@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- name: 日本-001 |2.9MB/s|TK-JP|YT-JP|GP...
+  port: 443
+  server: 13.114.169.120
+  skip-cert-verify: true
+  tls: true
+  type: http
+- encryption: none
+  name: 日本-002
+  network: ws
+  port: 80
+  server: 151.101.90.151
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /?ed=2560&https:/t.me/WangCai2🇨🇳
+  xudp: true

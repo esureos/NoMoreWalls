@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯联邦-001 |1.9MB/s
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: 荷兰-006 |1.1MB/s|TK-NL|YT-RU|GP...
+  port: 8443
+  server: 146.103.33.227
+  skip-cert-verify: true
+  tls: true
+  type: http
