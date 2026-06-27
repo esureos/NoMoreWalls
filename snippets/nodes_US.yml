@@ -17,7 +17,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: /
-  name: 美国-001
+  name: 美国-012
   network: grpc
   port: 2087
   server: 104.20.231.21
@@ -28,7 +28,7 @@ proxies:
   uuid: 8c65cbad-923d-4f73-c653-83c75ca4e1aa
 - alterId: 0
   cipher: auto
-  name: 美国-004
+  name: 美国-015
   network: ws
   port: 443
   server: 128.14.140.254
@@ -44,7 +44,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: /
-  name: 美国-007
+  name: 美国-017
   network: grpc
   port: 2087
   server: 104.20.156.248
@@ -55,7 +55,7 @@ proxies:
   uuid: 08ec6a06-8c15-4069-a781-8c725a30b7e7
 - alterId: 0
   cipher: auto
-  name: 美国-008
+  name: 美国-018
   network: ws
   port: 443
   server: 128.14.162.48
@@ -69,7 +69,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 美国-009
+  name: 美国-019
   network: ws
   port: 443
   server: 170.114.45.2
@@ -84,7 +84,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 美国-040
+  name: 美国-042
   network: ws
   port: 80
   server: 69.84.182.49

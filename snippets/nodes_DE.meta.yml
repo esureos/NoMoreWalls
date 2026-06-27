@@ -32,9 +32,23 @@ proxies:
   type: hysteria
   udp: true
   up: 500
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 德国-003 |594KB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 500
 - alterId: 0
   cipher: auto
-  name: 德国-003
+  name: 德国-004
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -48,20 +62,6 @@ proxies:
     Host: 82.198.246.97
   ws-path: /
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 德国-004 |594KB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
 - name: 德国-005
   network: ws
   port: 80
