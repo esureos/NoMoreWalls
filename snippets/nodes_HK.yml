@@ -1,5 +1,28 @@
 proxies:
 - name: 香港-001
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- name: 香港-002
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 香港-003
+  network: http
+  port: 41083
+  server: 8.210.15.231
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1d1ad417-29ed-41e8-aaed-323f797efe6b
+- name: 香港-004
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 46424
@@ -8,62 +31,45 @@ proxies:
   sni: de.01.naiun.bilibili.com
   type: trojan
   udp: true
-- name: 香港-002
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-- name: 香港-003
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
-- name: 香港-004
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
 - name: 香港-005
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 103.177.136.45
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
-- name: 香港-006
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
-  server: 103.177.136.42
+  server: 103.177.136.45
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 香港-006
+  network: http
+  port: 54620
+  server: 47.242.69.124
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7c3008e5-9665-4319-a2b9-ac7370665f1a
 - name: 香港-007
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- name: 香港-008
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45553
   server: 103.177.136.42
   skip-cert-verify: true
   sni: ch.01.naiun.bilibili.com
   type: trojan
-- name: 香港-008
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 103.177.136.45
+- alterId: 0
+  cipher: auto
+  name: 香港-009
+  network: http
+  port: 31357
+  server: 8.210.131.2
   skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
-- name: 香港-009
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 103.177.136.42
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
+  type: vmess
+  uuid: 618c0914-e31e-4b82-8289-2e7a47e48dfd
 - name: 香港-010
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45553
@@ -73,10 +79,10 @@ proxies:
   type: trojan
 - name: 香港-011
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
+  port: 47909
   server: 103.177.136.45
   skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
+  sni: is.01.naiun.bilibili.com
   type: trojan
 - name: 香港-012
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
@@ -85,33 +91,20 @@ proxies:
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 香港-013
-  network: http
-  port: 41083
-  server: 8.210.15.231
+- name: 香港-013
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 103.177.136.42
   skip-cert-verify: true
-  type: vmess
-  uuid: 1d1ad417-29ed-41e8-aaed-323f797efe6b
-- alterId: 0
-  cipher: auto
-  name: 香港-014
-  network: http
-  port: 54620
-  server: 47.242.69.124
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+- name: 香港-015
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 103.177.136.42
   skip-cert-verify: true
-  type: vmess
-  uuid: 7c3008e5-9665-4319-a2b9-ac7370665f1a
-- alterId: 0
-  cipher: auto
-  name: 香港-015
-  network: http
-  port: 31357
-  server: 8.210.131.2
-  skip-cert-verify: true
-  type: vmess
-  uuid: 618c0914-e31e-4b82-8289-2e7a47e48dfd
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 香港-016
@@ -139,9 +132,16 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: aa1d02a4-60e6-4671-8107-4d5e6bacd265
+- name: 香港-019
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 香港-019
+  name: 香港-020
   network: http
   port: 60808
   server: 47.243.187.171

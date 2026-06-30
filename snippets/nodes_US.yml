@@ -13,11 +13,39 @@ proxies:
   ws-headers:
     Host: 82.198.246.214
   ws-path: /
+- name: 美国-002
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 151.101.56.6
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 4-4-3-mitivpn.global.ssl.fastly.net
+    path: /de=mitivpn
+- name: 美国-004
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 151.101.110.219
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: /de=mitivpn
 - alterId: 0
   cipher: auto
   grpc-opts:
     grpc-service-name: /
-  name: 美国-012
+  name: 美国-005
   network: grpc
   port: 2087
   server: 104.20.231.21
@@ -28,7 +56,7 @@ proxies:
   uuid: 8c65cbad-923d-4f73-c653-83c75ca4e1aa
 - alterId: 0
   cipher: auto
-  name: 美国-015
+  name: 美国-009
   network: ws
   port: 443
   server: 128.14.140.254
@@ -44,7 +72,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: /
-  name: 美国-017
+  name: 美国-012
   network: grpc
   port: 2087
   server: 104.20.156.248
@@ -69,7 +97,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 美国-019
+  name: 美国-023
   network: ws
   port: 443
   server: 170.114.45.2
@@ -84,7 +112,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 美国-042
+  name: 美国-029
   network: ws
   port: 80
   server: 69.84.182.49
@@ -96,3 +124,32 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
     path: /
+- name: 美国-032
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 151.101.193.242
+  skip-cert-verify: true
+  sni: cdn.gamingdll.ir
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.gamingdll.ir
+    path: /de=mitivpn
+- client-fingerprint: chrome
+  name: 美国-065
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.193.213.21
+  sni: www.calmloud.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
+    path: /assignment
