@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: 韩国-001 |1.7MB/s|YT-KR|GPT⁺-KR|...
+  port: 30000
+  server: 64.110.88.200
+  skip-cert-verify: true
+  tls: true
+  type: http
