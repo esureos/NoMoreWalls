@@ -1,6 +1,6 @@
 proxies:
 - encryption: none
-  name: 其他-033 |3.2MB/s|TK-US|YT-US|GP...
+  name: 其他-032 |3.2MB/s|TK-US|YT-US|GP...
   network: ws
   port: 80
   server: 162.159.16.180
@@ -14,17 +14,7 @@ proxies:
         Gecko) Chrome/45.0.2454.85 Safari/537.36
     path: '%2F%3Fed%3D2048'
   xudp: true
-- name: 爱沙尼亚-001 |2.7MB/s|TK-US|YT-US|...
-  network: ws
-  port: 8880
-  server: 45.80.110.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- name: 罗马尼亚-011 |3.1MB/s|TK-RO|YT-US|...
+- name: 罗马尼亚-012 |3.1MB/s|TK-RO|YT-US|...
   port: 9002
   server: 84.239.49.245
   skip-cert-verify: true
@@ -32,6 +22,18 @@ proxies:
   tls: true
   type: http
 - name: 美国-001
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 154.17.28.152
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- name: 美国-002
   network: ws
   port: 8880
   server: 63.141.128.30
@@ -41,7 +43,7 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: /
-- name: 美国-002
+- name: 美国-003
   network: ws
   port: 8880
   server: 192.0.54.30
@@ -51,21 +53,15 @@ proxies:
     headers:
       Host: vms.lifetime35.workers.dev
     path: /
-- name: 美国-003 |3.3MB/s|TK-US|YT-US|GP...
+- name: 美国-004 |3.3MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-004 |3.2MB/s|TK-US|YT-US|GP...
+- name: 美国-005 |3.2MB/s|TK-US|YT-US|GP...
   port: 443
   server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-005 |2.9MB/s|TK-US|YT-US|GP...
-  port: 8443
-  server: 45.145.73.240
   skip-cert-verify: true
   tls: true
   type: http
@@ -86,15 +82,24 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /assignment
-- name: 美国-007 |2.4MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 156.146.59.12
-  skip-cert-verify: true
-  tls: true
-  type: http
+- encryption: none
+  name: 美国-007
+  network: ws
+  port: 80
+  server: 167.82.0.1
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /
+  xudp: true
 - name: 美国-008 |2.4MB/s|TK-US|YT-US|GP...
   port: 9002
-  server: 156.146.59.47
+  server: 156.146.59.12
   skip-cert-verify: true
   tls: true
   type: http
@@ -127,6 +132,18 @@ proxies:
 - name: 美国-013 |1.0MB/s|TK-US|GPT⁺-US
   port: 9002
   server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-014 |2.4MB/s|TK-US|YT-US|GP...
+  port: 9002
+  server: 156.146.59.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-015 |2.9MB/s|TK-US|YT-US|GP...
+  port: 8443
+  server: 45.145.73.240
   skip-cert-verify: true
   tls: true
   type: http

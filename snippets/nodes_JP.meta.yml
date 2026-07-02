@@ -1,7 +1,1 @@
-proxies:
-- name: 日本-001 |2.9MB/s|TK-JP|YT-JP|GP...
-  port: 443
-  server: 13.114.169.120
-  skip-cert-verify: true
-  tls: true
-  type: http
+proxies: []
