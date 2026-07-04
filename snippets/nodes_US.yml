@@ -1,5 +1,5 @@
 proxies:
-- name: 美国-001
+- name: 美国-016
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -14,7 +14,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 美国-006 |2.8MB/s|TK-FR|GPT⁺-FR|...
+  name: 美国-017 |2.8MB/s|TK-FR|GPT⁺-FR|...
   network: ws
   password: humanity
   port: 443
