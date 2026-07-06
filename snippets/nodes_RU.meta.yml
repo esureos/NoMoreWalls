@@ -30,7 +30,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /
   xudp: true
-- name: 荷兰-006 |1.1MB/s|TK-NL|YT-RU|GP...
+- name: 荷兰-004 |1.1MB/s|TK-NL|YT-RU|GP...
   port: 8443
   server: 146.103.33.227
   skip-cert-verify: true
