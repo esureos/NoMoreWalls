@@ -17,7 +17,7 @@ proxies:
         Safari/537.36
     path: /proxyip=Telegram-WangCai2🇨🇳fp=chromefp=chrome
   xudp: true
-- name: 其他-028 |1.0MB/s|YT-CN
+- name: 其他-022 |1.0MB/s|YT-CN
   password: <password>
   port: 8443
   server: b7d2d774-t9zts0-thpx3l-141tv.hkt.cdnhuawei.com

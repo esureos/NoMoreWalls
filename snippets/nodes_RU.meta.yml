@@ -15,22 +15,7 @@ proxies:
         Safari/537.36
     path: /
   xudp: true
-- encryption: none
-  name: 俄罗斯联邦-002
-  network: ws
-  port: 8880
-  server: 194.53.53.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
-  xudp: true
-- name: 荷兰-004 |1.1MB/s|TK-NL|YT-RU|GP...
+- name: 荷兰-005 |1.1MB/s|TK-NL|YT-RU|GP...
   port: 8443
   server: 146.103.33.227
   skip-cert-verify: true
