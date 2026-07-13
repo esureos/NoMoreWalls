@@ -4,7 +4,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: 韩国-001
+  name: 韩国-002
   network: http
   port: 80
   server: 217.142.138.61

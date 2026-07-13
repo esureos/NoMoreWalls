@@ -1,5 +1,5 @@
 proxies:
-- name: 罗马尼亚-012 |3.1MB/s|TK-RO|YT-US|...
+- name: 罗马尼亚-011 |3.1MB/s|TK-RO|YT-US|...
   port: 9002
   server: 84.239.49.245
   skip-cert-verify: true
@@ -7,18 +7,6 @@ proxies:
   tls: true
   type: http
 - name: 美国-001
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 154.17.28.152
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: 美国-002
   network: ws
   port: 443
   server: 140.248.180.30
@@ -33,25 +21,7 @@ proxies:
     headers:
       Host: hamshahriesfahan.com
     path: /vip1
-- client-fingerprint: chrome
-  encryption: none
-  name: 美国-003
-  network: ws
-  port: 443
-  server: 141.193.213.21
-  servername: amoosamiii.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
-  ws-opts:
-    headers:
-      Host: amoosamiii.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/67.0.3396.99 Safari/537.36
-    path: /poiuyws
-  xudp: true
-- name: 美国-004
+- name: 美国-002
   network: ws
   port: 8880
   server: 192.0.54.30
@@ -61,23 +31,18 @@ proxies:
     headers:
       Host: vms.lifetime35.workers.dev
     path: /
-- encryption: none
-  name: 美国-005
+- name: 美国-003
   network: ws
   port: 8880
-  server: 45.40.146.50
+  server: 63.141.128.30
   type: vless
-  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: vms.lifetime36.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+      Host: vms.lifetime42.workers.dev
     path: /
-  xudp: true
 - encryption: none
-  name: 美国-006
+  name: 美国-004
   network: ws
   port: 8880
   server: 104.254.140.30
@@ -93,100 +58,74 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- name: 美国-007
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
-- name: 美国-008 |3.3MB/s|TK-US|YT-US|GP...
+- name: 美国-005 |3.3MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-009 |3.2MB/s|TK-US|YT-US|GP...
+- name: 美国-006 |3.2MB/s|TK-US|YT-US|GP...
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-010 |2.4MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 156.146.59.12
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-011 |2.4MB/s|TK-US|YT-US|GP...
+- name: 美国-007 |2.4MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 156.146.59.47
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-012 |2.3MB/s|TK-US|YT-US|GP...
+- name: 美国-008 |2.4MB/s|TK-US|YT-US|GP...
+  port: 9002
+  server: 156.146.59.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-009 |2.3MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 156.146.59.20
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-013 |1.5MB/s|TK-US|YT-US|GP...
+- name: 美国-010 |1.5MB/s|TK-US|YT-US|GP...
   port: 8090
   server: 209.148.53.153
   skip-cert-verify: true
   tls: true
   type: http
 - multiplexing: MULTIPLEXING_LOW
-  name: 美国-014 |1.3MB/s
+  name: 美国-011 |1.3MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: 美国-015 |1.2MB/s|TK-US|GPT⁺-US|...
+- name: 美国-012 |1.2MB/s|TK-US|GPT⁺-US|...
   port: 443
   server: 198.2.210.70
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-016 |1.0MB/s|TK-US|GPT⁺-US
+- name: 美国-013 |1.0MB/s|TK-US|GPT⁺-US
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 美国-017
-  network: ws
-  port: 443
-  server: 209.46.30.56
-  servername: wa2.mhrnet.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ea0a12e-162e-45b8-b03b-c490d6105091
-  ws-opts:
-    headers:
-      Host: wa2.mhrnet.com
-    path: /
 - encryption: none
-  name: 美国-018
+  name: 美国-014
   network: ws
   port: 8880
-  server: 167.68.11.30
+  server: 45.40.146.50
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: vms.lifetime28.workers.dev
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
-        Gecko) Chrome/11.0.696.3 Safari/534.24
+      Host: vms.lifetime36.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
     path: /
   xudp: true
