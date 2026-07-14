@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
-- name: 其他-058 |1.0MB/s|YT-CN
+- name: 其他-068 |1.0MB/s|YT-CN
   password: <password>
   port: 8443
   server: b7d2d774-t9zts0-thpx3l-141tv.hkt.cdnhuawei.com

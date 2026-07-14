@@ -2,6 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   http-opts:
+    method: GET
     path:
     - /
   name: 韩国-002
