@@ -1,28 +1,21 @@
 proxies:
-- name: 其他-027
-  network: tcp
-  password: CF68213490
+- name: 荷兰-001
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
-  server: shining-piranha.rooster465.autos
-  skip-cert-verify: false
-  sni: shining-piranha.rooster465.autos
+  server: 188.164.248.122
+  sni: space.byu.id.yxls.eu.cc
   type: trojan
-  udp: true
-- name: 其他-031
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: intimate-moray.rooster465.autos
-  skip-cert-verify: false
-  sni: intimate-moray.rooster465.autos
-  type: trojan
-  udp: true
-- name: 其他-053
-  network: tcp
-  password: CF68213490
-  port: 443
-  server: fair-werewolf.rooster465.autos
-  skip-cert-verify: false
-  sni: fair-werewolf.rooster465.autos
-  type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- alterId: 0
+  cipher: auto
+  name: 香港-001
+  network: http
+  port: 27272
+  server: 45.158.23.138
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780

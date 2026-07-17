@@ -1,5 +1,33 @@
 proxies:
-- name: 英国-001
+- client-fingerprint: chrome
+  name: 英国-001
+  network: ws
+  port: 2096
+  server: 91.193.59.118
+  servername: vp40.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp40.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: 英国-002
+  network: ws
+  port: 8443
+  server: 91.193.58.194
+  servername: vp33.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp33.cc.cd
+    path: /
+- name: 英国-003
   network: ws
   port: 2083
   server: 91.193.58.17

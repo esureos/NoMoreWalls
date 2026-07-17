@@ -6,7 +6,7 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-007 |3.3MB/s|TK-RO|YT-CN|...
+- name: 罗马尼亚-008 |3.3MB/s|TK-RO|YT-CN|...
   port: 9002
   server: 84.239.49.223
   skip-cert-verify: true
