@@ -1,5 +1,5 @@
 proxies:
-- name: 罗马尼亚-005 |3.4MB/s|TK-RO|YT-CN|...
+- name: 罗马尼亚-004 |3.4MB/s|TK-RO|YT-CN|...
   port: 9002
   server: 84.239.49.199
   skip-cert-verify: true
