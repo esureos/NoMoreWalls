@@ -11,12 +11,3 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- alterId: 0
-  cipher: auto
-  name: 香港-001
-  network: http
-  port: 27272
-  server: 45.158.23.138
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
