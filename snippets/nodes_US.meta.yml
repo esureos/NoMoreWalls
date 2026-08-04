@@ -66,39 +66,3 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- encryption: none
-  name: 美国-010
-  network: ws
-  port: 8880
-  server: 192.0.54.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime35.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- name: 美国-011
-  network: ws
-  port: 443
-  server: 140.248.180.30
-  servername: hamshahriesfahan.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 86fdb625-1a7f-4784-99a6-a96b3a80fc6d
-  ws-opts:
-    headers:
-      Host: hamshahriesfahan.com
-    path: /vip1
-- name: 美国-012 |1.2MB/s|TK-US|GPT⁺-US|...
-  port: 443
-  server: 198.2.210.70
-  skip-cert-verify: true
-  tls: true
-  type: http

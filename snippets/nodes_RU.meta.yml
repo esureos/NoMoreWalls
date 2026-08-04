@@ -1,7 +1,1 @@
-proxies:
-- name: 荷兰-007 |1.1MB/s|TK-NL|YT-RU|GP...
-  port: 8443
-  server: 146.103.33.227
-  skip-cert-verify: true
-  tls: true
-  type: http
+proxies: []
