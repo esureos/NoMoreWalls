@@ -134,3 +134,9 @@ https://51.159.225.196:23856
 https://5.255.118.82:443
 https://84.17.47.147:9002
 socks5://T2clM0QlM0Q6@121.169.46.116:1090
+    "url": "https://www.xrayvip.com/",
+  <link rel="canonical" href="https://www.xrayvip.com/">
+    "@context": "https://schema.org",
+    "@id": "https://www.xrayvip.com/#website",
+  <meta property="og:url" content="https://www.xrayvip.com/">
+    "@id": "https://www.xrayvip.com/#organization",
