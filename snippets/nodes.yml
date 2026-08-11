@@ -1,7 +1,7 @@
 proxies:
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 其他-003
+  name: 其他-012
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
