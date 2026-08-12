@@ -1,12 +1,10 @@
 proxies:
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 其他-012
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  tls: true
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 日本-001
+  network: http
+  port: 53268
+  server: 47.74.43.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953

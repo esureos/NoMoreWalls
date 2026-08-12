@@ -1,41 +1,10 @@
 proxies:
-- name: 德国-001
-  network: ws
-  port: 443
-  server: 89.116.46.10
-  servername: 2026080908.yzqiang.de5.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  ws-opts:
-    headers:
-      Host: 2026080908.yzqiang.de5.net
-    path: /?Telegram-WangCai2
-- client-fingerprint: chrome
-  name: 德国-002
-  network: ws
-  port: 443
-  server: 94.159.97.247
-  servername: vp58.cc.cd
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-    path: /Telegram🇨🇳
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 德国-003 |1.6MB/s
+  name: 德国-001 |1.6MB/s
   port: 54177
   protocol: udp
   server: 5.83.129.90
@@ -49,7 +18,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 德国-004 |594KB/s
+  name: 德国-002 |594KB/s
   port: 20088
   protocol: udp
   server: 5.83.129.153
