@@ -1,10 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本-001
-  network: http
-  port: 53268
-  server: 47.74.43.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+proxies: []

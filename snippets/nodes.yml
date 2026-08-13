@@ -1,10 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 日本-001
-  network: http
-  port: 53268
-  server: 47.74.43.250
-  skip-cert-verify: true
+  name: 其他-001
+  network: ws
+  port: 443
+  server: rush-72frf.meeopp.site
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: rush-72frf.meeopp.site
+    path: /
