@@ -1,5 +1,5 @@
 proxies:
-- name: 罗马尼亚-012 |3.1MB/s|TK-RO|YT-US|...
+- name: 罗马尼亚-011 |3.1MB/s|TK-RO|YT-US|...
   port: 9002
   server: 84.239.49.245
   skip-cert-verify: true
@@ -56,23 +56,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: 美国-009
-  network: ws
-  port: 443
-  server: 18.239.83.52
-  servername: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: /
-- name: 美国-010
+- name: 美国-009
   network: ws
   port: 8880
   server: 63.141.128.30

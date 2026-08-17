@@ -3,13 +3,12 @@ proxies:
   cipher: auto
   name: 其他-001
   network: ws
-  port: 443
-  server: rush-72frf.meeopp.site
-  skip-cert-verify: false
-  tls: true
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
   ws-opts:
     headers:
-      Host: rush-72frf.meeopp.site
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
