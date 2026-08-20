@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 其他-001
+  name: 其他-004
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
@@ -11,17 +11,4 @@ proxies:
   ws-opts:
     headers:
       Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 其他-002
-  network: ws
-  port: 16622
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  type: vmess
-  uuid: b312c029-18bb-43c8-bc5a-b4f8d193853c
-  ws-opts:
-    headers:
-      Host: 09a25e0678d5f69a5bb882d9f6441ad2.mobgslb.tbcache.com
     path: /

@@ -1,31 +1,27 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
   name: 其他-001
   network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  packet-encoding: xudp
+  port: 443
+  server: ld.242311.xyz
+  servername: ld.242311.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af563223-7402-4ecd-bbf9-10f7410753fa
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+      Host: ld.242311.xyz
+    max-early-data: 2048
     path: /
-- alterId: 0
-  cipher: auto
-  name: 其他-002
-  network: ws
-  port: 16622
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  type: vmess
-  uuid: b312c029-18bb-43c8-bc5a-b4f8d193853c
-  ws-opts:
-    headers:
-      Host: 09a25e0678d5f69a5bb882d9f6441ad2.mobgslb.tbcache.com
-    path: /
-- name: 其他-003
+- name: 其他-002
   network: ws
   port: 8443
   server: 104.17.108.69
@@ -40,21 +36,33 @@ proxies:
     headers:
       Host: ovh04-cdn.soren-app.com.
     path: /
-- name: 其他-004
+- name: 其他-003
   network: ws
   port: 443
-  server: 31.76.53.16.fwqfw783rg2dad.website
-  servername: 31.76.53.16.fwqfw783rg2dad.website
+  server: www.true.th
+  servername: d1yxsk0zprgivr.cloudfront.net
   skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 74fbbe74-906d-5452-a27c-a85fc758bc9f
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
   ws-opts:
     headers:
-      Host: 31.76.53.16.fwqfw783rg2dad.website
-    path: /websocket?ed=2560fp=firefox
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 其他-004
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  type: vmess
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  ws-opts:
+    headers:
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+    path: /
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -111,14 +119,7 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-004 |3.4MB/s|TK-RO|YT-UA|...
-  port: 9002
-  server: 84.239.49.215
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-005 |3.4MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-004 |3.4MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 84.239.14.147
   skip-cert-verify: true
@@ -126,9 +127,16 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 罗马尼亚-006 |3.4MB/s|TK-RO|YT-CN|...
+- name: 罗马尼亚-005 |3.4MB/s|TK-RO|YT-CN|...
   port: 9002
   server: 84.239.49.199
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-006 |3.4MB/s|TK-RO|YT-UA|...
+  port: 9002
+  server: 84.239.49.215
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -155,14 +163,7 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-010 |3.1MB/s|TK-RO|YT-RO|...
-  port: 9002
-  server: 84.239.49.165
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-011 |3.1MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-010 |3.1MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 84.239.49.173
   skip-cert-verify: true
@@ -170,6 +171,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 罗马尼亚-011 |3.1MB/s|TK-RO|YT-RO|...
+  port: 9002
+  server: 84.239.49.165
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
 - name: 罗马尼亚-012 |3.1MB/s|TK-RO|YT-US|...
   port: 9002
   server: 84.239.49.245
@@ -200,22 +208,22 @@ proxies:
   type: http
 - name: 罗马尼亚-016 |1.4MB/s
   port: 9002
-  server: 84.239.49.201
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-017 |1.4MB/s
-  port: 9002
   server: 193.176.84.27
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-018 |1.4MB/s
+- name: 罗马尼亚-017 |1.4MB/s
   port: 9002
   server: 84.239.49.209
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 罗马尼亚-018 |1.4MB/s
+  port: 9002
+  server: 84.239.49.201
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -238,21 +246,21 @@ proxies:
   type: http
 - name: 罗马尼亚-021 |1.2MB/s
   port: 9002
-  server: 84.239.14.159
+  server: 193.176.84.32
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
 - name: 罗马尼亚-022 |1.2MB/s
   port: 9002
-  server: 193.176.84.32
+  server: 84.239.14.159
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
 - name: 罗马尼亚-023 |1.1MB/s
   port: 9002
-  server: 84.239.49.166
+  server: 84.239.49.254
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -267,71 +275,41 @@ proxies:
   udp: true
 - name: 罗马尼亚-025 |1.1MB/s
   port: 9002
-  server: 84.239.49.59
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-026 |1.1MB/s
-  port: 9002
-  server: 84.239.49.254
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-027 |1.1MB/s
-  port: 9002
-  server: 193.176.84.40
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-028 |1.1MB/s
-  port: 9002
   server: 84.239.49.191
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
   udp: true
-- name: 罗马尼亚-029 |1.1MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-026 |1.1MB/s
+  port: 9002
+  server: 84.239.49.59
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-027 |1.1MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 193.176.84.30
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
+- name: 罗马尼亚-028 |1.1MB/s
+  port: 9002
+  server: 84.239.49.166
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-029 |1.1MB/s
+  port: 9002
+  server: 193.176.84.40
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
 - name: 罗马尼亚-030 |1.0MB/s
-  port: 9002
-  server: 84.239.49.200
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-031 |1.0MB/s
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-032 |1.0MB/s
-  port: 9002
-  server: 84.239.49.164
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-033 |1.0MB/s
-  port: 9002
-  server: 84.239.49.185
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-034 |1.0MB/s
   port: 9002
   server: 84.239.49.239
   skip-cert-verify: true
@@ -339,24 +317,53 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 罗马尼亚-035 |1.0MB/s
+- name: 罗马尼亚-031 |1.0MB/s
+  port: 9002
+  server: 84.239.49.249
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-032 |1.0MB/s
+  port: 9002
+  server: 84.239.14.158
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 罗马尼亚-033 |1.0MB/s
+  port: 9002
+  server: 84.239.49.198
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-034 |1.0MB/s
   port: 9002
   server: 84.239.49.171
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-036 |1.0MB/s
+- name: 罗马尼亚-035 |1.0MB/s
   port: 9002
-  server: 84.239.14.146
+  server: 84.239.49.185
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
   udp: true
+- name: 罗马尼亚-036 |1.0MB/s
+  port: 9002
+  server: 84.239.49.159
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
 - name: 罗马尼亚-037 |1.0MB/s
   port: 9002
-  server: 84.239.49.249
+  server: 84.239.49.42
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -370,20 +377,12 @@ proxies:
   type: http
 - name: 罗马尼亚-039 |1.0MB/s
   port: 9002
-  server: 84.239.49.192
+  server: 84.239.49.200
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
 - name: 罗马尼亚-040 |1.0MB/s
-  port: 9002
-  server: 84.239.49.240
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-  udp: true
-- name: 罗马尼亚-041 |1.0MB/s
   port: 9002
   server: 84.239.49.38
   skip-cert-verify: true
@@ -391,6 +390,13 @@ proxies:
   tls: true
   type: http
   udp: true
+- name: 罗马尼亚-041 |1.0MB/s
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
 - name: 罗马尼亚-042 |1.0MB/s
   port: 9002
   server: 193.176.84.23
@@ -400,40 +406,42 @@ proxies:
   type: http
 - name: 罗马尼亚-043 |1.0MB/s
   port: 9002
-  server: 84.239.14.158
+  server: 84.239.49.192
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 罗马尼亚-044 |1.0MB/s
+  port: 9002
+  server: 84.239.49.240
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
   udp: true
-- name: 罗马尼亚-044 |1.0MB/s
+- name: 罗马尼亚-045 |1.0MB/s
   port: 9002
-  server: 84.239.49.198
+  server: 84.239.14.146
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-045 |1.0MB/s
+  udp: true
+- name: 罗马尼亚-046 |1.0MB/s
   port: 9002
   server: 84.239.49.49
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-046 |1.0MB/s
-  port: 9002
-  server: 84.239.49.42
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
 - name: 罗马尼亚-047 |1.0MB/s
   port: 9002
-  server: 84.239.49.159
+  server: 84.239.49.164
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
+  udp: true
 - name: 罗马尼亚-048 |1020KB/s
   port: 9002
   server: 193.176.84.22
@@ -690,14 +698,14 @@ proxies:
   type: http
 - name: 罗马尼亚-083 |717KB/s
   port: 9002
-  server: 84.239.49.176
+  server: 84.239.49.197
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
 - name: 罗马尼亚-084 |717KB/s
   port: 9002
-  server: 84.239.49.197
+  server: 84.239.49.176
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -794,19 +802,19 @@ proxies:
   udp: true
 - name: 罗马尼亚-097 |586KB/s
   port: 9002
-  server: 193.176.84.25
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-098 |586KB/s
-  port: 9002
   server: 84.239.49.212
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
   udp: true
+- name: 罗马尼亚-098 |586KB/s
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
 - name: 罗马尼亚-099 |573KB/s
   port: 9002
   server: 84.239.14.152
@@ -883,7 +891,7 @@ proxies:
   udp: true
 - name: 罗马尼亚-109 |538KB/s
   port: 9002
-  server: 84.239.49.202
+  server: 84.239.49.55
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -898,7 +906,7 @@ proxies:
   type: http
 - name: 罗马尼亚-111 |538KB/s
   port: 9002
-  server: 84.239.49.55
+  server: 84.239.49.202
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -985,6 +993,16 @@ proxies:
   type: http
 - name: 美国-009
   network: ws
+  port: 8880
+  server: 63.141.128.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /
+- name: 美国-010
+  network: ws
   port: 443
   server: 108.138.26.70
   servername: d1yxsk0zprgivr.cloudfront.net
@@ -997,16 +1015,6 @@ proxies:
   ws-opts:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
-    path: /
-- name: 美国-010
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
     path: /
 - name: 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|...
   port: 9002
