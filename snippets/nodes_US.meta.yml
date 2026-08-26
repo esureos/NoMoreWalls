@@ -30,36 +30,26 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-005
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
-- name: 美国-006 |2.4MB/s|TK-US|YT-US|GP...
+- name: 美国-005 |2.4MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 156.146.59.47
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-007 |2.4MB/s|TK-US|YT-US|GP...
+- name: 美国-006 |2.4MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 156.146.59.12
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-008 |2.3MB/s|TK-US|YT-US|GP...
+- name: 美国-007 |2.3MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 156.146.59.20
   skip-cert-verify: true
   tls: true
   type: http
 - multiplexing: MULTIPLEXING_LOW
-  name: 美国-009 |1.3MB/s
+  name: 美国-008 |1.3MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
