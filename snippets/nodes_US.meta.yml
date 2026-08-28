@@ -1,30 +1,19 @@
 proxies:
-- name: 罗马尼亚-031 |3.1MB/s|TK-RO|YT-US|...
-  port: 9002
-  server: 84.239.49.245
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 美国-001
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
-- name: 美国-002 |3.3MB/s|TK-US|YT-US|GP...
+- name: 美国-001 |3.3MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-003 |3.2MB/s|TK-US|YT-US|GP...
+- name: 美国-002 |3.2MB/s|TK-US|YT-US|GP...
   port: 443
   server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-003 |1.0MB/s|TK-US|GPT⁺-US
+  port: 9002
+  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
@@ -34,35 +23,3 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-005 |1.0MB/s|TK-US|GPT⁺-US
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-006 |2.4MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 156.146.59.47
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-007 |2.4MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 156.146.59.12
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-008 |2.3MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 156.146.59.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-- multiplexing: MULTIPLEXING_LOW
-  name: 美国-009 |1.3MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
