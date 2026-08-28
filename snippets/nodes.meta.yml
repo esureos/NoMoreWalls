@@ -8,29 +8,12 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 其他-001
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- name: 其他-002
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20085
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
 - ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 其他-003
+  name: 其他-001
   network: ws
   packet-encoding: xudp
   port: 443
@@ -47,6 +30,23 @@ proxies:
       Host: ld.242311.xyz
     max-early-data: 2048
     path: /
+- name: 其他-002
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- name: 其他-003
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20085
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -925,65 +925,84 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 美国-001 |3.3MB/s|TK-US|YT-US|GP...
+- name: 美国-001
+  network: ws
+  port: 8880
+  server: 63.141.128.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /
+- name: 美国-002 |3.3MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-002 |3.2MB/s|TK-US|YT-US|GP...
+- name: 美国-003 |3.2MB/s|TK-US|YT-US|GP...
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-003 |1.5MB/s|TK-US|YT-US|GP...
+- name: 美国-004 |1.5MB/s|TK-US|YT-US|GP...
   port: 8090
   server: 209.148.53.153
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-004 |1.0MB/s|TK-US|GPT⁺-US
+- name: 美国-005 |1.0MB/s|TK-US|GPT⁺-US
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-005 |2.4MB/s|TK-US|YT-US|GP...
+- name: 美国-006 |2.4MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 156.146.59.47
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-006 |2.4MB/s|TK-US|YT-US|GP...
+- name: 美国-007 |2.4MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 156.146.59.12
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-007 |2.3MB/s|TK-US|YT-US|GP...
+- name: 美国-008 |2.3MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 156.146.59.20
   skip-cert-verify: true
   tls: true
   type: http
 - multiplexing: MULTIPLEXING_LOW
-  name: 美国-008 |1.3MB/s
+  name: 美国-009 |1.3MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|...
+- name: 荷兰-001
+  network: ws
+  port: 443
+  server: 91.232.114.148
+  servername: vod.ensf.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: /api/v1/irc
+- name: 荷兰-002 |2.1MB/s|TK-NL|GPT⁺-NL|...
   port: 9002
   server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL
-  port: 23856
-  server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
@@ -993,7 +1012,13 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 荷兰-004 |1.6MB/s|TK-NL|GPT⁺-NL|...
+- name: 荷兰-004 |1.8MB/s|TK-NL|GPT⁺-NL
+  port: 23856
+  server: 51.159.225.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 荷兰-005 |1.6MB/s|TK-NL|GPT⁺-NL|...
   port: 9002
   server: 84.17.47.147
   skip-cert-verify: true
