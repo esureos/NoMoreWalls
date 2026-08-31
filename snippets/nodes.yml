@@ -1,7 +1,16 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 其他-004
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 其他-001
+  name: 其他-005
   network: ws
   port: 16632
   server: t.cnmjcn.cyou
@@ -12,7 +21,7 @@ proxies:
     headers:
       Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
     path: /
-- name: 其他-005
+- name: 其他-007
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20066
@@ -20,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: 其他-006
+- name: 其他-008
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
   port: 20085
