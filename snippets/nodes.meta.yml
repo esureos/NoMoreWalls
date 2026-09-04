@@ -1,26 +1,160 @@
 proxies:
-- client-fingerprint: qq
-  name: 其他-001
+- name: 其他-001
   network: ws
-  port: 2087
-  server: fu.baiproxy.us.ci
+  port: 443
+  server: kr.mkdir.kdns.fr
+  servername: ai-verps.pages.dev
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
   ws-opts:
     headers:
-      Host: fu.baiproxy.us.ci
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /?ed=2560
-  xudp: true
+      Host: ai-verps.pages.dev
+    path: /
+- name: 其他-002
+  network: ws
+  port: 443
+  server: 104.21.91.102
+  servername: 4-M16.aYUtTHAya2031.kdnS.fR
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 4-M16.aYUtTHAya2031.kdnS.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 其他-003
+  network: ws
+  port: 2096
+  server: 172.67.75.194
+  servername: whitecreeper.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  ws-opts:
+    headers:
+      Host: whitecreeper.pages.dev
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
+- name: 其他-004
+  network: ws
+  port: 443
+  server: 172.67.220.153
+  servername: 2-M16.ChIAnG-MAi2031.kdns.Fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 2-M16.ChIAnG-MAi2031.kdns.Fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 其他-005
+  network: ws
+  port: 443
+  server: 172.67.169.35
+  servername: 7-M16.pAttAYa-8.kdnS.fR
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 7-M16.pAttAYa-8.kdnS.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 其他-006
+  network: ws
+  port: 443
+  server: 172.67.177.68
+  servername: 5-M16.chIAng-mAi2032.kDNS.fr
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 5-M16.chIAng-mAi2032.kDNS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 其他-007
+  network: ws
+  port: 443
+  server: 172.67.177.227
+  servername: 4-m16.ChIAn-mai-7.kDnS.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 4-m16.ChIAn-mai-7.kDnS.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 其他-008
+  network: ws
+  port: 443
+  server: 172.67.204.201
+  servername: 7-m16.CHiaN-MAi-8.KDNS.Fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 7-m16.CHiaN-MAi-8.KDNS.Fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 其他-009
+  network: ws
+  port: 443
+  server: 172.67.206.64
+  servername: 3-M16.ayUTthAYa2032.kdNs.FR
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 3-M16.ayUTthAYa2032.kdNs.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 其他-010
+  network: ws
+  port: 443
+  server: 172.67.136.68
+  servername: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: EDgE-RouTINg-m16-1.KazAN.KDNs.fr
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 其他-002
+  name: 其他-011
   network: ws
   packet-encoding: xudp
   port: 443
@@ -37,6 +171,98 @@ proxies:
       Host: ld.242311.xyz
     max-early-data: 2048
     path: /
+- name: 其他-012
+  network: ws
+  port: 443
+  server: 172.67.149.248
+  servername: IMG-edGe-m16-3.hUAnGSHANg.PP.uA
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: IMG-edGe-m16-3.hUAnGSHANg.PP.uA
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- client-fingerprint: unsafe
+  name: 其他-013
+  network: ws
+  port: 2096
+  server: 188.114.97.6
+  servername: shalana.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 395d040e-a04a-43d7-a1e9-8635f545879a
+  ws-opts:
+    headers:
+      Host: shalana.xyz
+    path: /shalana
+- name: 其他-014
+  network: ws
+  port: 443
+  server: 172.67.156.222
+  servername: 6-M16.chiaN-MAi-6.KDns.fR
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 6-M16.chiaN-MAi-6.KDns.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 其他-015
+  network: ws
+  port: 443
+  server: 172.67.190.103
+  servername: 6-m16.chIAnG-rAI2036.kDNS.FR
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 6-m16.chIAnG-rAI2036.kDNS.FR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- name: 其他-016
+  network: ws
+  port: 443
+  server: 172.67.206.48
+  servername: 1-M16.AyUtTHAYA2030.KdNS.fR
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  ws-opts:
+    headers:
+      Host: 1-M16.AyUtTHAYA2030.KdNS.fR
+    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+- client-fingerprint: qq
+  name: 其他-017
+  network: ws
+  port: 2087
+  server: fu.baiproxy.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    headers:
+      Host: fu.baiproxy.us.ci
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+        Gecko) Chrome/26.0.1410.64 Safari/537.31
+    path: /?ed=2560
+  xudp: true
 - alpn:
   - h3
   auth-str: dongtaiwang.com
@@ -107,16 +333,16 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-006 |1.1MB/s|TK-RO|GPT⁺-R...
+- name: 罗马尼亚-006 |1.1MB/s
   port: 9002
-  server: 193.176.84.30
+  server: 193.176.84.40
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-007 |1.1MB/s
+- name: 罗马尼亚-007 |1.1MB/s|TK-RO|GPT⁺-R...
   port: 9002
-  server: 193.176.84.40
+  server: 193.176.84.30
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -212,7 +438,25 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 美国-001
+- name: 美国-001 |3.3MB/s|TK-US|YT-US|GP...
+  port: 9002
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-002 |3.2MB/s|TK-US|YT-US|GP...
+  port: 443
+  server: 38.28.193.188
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-003 |1.0MB/s|TK-US|GPT⁺-US
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 美国-004
   network: ws
   port: 8880
   server: 63.141.128.30
@@ -222,27 +466,9 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: /
-- name: 美国-002 |3.3MB/s|TK-US|YT-US|GP...
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-003 |3.2MB/s|TK-US|YT-US|GP...
-  port: 443
-  server: 38.28.193.188
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-004 |1.5MB/s|TK-US|YT-US|GP...
+- name: 美国-005 |1.5MB/s|TK-US|YT-US|GP...
   port: 8090
   server: 209.148.53.153
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 美国-005 |1.0MB/s|TK-US|GPT⁺-US
-  port: 9002
-  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
@@ -252,15 +478,15 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- name: 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL|...
-  port: 443
-  server: 5.255.118.82
+- name: 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL
+  port: 23856
+  server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
-- name: 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL
-  port: 23856
-  server: 51.159.225.196
+- name: 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL|...
+  port: 443
+  server: 5.255.118.82
   skip-cert-verify: true
   tls: true
   type: http
