@@ -1,14 +1,84 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 中国-001
+  network: tcp
+  port: 50002
+  server: 112.132.215.108
+  servername: 112.132.215.108
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 其他-001
+  network: ws
+  port: 443
+  server: 172.64.229.213
+  servername: gy-cffc4-node-31z7yxejlog9qfu0.lancelot.dpdns.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1
+  ws-opts:
+    headers:
+      Host: gy-cffc4-node-31z7yxejlog9qfu0.lancelot.dpdns.org
+    path: /chat/thread/gif/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
+- name: 其他-002
+  network: ws
+  port: 443
+  server: onetrust.com
+  servername: gy-cffc6-node-31z7yxejlog9qfu0.lancelot.dpdns.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1
+  ws-opts:
+    headers:
+      Host: gy-cffc6-node-31z7yxejlog9qfu0.lancelot.dpdns.org
+    path: /posts/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
+- name: 其他-003
+  network: ws
+  port: 443
+  server: 104.17.147.22
+  servername: relay.lunetcloud.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5ef04ae8-8d7c-0a66-13f4-6e3f00000003
+  ws-opts:
+    headers:
+      Host: relay.lunetcloud.ir
+    path: /lunetnetwork
+- name: 其他-004
+  network: ws
+  port: 443
+  server: 141.101.122.147
+  servername: a.cwvps.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  ws-opts:
+    headers:
+      Host: a.cwvps.eu.org
+    path: /ws
 - alterId: 2
   cipher: auto
-  name: 其他-001
+  name: 其他-005
   network: tcp
   port: 30836
   server: v36.hdacd.com
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 其他-002
+- name: 其他-006
   network: ws
   port: 443
   server: 172.67.190.103
@@ -23,22 +93,7 @@ proxies:
     headers:
       Host: 6-m16.chIAnG-rAI2036.kDNS.FR
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 其他-003
-  network: ws
-  port: 2053
-  server: 172.67.130.187
-  servername: fans.liverpool.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
-  ws-opts:
-    headers:
-      Host: fans.liverpool.qzz.io
-    path: /eyJqdW5rIjoiZXlpMnFWRURmWkp5ZCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-- name: 其他-004
+- name: 其他-007
   network: ws
   port: 443
   server: kr.mkdir.kdns.fr
@@ -58,7 +113,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: 其他-005
+  name: 其他-008
   network: ws
   packet-encoding: xudp
   port: 443
@@ -103,6 +158,15 @@ proxies:
   type: hysteria
   udp: true
   up: 500
+- alterId: 0
+  cipher: auto
+  name: 日本-001
+  network: http
+  port: 49432
+  server: 38.47.121.14
+  skip-cert-verify: true
+  type: vmess
+  uuid: ce94f204-ffa6-4fa8-a1dc-ecfccfd463cb
 - name: 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|...
   port: 443
   server: 159.13.44.228
@@ -145,30 +209,30 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 罗马尼亚-006 |1.1MB/s|TK-RO|GPT⁺-R...
-  port: 9002
-  server: 193.176.84.30
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: true
-  type: http
-- name: 罗马尼亚-007 |1.1MB/s
+- name: 罗马尼亚-006 |1.1MB/s
   port: 9002
   server: 193.176.84.40
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
+- name: 罗马尼亚-007 |1.1MB/s|TK-RO|GPT⁺-R...
+  port: 9002
+  server: 193.176.84.30
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
 - name: 罗马尼亚-008 |1.0MB/s
   port: 9002
-  server: 193.176.84.26
+  server: 193.176.84.23
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
 - name: 罗马尼亚-009 |1.0MB/s
   port: 9002
-  server: 193.176.84.23
+  server: 193.176.84.26
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -250,59 +314,72 @@ proxies:
   sni: www.bing.com
   tls: true
   type: http
-- name: 美国-001 |3.3MB/s|TK-US|YT-US|GP...
+- alterId: 0
+  cipher: auto
+  name: 美国-001
+  network: tcp
+  port: 443
+  server: 165.140.217.2
+  skip-cert-verify: true
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- name: 美国-002 |3.3MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-002 |3.2MB/s|TK-US|YT-US|GP...
+- name: 美国-003 |3.2MB/s|TK-US|YT-US|GP...
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-003 |1.5MB/s|TK-US|YT-US|GP...
+- name: 美国-004 |1.5MB/s|TK-US|YT-US|GP...
   port: 8090
   server: 209.148.53.153
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-004 |1.0MB/s|TK-US|GPT⁺-US
+- name: 美国-005 |1.0MB/s|TK-US|GPT⁺-US
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-005
+- alterId: 0
+  cipher: auto
+  name: 荷兰-001
   network: ws
-  port: 8880
-  server: 63.141.128.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 443
+  server: 212.43.156.143
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   ws-opts:
     headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
-- name: 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|...
+      Host: renderer-stream-2-62.mirra.now
+    path: /api/v1/gpu-stream/socket
+- name: 荷兰-002 |2.1MB/s|TK-NL|GPT⁺-NL|...
   port: 9002
   server: 84.17.47.150
   skip-cert-verify: true
   tls: true
   type: http
-- name: 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL
+- name: 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL
   port: 23856
   server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
-- name: 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL|...
+- name: 荷兰-004 |1.8MB/s|TK-NL|GPT⁺-NL|...
   port: 443
   server: 5.255.118.82
   skip-cert-verify: true
   tls: true
   type: http
-- name: 荷兰-004 |1.6MB/s|TK-NL|GPT⁺-NL|...
+- name: 荷兰-005 |1.6MB/s|TK-NL|GPT⁺-NL|...
   port: 9002
   server: 84.17.47.147
   skip-cert-verify: true
