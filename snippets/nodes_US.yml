@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 美国-001
+  name: 美国-006
   network: tcp
   port: 443
   server: 165.140.217.2

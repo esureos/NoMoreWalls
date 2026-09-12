@@ -1,13 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国-001
-  network: tcp
-  port: 443
-  server: 165.140.217.2
-  skip-cert-verify: true
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- name: 美国-001
+  network: ws
+  port: 8880
+  server: 63.141.128.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /
 - name: 美国-002 |3.3MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 138.199.35.215
@@ -32,3 +33,12 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- alterId: 0
+  cipher: auto
+  name: 美国-006
+  network: tcp
+  port: 443
+  server: 165.140.217.2
+  skip-cert-verify: true
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
