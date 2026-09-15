@@ -1,34 +1,65 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯联邦-001
+- name: 中国-001
   network: ws
   port: 443
-  server: 194.226.142.120
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- name: 其他-001
-  network: ws
-  port: 443
-  server: web-tomcat.pages.dev
-  servername: web-tomcat.pages.dev
+  server: 101.96.234.244
+  servername: kkkk-8oc.pages.dev
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
   ws-opts:
     headers:
-      Host: web-tomcat.pages.dev
-    path: /
+      Host: kkkk-8oc.pages.dev
+    path: /?ed=2048
+- name: 中国-002
+  network: ws
+  port: 8443
+  server: 171.83.48.117
+  servername: kkkk-xcd.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-xcd.pages.dev
+    path: /?ed=2048
+- name: 其他-001
+  network: ws
+  port: 443
+  server: 172.64.229.6
+  servername: cfnew.zxs1202.cc.cd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
 - name: 其他-002
+  network: ws
+  port: 443
+  server: 172.64.229.215
+  servername: cfnew.zxs1202.cc.cd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
+- name: 其他-003
   network: ws
   port: 443
   server: lxcl.pages.dev
@@ -43,7 +74,151 @@ proxies:
     headers:
       Host: lxcl.pages.dev
     path: /
-- name: 其他-003
+- name: 其他-004
+  network: ws
+  port: 443
+  server: 172.67.108.140
+  servername: cfnew.zxs1202.cc.cd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
+- name: 其他-005
+  network: ws
+  port: 443
+  server: 172.64.229.129
+  servername: cfnew.zxs1202.cc.cd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
+- name: 其他-006
+  network: ws
+  port: 443
+  server: 172.64.229.75
+  servername: cfnew.zxs1202.cc.cd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
+- name: 其他-007
+  network: ws
+  port: 443
+  server: 172.64.229.104
+  servername: cfnew.zxs1202.cc.cd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
+- name: 其他-008
+  network: ws
+  port: 443
+  server: 172.64.154.124
+  servername: cfnew.zxs1202.cc.cd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
+- name: 其他-009
+  network: ws
+  port: 443
+  server: 8.35.211.236
+  servername: kkkk-xcd.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-xcd.pages.dev
+    path: /?ed=2048
+- name: 其他-010
+  network: ws
+  port: 443
+  server: 172.64.144.248
+  servername: cfnew.zxs1202.cc.cd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
+- name: 其他-011
+  network: ws
+  port: 443
+  server: 172.64.157.90
+  servername: cfnew.zxs1202.cc.cd
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 428e3a9c-7ba6-4268-ae43-91c0e5b8d677
+  ws-opts:
+    headers:
+      Host: cfnew.zxs1202.cc.cd
+    path: /?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 其他-012
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 其他-013
+  network: ws
+  port: 443
+  server: web-tomcat.pages.dev
+  servername: web-tomcat.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+  ws-opts:
+    headers:
+      Host: web-tomcat.pages.dev
+    path: /
+- name: 其他-014
   network: ws
   port: 443
   server: hongersv.pages.dev
@@ -58,7 +233,7 @@ proxies:
     headers:
       Host: hongersv.pages.dev
     path: /
-- name: 其他-004
+- name: 其他-015
   network: ws
   port: 443
   server: bbb12x.pages.dev
@@ -73,7 +248,7 @@ proxies:
     headers:
       Host: bbb12x.pages.dev
     path: /
-- name: 其他-005
+- name: 其他-016
   network: ws
   port: 443
   server: 104.17.147.22
@@ -88,22 +263,51 @@ proxies:
     headers:
       Host: relay.lunetcloud.ir
     path: /lunetnetwork
-- client-fingerprint: random
-  name: 印度-001
+- name: 台湾-001
   network: ws
   port: 443
-  server: 65.20.85.14
-  servername: www.zyjdwz.cc.cd
+  server: 60.248.219.53
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- name: 土耳其-001
+  network: ws
+  port: 443
+  server: 93.114.98.212
+  servername: kkkk-xcd.pages.dev
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 4a277d17-e165-4e8d-84f1-56c387ee11da
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
   ws-opts:
     headers:
-      Host: www.zyjdwz.cc.cd
-    path: /
+      Host: kkkk-xcd.pages.dev
+    path: /?ed=2048
+- name: 希腊-001
+  network: ws
+  port: 2053
+  server: 38.54.29.210
+  servername: kkkk-xcd.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-xcd.pages.dev
+    path: /?ed=2048
 - name: 德国-001
   network: ws
   port: 2096
@@ -147,12 +351,102 @@ proxies:
   type: hysteria
   udp: true
   up: 500
+- name: 挪威-001
+  network: ws
+  port: 8443
+  server: 185.125.171.128
+  servername: kkkk-xcd.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-xcd.pages.dev
+    path: /?ed=2048
+- name: 新加坡-001
+  network: ws
+  port: 443
+  server: 43.174.195.1
+  servername: kkkk-8oc.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-8oc.pages.dev
+    path: /?ed=2048
+- name: 日本-001
+  network: ws
+  port: 443
+  server: 101.142.129.72
+  servername: kkkk-xcd.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-xcd.pages.dev
+    path: /?ed=2048
+- name: 法国-001
+  network: ws
+  port: 2053
+  server: 141.227.137.177
+  servername: kkkk-xcd.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-xcd.pages.dev
+    path: /?ed=2048
+- name: 波兰-001
+  network: ws
+  port: 443
+  server: 103.167.234.26
+  servername: kkkk-8oc.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-8oc.pages.dev
+    path: /?ed=2048
 - name: 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|...
   port: 443
   server: 159.13.44.228
   skip-cert-verify: true
   tls: true
   type: http
+- name: 澳门-001
+  network: ws
+  port: 443
+  server: 45.202.247.198
+  servername: kkkk-8oc.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-8oc.pages.dev
+    path: /?ed=2048
 - name: 罗马尼亚-001 |3.3MB/s|TK-RO|GPT⁺-R...
   port: 9002
   server: 193.176.84.35
@@ -296,6 +590,21 @@ proxies:
   type: http
 - name: 美国-001
   network: ws
+  port: 8443
+  server: 104.194.84.188
+  servername: kkkk-8oc.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-8oc.pages.dev
+    path: /?ed=2048
+- name: 美国-002
+  network: ws
   port: 8880
   server: 63.141.128.30
   type: vless
@@ -304,25 +613,25 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: /
-- name: 美国-002 |3.3MB/s|TK-US|YT-US|GP...
+- name: 美国-003 |3.3MB/s|TK-US|YT-US|GP...
   port: 9002
   server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-003 |3.2MB/s|TK-US|YT-US|GP...
+- name: 美国-004 |3.2MB/s|TK-US|YT-US|GP...
   port: 443
   server: 38.28.193.188
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-004 |1.5MB/s|TK-US|YT-US|GP...
+- name: 美国-005 |1.5MB/s|TK-US|YT-US|GP...
   port: 8090
   server: 209.148.53.153
   skip-cert-verify: true
   tls: true
   type: http
-- name: 美国-005 |1.0MB/s|TK-US|GPT⁺-US
+- name: 美国-006 |1.0MB/s|TK-US|GPT⁺-US
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
@@ -352,3 +661,33 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: 韩国-001
+  network: ws
+  port: 443
+  server: 110.10.178.240
+  servername: kkkk-8oc.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-8oc.pages.dev
+    path: /?ed=2048
+- name: 马来西亚-001
+  network: ws
+  port: 443
+  server: 166.88.194.248
+  servername: kkkk-xcd.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-xcd.pages.dev
+    path: /?ed=2048
