@@ -9,9 +9,24 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 其他-001
+  network: ws
+  port: 2053
+  server: 172.67.65.56
+  servername: whitecreeper.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  ws-opts:
+    headers:
+      Host: whitecreeper.pages.dev
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
 - alterId: 0
   cipher: auto
-  name: 其他-001
+  name: 其他-002
   network: ws
   port: 443
   server: www.shopify.com
@@ -23,7 +38,22 @@ proxies:
     headers:
       Host: guanwang.awsno.com
     path: /hls/cctv5phd.m3u8
-- name: 其他-002
+- name: 其他-003
+  network: ws
+  port: 443
+  server: 8.35.211.236
+  servername: kkkk-xcd.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
+  ws-opts:
+    headers:
+      Host: kkkk-xcd.pages.dev
+    path: /?ed=2048
+- name: 其他-004
   network: ws
   port: 443
   server: 188.114.98.0
@@ -40,7 +70,7 @@ proxies:
     path: /xvpnws/
 - alterId: 0
   cipher: auto
-  name: 其他-003
+  name: 其他-005
   network: ws
   port: 443
   server: 82259754d625.oylfmxz.cn
@@ -52,7 +82,7 @@ proxies:
     headers:
       Host: 82259754d625.oylfmxz.cn
     path: /
-- name: 其他-004
+- name: 其他-006
   network: ws
   port: 443
   server: lxcl.pages.dev
@@ -67,24 +97,9 @@ proxies:
     headers:
       Host: lxcl.pages.dev
     path: /
-- name: 其他-005
-  network: ws
-  port: 443
-  server: 8.35.211.236
-  servername: kkkk-xcd.pages.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-    path: /?ed=2048
 - alterId: 2
   cipher: auto
-  name: 其他-006
+  name: 其他-007
   network: tcp
   port: 30824
   server: v24.hdacd.com
@@ -122,6 +137,17 @@ proxies:
       Host: kkkk-xcd.pages.dev
     path: /?ed=2048
 - name: 德国-001
+  network: tcp
+  port: 8443
+  server: 5.230.135.136
+  servername: 1nf76rsu9r.stream-book.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23af657b-e7f0-4f65-85da-dc96b7f30f37
+- name: 德国-002
   network: ws
   port: 2096
   server: 64.226.95.244
@@ -141,7 +167,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 德国-002 |1.6MB/s
+  name: 德国-003 |1.6MB/s
   port: 54177
   protocol: udp
   server: 5.83.129.90
@@ -155,7 +181,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 德国-003 |594KB/s
+  name: 德国-004 |594KB/s
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -194,6 +220,21 @@ proxies:
     headers:
       Host: kkkk-8oc.pages.dev
     path: /?ed=2048
+- name: 日本-001
+  network: ws
+  port: 443
+  server: 64.204.49.68
+  servername: vp10.pages.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp10.pages.dev
+    path: /
 - name: 法国-001
   network: ws
   port: 2053
@@ -282,14 +323,14 @@ proxies:
   type: http
 - name: 罗马尼亚-008 |1.0MB/s
   port: 9002
-  server: 193.176.84.26
+  server: 193.176.84.23
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
   type: http
 - name: 罗马尼亚-009 |1.0MB/s
   port: 9002
-  server: 193.176.84.23
+  server: 193.176.84.26
   skip-cert-verify: true
   sni: www.bing.com
   tls: true
@@ -444,3 +485,19 @@ proxies:
     headers:
       Host: kkkk-8oc.pages.dev
     path: /?ed=2048
+- ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 香港-001
+  network: ws
+  port: 8581
+  server: 23.249.18.144
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /channels/act?ed=2560

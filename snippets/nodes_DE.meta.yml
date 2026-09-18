@@ -1,6 +1,18 @@
 proxies:
 - client-fingerprint: chrome
   name: 德国-001
+  network: tcp
+  port: 8443
+  server: 5.230.135.136
+  servername: 1nf76rsu9r.stream-book.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23af657b-e7f0-4f65-85da-dc96b7f30f37
+- client-fingerprint: chrome
+  name: 德国-002
   network: ws
   port: 2096
   server: 64.226.95.244
@@ -20,7 +32,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 德国-002 |1.6MB/s
+  name: 德国-003 |1.6MB/s
   port: 54177
   protocol: udp
   server: 5.83.129.90
@@ -34,7 +46,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: 德国-003 |594KB/s
+  name: 德国-004 |594KB/s
   port: 20088
   protocol: udp
   server: 5.83.129.153
