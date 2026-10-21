@@ -110,20 +110,18 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
   name: 🇭🇰HK_1|1.2MB/s
-  network: ws
+  network: tcp
   port: '443'
-  server: 38.147.163.239
-  servername: snip.edgeoneai.cc.cd
+  reality-opts:
+    public-key: 2gEyCa4p40rmut61LN-jwQDEOW5JZGZImU92WOXOcnQ
+    short-id: '!!str 2c5fd7abb0b7'
+  server: wafjapga1.xyy123.win
+  servername: intel.com
   tls: true
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    path: /
+  uuid: 5ed5cfbd-0456-410c-9939-c4bafc25b1bb
   xudp: true
